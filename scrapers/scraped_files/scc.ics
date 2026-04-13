@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//shepherdstowncommunityclub.org/events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Shepherdstown Events Calendar
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:20260425T000000Z-4d260c99-9097-54de-af38-4e5e9467b4e0@scc
+DTSTAMP:20260410T103308Z
+DTSTART:20260425T000000Z
+DTEND:20260426T235900Z
+SUMMARY:Earth Day Art Show
+LOCATION:102 E. German Street 
+DESCRIPTION:Gather up your recyclables and turn them into art!\nBring your artwork to be displayed at the War Memorial Building. Entries will be open for community to vote. Prizes will be awarded!\nTransport your artwork to 102 E German St as early as 8am on April 24th and pick up by 6pm on April 25th. Art will be on display all day Sunday and open for the public to view.\nCriteria:\nPreschool-12th grade\nMust contain 50% recycled materials\nArtwork should be family-friendly\nAll media welcome\nRegister here: https://forms.gle/ggRMPEkWQHBVt2vM8
+CATEGORIES:Arts & Culture, Film & Performing Arts
+ORGANIZATION:Shepherdstown Community Club
+URL:https://www.shepherdstowncommunityclub.org/events/earth-day-art-show
+STATUS:CONFIRMED
+SOURCE:shepherdstowncommunityclub.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260515T180000Z-a42a3121-d4ca-58d6-a615-fce597c9b5aa@scc
+DTSTAMP:20260410T103308Z
+DTSTART:20260515T180000Z
+DTEND:20260515T200000Z
+SUMMARY:Friday Night Garden Party
+LOCATION:207 E. High St 
+DESCRIPTION:
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Shepherdstown Community Club
+URL:https://www.shepherdstowncommunityclub.org/events/friday-night-garden-party
+STATUS:CONFIRMED
+SOURCE:shepherdstowncommunityclub.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260516T000000Z-e7915209-7358-5b4c-b1d2-c6a23d02ec47@scc
+DTSTAMP:20260410T103308Z
+DTSTART:20260516T000000Z
+DTEND:20260517T235900Z
+SUMMARY:Back Alley Garden Tour & Tea
+LOCATION:102 E. German Street 
+DESCRIPTION:The Back Alley Tour & Tea is a self-guided walking tour featuring some of Shepherdstown’s most beautiful gardens. Wander through the town’s charming back alleys\, discover fresh garden inspiration\, learn a bit of local history\, and enjoy exploring the neighborhood at your own pace.\nWhen you’re ready for a break—or after completing the tour—return to the War Memorial Building for an unforgettable afternoon tea. Relax and reflect on your favorite gardens while enjoying hot or iced tea served in unique teacups and saucers\, along with a delightful selection of homemade sweet and savory treats prepared by our talented local bakers. After tea\, you’re welcome to revisit your favorite gardens or spend time strolling through Shepherdstown’s shops.
+CATEGORIES:History, Outdoors & Nature
+ORGANIZATION:Shepherdstown Community Club
+URL:https://www.shepherdstowncommunityclub.org/events/back-alley-garden-tour-tea
+STATUS:CONFIRMED
+SOURCE:shepherdstowncommunityclub.org
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

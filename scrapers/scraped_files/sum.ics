@@ -1,0 +1,248 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//www.shepherd.edu/music//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Shepherd University School of Music Calendar
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:20260417T193000Z-06875790-6086-590e-84c4-bb53d7aa78a7@sum
+DTSTAMP:20260413T150731Z
+DTSTART:20260417T193000Z
+DTEND:20260417T203000Z
+SUMMARY:Wind Ensemble
+LOCATION:Frank Center, 260 University Dr, Shepherdstown, WV 25443, USA
+DESCRIPTION:
+CATEGORIES:Film & Performing Arts
+ORGANIZATION:Shepherd University School of Music
+URL:https://www.shepherd.edu/music/calendar-of-concerts
+STATUS:CONFIRMED
+SOURCE:shepherd.edu/music
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260418T000000Z-d7feb1b5-b5a1-5f55-9044-f17a9255584e@sum
+DTSTAMP:20260413T150731Z
+DTSTART:20260418T000000Z
+DTEND:20260418T235959Z
+SUMMARY:Relay for Life
+LOCATION:Calendar: Special Events, Accepted
+DESCRIPTION:
+CATEGORIES:Film & Performing Arts
+ORGANIZATION:Shepherd University School of Music
+URL:https://www.shepherd.edu/music/calendar-of-concerts
+STATUS:CONFIRMED
+SOURCE:shepherd.edu/music
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260419T150000Z-b202c93c-5022-55ae-8580-8f48fca7b875@sum
+DTSTAMP:20260413T150731Z
+DTSTART:20260419T150000Z
+DTEND:20260419T160000Z
+SUMMARY:Dale Auen Voice Senior Recital
+LOCATION:Calendar: Recitals, Accepted
+DESCRIPTION:
+CATEGORIES:Film & Performing Arts
+ORGANIZATION:Shepherd University School of Music
+URL:https://www.shepherd.edu/music/calendar-of-concerts
+STATUS:CONFIRMED
+SOURCE:shepherd.edu/music
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260419T170000Z-05d5597d-6fc9-594d-8013-70eec8eb3fb8@sum
+DTSTAMP:20260413T150731Z
+DTSTART:20260419T170000Z
+DTEND:20260419T180000Z
+SUMMARY:Jacob Livengood Piano Senior Recital
+LOCATION:Calendar: Recitals, Accepted
+DESCRIPTION:
+CATEGORIES:Film & Performing Arts
+ORGANIZATION:Shepherd University School of Music
+URL:https://www.shepherd.edu/music/calendar-of-concerts
+STATUS:CONFIRMED
+SOURCE:shepherd.edu/music
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260420T190000Z-11c8356e-4a71-5b83-bc98-d81754d0e2ec@sum
+DTSTAMP:20260413T150731Z
+DTSTART:20260420T190000Z
+DTEND:20260420T194500Z
+SUMMARY:SCREECH Recital
+LOCATION:Calendar: Recitals, Accepted
+DESCRIPTION:
+CATEGORIES:Film & Performing Arts
+ORGANIZATION:Shepherd University School of Music
+URL:https://www.shepherd.edu/music/calendar-of-concerts
+STATUS:CONFIRMED
+SOURCE:shepherd.edu/music
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260421T193000Z-836c965f-b10a-5bf4-a931-e50c69b55368@sum
+DTSTAMP:20260413T150731Z
+DTSTART:20260421T193000Z
+DTEND:20260421T203000Z
+SUMMARY:Shepherd Composer Percussion Premieres
+LOCATION:Calendar: Special Events, Accepted
+DESCRIPTION:
+CATEGORIES:Film & Performing Arts
+ORGANIZATION:Shepherd University School of Music
+URL:https://www.shepherd.edu/music/calendar-of-concerts
+STATUS:CONFIRMED
+SOURCE:shepherd.edu/music
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260423T190000Z-b8ebeccc-2210-5b8a-9157-247f2ae296eb@sum
+DTSTAMP:20260413T150731Z
+DTSTART:20260423T190000Z
+DTEND:20260423T210000Z
+SUMMARY:Jazz-n-Java
+LOCATION:The Marinoff Theater, 62 W Campus Dr, Shepherdstown, WV 25443, USA
+DESCRIPTION:
+CATEGORIES:Film & Performing Arts
+ORGANIZATION:Shepherd University School of Music
+URL:https://www.shepherd.edu/music/calendar-of-concerts
+STATUS:CONFIRMED
+SOURCE:shepherd.edu/music
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260425T193000Z-845def19-d0b4-5a90-851e-4fe1d9f07916@sum
+DTSTAMP:20260413T150731Z
+DTSTART:20260425T193000Z
+DTEND:20260425T203000Z
+SUMMARY:Masterworks Concert
+LOCATION:Frank Center, 260 University Dr, Shepherdstown, WV 25443, USA
+DESCRIPTION:
+CATEGORIES:Film & Performing Arts
+ORGANIZATION:Shepherd University School of Music
+URL:https://www.shepherd.edu/music/calendar-of-concerts
+STATUS:CONFIRMED
+SOURCE:shepherd.edu/music
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260427T180000Z-b626145e-297c-5811-9fbb-7210d56c4d55@sum
+DTSTAMP:20260413T150731Z
+DTSTART:20260427T180000Z
+DTEND:20260427T210000Z
+SUMMARY:Community Dress Rehearsal
+LOCATION:Calendar: Community Music Rehearsals, Accepted
+DESCRIPTION:
+CATEGORIES:Film & Performing Arts
+ORGANIZATION:Shepherd University School of Music
+URL:https://www.shepherd.edu/music/calendar-of-concerts
+STATUS:CONFIRMED
+SOURCE:shepherd.edu/music
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260428T180000Z-8f31b113-1dfa-50c6-96c8-ff848bf38dfa@sum
+DTSTAMP:20260413T150731Z
+DTSTART:20260428T180000Z
+DTEND:20260428T193000Z
+SUMMARY:Shepherd Youth Chorus and Recorder Ensemble
+LOCATION:Frank Center, 260 University Dr, Shepherdstown, WV 25443, USA
+DESCRIPTION:
+CATEGORIES:Film & Performing Arts
+ORGANIZATION:Shepherd University School of Music
+URL:https://www.shepherd.edu/music/calendar-of-concerts
+STATUS:CONFIRMED
+SOURCE:shepherd.edu/music
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260429T193000Z-73d7e61b-b5dd-51fb-9d03-dae49d82e948@sum
+DTSTAMP:20260413T150731Z
+DTSTART:20260429T193000Z
+DTEND:20260429T210000Z
+SUMMARY:Community Music Strings
+LOCATION:Frank Center, 260 University Dr, Shepherdstown, WV 25443, USA
+DESCRIPTION:
+CATEGORIES:Film & Performing Arts
+ORGANIZATION:Shepherd University School of Music
+URL:https://www.shepherd.edu/music/calendar-of-concerts
+STATUS:CONFIRMED
+SOURCE:shepherd.edu/music
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260502T000000Z-94ec1789-d0ca-5c9c-8a48-56aaf4bce3da@sum
+DTSTAMP:20260413T150731Z
+DTSTART:20260502T000000Z
+DTEND:20260502T235959Z
+SUMMARY:Frauke Studio Recital
+LOCATION:Calendar: Community Music Events, Accepted
+DESCRIPTION:
+CATEGORIES:Film & Performing Arts
+ORGANIZATION:Shepherd University School of Music
+URL:https://www.shepherd.edu/music/calendar-of-concerts
+STATUS:CONFIRMED
+SOURCE:shepherd.edu/music
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260502T140000Z-04e1d516-f0d1-56ec-adfb-e2f47c316a99@sum
+DTSTAMP:20260413T150731Z
+DTSTART:20260502T140000Z
+DTEND:20260502T150000Z
+SUMMARY:Community Vocal Recital
+LOCATION:Calendar: Community Music Events, Accepted
+DESCRIPTION:
+CATEGORIES:Film & Performing Arts
+ORGANIZATION:Shepherd University School of Music
+URL:https://www.shepherd.edu/music/calendar-of-concerts
+STATUS:CONFIRMED
+SOURCE:shepherd.edu/music
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260502T170000Z-6417a561-da83-5cda-8164-8c1f8b322221@sum
+DTSTAMP:20260413T150731Z
+DTSTART:20260502T170000Z
+DTEND:20260502T220000Z
+SUMMARY:Martinsburg MS Choir
+LOCATION:Stage & MRH
+DESCRIPTION:
+CATEGORIES:Film & Performing Arts
+ORGANIZATION:Shepherd University School of Music
+URL:https://www.shepherd.edu/music/calendar-of-concerts
+STATUS:CONFIRMED
+SOURCE:shepherd.edu/music
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260503T140000Z-ecc31a25-7d9b-570c-8213-959d29807be6@sum
+DTSTAMP:20260413T150731Z
+DTSTART:20260503T140000Z
+DTEND:20260503T150000Z
+SUMMARY:Shepherd Big Band Concert
+LOCATION:Shepherd University
+DESCRIPTION:
+CATEGORIES:Film & Performing Arts
+ORGANIZATION:Shepherd University School of Music
+URL:https://www.shepherd.edu/music/calendar-of-concerts
+STATUS:CONFIRMED
+SOURCE:shepherd.edu/music
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260506T190000Z-d2d83781-6296-59b2-abcc-94698c3ef1a7@sum
+DTSTAMP:20260413T150731Z
+DTSTART:20260506T190000Z
+DTEND:20260506T200000Z
+SUMMARY:MHS Band Concert
+LOCATION:Shepherd University
+DESCRIPTION:
+CATEGORIES:Film & Performing Arts
+ORGANIZATION:Shepherd University School of Music
+URL:https://www.shepherd.edu/music/calendar-of-concerts
+STATUS:CONFIRMED
+SOURCE:shepherd.edu/music
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

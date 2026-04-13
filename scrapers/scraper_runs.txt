@@ -1,0 +1,920 @@
+Parent script started.
+ 
+ 
+The organization is: greenhill
+======================================================================
+Green Hill Farm Schedule Scraper (Selenium)
+======================================================================
+
+
+Setting up Chrome WebDriver...
+Running in headless mode (no browser window)
+Navigating to https://www.ghfarm.org/events-1...
+Waiting for page to load...
+✓ Page loaded successfully
+
+Extracting events...
+Found 9 potential event elements
+
+✓ Found 9 events
+
+Fetching details from 9 event pages...
+(This may take a minute...)
+362 Vendor Registration -Poultry Swap & Farmer's Market 4/25/2026
+362 Mother's Day Seafood, Snips & Sips
+362 Cruisin' with The Cruisers
+362 Summer Happy Hours begin June 18th 2026!
+362 Gators and Gumbo -Father's Day @greenhillfarm
+362 Summer Sunday Fundays Begin!
+362 REWIND REVIVAL
+362 RootsFest | General Admission
+362 Vendors | FARMFEST2026 (1)
+
+======================================================================
+Creating ICS file: greenhill_20260413.ics
+
+======================================================================
+✓ SCRAPING COMPLETE!
+======================================================================
+  Total events: 6
+  Output file: greenhill_20260413.ics
+
+======================================================================
+EVENTS SUMMARY
+======================================================================
+
+1. Mother's Day Seafood, Snips & Sips
+   Date: 20260510T110000Z
+   Location: Green Hill Farm, 5329 Mondell Rd, Sharpsburg, MD
+
+2. Cruisin' with The Cruisers
+   Date: 20260524T120000Z
+   Location: Green Hill Farm, 5329 Mondell Rd, Sharpsburg, MD
+
+3. Gators and Gumbo -Father's Day @greenhillfarm
+   Date: 20260621T110000Z
+   Location: Green Hill Farm, 5329 Mondell Rd, Sharpsburg, MD
+
+4. REWIND REVIVAL
+   Date: 20260711T170000Z
+   Location: Green Hill Farm, 5329 Mondell Rd, Sharpsburg, MD
+
+5. RootsFest | General Admission
+   Date: 20260822T150000Z
+   Location: Green Hill Farm, 5329 Mondell Rd, Sharpsburg, MD
+
+... and 1 more events
+
+======================================================================
+Total events: 6
+======================================================================
+Closing browser...
+Done!
+Files are identical
+ 
+ 
+ 
+ 
+The organization is: grow_yoga
+======================================================================
+Grow Yoga Calendar Event Extractor
+======================================================================
+
+Setting up Chrome WebDriver...
+Navigating to https://www.growyoga.us/schedule
+
+Saving 6 events to grow_yoga_20260413.ics...
+✓ ICS file created successfully!
+
+======================================================================
+EVENTS SUMMARY
+======================================================================
+
+1. Gentle Hatha Yurt Yoga with Lilly Hamer
+   Date: 20260413T183000Z
+   Location:  Soul Food Farm LLC - 1665 Persimmon Lane, Shepherdstown
+
+2. Gentle & Restorative Yurt Yoga with Melissa
+   Date: 20260415T183000Z
+   Location:  Soul Food Farm LLC - 1665 Persimmon Lane, Shepherdstown
+
+3. Yurt Yoga: Peak Pose Flow with Melissa
+   Date: 20260416T183000Z
+   Location:  Soul Food Farm LLC - 1665 Persimmon Lane, Shepherdstown
+
+4. Music, Mantra & Movement Yoga Flow
+   Date: 20260418T093000Z
+   Location:  Soul Food Farm LLC - 1665 Persimmon Lane, Shepherdstown
+
+5. Spring Seasonal Flow with Gena
+   Date: 20260418T140000Z
+   Location:  Soul Food Farm LLC - 1665 Persimmon Lane, Shepherdstown
+
+... and 1 more events
+
+======================================================================
+Total events: 6
+======================================================================
+
+Closing browser...
+Done!
+Files are identical
+ 
+ 
+ 
+ 
+The organization is: library
+Traceback (most recent call last):
+  File "/Users/dan/shepherdstownevents/scrapers/library/library_extractor.py", line 301, in main
+    event_elements = extract_event_info(event)
+  File "/Users/dan/shepherdstownevents/scrapers/library/library_extractor.py", line 160, in extract_event_info
+    dtstart, dtend, all_day, start_description_with_date_time = extract_date_times(date_time_string)
+                                                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/dan/shepherdstownevents/scrapers/library/library_extractor.py", line 61, in extract_date_times
+    date_part, time_part = date_time_string.split(" @ ")
+    ^^^^^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+======================================================================
+Shepherdstown Public Library Calendar Event Extractor
+======================================================================
+
+Setting up Chrome WebDriver...
+Navigating to https://www.sheplibrary.org/events/list/
+Waiting for page to load...
+Looking for Next Month button...
+✓ Clicked Next Month button
+Looking for Next Month button...
+✓ Clicked Next Month button
+Looking for Next Month button...
+✓ Clicked Next Month button
+Looking for Next Month button...
+✓ Clicked Next Month button
+
+Error: too many values to unpack (expected 2)
+
+Closing browser...
+Done!
+Files are identical
+ 
+ 
+ 
+ 
+The organization is: fom
+======================================================================
+Friends of Music Calendar Event Extractor
+======================================================================
+
+Setting up Chrome WebDriver...
+Navigating to https://www.friendswv.org/current-season-2025-2026/
+Waiting for page to load...
+
+Saving 10 events to fom_20260413.ics...
+✓ ICS file created successfully!
+
+======================================================================
+EVENTS SUMMARY
+======================================================================
+
+1. MUSIC OF THE REGIMENT - EQUAL TO ANY BAND IN THIS COUNTRY
+   Date: 20260418T193000Z
+   Location: Trinity Episcopal Church, Shepherdstown WV
+
+2. MUSIC OF THE REGIMENT - EQUAL TO ANY BAND IN THIS COUNTRY
+   Date: 20260419T140000Z
+   Location: Trinity Episcopal Church, Shepherdstown WV
+
+3. TWO RIVERS CHAMBER ORCHESTRA - DOUBLES ANYONE?
+   Date: 20260530T193000Z
+   Location: Shepherdstown Presbyterian Church, Shepherdstown, WV
+
+4. TWO RIVERS CHAMBER ORCHESTRA - DOUBLES ANYONE?
+   Date: 20260531T150000Z
+   Location: Shepherdstown Presbyterian Church, Shepherdstown, WV
+
+======================================================================
+Total events: 4
+======================================================================
+
+Closing browser...
+Done!
+Files are identical
+ 
+ 
+ 
+ 
+The organization is: ghost
+/Users/dan/shepherdstownevents/scrapers/ghost/ghost_extractor.py:2: SyntaxWarning: invalid escape sequence '\ '
+  """
+======================================================================
+Shepherdstown Mystery Walks Calendar Event Extractor
+======================================================================
+
+Setting up Chrome WebDriver...
+Navigating to https://fareharbor.com/embeds/book/shepherdstownmysterywalks/items/190345/calendar/
+Waiting for page to load...
+scraping  0
+Waiting for page to load...
+✓ Clicked Next Month button
+scraping  1
+
+Saving 31 events to ghost_20260413.ics...
+✓ ICS file created successfully!
+
+======================================================================
+EVENTS SUMMARY
+======================================================================
+
+1. Ghost Tour!
+   Date: 20260417T190000Z
+   Location: Welcome Center at the Market House, 100 East German St, Shepherdstown
+
+2. Ghost Tour!
+   Date: 20260418T190000Z
+   Location: Welcome Center at the Market House, 100 East German St, Shepherdstown
+
+3. Ghost Tour!
+   Date: 20260423T193000Z
+   Location: Welcome Center at the Market House, 100 East German St, Shepherdstown
+
+4. Ghost Tour!
+   Date: 20260424T190000Z
+   Location: Welcome Center at the Market House, 100 East German St, Shepherdstown
+
+5. Ghost Tour!
+   Date: 20260425T190000Z
+   Location: Welcome Center at the Market House, 100 East German St, Shepherdstown
+
+... and 11 more events
+
+======================================================================
+Total events: 16
+======================================================================
+
+Closing browser...
+Done!
+Files are identical
+ 
+ 
+ 
+ 
+The organization is: operahouse
+======================================================================
+Opera House Schedule Scraper (Selenium)
+======================================================================
+
+
+Setting up Chrome WebDriver...
+Running in headless mode (no browser window)
+Navigating to https://operahouselive.com/schedule/...
+Waiting for page to load...
+✓ Page loaded successfully
+
+Extracting events...
+Found 28 potential event elements
+141 APR 22 – I Am Evidence
+141 APR 24 – Mr. Nobody Against Putin
+141 APR 25 – Black Masala w/ the Gypsy Ramblers
+141 APR 26 – National Theatre Live: The Fifth Step
+141 MAY 1 – Eleanor the Great
+141 MAY 3 – All The President’s Men
+141 MAY 8 – Hamnet
+141 MAY 9 – Georgia O’Keeffe: the Brightness of Light
+141 MAY 15 – O Pioneer
+141 MAY 16 – Kurt Crandall and True Story
+141 MAY 22 – Dara James and the Soul Disciples
+141 MAY 29 – Jamie Turner & Those Revelators
+141 MAY 30 – Milk
+141 MAY 31 – Becoming a Man in 127 EASY Steps — Film + Discussion Event
+141 JUN 7 – National Theatre Live: The Audience
+141 JUN 28 – John PayCheck and his full Cavalry Band
+141 AUG 30 – National Theatre Live: All Of My Sons
+141 SEP 19 – Trae Sheehan — Home from the Road
+145 SEP 25/26/27 — Manhattan SHORT Film Festival
+141 OCT 17 – Wellvis — Glambilly & Psychedelic Soul
+141 OCT 18 – National Theatre Live: The Playboy Of The Western World
+141 OCT 24 – Bad Influence Band
+141 OCT 30 — Psycho – Hitchcock Architecture of Suspense Film Festival
+141 OCT 31 — North by Northwest – Hitchcock Architecture of Suspense Film Festival
+141 NOV 1 — Vertigo – Hitchcock Architecture of Suspense Film Festival
+141 NOV 14 – Beauty & the B Flats
+141 NOV 15 – National Theatre Live: Les Liaisons Dangereuses
+
+✓ Found 28 events
+
+Fetching details from 28 event pages...
+(This may take a minute...)
+Error in format_date: If you saw them perform - too many values to unpack (expected 2)
+string length: 23
+Error in format_date: In advance of the 2nd Annual Shepherdstown Gay Pride Parade, join us on Sunday, May 31 - too many values to unpack (expected 2)
+string length: 86
+
+======================================================================
+Creating ICS file: operahouse_20260413.ics
+
+======================================================================
+✓ SCRAPING COMPLETE!
+======================================================================
+  Total events: 48
+  Output file: operahouse_20260413.ics
+
+======================================================================
+EVENTS SUMMARY
+======================================================================
+
+1. Live Theater: A Doll’s House
+   Date: 20260416T190000Z
+   Location: Shepherdstown Opera House, 131 West German Street, Shepherdstown
+
+2. Live Theater: A Doll’s House
+   Date: 20260417T190000Z
+   Location: Shepherdstown Opera House, 131 West German Street, Shepherdstown
+
+3. Live Theater: A Doll’s House
+   Date: 20260418T190000Z
+   Location: Shepherdstown Opera House, 131 West German Street, Shepherdstown
+
+4. Live Theater: A Doll’s House
+   Date: 20260419T150000Z
+   Location: Shepherdstown Opera House, 131 West German Street, Shepherdstown
+
+5. I Am Evidence
+   Date: 20260422T180000Z
+   Location: Shepherdstown Opera House, 131 West German Street, Shepherdstown
+
+... and 43 more events
+
+======================================================================
+Total events: 48
+======================================================================
+Closing browser...
+Done!
+Files are identical
+ 
+ 
+ 
+ 
+The organization is: pvas
+======================================================================
+Potomac Valley Audubon Society Calendar Event Extractor
+======================================================================
+
+Setting up Chrome WebDriver...
+Navigating to https://www.potomacaudubon.org/calendar/
+Waiting for page to load...
+https://www.potomacaudubon.org/calendar/list/page/2/
+Navigating to https://www.potomacaudubon.org/calendar/list/page/2/
+Waiting for page to load...
+https://www.potomacaudubon.org/calendar/list/page/3/
+Navigating to https://www.potomacaudubon.org/calendar/list/page/3/
+Waiting for page to load...
+https://www.potomacaudubon.org/calendar/list/page/4/
+Navigating to https://www.potomacaudubon.org/calendar/list/page/4/
+Waiting for page to load...
+https://www.potomacaudubon.org/calendar/list/page/5/
+Navigating to https://www.potomacaudubon.org/calendar/list/page/5/
+Waiting for page to load...
+https://www.potomacaudubon.org/calendar/list/page/6/
+Navigating to https://www.potomacaudubon.org/calendar/list/page/6/
+Waiting for page to load...
+https://www.potomacaudubon.org/calendar/list/page/7/
+Navigating to https://www.potomacaudubon.org/calendar/list/page/7/
+Waiting for page to load...
+
+Saving 10 events to pvas_20260413.ics...
+✓ ICS file created successfully!
+
+======================================================================
+EVENTS SUMMARY
+======================================================================
+
+1. This Hike is for the Birds!
+   Date: 20260401T000000Z
+   Location: 
+
+2. Rolling Ridge Conservancy Bird Walk
+   Date: 20260414T073000Z
+   Location: Rolling Ridge Conservancy Land 138 Tupelo Lane, Harpers Ferry, WV
+
+3. Wildflower Walk at Virginius Island
+   Date: 20260414T100000Z
+   Location: Virginius Island
+
+4. Wildflower and Golden Hour Photography Walk at Ferry Hill
+   Date: 20260414T180000Z
+   Location: Ferry Hill Mansion,
+
+5. Bird Walk at Cool Spring Preserve
+   Date: 20260415T073000Z
+   Location: Cool Spring Preserve 1469 Lloyd Road, Charles Town
+
+... and 50 more events
+
+======================================================================
+Total events: 55
+======================================================================
+
+Closing browser...
+Done!
+Files are identical
+ 
+ 
+ 
+ 
+The organization is: scc
+======================================================================
+Shepherdstown Community Club Calendar Event Extractor
+======================================================================
+
+Setting up Chrome WebDriver...
+Navigating to https://www.shepherdstowncommunityclub.org/events/
+Waiting for page to load...
+
+Saving 4 events to scc_20260413.ics...
+✓ ICS file created successfully!
+
+======================================================================
+EVENTS SUMMARY
+======================================================================
+
+1. Earth Day Art Show
+   Date: 20260425T000000Z
+   Location: 102 E. German Street 
+
+2. Friday Night Garden Party
+   Date: 20260515T180000Z
+   Location: 207 E. High St 
+
+3. Back Alley Garden Tour & Tea
+   Date: 20260516T000000Z
+   Location: 102 E. German Street 
+
+======================================================================
+Total events: 3
+======================================================================
+
+Closing browser...
+Done!
+Files are identical
+ 
+ 
+ 
+ 
+The organization is: shepinfo
+Traceback (most recent call last):
+  File "/Users/dan/shepherdstownevents/scrapers/shepinfo/shepinfo_extractor.py", line 183, in extract_event_info
+    category_section = category_match.group(1).strip()
+                       ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'group'
+year: 2026
+======================================================================
+Shepherdstown.info Calendar Event Extractor
+======================================================================
+
+Setting up Chrome WebDriver...
+Navigating to https://shepherdstown.info/events/
+Waiting for page to load...
+✓ Clicked List button
+✓ Clicked Next Month button
+
+Error while processing: Categories
+Market (art / crafts / handmade)
+Activity
+_Community
+_FAMILY FRIENDLY
+
+SCC First Weekend Handmade Market Time: 9:00am - 4:00pm
+
+SCC First Weekend Handmade Market
+2026 DATES:
+APRIL 4–5
+MAY 2–3
+MAY 30–31
+JULY 4–5
+AUGUST 1–2
+SEPTEMBER 5–6
+OCTOBER 3–4
+NOVEMBER 7–8
+HOURS:
+SATURDAYS 10–6
+SUNDAYS 9–4
+War Memorial Bldg.
+102 E. German St.
+Shepherdstown, WV
+Shop Handmade!
+
+
+Location Details: Community Club (War Memorial Building), 102 East German Street, Shepherdstown, WV, 25443
+
+Location
+Community Club (War Memorial Building)
+
+Error: 'NoneType' object has no attribute 'group'
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+
+Saving 57 events to shepinfo_20260413.ics...
+✓ ICS file created successfully!
+
+======================================================================
+EVENTS SUMMARY
+======================================================================
+
+1. Historic Shepherdstown Speaker Series - Historical Memory of Frontier War in 20th Century Shenandoah Family Histories - Dr. Ben Bankhurst
+   Date: 20260415T190000Z
+   Location: Shepherd Univ - Byrd Center for Congressional History and Education
+
+2. April Showers Jigsaw Joust
+   Date: 20260418T100000Z
+   Location: Game Knights
+
+3. 2026 Opening of Historic Shepherdstown Museum
+   Date: 20260418T110000Z
+   Location: Historic Shepherdstown Museum at the Entler Hotel
+
+4. USGS Eastern Ecological Science Center Earth Day Open House
+   Date: 20260426T130000Z
+   Location: USGS Eastern Ecological Science Center, 11649 Leetown Road, Kearneysville
+
+5. Shepherd Youth Chorus
+   Date: 20260428T193000Z
+   Location: Shepherd Univ - Frank Center
+
+... and 52 more events
+
+======================================================================
+Total events: 57
+======================================================================
+
+Closing browser...
+Done!
+Files are identical
+ 
+ 
+ 
+ 
+The organization is: sss
+======================================================================
+Speak Story Series Event Extractor
+======================================================================
+
+Setting up Chrome WebDriver...
+Navigating to https://www.speakstoryseries.com/
+Waiting for page to load...
+
+Saving 17 events to sss_20260413.ics...
+✓ ICS file created successfully!
+
+======================================================================
+EVENTS SUMMARY
+======================================================================
+
+1. Speak Story Series - Archy Jamjun
+   Date: 20260414T193000Z
+   Location: Byrd Center for Congressional History and Education, 213 North King Street, Shepherdstown
+
+2. Speak Story Series - Laura Packer
+   Date: 20260609T193000Z
+   Location: Byrd Center for Congressional History and Education, 213 North King Street, Shepherdstown
+
+3. Speak Story Series - The Reverend Robert B. Jones, Sr.
+   Date: 20260714T193000Z
+   Location: Byrd Center for Congressional History and Education, 213 North King Street, Shepherdstown
+
+4. Speak Story Series - Denise Manning Keyes Page
+   Date: 20260811T193000Z
+   Location: Byrd Center for Congressional History and Education, 213 North King Street, Shepherdstown
+
+5. Speak Story Series - Adam Booth
+   Date: 20260908T193000Z
+   Location: Byrd Center for Congressional History and Education, 213 North King Street, Shepherdstown
+
+... and 1 more events
+
+======================================================================
+Total events: 6
+======================================================================
+
+Closing browser...
+Done!
+Files are identical
+ 
+ 
+ 
+ 
+The organization is: su
+======================================================================
+Shepherdstown University Calendar Event Extractor
+======================================================================
+
+Setting up Chrome WebDriver...
+Navigating to https://www.shepherd.edu/calendar
+Waiting for page to load...
+
+Saving 28 events to su_20260413.ics...
+✓ ICS file created successfully!
+
+======================================================================
+EVENTS SUMMARY
+======================================================================
+
+1. Spring Assembly in the Erma Ora Byrd Hall auditorium, 301 N King St, Shepherdstown
+   Date: 20260413T161000Z
+   Location: Shepherd University
+
+2. Workshop: Nutrients and Soil Health
+   Date: 20260415T173000Z
+   Location: Agricultural Innovation Center 
+
+3. Sans Merci Release Party
+   Date: 20260416T180000Z
+   Location: Marinoff Theater
+
+4. “Beneath What I Can See – Two solo painting Exhibition reception
+   Date: 20260417T160000Z
+   Location: Skull City Studio 105 S. Princess St., Shepherdstown, WV
+
+5. Wind Ensemble Concert
+   Date: 20260417T193000Z
+   Location: Frank Arts Center 260 University Dr, Shepherdstown, WV 25443 
+
+... and 23 more events
+
+======================================================================
+Total events: 28
+======================================================================
+
+Closing browser...
+Done!
+Files are identical
+ 
+ 
+ 
+ 
+The organization is: sua
+======================================================================
+Shepherdstown University Athletics Calendar Event Extractor
+======================================================================
+
+Setting up Chrome WebDriver...
+Navigating to https://shepherdrams.com/calendar?vtype=list
+Waiting for page to load...
+Waiting for page to load...
+skipping TBA
+Waiting for page to load...
+skipping TBA
+Waiting for page to load...
+Waiting for page to load...
+Waiting for page to load...
+Waiting for page to load...
+
+Saving 4 events to sua_20260413.ics...
+✓ ICS file created successfully!
+
+======================================================================
+EVENTS SUMMARY
+======================================================================
+
+1. Shepherd U Softball vs Lock Haven
+   Date: 20260417T140000Z
+   Location: Shepherdstown, W.Va
+
+2. Shepherd U Softball vs Lock Haven
+   Date: 20260417T160000Z
+   Location: Shepherdstown, W.Va
+
+3. Shepherd U Women's Lacrosse vs East Stroudsburg (Relay for Life Game)
+   Date: 20260418T1300PM00Z
+   Location: Shepherdstown, WV
+
+4. Shepherd U Baseball vs West Chester (Relay for Life Game/Faculty/Staff Family Day)
+   Date: 20260418T1300PM00Z
+   Location: Shepherdstown, W.Va.
+
+5. Shepherd U Softball vs Mansfield (Relay for Life Game/Meet the Rams Day)
+   Date: 20260418T130000Z
+   Location: Shepherdstown, W.Va
+
+... and 12 more events
+
+======================================================================
+Total events: 17
+======================================================================
+
+Closing browser...
+Done!
+Files are different
+ 
+ 
+ 
+ 
+The organization is: sum
+======================================================================
+Shepherdstown University School of Music Event Extractor
+======================================================================
+
+Setting up Chrome WebDriver...
+Navigating to https://calendar.google.com/calendar/u/0/embed?height=600&wkst=1&ctz=America/New_York&bgcolor=%23ffffff&showPrint=0&title=School+of+Music+Events&src=czFzamphYTBsYmdqa2tmODdtYW5icnBhNzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZG1uYzFhamtiYzJkbDk4YjNtYWd0b244MWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=bjNrdmxnMzJzODRjNHVnOHNyczVscjFscThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=OGt0YmZuNDQwMTJrNHVwMTJ0aG80dmRpa2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=aGllcDd1YmdjZ3I4ZDZnbmNuNTdqc3RiZW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=MXQzMmtnZmhyZjkyZmUwZ2RkN3NyOXJ1ZDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=Zm9wMzJkY3FwcWRjMHFmaGZobHQxN291MjBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=YzMwMjdsdHFqY2J1azFwYWs4dGljamdkZW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=c2J2ZDMzaHZiN3ZrZWR1NDE5YXRya2hndWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=c2I5NzFyNWRucWpkdDBuZjZjOGs2MWJkYjRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=N2NvZnU2OGFmN2I0aG8xNjQzZjFhY3FidThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=aWhnaHMycXNtNWQwbjRxM3NrdWZpN2xtZ29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&mode=AGENDA
+Waiting for page to load...
+skipping
+
+Saving 41 events to sum_20260413.ics...
+✓ ICS file created successfully!
+
+======================================================================
+EVENTS SUMMARY
+======================================================================
+
+1. Wind Ensemble
+   Date: 20260417T193000Z
+   Location: Frank Center, 260 University Dr, Shepherdstown, WV 25443, USA
+
+2. Relay for Life
+   Date: 20260418T000000Z
+   Location: Calendar: Special Events, Accepted
+
+3. Dale Auen Voice Senior Recital
+   Date: 20260419T150000Z
+   Location: Calendar: Recitals, Accepted
+
+4. Jacob Livengood Piano Senior Recital
+   Date: 20260419T170000Z
+   Location: Calendar: Recitals, Accepted
+
+5. SCREECH Recital
+   Date: 20260420T190000Z
+   Location: Calendar: Recitals, Accepted
+
+... and 11 more events
+
+======================================================================
+Total events: 16
+======================================================================
+
+Closing browser...
+Done!
+Files are identical
+ 
+ 
+ 
+ 
+The organization is: sull
+======================================================================
+Shepherdstown University Lifelong Learning Calendar Event Extractor
+======================================================================
+
+Setting up Chrome WebDriver...
+Navigating to https://www.shepherd.edu/brown-bag-lecture-series/
+
+Saving 14 events to sull_20260413.ics...
+✓ ICS file created successfully!
+
+======================================================================
+EVENTS SUMMARY
+======================================================================
+
+1. MEETING A DOUBLE BOTTOM LINE: COMMUNITY DEVELOPMENT FINANCIAL INSTITUTIONS (CDFIs)
+   Date: 20260304T141000Z
+   Location: : Robert C. Byrd Center, Auditorium
+
+2. SOCIAL JUSTICE IN APPALACHIA: REFLECTIONS ON THE HIGHLANDER EDUCATION AND RESEARCH CENTER
+   Date: 20260309T120000Z
+   Location: Robert C. Byrd Center, Auditorium (and Zoom)
+
+3. THE HUNDRED YEARS’ WAR
+   Date: 20260311T120000Z
+   Location: Robert C. Byrd Center, Auditorium (and Zoom)
+
+4. JOAN OF ARC – THE MAID OF ORLEANS
+   Date: 20260318T120000Z
+   Location: Robert C. Byrd Center, Auditorium (and Zoom)
+
+5. THE SOUTHERN CAMPAIGN: WHERE THE AMERICAN REVOLUTIONARY WAR WAS WON
+   Date: 20260325T120000Z
+   Location:  Robert C. Byrd Center, Multipurpose Room (and Zoom)
+
+... and 9 more events
+
+======================================================================
+Total events: 14
+======================================================================
+
+Closing browser...
+Done!
+Files are identical
+ 
+ 
+ 
+ 
+The organization is: trptc
+======================================================================
+The Roving Peregrine Theatre Event Extractor
+======================================================================
+
+Setting up Chrome WebDriver...
+Navigating to https://www.rovingperegrinetheatre.org/shows
+Waiting for page to load...
+
+Saving 17 events to trptc_20260413.ics...
+✓ ICS file created successfully!
+
+======================================================================
+EVENTS SUMMARY
+======================================================================
+
+1. MIXTAPE
+   Date: 20260517T150000Z
+   Location: The Black Box Arts Center - 113 South Princess Street, Shepherdstown
+
+2. A NIGHT OF FIGHT & FURY
+   Date: 20260621T143000Z
+   Location: The Black Box Arts Center - 113 South Princess Street, Shepherdstown
+
+3. EMILY BRONTE: NECROMANCER
+   Date: 20260726T160000Z
+   Location: The Black Box Arts Center - 113 South Princess Street, Shepherdstown
+
+4. HAMLET
+   Date: 20260816T200000Z
+   Location: The Black Box Arts Center - 113 South Princess Street, Shepherdstown
+
+======================================================================
+Total events: 4
+======================================================================
+
+Closing browser...
+Done!
+Files are identical
+ 
+ 
+ 
+ 
+The organization is: trw
+======================================================================
+Town Run Watershed Calendar Event Extractor
+======================================================================
+
+Setting up Chrome WebDriver...
+Navigating to https://townrunwatershed.org/events/
+Waiting for page to load...
+Looking for Next Month button...
+
+Saving 24 events to trw_20260413.ics...
+✓ ICS file created successfully!
+
+======================================================================
+EVENTS SUMMARY
+======================================================================
+
+1. Back Alley Garden Refresher – Please Help!
+   Date: 20260419T140000Z
+   Location: 
+
+2. Tree Planting at Asbury UMC
+   Date: 20260425T100000Z
+   Location: Asbury United Methodist Church, 4257 Kearneysville Pike, Shepherdstown, WV, United States
+
+3. Capture the Rain
+   Date: 20260430T140000Z
+   Location: 
+
+4. Back Alley Garden Refresher – Please Help!
+   Date: 20260503T140000Z
+   Location: 
+
+5. Back Alley Garden Refresher – Please Help!
+   Date: 20260515T110000Z
+   Location: 
+
+... and 6 more events
+
+======================================================================
+Total events: 11
+======================================================================
+
+Closing browser...
+Done!
+Files are identical
+ 
+ 
+Here are the scraped_files.
+total 1120
+-rw-r--r--  1 dan  staff    7643 Apr 13 16:02 sua.ics
+-rw-r--r--  1 dan  staff    7359 Apr 13 15:07 sum.ics
+-rw-r--r--@ 1 dan  staff    8915 Apr 13 12:38 trw.ics
+-rw-r--r--@ 1 dan  staff   50384 Apr 13 12:36 shepinfo.ics
+-rw-r--r--@ 1 dan  staff   48567 Apr 13 12:36 pvas.ics
+-rw-r--r--@ 1 dan  staff   93300 Apr 13 12:34 library.ics
+-rw-r--r--@ 1 dan  staff   26207 Apr 12 20:58 sull.ics
+-rw-r--r--@ 1 dan  staff   12303 Apr 12 20:08 su.ics
+-rw-r--r--@ 1 dan  staff   10184 Apr 12 20:06 ghost.ics
+-rw-r--r--@ 1 dan  staff    2839 Apr 12 20:02 grow_yoga.ics
+-rw-r--r--@ 1 dan  staff     679 Apr 12 08:37 4seasons.ics
+-rw-r--r--@ 1 dan  staff    4170 Apr 11 06:38 greenhill.ics
+-rw-r--r--@ 1 dan  staff  120816 Apr 10 19:53 operahouse.ics
+-rw-r--r--@ 1 dan  staff    2883 Apr 10 10:33 scc.ics
+-rw-r--r--@ 1 dan  staff    2956 Apr  6 17:15 sss.ics
+-rw-r--r--@ 1 dan  staff    2088 Apr  2 09:59 trptc.ics
+-rw-r--r--@ 1 dan  staff   35504 Apr  2 09:57 shepherdstown_info.ics
+-rw-r--r--@ 1 dan  staff    5283 Apr  2 09:56 fom.ics
+-rw-r--r--@ 1 dan  staff   93655 Apr  2 09:56 shep_library_info.ics

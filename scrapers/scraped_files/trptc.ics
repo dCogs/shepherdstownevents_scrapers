@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//rovingperegrinetheatre.org//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The Roving Peregrine Theatre Company Events
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:20260517T150000Z-ef0916d3-2565-5305-93b9-3cf19294f592@trptc
+DTSTAMP:20260402T095937Z
+DTSTART:20260517T150000Z
+DTEND:
+SUMMARY:MIXTAPE
+LOCATION:The Black Box Arts Center - 113 South Princess Street, Shepherdstown
+DESCRIPTION:
+CATEGORIES:Film & Performing Arts
+ORGANIZATION:The Roving Peregrine Theatre Company
+URL:https://www.rovingperegrinetheatre.org/shows/mixtape
+STATUS:CONFIRMED
+SOURCE:rovingperegrinetheatre.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260621T143000Z-f675d0de-6683-57a8-95c8-f14bf9ecb881@trptc
+DTSTAMP:20260402T095937Z
+DTSTART:20260621T143000Z
+DTEND:
+SUMMARY:A NIGHT OF FIGHT & FURY
+LOCATION:The Black Box Arts Center - 113 South Princess Street, Shepherdstown
+DESCRIPTION:
+CATEGORIES:Film & Performing Arts
+ORGANIZATION:The Roving Peregrine Theatre Company
+URL:https://www.rovingperegrinetheatre.org/shows/a-night-of-fight-fury
+STATUS:CONFIRMED
+SOURCE:rovingperegrinetheatre.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260726T160000Z-d17cbb3a-da21-5b4a-b4f1-3d80af854efc@trptc
+DTSTAMP:20260402T095937Z
+DTSTART:20260726T160000Z
+DTEND:
+SUMMARY:EMILY BRONTE: NECROMANCER
+LOCATION:The Black Box Arts Center - 113 South Princess Street, Shepherdstown
+DESCRIPTION:
+CATEGORIES:Film & Performing Arts
+ORGANIZATION:The Roving Peregrine Theatre Company
+URL:https://www.rovingperegrinetheatre.org/shows/emily-bronte-necromancer
+STATUS:CONFIRMED
+SOURCE:rovingperegrinetheatre.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260816T200000Z-c5435e3d-a4c9-5977-a544-aff31357f5d7@trptc
+DTSTAMP:20260402T095937Z
+DTSTART:20260816T200000Z
+DTEND:
+SUMMARY:HAMLET
+LOCATION:The Black Box Arts Center - 113 South Princess Street, Shepherdstown
+DESCRIPTION:
+CATEGORIES:Film & Performing Arts
+ORGANIZATION:The Roving Peregrine Theatre Company
+URL:https://www.rovingperegrinetheatre.org/shows/hamlet
+STATUS:CONFIRMED
+SOURCE:rovingperegrinetheatre.org
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

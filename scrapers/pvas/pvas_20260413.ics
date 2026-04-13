@@ -1,0 +1,833 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//potomacaudubon.org//calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PVAS Events Calendar
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:20260401T000000Z-5ecf5041-bc36-5530-aaf1-eaec1cf9d7f0@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260401T000000Z
+DTEND:20260430T235900Z
+SUMMARY:This Hike is for the Birds!
+LOCATION:
+DESCRIPTION:A Self-Paced April Hiking Challenge! $10/person (PVAS members receive a 10% discount). All ages are welcome\, though youth must be accompanied by an adult. Pre-registration is required How It Works Hike the suggested routes below at each preserve or create your own route\, just be sure to pass the designated Check-In sign. Cool Spring Preserve Eidolon Nature Preserve Stauffer's Marsh […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/this-hike-is-for-the-birds/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260414T073000Z-a8d1c501-21e9-549e-a090-b869509ece1b@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260414T073000Z
+DTEND:20260414T103000Z
+SUMMARY:Rolling Ridge Conservancy Bird Walk
+LOCATION:Rolling Ridge Conservancy Land 138 Tupelo Lane, Harpers Ferry, WV
+DESCRIPTION:Join Bill Telfair and Master Naturalist Scot DeGraf for a morning bird walk at Rolling Ridge Conservancy! PVAS Host: Bill Telfair\, Scot DeGraf This is a free/donation-based program. For ages 8 and older. All youth must be accompanied by an adult. Registration is required and limited to 15 participants. Explore the habitat and the bird life with others on the […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/rolling-ridge-conservancy-bird-walk-22/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260414T100000Z-bf2ee209-8b1b-53b6-a4bc-a4d7e5366df8@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260414T100000Z
+DTEND:20260414T120000Z
+SUMMARY:Wildflower Walk at Virginius Island
+LOCATION:Virginius Island
+DESCRIPTION:  Enjoy a woodland stroll with us to welcome Spring's first blooms! PVAS Host: Mary Duke This is a free/donation-based program. All ages are welcome\, though youth must be accompanied by an adult. Pre-registration is required and limited to 10 participants. PVMN Continuing Education Credit Eligible For just a short time each spring\, delicate wildflowers emerge from the forest floor\, […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/wildflower-walk-at-virginius-island/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260414T180000Z-f913df91-cf98-548c-83ea-aa19c1811c45@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260414T180000Z
+DTEND:20260414T200000Z
+SUMMARY:Wildflower and Golden Hour Photography Walk at Ferry Hill
+LOCATION:Ferry Hill Mansion,
+DESCRIPTION:Enjoy a woodland stroll with us to welcome Spring’s first blooms\, timed for golden hour\, when soft\, glowing light brings the forest to life. PVAS Host: Laurel Schwartz\, Priscilla Bryant-Schoenly This is a free/donation-based program. For ages 13 and older. Youth must be accompanied by an adult. Pre-registration is required and limited to 15 participants. PVMN Continuing Education Credit Eligible […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/wildflower-walk-at-ferry-hill-5/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260415T073000Z-6703c6e0-5c03-53f0-a7c9-104fc7ce37b5@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260415T073000Z
+DTEND:20260415T103000Z
+SUMMARY:Bird Walk at Cool Spring Preserve
+LOCATION:Cool Spring Preserve 1469 Lloyd Road, Charles Town
+DESCRIPTION:Join Bill Telfair for a morning bird walk at Cool Spring Preserve! PVAS Host: Bill Telfair This is a free/donation-based program For ages 8 and older. All youth must be accompanied by an adult. Pre-registration is required and limited to 15 participants. Join trip leader Bill Telfair for a bird walk at Cool Spring Preserve! Anyone with an interest is […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/bird-walk-at-cool-spring-preserve-18/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260415T093000Z-7df79580-69d6-5dd0-b3aa-3d320a5e08b0@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260415T093000Z
+DTEND:20260415T150000Z
+SUMMARY:Case Nature Center Open Day
+LOCATION:Cool Spring Preserve 1469 Lloyd Road, Charles Town
+DESCRIPTION:Join us for a day of discovery at Case Nature Center! PVAS Host: PVAS Nature Center Ambassadors Free and open to the public. All ages are welcome\, though youth must be accompanied by an adult. Registration is not required. Visit us at the Case Nature Center! Meet our Nature Center Ambassadors\, friendly volunteers who are eager to share their knowledge […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/case-nature-center-open-day-47/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260415T190000Z-d819452b-79cb-5133-b842-ba58366bf22a@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260415T190000Z
+DTEND:20260415T210000Z
+SUMMARY:FULL | Birding 101
+LOCATION:Shepherdstown Public Library 145 Higbee Lane, Shepherdstown
+DESCRIPTION:Learn to Bird! Course Instructors: Wil Hershberger\, Carol Winckler\, Nancy Kirshbaum\, Lynne Wiseman $100/person (PVAS members receive a 10% discount). Pre-registration is required and limited to 20 participants.  The course is open to adults and children 16+. PVMN Continuing Education Eligible Love birds\, but not sure what you are looking at? Hear a bird call and wonder who is making […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/birding-101-10/2026-04-15/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260416T100000Z-0f292ac7-f756-51ce-acdf-7fa1ebf5685f@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260416T100000Z
+DTEND:20260416T120000Z
+SUMMARY:Wellness Walk at Yankauer Nature Preserve
+LOCATION:Yankauer Nature Preserve 438 Whitings Neck Road, Martinsburg
+DESCRIPTION:Let's get outside and enjoy the trails together! PVAS Host: Ellen Murphy This is a free/donation-based program. All ages are welcome\, though youth must be accompanied by an adult. Pre-registration is required and limited to 15 participants. This program has a minimum of 5 participants. This April\, join us for a Wellness Walk at Yankauer Nature Preserve the day after […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/wellness-walk-at-yankauer-nature-preserve-3/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260416T193000Z-6660d1ed-91e3-5649-9199-1aafddba01a8@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260416T193000Z
+DTEND:20260416T203000Z
+SUMMARY:Kingfisher Kahoot Virtual Trivia Night | Spring Wildflowers
+LOCATION:Virtual
+DESCRIPTION:Join Master Naturalist Roy Boyle for a fun evening of trivia and learning! PVAS Host: Roy Boyle This is a free/donation-based program. Anyone is welcome to join in. Pre-registration is required and limited to 25 participants. PVMN Continuing Education Credit Eligible Kahoots are best played in a group setting so we are excited to join together with fellow players over […]
+CATEGORIES:Games
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/kingfisher-kahoot-virtual-trivia-night-spring-wildflowers/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260418T070000Z-d819452b-79cb-5133-b842-ba58366bf22a@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260418T070000Z
+DTEND:20260418T100000Z
+SUMMARY:FULL | Birding 101
+LOCATION:Shepherdstown Public Library 145 Higbee Lane, Shepherdstown
+DESCRIPTION:Learn to Bird! Course Instructors: Wil Hershberger\, Carol Winckler\, Nancy Kirshbaum\, Lynne Wiseman $100/person (PVAS members receive a 10% discount). Pre-registration is required and limited to 20 participants.  The course is open to adults and children 16+. PVMN Continuing Education Eligible Love birds\, but not sure what you are looking at? Hear a bird call and wonder who is making […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/birding-101-10/2026-04-18/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260418T100000Z-4eecad2a-7329-591e-a6b4-ed9455f0126f@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260418T100000Z
+DTEND:20260418T130000Z
+SUMMARY:Nature Journaling at Yankauer Nature Preserve | Blossoms\, Buds\, and Blooms
+LOCATION:Yankauer Nature Preserve 438 Whitings Neck Road, Martinsburg
+DESCRIPTION:Join Jessica Ramey for Nature Journaling! PVAS Host: Jessica Ramey Free and open to the public. All ages are welcome\, though youth must be accompanied by an adult. Pre-registration is required and limited to 12 participants. PVMN Continuing Education Credit Eligible Celebrate the burst of spring flowers and ephemeral blooms. Capture color\, patterns\, and the fleeting beauty of blossoms while […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/nature-journaling-at-yankauer-nature-preserve-blossoms-buds-and-blooms/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260418T130000Z-91f0ae8f-2b4a-599d-80c3-15f9367ee88c@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260418T130000Z
+DTEND:20260418T150000Z
+SUMMARY:Wildflower Walk at Yankauer Nature Preserve
+LOCATION:Yankauer Nature Preserve 438 Whitings Neck Road, Martinsburg
+DESCRIPTION:Enjoy a woodland stroll with us to welcome Spring's first blooms! PVAS Host: Mary Duke This is a free/donation-based program. All ages are welcome\, though youth must be accompanied by an adult. Pre-registration is required and limited to 10 participants. PVMN Continuing Education Credit Eligible For just a short time each spring\, delicate wildflowers emerge from the forest floor\, transforming the […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/wildflower-walk-at-yankauer-nature-preserve-3/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260419T073000Z-63342165-f0bf-5e76-955a-1f2464dc2b21@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260419T073000Z
+DTEND:
+SUMMARY:USGS Eastern Ecological Science Center Bird Walk
+LOCATION:USGS Eastern Ecological Science Center 407 Reservoir Road, Kearneysville, WV
+DESCRIPTION:Join Bob and Heather for a morning bird walk! PVAS Host: Bob Dean\, Heather Walsh This is a free/donation-based program. All ages are welcome\, though youth must be accompanied by an adult. Pre-registration is required and limited to 10 participants. Stroll with the birds and other PVAS bird enthusiasts at the USGS center in Leetown! Birders of all experience levels […]
+CATEGORIES:Holidays & Fairs, Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/usgs-eastern-ecological-science-center-bird-walk-13/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260422T093000Z-7df79580-69d6-5dd0-b3aa-3d320a5e08b0@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260422T093000Z
+DTEND:20260422T150000Z
+SUMMARY:Case Nature Center Open Day
+LOCATION:Cool Spring Preserve 1469 Lloyd Road, Charles Town
+DESCRIPTION:Join us for a day of discovery at Case Nature Center! PVAS Host: PVAS Nature Center Ambassadors Free and open to the public. All ages are welcome\, though youth must be accompanied by an adult. Registration is not required. Visit us at the Case Nature Center! Meet our Nature Center Ambassadors\, friendly volunteers who are eager to share their knowledge […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/case-nature-center-open-day-48/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260422T130000Z-cba4122e-3005-57d9-8dbe-af1a51aef4eb@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260422T130000Z
+DTEND:20260422T150000Z
+SUMMARY:Wildflower Walk at Ferry Hill | Earth Day
+LOCATION:Ferry Hill Mansion,
+DESCRIPTION:Enjoy a woodland stroll with us to welcome Spring's first blooms! PVAS Host: Mary Duke This is a free/donation-based program. All ages are welcome\, though youth must be accompanied by an adult. Pre-registration is required and limited to 10 participants. PVMN Continuing Education Credit Eligible For just a short time each spring\, delicate wildflowers emerge from the forest floor\, transforming […]
+CATEGORIES:Arts & Culture, Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/wildflower-walk-at-ferry-hill-earth-day/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260422T190000Z-d819452b-79cb-5133-b842-ba58366bf22a@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260422T190000Z
+DTEND:20260422T210000Z
+SUMMARY:FULL | Birding 101
+LOCATION:Shepherdstown Public Library 145 Higbee Lane, Shepherdstown
+DESCRIPTION:Learn to Bird! Course Instructors: Wil Hershberger\, Carol Winckler\, Nancy Kirshbaum\, Lynne Wiseman $100/person (PVAS members receive a 10% discount). Pre-registration is required and limited to 20 participants.  The course is open to adults and children 16+. PVMN Continuing Education Eligible Love birds\, but not sure what you are looking at? Hear a bird call and wonder who is making […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/birding-101-10/2026-04-22/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260424T170000Z-24188253-0946-5e0d-9381-55be2ec03d5a@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260424T170000Z
+DTEND:20260508T235900Z
+SUMMARY:Spring Native Plant Sale: Pre-order!
+LOCATION:Sunny Meadows Garden Center 7437 Sharpsburg Pike, Boonsboro, MD
+DESCRIPTION:Pre-order and day-of shopping options available! This fundraiser supports the Monarch Waystation grant program and educational activities of The Monarch Alliance\, a program of the Potomac Valley Audubon Society! In-Person SaleSaturday\, May 16 | 9am – 2pm📍 Sunny Meadows Garden Center Find our table—just follow the Audubon signs and Plant Sale banners! We’ll have a fantastic selection of native plants […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/spring-native-plant-sale-pre-order-4/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260425T070000Z-d819452b-79cb-5133-b842-ba58366bf22a@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260425T070000Z
+DTEND:20260425T100000Z
+SUMMARY:FULL | Birding 101
+LOCATION:Shepherdstown Public Library 145 Higbee Lane, Shepherdstown
+DESCRIPTION:Learn to Bird! Course Instructors: Wil Hershberger\, Carol Winckler\, Nancy Kirshbaum\, Lynne Wiseman $100/person (PVAS members receive a 10% discount). Pre-registration is required and limited to 20 participants.  The course is open to adults and children 16+. PVMN Continuing Education Eligible Love birds\, but not sure what you are looking at? Hear a bird call and wonder who is making […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/birding-101-10/2026-04-25/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260425T100000Z-1b62bcb6-4e31-5baf-bdf9-fd085a23f12e@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260425T100000Z
+DTEND:20260425T120000Z
+SUMMARY:Wildflower Walk at the Snavely Ford Trail
+LOCATION:Snavely Ford Trail
+DESCRIPTION:Join us for a walk to see and enjoy the spring ephemeral wildflowers! PVAS Host: Carlo Olivares This is a free/donation-based program. All ages are welcome\, though youth must be accompanied by an adult. Pre-registration is required and limited to 10 participants. PVMN Continuing Education Credit Eligible For just a short time each spring\, delicate wildflowers emerge from the forest […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/wildflower-walk-at-the-snavely-ford-trail-2/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260425T130000Z-7d95e363-a38f-5409-84ae-b5d22074a92f@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260425T130000Z
+DTEND:20260425T160000Z
+SUMMARY:EcoCraft Workshop | Create Your Own Hand-Bound Nature Journal
+LOCATION:Yankauer Nature Preserve 438 Whitings Neck Road, Martinsburg
+DESCRIPTION:Join us for a hands-on workshop where you’ll gather natural materials\, create textured papers\, and sew your own hand-bound nature journal. PVAS Host: Susan Wolcott\, Deana Thorsell $10/person (PVAS members receive a 10% discount). Kids aged 4 and under may attend for free and without being registered. For ages 8 and older. All youth must be accompanied by an adult. […]
+CATEGORIES:Arts & Culture, Education & Workshops, Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/ecocraft-workshop-create-your-own-hand-bound-nature-journal/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260426T090000Z-7f334198-1e78-5b99-841f-c8bfb616169a@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260426T090000Z
+DTEND:
+SUMMARY:Volunteer Workday: Celebrate Earth Day Tree Planting
+LOCATION:Cool Spring Preserve 1469 Lloyd Road, Charles Town
+DESCRIPTION:Join PVAS in celebrating Earth Day with a volunteer workday planting trees at Cool Spring Preserve! PVAS Host: Bob Schwartz and KC Walters This program is FREE and open to the public. All ages are welcome\, but children must be accompanied by an adult. Registration is required. PVMN Volunteer Hours Eligible There is no better way to give back to […]
+CATEGORIES:Arts & Culture, Community & Civic, Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/volunteer-workday-celebrate-earth-day-tree-planting-3/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260426T093000Z-457e04d2-3796-5d8c-90d4-804e854c637f@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260426T093000Z
+DTEND:
+SUMMARY:Nature Center Open House
+LOCATION:Cool Spring Preserve 1469 Lloyd Road, Charles Town
+DESCRIPTION:Join us for a Special Weekend Open House at the Case Nature Center! PVAS Host: PVAS Nature Center Ambassadors Free and open to the public. All ages are welcome\, though youth must be accompanied by an adult. Registration is not required. Drop in anytime between 9:30 AM and 3 PM to explore our interactive touch table filled with interesting nature […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/nature-center-open-house-2/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260426T120000Z-7f334198-1e78-5b99-841f-c8bfb616169a@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260426T120000Z
+DTEND:
+SUMMARY:Volunteer Workday: Celebrate Earth Day Tree Planting
+LOCATION:Cool Spring Preserve 1469 Lloyd Road, Charles Town
+DESCRIPTION:Join PVAS in celebrating Earth Day with a volunteer workday planting trees at Cool Spring Preserve! PVAS Host: Bob Schwartz and KC Walters This program is FREE and open to the public. All ages are welcome\, but children must be accompanied by an adult. Registration is required. PVMN Volunteer Hours Eligible There is no better way to give back to […]
+CATEGORIES:Arts & Culture, Community & Civic, Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/volunteer-workday-celebrate-earth-day-tree-planting-4/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260428T180000Z-017580ef-a304-5938-9c23-3e4e50436517@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260428T180000Z
+DTEND:20260428T200000Z
+SUMMARY:Learn About Volunteering with PVAS!
+LOCATION:Yankauer Nature Preserve 438 Whitings Neck Road, Martinsburg
+DESCRIPTION:Join us for this welcoming and informative volunteer recruitment & engagement event! PVAS Host: Erin Smaldone Free and open to the public. All ages are welcome\, though youth must be accompanied by an adult. Pre-registration is required PVMN Continuing Education Credit Eligible Are you interested in volunteering with PVAS this year? Whether you’re a longtime volunteer or brand new\, we […]
+CATEGORIES:Community & Civic
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/learn-about-volunteering-with-pvas/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260429T093000Z-7df79580-69d6-5dd0-b3aa-3d320a5e08b0@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260429T093000Z
+DTEND:20260429T150000Z
+SUMMARY:Case Nature Center Open Day
+LOCATION:Cool Spring Preserve 1469 Lloyd Road, Charles Town
+DESCRIPTION:Join us for a day of discovery at Case Nature Center! PVAS Host: PVAS Nature Center Ambassadors Free and open to the public. All ages are welcome\, though youth must be accompanied by an adult. Registration is not required. Visit us at the Case Nature Center! Meet our Nature Center Ambassadors\, friendly volunteers who are eager to share their knowledge […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/case-nature-center-open-day-49/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260429T173000Z-a9a2022e-85b8-5fc8-b440-8e89dee695a1@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260429T173000Z
+DTEND:20260429T190000Z
+SUMMARY:EcoCraft and Foraging Programs Working Group Meeting
+LOCATION:Cool Spring Preserve 1469 Lloyd Road, Charles Town
+DESCRIPTION:Are you passionate about nature crafts or foraging? Do you want to share your interests with others and help bring creative\, nature-inspired programs to life? We need your help! PVAS Host: Sonja Melander Free and open to the public. This program is for adults who are interesting in volunteering to plan\, lead\, and/or assist with PVAS EcoCraft and Foraging Programs. […]
+CATEGORIES:Arts & Culture, Community & Civic, Education & Workshops
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/ecocraft-and-foraging-programs-working-group-meeting-5/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260501T133000Z-309d631d-bf56-5023-ae06-8b7eb3f707b8@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260501T133000Z
+DTEND:20260501T163000Z
+SUMMARY:Volunteer Workday: Tree Planting at Yankauer
+LOCATION:Yankauer Nature Preserve 438 Whitings Neck Road, Martinsburg
+DESCRIPTION:Plant a tree at Yankauer Nature Preserve! PVAS Host: Alexus Smetzer and KC Walters This program is FREE and open to the public. All ages are welcome\, but children must be accompanied by an adult. Registration is required. PVMN Volunteer Hours Eligible There is no better way to give back to Mother Earth than to plant a tree! We invite […]
+CATEGORIES:Community & Civic, Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/volunteer-workday-tree-planting-at-yankauer/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260501T203000Z-06c022b5-a81c-5fc8-9c63-048968f2cbc0@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260501T203000Z
+DTEND:20260501T220000Z
+SUMMARY:Full Moon Walk at Yankauer Nature Preserve
+LOCATION:Yankauer Nature Preserve 438 Whitings Neck Road, Martinsburg
+DESCRIPTION:Join Sonja for an evening stroll to explore the sights and sounds of the nocturnal world under the full moon! PVAS Host: Sonja Melander This is a free/donation-based program. All ages are welcome\, though youth must be accompanied by an adult. Pre-registration is required and limited to 15 participants. If the sky is clear\, we will hike by the light […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/full-moon-walk-at-yankauer-nature-preserve-19/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260502T130000Z-c70871ce-9294-5fb5-b34a-5ff2f6d130c6@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260502T130000Z
+DTEND:20260502T150000Z
+SUMMARY:Wildflower Walk at Shannondale Springs Wildlife Management Area
+LOCATION:Shannondale Springs WMA Co Rte 9/5, Harpers Ferry
+DESCRIPTION:Enjoy a woodland stroll with us to welcome Spring's first blooms! PVAS Host: Carlo Olivares This is a free/donation-based program. All ages are welcome\, though youth must be accompanied by an adult. Pre-registration is required and limited to 10 participants. PVMN Continuing Education Credit Eligible For just a short time each spring\, delicate wildflowers emerge from the forest floor\, transforming […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/wildflower-walk-at-shannondale-springs-wildlife-management-area-3/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260503T140000Z-42048eac-65f6-5b9b-b26e-23787a43f6e5@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260503T140000Z
+DTEND:
+SUMMARY:Cheryl Jennings Memorial Bench Dedication
+LOCATION:Stauffer's Marsh Nature Preserve 4069 Back Creek Valley Rd., Hedgesville
+DESCRIPTION:Join us for an afternoon honoring Cheryl Jennings\, one of the co-founders of the Potomac Valley Master Naturalists\, at the dedication event for her memorial bench. PVAS Host: Potomac Valley Master Naturalists Free and open to the public. All ages are welcome\, though youth must be accompanied by an adult. Pre-registration is required\, as it will help organizers to anticipate […]
+CATEGORIES:Holidays & Fairs
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/cheryl-jennings-memorial-bench-dedication/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260506T093000Z-7df79580-69d6-5dd0-b3aa-3d320a5e08b0@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260506T093000Z
+DTEND:20260506T150000Z
+SUMMARY:Case Nature Center Open Day
+LOCATION:Cool Spring Preserve 1469 Lloyd Road, Charles Town
+DESCRIPTION:Join us for a day of discovery at Case Nature Center! PVAS Host: PVAS Nature Center Ambassadors Free and open to the public. All ages are welcome\, though youth must be accompanied by an adult. Registration is not required. Visit us at the Case Nature Center! Meet our Nature Center Ambassadors\, friendly volunteers who are eager to share their knowledge […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/case-nature-center-open-day-50/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260506T100000Z-d58efda6-ab01-5d7a-a683-372df2a89e4b@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260506T100000Z
+DTEND:20260506T110000Z
+SUMMARY:Turtle Time at Cool Spring Preserve
+LOCATION:Cool Spring Preserve 1469 Lloyd Road, Charles Town
+DESCRIPTION:Join us for a turtle-filled morning at the Case Nature Center! PVAS Host: Amy Thomas Free and open to the public. While this is a free program\, we encourage you to consider donating to our "Critter Care" fund to contribute to the care of our Animal Ambasadors! At the entrance\, we will have a donation jar as well as a […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/turtle-time-at-cool-spring-preserve-30/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260506T180000Z-d0d0758b-959c-5a97-9f5c-d0d67c0660fb@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260506T180000Z
+DTEND:20260506T200000Z
+SUMMARY:Nature’s Palette Watercolor Workshop: Northern Flicker
+LOCATION:Cool Spring Preserve 1469 Lloyd Road, Charles Town
+DESCRIPTION:Join us for a monthly celebration of nature\, creativity\, and curiosity! This month’s subject is the Northern Flicker. $15/person (PVAS members receive a 10% discount). For ages 12 and older. All youth must be accompanied by an adult. Registration is required and limited to 15 participants. This program has a minimum of 4 participants. PVMN Continuing Education Credit Eligible Join […]
+CATEGORIES:Education & Workshops, Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/natures-palette-watercolor-workshop-northern-flicker/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260509T070000Z-20ad4df6-1f48-5bc1-86ea-b3aa37af1ae6@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260509T070000Z
+DTEND:20260509T100000Z
+SUMMARY:Bird Walk at the C&O Canal/Antietam Aqueduct | Mobility-friendly
+LOCATION:C&O Canal/Antietam Aqueduct
+DESCRIPTION:Join Wil Hershberger and Carol Winckler for a guided bird walk along the C&O Canal! PVAS Host: Wil Hershberger\, Carol Winckler This is a free/donation-based program. For ages 12 and older. All youth must be accompanied by an adult. Pre-registration is required and limited to 15 participants. Join Wil and Carol this spring migration season along the historic C&O Canal\, when […]
+CATEGORIES:Family & Kids, Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/bird-walk-at-the-co-canal-antietam-aqueduct/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260509T090000Z-c1939e97-cbe3-57a4-8a5f-926a69ca10c1@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260509T090000Z
+DTEND:20260509T120000Z
+SUMMARY:Beginner Nature Photography Workshop
+LOCATION:Cool Spring Preserve 1469 Lloyd Road, Charles Town
+DESCRIPTION:Join Master Naturalist Bob Thompson for an introduction to nature photography! PVAS Host: Bob Thompson $10/person (PVAS members receive a 10% discount). For ages 16 and older. All youth must be accompanied by an adult. This program is limited to 20 participants. This program has a minimum of 3 participants. PVMN Continuing Education Credit Eligible Join us for a fun […]
+CATEGORIES:Education & Workshops, Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/beginner-nature-photography-workshop/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260509T130000Z-45ef5e3c-79d8-5384-97bc-ee78dbc52ed4@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260509T130000Z
+DTEND:20260509T150000Z
+SUMMARY:Foraging Workshop | Six Spring Plants to Know and Use
+LOCATION:Cool Spring Preserve 1469 Lloyd Road, Charles Town
+DESCRIPTION:Join us for a beginner-friendly journey into the world of everyday edible and useful plants! PVAS Host: Susan Wolcott\, Emily Gordon $10/person (PVAS members receive a 10% discount). For ages 16 and older. All youth must be accompanied by an adult. Pre-registration is required and limited to 15 participants. This program has a minimum of 5 participants. PVMN Continuing Education […]
+CATEGORIES:Education & Workshops, Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/foraging-workshop-six-spring-plants-to-know-and-use/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260512T073000Z-a8d1c501-21e9-549e-a090-b869509ece1b@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260512T073000Z
+DTEND:20260512T103000Z
+SUMMARY:Rolling Ridge Conservancy Bird Walk
+LOCATION:Rolling Ridge Conservancy Land 138 Tupelo Lane, Harpers Ferry, WV
+DESCRIPTION:Join Bill Telfair and Master Naturalist Scot DeGraf for a morning bird walk at Rolling Ridge Conservancy! PVAS Host: Bill Telfair\, Scot DeGraf This is a free/donation-based program. For ages 8 and older. All youth must be accompanied by an adult. Registration is required and limited to 15 participants. Explore the habitat and the bird life with others on the […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/rolling-ridge-conservancy-bird-walk-23/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260513T093000Z-7df79580-69d6-5dd0-b3aa-3d320a5e08b0@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260513T093000Z
+DTEND:20260513T150000Z
+SUMMARY:Case Nature Center Open Day
+LOCATION:Cool Spring Preserve 1469 Lloyd Road, Charles Town
+DESCRIPTION:Join us for a day of discovery at Case Nature Center! PVAS Host: PVAS Nature Center Ambassadors Free and open to the public. All ages are welcome\, though youth must be accompanied by an adult. Registration is not required. Visit us at the Case Nature Center! Meet our Nature Center Ambassadors\, friendly volunteers who are eager to share their knowledge […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/case-nature-center-open-day-51/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260513T183000Z-54bcf046-b104-5c23-8e3c-0efc8d6d73fe@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260513T183000Z
+DTEND:20260513T200000Z
+SUMMARY:Monthly Program | Main Street: A Proven Strategy for Historic Small Towns
+LOCATION:Robert C. Byrd Center for Congressional History and Education 213 N King St, Shepherdstown, WV
+DESCRIPTION:The Potomac Valley Audubon Society welcomes Erin Barnes\, President and CEO of Main Street America! This in-person program is free and open to the public.  All ages are welcome to attend. PARKING: Both Shepherdstown City parking and Shepherd University Campus parking are available. A map of city parking is here. Meters are not enforced after 6 pm. Spots along High Street […]
+CATEGORIES:Community & Civic, Education & Workshops, History
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/monthly-program-main-street-a-proven-strategy-for-historic-small-towns/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260514T093000Z-54256595-3036-5454-90bd-ac066ab3e867@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260514T093000Z
+DTEND:20260514T123000Z
+SUMMARY:Plant Order Sorting for the Spring Native Plant Sale
+LOCATION:Sunny Meadows Garden Center 7437 Sharpsburg Pike, Boonsboro, MD
+DESCRIPTION:Sign-up to volunteer to sort plant pre-orders for the Spring  Native Plant Sale! Free and open to the public. For ages 16 and older. All youth must be accompanied by an adult. Registration is required. PVMN Volunteer Credit Eligible. We will need help sorting out the pre-orders at Sunny Meadows Garden Center for the Native Plant Sale pick-up day! Walking […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/plant-order-sorting-for-the-spring-native-plant-sale/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260514T193000Z-8fa195ac-2610-59e3-abff-49bc3dbd4b45@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260514T193000Z
+DTEND:20260514T203000Z
+SUMMARY:Kingfisher Kahoot Virtual Trivia Night | Remarkable Reptiles
+LOCATION:Virtual
+DESCRIPTION:Join Master Naturalist Roy Boyle for a fun evening of trivia and learning! PVAS Host: Roy Boyle This is a free/donation-based program. Anyone is welcome to join in. Pre-registration is required and limited to 25 participants. PVMN Continuing Education Credit Eligible Kahoots are best played in a group setting so we are excited to join together with fellow players over […]
+CATEGORIES:Games
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/kingfisher-kahoot-virtual-trivia-night-remarkable-reptiles/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260516T090000Z-9ca49ae9-6ae5-57a2-b709-35a955bc9100@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260516T090000Z
+DTEND:20260516T140000Z
+SUMMARY:Spring Native Plant Sale: In-Person Sale!
+LOCATION:Sunny Meadows Garden Center 7437 Sharpsburg Pike, Boonsboro, MD
+DESCRIPTION:Pre-order and day-of shopping options available! This fundraiser supports the Monarch Waystation grant program and educational activities of The Monarch Alliance\, a program of the Potomac Valley Audubon Society! In-Person SaleSaturday\, May 16 | 9am – 2pm📍 Sunny Meadows Garden Center Find our table—just follow the Audubon signs and Plant Sale banners! We’ll have a fantastic selection of native plants […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/spring-native-plant-sale-in-person-sale-5/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260519T100000Z-e7d61507-bf92-526a-a0f3-f12c578ca3fa@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260519T100000Z
+DTEND:20260519T120000Z
+SUMMARY:Wellness Walk at Snavely Ford Trail
+LOCATION:Snavely Ford Trail
+DESCRIPTION:Let's get outside and enjoy the trails together! PVAS Host: Ellen Murphy This is a free/donation-based program. All ages are welcome\, though youth must be accompanied by an adult. Pre-registration is required and limited to 15 participants.This program has a minimum of 5 participants. This May\, we’ll head out on a Wellness Walk along the Snavely Ford Trail\, a scenic […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/wellness-walk-at-snavely-ford-trail/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260520T073000Z-6703c6e0-5c03-53f0-a7c9-104fc7ce37b5@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260520T073000Z
+DTEND:20260520T103000Z
+SUMMARY:Bird Walk at Cool Spring Preserve
+LOCATION:Cool Spring Preserve 1469 Lloyd Road, Charles Town
+DESCRIPTION:Join Bill Telfair for a morning bird walk at Cool Spring Preserve! PVAS Host: Bill Telfair This is a free/donation-based program For ages 8 and older. All youth must be accompanied by an adult. Pre-registration is required and limited to 15 participants. Join trip leader Bill Telfair for a bird walk at Cool Spring Preserve! Anyone with an interest is […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/bird-walk-at-cool-spring-preserve-19/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260520T093000Z-7df79580-69d6-5dd0-b3aa-3d320a5e08b0@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260520T093000Z
+DTEND:20260520T150000Z
+SUMMARY:Case Nature Center Open Day
+LOCATION:Cool Spring Preserve 1469 Lloyd Road, Charles Town
+DESCRIPTION:Join us for a day of discovery at Case Nature Center! PVAS Host: PVAS Nature Center Ambassadors Free and open to the public. All ages are welcome\, though youth must be accompanied by an adult. Registration is not required. Visit us at the Case Nature Center! Meet our Nature Center Ambassadors\, friendly volunteers who are eager to share their knowledge […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/case-nature-center-open-day-52/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260521T173000Z-e96e5868-cfe6-5bd9-9423-e0c443f20cc3@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260521T173000Z
+DTEND:20260521T193000Z
+SUMMARY:Wildflower Programs Working Group Meeting
+LOCATION:Cool Spring Preserve 1469 Lloyd Road, Charles Town   +1 more
+DESCRIPTION:Join us to help shape this year’s wildflower programs and get involved in the season ahead! PVAS Host: Sonja Melander Free and open to the public. This program is for adults. Registration is not required\, but appreciated for planning purposes. Join us for our Wildflower Programs Working Group Meeting—an open\, collaborative space for anyone interested in helping plan this year’s […]
+CATEGORIES:Community & Civic, Education & Workshops
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/wildflower-programs-working-group-meeting-2/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260523T073000Z-8ad2a18e-52da-533e-a732-a4bb89636a9f@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260523T073000Z
+DTEND:20260523T103000Z
+SUMMARY:Bird Walk at Stauffer’s Marsh Nature Preserve
+LOCATION:Stauffer's Marsh Nature Preserve 4069 Back Creek Valley Rd., Hedgesville
+DESCRIPTION:Join Alex and Kevin for a morning bird walk! PVAS Host: Alex Tsiatsos\, Kevin ODonnell This is a free/donation-based program. All ages are welcome\, though youth must be accompanied by an adult. Registration is required and limited to 10 participants. Anyone with an interest is welcome to come along\, regardless of their birding skills! Join PVAS for a bird walk […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/bird-walk-at-stauffers-marsh-nature-preserve-2/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260523T100000Z-e42e9cf4-cd5a-5e46-8471-71ab3033c50c@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260523T100000Z
+DTEND:20260523T130000Z
+SUMMARY:Nature Journaling at Cool Spring Preserve | Birds of Cool Spring
+LOCATION:Cool Spring Preserve 1469 Lloyd Road, Charles Town
+DESCRIPTION:Join Jessica Ramey for Nature Journaling! PVAS Host: Jessica Ramey This is a free/donation-based program. All ages are welcome\, though youth must be accompanied by an adult. Pre-registration is required and limited to 12 participants. PVMN Continuing Education Credit Eligible Tune in to birdsong\, flight\, and nesting behavior. Journal movement\, sound\, and the lively energy of the avian world in […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/nature-journaling-at-cool-spring-preserve-birds-of-cool-spring/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260524T073000Z-2f4a6e06-75c1-5c37-bb7d-4b997553cdb1@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260524T073000Z
+DTEND:
+SUMMARY:Bird Walk at the Walsh Property (near Charles Town)
+LOCATION:
+DESCRIPTION:Join Karli Rogers and Heather Walsh for a morning bird walk at Heather's property! PVAS Host: Heather Walsh\, Karli Rogers Free and open to the public. This program is for adults. Pre-registration is required and limited to 15 participants. This program has a minimum of 2 participants. On this morning bird walk\, we hope to see a variety of warblers […]
+CATEGORIES:Community & Civic, Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/bird-walk-at-the-walsh-property-near-charles-town-4/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260524T130000Z-e61c5441-5c3b-5291-adf8-f3df6c68d601@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260524T130000Z
+DTEND:
+SUMMARY:EcoCraft Workshop | Design Your Own Nature Junk Journal
+LOCATION:Yankauer Nature Preserve 438 Whitings Neck Road, Martinsburg
+DESCRIPTION:Join us for a calming\, creative workshop where nature and recycled treasures come together in your own unique journal. PVAS Host: Susan Wolcott\, Deana Thorsell $10/person (PVAS members receive a 10% discount). For ages 8 and older. All youth must be accompanied by an adult. Pre-registration is required and limited to 25 participants. This program has a minimum of 5 […]
+CATEGORIES:Arts & Culture, Education & Workshops, Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/ecocraft-workshop-design-your-own-nature-junk-journal/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260527T093000Z-7df79580-69d6-5dd0-b3aa-3d320a5e08b0@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260527T093000Z
+DTEND:20260527T150000Z
+SUMMARY:Case Nature Center Open Day
+LOCATION:Cool Spring Preserve 1469 Lloyd Road, Charles Town
+DESCRIPTION:Join us for a day of discovery at Case Nature Center! PVAS Host: PVAS Nature Center Ambassadors Free and open to the public. All ages are welcome\, though youth must be accompanied by an adult. Registration is not required. Visit us at the Case Nature Center! Meet our Nature Center Ambassadors\, friendly volunteers who are eager to share their knowledge […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/case-nature-center-open-day-53/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260529T150000Z-2074c2eb-18a6-5f80-b634-cdf1a4f4a2c7@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260529T150000Z
+DTEND:20260529T180000Z
+SUMMARY:CIT Training at Cool Spring Preserve
+LOCATION:Cool Spring Preserve 1469 Lloyd Road, Charles Town
+DESCRIPTION:CIT Training (entering grades 7-12) This is a mandatory training for 2026 Counselors-in-Training. This year\, we are hosting CIT training at both Cool Spring Preserve and Yankauer Nature Preserve. Friday May 29 Cool Spring Preserve 3:00 p.m. – 6:00 p.m. There is no cost to attend this training\, but Counselors-in-Training must apply and be accepted. Click here to learn more […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/cit-training-at-cool-spring-preserve/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260529T150000Z-307d5fd2-2abd-5135-8b9c-0611bf75c201@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260529T150000Z
+DTEND:20260529T180000Z
+SUMMARY:CIT Training at Yankauer Nature Preserve
+LOCATION:Yankauer Nature Preserve 438 Whitings Neck Road, Martinsburg
+DESCRIPTION:CIT Training (entering grades 7-12) This is a mandatory training for 2026 Counselors-in-Training. This year\, we are hosting CIT training at both Cool Spring Preserve and Yankauer Nature Preserve. Friday May 29 Yankauer Nature Preserve 3:00 p.m. – 6:00 p.m. There is no cost to attend this training\, but Counselors-in-Training must apply and be accepted. Click here to learn more […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/cit-training-at-yankauer-nature-preserve/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260530T110000Z-0cf84247-0649-5b92-b12d-22eed281f226@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260530T110000Z
+DTEND:20260530T130000Z
+SUMMARY:Carnivorous Plant Nursery Field Trip
+LOCATION:Carnivorous Plant Nursery 13763 John Cline Road, Smithsburg, MD
+DESCRIPTION:Join Master Naturalist Roy Boyle to explore a garden of carnivorous plants and learn more about the feeding and care of these amazing plants! PVAS Host: Roy Boyle Free and open to the public. This program is for adults. Pre-registration is required. PVMN Continuing Education Credit Eligible We will be visiting the greenhouses and outdoor growing beds of the Carnivorous […]
+CATEGORIES:Outdoors & Nature
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/carnivorous-plant-nursery-field-trip-2/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260611T083000Z-6a46de0b-eef6-5b06-aafb-dc33e08bde9e@pvas
+DTSTAMP:20260413T160039Z
+DTSTART:20260611T083000Z
+DTEND:20260612T160000Z
+SUMMARY:Teacher Workshop | Between Two Rivers: Connecting Watershed in the Classroom
+LOCATION:National Conservation Training Center 698 Conservation Way, Shepherdstown, WV
+DESCRIPTION:Join us with our partners in the West Virginia Outdoor Learning Network Initiative for a teacher workshop! PVAS Host: WV Outdoor Learning Network Initiative Free and open to all teachers in West Virginia counties in the Chesapeake Bay Watershed. Workshop is designed for teachers grades 4-9\, however teachers of other grade levels are welcome. Registration is required and limited to […]
+CATEGORIES:Education & Workshops
+ORGANIZATION:Potomac Valley Audubon Society
+URL:https://www.potomacaudubon.org/event/teacher-workshop-between-two-rivers-connecting-watershed-in-the-classroom/
+STATUS:CONFIRMED
+SOURCE:potomacaudubon.org
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//fourseasonsbooks.com/events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Four Seasons Books Events Calendar
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:20260418T100000Z-e2dde2c8-c88a-5ba3-be9d-a14e36d82414@4seasons
+DTSTAMP:20260411T063745Z
+DTSTART:20260418T100000Z
+DTEND:
+SUMMARY:The Plot Hole - Mystery & Thriller Book Club
+LOCATION:Panera Bread
+DESCRIPTION:
+CATEGORIES:Community & Civic
+ORGANIZATION:Four Seasons Books
+URL:https://www.eventbrite.com/e/the-plot-hole-mystery-thriller-book-club-tickets-1986780078698?aff=ebdsoporgprofile
+STATUS:CONFIRMED
+SOURCE:https://www.fourseasonsbooks.com
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

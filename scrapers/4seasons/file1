@@ -1,0 +1,232 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//fourseasonsbooks.com/events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Four Seasons Books Events Calendar
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:20260418T100000Z-e2dde2c8-c88a-5ba3-be9d-a14e36d82414@4seasons
+DTSTART:20260418T100000Z
+DTEND:
+SUMMARY:The Plot Hole - Mystery & Thriller Book Club
+LOCATION:Panera Bread
+DESCRIPTION:
+CATEGORIES:Community & Civic
+ORGANIZATION:Four Seasons Books
+URL:https://www.eventbrite.com/e/the-plot-hole-mystery-thriller-book-club-tickets-1986780078698?aff=ebdsoporgprofile
+STATUS:CONFIRMED
+SOURCE:https://www.fourseasonsbooks.com
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260418T100000Z-a9a6bc16-dc24-5086-9569-d7a7d9e8cba2@4seasons
+DTSTART:20260418T100000Z
+DTEND:
+SUMMARY:The Marginalia - Feminist Rage Book Club
+LOCATION:Panera Bread
+DESCRIPTION:
+CATEGORIES:Community & Civic
+ORGANIZATION:Four Seasons Books
+URL:https://www.eventbrite.com/e/the-marginalia-feminist-rage-book-club-tickets-1986780622324?aff=ebdsoporgprofile
+STATUS:CONFIRMED
+SOURCE:https://www.fourseasonsbooks.com
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260507T180000Z-3bdda135-6ce8-594a-8772-3723749fe08e@4seasons
+DTSTART:20260507T180000Z
+DTEND:
+SUMMARY:The Spice Rack – Romance Book Club
+LOCATION:The HUB SUITES
+DESCRIPTION:
+CATEGORIES:Community & Civic
+ORGANIZATION:Four Seasons Books
+URL:https://www.eventbrite.com/e/the-spice-rack-romance-book-club-tickets-1986780054626?aff=ebdsoporgprofile
+STATUS:CONFIRMED
+SOURCE:https://www.fourseasonsbooks.com
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260507T190000Z-8a23cf59-52aa-537a-b25f-0fec276d7cec@4seasons
+DTSTART:20260507T190000Z
+DTEND:
+SUMMARY:The Red Flag Readers – Dark Romance Book Club
+LOCATION:The HUB SUITES
+DESCRIPTION:
+CATEGORIES:Community & Civic
+ORGANIZATION:Four Seasons Books
+URL:https://www.eventbrite.com/e/the-red-flag-readers-dark-romance-book-club-tickets-1986780359538?aff=ebdsoporgprofile
+STATUS:CONFIRMED
+SOURCE:https://www.fourseasonsbooks.com
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260507T200000Z-2b763d8d-0c6e-51be-ae99-40acd75177ad@4seasons
+DTSTART:20260507T200000Z
+DTEND:
+SUMMARY:Fable & Fate - Romantasy Book Club
+LOCATION:The HUB SUITES
+DESCRIPTION:
+CATEGORIES:Community & Civic
+ORGANIZATION:Four Seasons Books
+URL:https://www.eventbrite.com/e/fable-fate-romantasy-book-club-tickets-1986780085719?aff=ebdsoporgprofile
+STATUS:CONFIRMED
+SOURCE:https://www.fourseasonsbooks.com
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260521T180000Z-fbe36f1a-0ffd-549d-b510-1b56b279d6c2@4seasons
+DTSTART:20260521T180000Z
+DTEND:
+SUMMARY:The Saga – Fantasy Book Club
+LOCATION:The HUB SUITES
+DESCRIPTION:
+CATEGORIES:Community & Civic
+ORGANIZATION:Four Seasons Books
+URL:https://www.eventbrite.com/e/the-saga-fantasy-book-club-tickets-1986779105788?aff=ebdsoporgprofile
+STATUS:CONFIRMED
+SOURCE:https://www.fourseasonsbooks.com
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260521T190000Z-9d9708c9-9016-5f06-b745-da7387ead9d5@4seasons
+DTSTART:20260521T190000Z
+DTEND:
+SUMMARY:The Quantum Chapter – SciFi Book Club
+LOCATION:The HUB SUITES
+DESCRIPTION:
+CATEGORIES:Community & Civic
+ORGANIZATION:Four Seasons Books
+URL:https://www.eventbrite.com/e/the-quantum-chapter-scifi-book-club-tickets-1986779816915?aff=ebdsoporgprofile
+STATUS:CONFIRMED
+SOURCE:https://www.fourseasonsbooks.com
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260521T200000Z-91ff410c-732f-559f-b522-0cc2d884fb2c@4seasons
+DTSTART:20260521T200000Z
+DTEND:
+SUMMARY:The Grim Society – Horror Book Club
+LOCATION:The HUB SUITES
+DESCRIPTION:
+CATEGORIES:Community & Civic
+ORGANIZATION:Four Seasons Books
+URL:https://www.eventbrite.com/e/the-grim-society-horror-book-club-tickets-1986779785822?aff=ebdsoporgprofile
+STATUS:CONFIRMED
+SOURCE:https://www.fourseasonsbooks.com
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260418T100000Z-e2dde2c8-c88a-5ba3-be9d-a14e36d82414@4seasons
+DTSTART:20260418T100000Z
+DTEND:
+SUMMARY:The Plot Hole - Mystery & Thriller Book Club
+LOCATION:Panera Bread
+DESCRIPTION:
+CATEGORIES:Community & Civic
+ORGANIZATION:Four Seasons Books
+URL:https://www.eventbrite.com/e/the-plot-hole-mystery-thriller-book-club-tickets-1986780078698?aff=ebdsoporgprofile
+STATUS:CONFIRMED
+SOURCE:https://www.fourseasonsbooks.com
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260418T100000Z-a9a6bc16-dc24-5086-9569-d7a7d9e8cba2@4seasons
+DTSTART:20260418T100000Z
+DTEND:
+SUMMARY:The Marginalia - Feminist Rage Book Club
+LOCATION:Panera Bread
+DESCRIPTION:
+CATEGORIES:Community & Civic
+ORGANIZATION:Four Seasons Books
+URL:https://www.eventbrite.com/e/the-marginalia-feminist-rage-book-club-tickets-1986780622324?aff=ebdsoporgprofile
+STATUS:CONFIRMED
+SOURCE:https://www.fourseasonsbooks.com
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260507T180000Z-3bdda135-6ce8-594a-8772-3723749fe08e@4seasons
+DTSTART:20260507T180000Z
+DTEND:
+SUMMARY:The Spice Rack – Romance Book Club
+LOCATION:The HUB SUITES
+DESCRIPTION:
+CATEGORIES:Community & Civic
+ORGANIZATION:Four Seasons Books
+URL:https://www.eventbrite.com/e/the-spice-rack-romance-book-club-tickets-1986780054626?aff=ebdsoporgprofile
+STATUS:CONFIRMED
+SOURCE:https://www.fourseasonsbooks.com
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260507T190000Z-8a23cf59-52aa-537a-b25f-0fec276d7cec@4seasons
+DTSTART:20260507T190000Z
+DTEND:
+SUMMARY:The Red Flag Readers – Dark Romance Book Club
+LOCATION:The HUB SUITES
+DESCRIPTION:
+CATEGORIES:Community & Civic
+ORGANIZATION:Four Seasons Books
+URL:https://www.eventbrite.com/e/the-red-flag-readers-dark-romance-book-club-tickets-1986780359538?aff=ebdsoporgprofile
+STATUS:CONFIRMED
+SOURCE:https://www.fourseasonsbooks.com
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260507T200000Z-2b763d8d-0c6e-51be-ae99-40acd75177ad@4seasons
+DTSTART:20260507T200000Z
+DTEND:
+SUMMARY:Fable & Fate - Romantasy Book Club
+LOCATION:The HUB SUITES
+DESCRIPTION:
+CATEGORIES:Community & Civic
+ORGANIZATION:Four Seasons Books
+URL:https://www.eventbrite.com/e/fable-fate-romantasy-book-club-tickets-1986780085719?aff=ebdsoporgprofile
+STATUS:CONFIRMED
+SOURCE:https://www.fourseasonsbooks.com
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260521T180000Z-fbe36f1a-0ffd-549d-b510-1b56b279d6c2@4seasons
+DTSTART:20260521T180000Z
+DTEND:
+SUMMARY:The Saga – Fantasy Book Club
+LOCATION:The HUB SUITES
+DESCRIPTION:
+CATEGORIES:Community & Civic
+ORGANIZATION:Four Seasons Books
+URL:https://www.eventbrite.com/e/the-saga-fantasy-book-club-tickets-1986779105788?aff=ebdsoporgprofile
+STATUS:CONFIRMED
+SOURCE:https://www.fourseasonsbooks.com
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260521T190000Z-9d9708c9-9016-5f06-b745-da7387ead9d5@4seasons
+DTSTART:20260521T190000Z
+DTEND:
+SUMMARY:The Quantum Chapter – SciFi Book Club
+LOCATION:The HUB SUITES
+DESCRIPTION:
+CATEGORIES:Community & Civic
+ORGANIZATION:Four Seasons Books
+URL:https://www.eventbrite.com/e/the-quantum-chapter-scifi-book-club-tickets-1986779816915?aff=ebdsoporgprofile
+STATUS:CONFIRMED
+SOURCE:https://www.fourseasonsbooks.com
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260521T200000Z-91ff410c-732f-559f-b522-0cc2d884fb2c@4seasons
+DTSTART:20260521T200000Z
+DTEND:
+SUMMARY:The Grim Society – Horror Book Club
+LOCATION:The HUB SUITES
+DESCRIPTION:
+CATEGORIES:Community & Civic
+ORGANIZATION:Four Seasons Books
+URL:https://www.eventbrite.com/e/the-grim-society-horror-book-club-tickets-1986779785822?aff=ebdsoporgprofile
+STATUS:CONFIRMED
+SOURCE:https://www.fourseasonsbooks.com
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

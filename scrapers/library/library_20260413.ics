@@ -1,0 +1,2168 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sheplibrary.org//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Shepherdstown Events Calendar
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:20260401T000000Z-0d338d0c-f70f-5c2b-ab78-abdbcda1734e@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260401T000000Z
+DTEND:
+SUMMARY:It’s Time to Go
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:April 1 - April 30\n\nWe are pleased to welcome Cathy Wilkin for our April Art Exhibit at Shepherdstown Public Library! Her paintings will be on display through the month of April at the library. […]
+CATEGORIES:Uncategorized
+URL:https://www.sheplibrary.org/event/its-time-to-go/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260413T160000Z-8f226daf-9ada-52c7-b5ab-26b399325d06@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260413T160000Z
+DTEND:20260413T170000Z
+SUMMARY:Art Club for Middle & High Schoolers
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:This relaxed\, drop-in club for Middle and High Schooler explores a different art medium each week. Mediums include collage\, acrylic paint\, clay\, watercolors\, and more!
+CATEGORIES:Arts & Culture, Community & Civic
+URL:https://www.sheplibrary.org/event/teen-art-club-11-3/2026-04-13/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260413T163000Z-2d7f908d-47a3-5051-867f-33b0bc5d20a0@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260413T163000Z
+DTEND:20260413T173000Z
+SUMMARY:Middle School Math Club
+LOCATION:Shepherdstown Public Library Teen Room
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join the competition math program at the Shepherdstown Public Library! Participants will learn strategies to complete challenging math problems and can compete in the National Math Club Competition in April. […]
+CATEGORIES:Community & Civic
+URL:https://www.sheplibrary.org/event/middle-school-math-club-4/2026-04-13/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260414T090000Z-7107d19f-e865-5c37-95b9-bc497a23368c@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260414T090000Z
+DTEND:20260414T120000Z
+SUMMARY:Social Seniors Leisure Lounge
+LOCATION:Shepherdstown Public Library Commons Room
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Stop by the library 9AM - 12PM on Tuesday for the Social Seniors Leisure Lounge and enjoy coffee and conversation with friends and neighbors! Make new friends\, find out what's […]
+CATEGORIES:Seniors
+URL:https://www.sheplibrary.org/event/social-seniors-leisure-lounge/2026-04-14/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260414T110000Z-fc13f450-5bd3-5d49-98cb-2709aec7150a@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260414T110000Z
+DTEND:20260414T113000Z
+SUMMARY:Baby & Toddler Story Time
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Ms. Jessie will lead our youngest patrons on adventures through songs\, rhymes\, stories and socializing. Best for ages 0 - 2.
+CATEGORIES:Family & Kids
+URL:https://www.sheplibrary.org/event/baby-toddler-story-time-3/2026-04-14/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260414T133000Z-082e848e-0b41-560d-8459-36aec1f94b8c@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260414T133000Z
+DTEND:20260414T143000Z
+SUMMARY:Restore Your Self
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:In this 4-week workshop\, you will be given a copy of the book\, Restore Your Self\, and you will become familiar with the Bright technique for self-healing. This technique involves […]
+CATEGORIES:Uncategorized
+URL:https://www.sheplibrary.org/event/restore-your-self/2026-04-14/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260414T160000Z-74f309d7-981d-5e49-a7fd-f9135ffe0288@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260414T160000Z
+DTEND:20260414T170000Z
+SUMMARY:STEM Club
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Our STEM Club for students offers hands-on activities and projects to explore science\, technology\, engineering\, and mathematics in a fun and interactive way. Best for Ages 5 - 10. Parents […]
+CATEGORIES:Community & Civic
+URL:https://www.sheplibrary.org/event/stem-club-13/2026-04-14/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260415T103000Z-39f6d8f7-2051-5842-b21d-5b16a2935789@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260415T103000Z
+DTEND:20260415T113000Z
+SUMMARY:Socrates Cafe
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:A Socrates Cafe is a gathering where individuals engage in philosophical discussions using the Socratic method\, fostering open dialogue and critical thinking on various topics. These meetings\, inspired by the […]
+CATEGORIES:Education & Workshops
+URL:https://www.sheplibrary.org/event/socrates-cafe-8/2026-04-15/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260415T110000Z-bc1c9476-32c3-5914-9618-22f0fc33394e@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260415T110000Z
+DTEND:20260415T120000Z
+SUMMARY:Pre-School Story Time
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Ms. Jessie will lead our youngest patrons on adventures through songs\, rhymes\, stories and socializing. Best for pre-schoolers ages 3 – 5.
+CATEGORIES:Family & Kids
+URL:https://www.sheplibrary.org/event/pre-school-story-time-3/2026-04-15/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260415T120000Z-d07c6530-41dc-5a74-860f-a35b6f160107@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260415T120000Z
+DTEND:20260415T130000Z
+SUMMARY:Meditation
+LOCATION:
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Explore secular mindfulness and meditation with Kath Meadows of Moving Mountains Yoga. Each session will include guided meditation\, mindfulness topics\, and time for discussion. All levels welcome. No experience required. […]
+CATEGORIES:Health & Wellness
+URL:https://www.sheplibrary.org/event/meditation-7-2-3-3-2-2/2026-04-15/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260416T100000Z-04ae35fe-814a-5921-8b7b-70bd8755e15d@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260416T100000Z
+DTEND:20260416T110000Z
+SUMMARY:Sensory-Friendly Calm Time – Children’s Library
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Sensory-Friendly Library Time: A calm browsing experience for neurodivergent visitors and those with sensory needs. During this dedicated hour\, we create a low-stimulus environment with dimmed lighting and reduced noise. […]
+CATEGORIES:Family & Kids
+URL:https://www.sheplibrary.org/event/sensory-friendly-calm-time-childrens-library/2026-04-16/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260416T160000Z-4a7c66f3-1a7a-5e51-ab29-ebd81eacdaf5@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260416T160000Z
+DTEND:20260416T170000Z
+SUMMARY:Crafternoon
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join us for a craft program for kids where they can make fun art projects and learn new skills. Best for Ages 5 – 11. Parents are asked to remain […]
+CATEGORIES:Arts & Culture
+URL:https://www.sheplibrary.org/event/crafternoon-12/2026-04-16/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260416T190000Z-2da32970-ed77-5464-9a25-cc622e128d2f@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260416T190000Z
+DTEND:20260416T200000Z
+SUMMARY:Shepherdstown Public Library Board Meeting
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:
+CATEGORIES:Community & Civic
+URL:https://www.sheplibrary.org/event/shepherdstown-public-library-board-meeting-4/2026-04-16/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260417T110000Z-de7de582-5a29-548f-a41d-78df5a9ae22d@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260417T110000Z
+DTEND:20260417T120000Z
+SUMMARY:Wild Wonders Nature Club
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Through hands-on experiences and creative projects\, we aim to inspire the next generation of nature enthusiasts and environmental stewards. This program is for children aged 6 to 10. We won’t […]
+CATEGORIES:Community & Civic, Outdoors & Nature
+URL:https://www.sheplibrary.org/event/wild-wonders-nature-club-3/2026-04-17/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260417T110000Z-2b88c3be-c154-5626-a41e-969e3c0ff8eb@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260417T110000Z
+DTEND:20260417T130000Z
+SUMMARY:Sip & Stitch
+LOCATION:Shepherdstown Public Library Commons Room
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Bring your current craft project (knit\, crochet\, quilt\, whatever)\, and enjoy time with other creators. All levels and types of crafters are welcome!
+CATEGORIES:Arts & Culture
+URL:https://www.sheplibrary.org/event/sip-stitch-2-2/2026-04-17/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260417T130000Z-f41dd27e-68d6-5958-ab22-64753f009016@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260417T130000Z
+DTEND:20260417T140000Z
+SUMMARY:Youth Chess Club
+LOCATION:
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join us for a youth chess club where kids & teens can learn\, play\, and have fun while improving their chess skills in a friendly environment. Ages 6 -18. Parents […]
+CATEGORIES:Community & Civic, Family & Kids, Games
+URL:https://www.sheplibrary.org/event/youth-chess-club-3-2/2026-04-17/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260417T133000Z-6dd5a570-1d32-5545-9b5f-f27e48c9d6da@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260417T133000Z
+DTEND:20260417T163000Z
+SUMMARY:Mahjong
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Are you a Mahjong player\, or have you always wanted to learn? Join us at the library on Fridays beginning in February for weekly Mahjong! We will have players willing […]
+CATEGORIES:Games
+URL:https://www.sheplibrary.org/event/mahjong/2026-04-17/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260417T140000Z-8f8f4618-0c1f-5b3b-84b6-c39eb99340de@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260417T140000Z
+DTEND:20260417T150000Z
+SUMMARY:Homeschool Teen Hangout
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:In this monthly afternoon program\, teens can play board games\, video games\, or just hang out! The Library has a Wii and plenty of board games. Teens are welcome to […]
+CATEGORIES:Family & Kids
+URL:https://www.sheplibrary.org/event/homeschool-teen-hangout-2/2026-04-17/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260418T110000Z-b4344761-40cd-52ff-98ff-be75976e056d@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260418T110000Z
+DTEND:20260418T130000Z
+SUMMARY:Lego Club
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Come to the monthly Lego Club for fun and creativity with the library's extensive lego collection!  There will also be duplos on the carpet for the little ones. Best for […]
+CATEGORIES:Community & Civic
+URL:https://www.sheplibrary.org/event/lego-club-19/2026-04-18/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260420T090000Z-6024a344-f3b2-5279-a7e0-eeaf870a2f89@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260420T090000Z
+DTEND:20260420T100000Z
+SUMMARY:QiGong Class
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:The meditative movement QiGong will be taught and lead at the library by Chuck Steg. QiGong is a Chinese practice that involves movement\, breathing\, and meditation to improve health and […]
+CATEGORIES:Health & Wellness
+URL:https://www.sheplibrary.org/event/qigong-class-4/2026-04-20/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260420T103000Z-685b7140-56db-53d0-b803-aa47942f5f05@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260420T103000Z
+DTEND:20260420T113000Z
+SUMMARY:Adaptive Chair Yoga with Dee Marshall
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join us for Adaptive Chair Yoga\, a gentle and accessible yoga practice designed for all abilities. This class offers the benefits of yoga—including improved flexibility\, balance\, and relaxation—while using a […]
+CATEGORIES:Health & Wellness
+URL:https://www.sheplibrary.org/event/adaptive-chair-yoga-with-dee-marshall-2/2026-04-20/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260420T160000Z-8f226daf-9ada-52c7-b5ab-26b399325d06@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260420T160000Z
+DTEND:20260420T170000Z
+SUMMARY:Art Club for Middle & High Schoolers
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:This relaxed\, drop-in club for Middle and High Schooler explores a different art medium each week. Mediums include collage\, acrylic paint\, clay\, watercolors\, and more!
+CATEGORIES:Arts & Culture, Community & Civic
+URL:https://www.sheplibrary.org/event/teen-art-club-11-3/2026-04-20/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260420T163000Z-2d7f908d-47a3-5051-867f-33b0bc5d20a0@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260420T163000Z
+DTEND:20260420T173000Z
+SUMMARY:Middle School Math Club
+LOCATION:Shepherdstown Public Library Teen Room
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join the competition math program at the Shepherdstown Public Library! Participants will learn strategies to complete challenging math problems and can compete in the National Math Club Competition in April. […]
+CATEGORIES:Community & Civic
+URL:https://www.sheplibrary.org/event/middle-school-math-club-4/2026-04-20/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260421T090000Z-7107d19f-e865-5c37-95b9-bc497a23368c@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260421T090000Z
+DTEND:20260421T120000Z
+SUMMARY:Social Seniors Leisure Lounge
+LOCATION:Shepherdstown Public Library Commons Room
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Stop by the library 9AM - 12PM on Tuesday for the Social Seniors Leisure Lounge and enjoy coffee and conversation with friends and neighbors! Make new friends\, find out what's […]
+CATEGORIES:Seniors
+URL:https://www.sheplibrary.org/event/social-seniors-leisure-lounge/2026-04-21/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260421T110000Z-fc13f450-5bd3-5d49-98cb-2709aec7150a@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260421T110000Z
+DTEND:20260421T113000Z
+SUMMARY:Baby & Toddler Story Time
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Ms. Jessie will lead our youngest patrons on adventures through songs\, rhymes\, stories and socializing. Best for ages 0 - 2.
+CATEGORIES:Family & Kids
+URL:https://www.sheplibrary.org/event/baby-toddler-story-time-3/2026-04-21/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260421T133000Z-082e848e-0b41-560d-8459-36aec1f94b8c@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260421T133000Z
+DTEND:20260421T143000Z
+SUMMARY:Restore Your Self
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:In this 4-week workshop\, you will be given a copy of the book\, Restore Your Self\, and you will become familiar with the Bright technique for self-healing. This technique involves […]
+CATEGORIES:Uncategorized
+URL:https://www.sheplibrary.org/event/restore-your-self/2026-04-21/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260421T160000Z-74f309d7-981d-5e49-a7fd-f9135ffe0288@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260421T160000Z
+DTEND:20260421T170000Z
+SUMMARY:STEM Club
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Our STEM Club for students offers hands-on activities and projects to explore science\, technology\, engineering\, and mathematics in a fun and interactive way. Best for Ages 5 - 10. Parents […]
+CATEGORIES:Community & Civic
+URL:https://www.sheplibrary.org/event/stem-club-13/2026-04-21/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260422T110000Z-bc1c9476-32c3-5914-9618-22f0fc33394e@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260422T110000Z
+DTEND:20260422T120000Z
+SUMMARY:Pre-School Story Time
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Ms. Jessie will lead our youngest patrons on adventures through songs\, rhymes\, stories and socializing. Best for pre-schoolers ages 3 – 5.
+CATEGORIES:Family & Kids
+URL:https://www.sheplibrary.org/event/pre-school-story-time-3/2026-04-22/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260422T120000Z-d07c6530-41dc-5a74-860f-a35b6f160107@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260422T120000Z
+DTEND:20260422T130000Z
+SUMMARY:Meditation
+LOCATION:
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Explore secular mindfulness and meditation with Kath Meadows of Moving Mountains Yoga. Each session will include guided meditation\, mindfulness topics\, and time for discussion. All levels welcome. No experience required. […]
+CATEGORIES:Health & Wellness
+URL:https://www.sheplibrary.org/event/meditation-7-2-3-3-2-2/2026-04-22/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260422T170000Z-7bf7b04b-6112-57cc-83ed-de0ee54ec1c5@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260422T170000Z
+DTEND:20260422T180000Z
+SUMMARY:"All Booked Up" No Pressure Book Club
+LOCATION:Shepherdstown Public Library Commons Room
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:    All Booked Up is a space for busy parents who love to read but don't have time for traditional book clubs. Instead of assigned books\, we share what […]
+CATEGORIES:Community & Civic
+URL:https://www.sheplibrary.org/event/7992/2026-04-22/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260423T100000Z-44845e1e-60d0-50e6-95b3-5bbf85c5073a@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260423T100000Z
+DTEND:20260423T110000Z
+SUMMARY:Sensory-Friendly Calm Time - Children's Library
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Sensory-Friendly Library Time: A calm browsing experience for neurodivergent visitors and those with sensory needs. During this dedicated hour\, we create a low-stimulus environment with dimmed lighting and reduced noise. […]
+CATEGORIES:Family & Kids
+URL:https://www.sheplibrary.org/event/sensory-friendly-calm-time-childrens-library/2026-04-23/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260423T103000Z-4cb66630-9b08-5549-a7a2-09749d3f95d3@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260423T103000Z
+DTEND:20260423T113000Z
+SUMMARY:Dementia Caregivers Support Group
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Dementia Caregivers Support Group – Join us for a supportive and understanding space to share experiences\, find resources\, and connect with others caring for loved ones with dementia. You are […]
+CATEGORIES:Community & Civic
+URL:https://www.sheplibrary.org/event/dementia-caregivers-support-group-3/2026-04-23/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260423T103000Z-2d158848-7034-516a-a228-68b55f8ee6e5@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260423T103000Z
+DTEND:20260423T123000Z
+SUMMARY:The Enneagram Instinctual Subtypes: As If the Nine Types Weren't Interesting Enough!
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Three survival instincts provide context for the Enneagram types to be on display. This program invites participants to consider not only how prioritizing instincts differently can lead to interpersonal misunderstanding […]
+CATEGORIES:Uncategorized
+URL:https://www.sheplibrary.org/event/the-enneagram-instinctual-subtypes-as-if-the-nine-types-werent-interesting-enough/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260423T160000Z-4a7c66f3-1a7a-5e51-ab29-ebd81eacdaf5@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260423T160000Z
+DTEND:20260423T170000Z
+SUMMARY:Crafternoon
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join us for a craft program for kids where they can make fun art projects and learn new skills. Best for Ages 5 – 11. Parents are asked to remain […]
+CATEGORIES:Arts & Culture
+URL:https://www.sheplibrary.org/event/crafternoon-12/2026-04-23/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260424T110000Z-de7de582-5a29-548f-a41d-78df5a9ae22d@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260424T110000Z
+DTEND:20260424T120000Z
+SUMMARY:Wild Wonders Nature Club
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Through hands-on experiences and creative projects\, we aim to inspire the next generation of nature enthusiasts and environmental stewards. This program is for children aged 6 to 10. We won’t […]
+CATEGORIES:Community & Civic, Outdoors & Nature
+URL:https://www.sheplibrary.org/event/wild-wonders-nature-club-3/2026-04-24/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260424T110000Z-2b88c3be-c154-5626-a41e-969e3c0ff8eb@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260424T110000Z
+DTEND:20260424T130000Z
+SUMMARY:Sip & Stitch
+LOCATION:Shepherdstown Public Library Commons Room
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Bring your current craft project (knit\, crochet\, quilt\, whatever)\, and enjoy time with other creators. All levels and types of crafters are welcome!
+CATEGORIES:Arts & Culture
+URL:https://www.sheplibrary.org/event/sip-stitch-2-2/2026-04-24/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260424T130000Z-f41dd27e-68d6-5958-ab22-64753f009016@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260424T130000Z
+DTEND:20260424T140000Z
+SUMMARY:Youth Chess Club
+LOCATION:
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join us for a youth chess club where kids & teens can learn\, play\, and have fun while improving their chess skills in a friendly environment. Ages 6 -18. Parents […]
+CATEGORIES:Community & Civic, Family & Kids, Games
+URL:https://www.sheplibrary.org/event/youth-chess-club-3-2/2026-04-24/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260424T133000Z-6dd5a570-1d32-5545-9b5f-f27e48c9d6da@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260424T133000Z
+DTEND:20260424T163000Z
+SUMMARY:Mahjong
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Are you a Mahjong player\, or have you always wanted to learn? Join us at the library on Fridays beginning in February for weekly Mahjong! We will have players willing […]
+CATEGORIES:Games
+URL:https://www.sheplibrary.org/event/mahjong/2026-04-24/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260425T110000Z-4fcdbe20-2926-5382-9363-c8f81a613d57@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260425T110000Z
+DTEND:20260425T120000Z
+SUMMARY:Building for Birds Earth Day Film
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join us for the short film Building for Birds to celebrate Earth Day! This documentary highlights the deadly impact of glass windows on bird populations and showcases innovative solutions being […]
+CATEGORIES:Arts & Culture, Film & Performing Arts, Outdoors & Nature
+URL:https://www.sheplibrary.org/event/building-for-birds-earth-day-film/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260425T130000Z-d8dd5740-30fe-5ca6-87b1-8cd8dfcd4eef@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260425T130000Z
+DTEND:20260425T150000Z
+SUMMARY:Adult Craft: Handmade Sewing Kits
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Using recycled materials\, create this cute sewing kit for yourself or your favorite crafter! Registration required\, no last minute walk-ins please. Email director@sheplibrary.org to sign up today!
+CATEGORIES:Arts & Culture
+URL:https://www.sheplibrary.org/event/adult-craft-sewing-kits/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260427T090000Z-6024a344-f3b2-5279-a7e0-eeaf870a2f89@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260427T090000Z
+DTEND:20260427T100000Z
+SUMMARY:QiGong Class
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:The meditative movement QiGong will be taught and lead at the library by Chuck Steg. QiGong is a Chinese practice that involves movement\, breathing\, and meditation to improve health and […]
+CATEGORIES:Health & Wellness
+URL:https://www.sheplibrary.org/event/qigong-class-4/2026-04-27/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260427T103000Z-685b7140-56db-53d0-b803-aa47942f5f05@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260427T103000Z
+DTEND:20260427T113000Z
+SUMMARY:Adaptive Chair Yoga with Dee Marshall
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join us for Adaptive Chair Yoga\, a gentle and accessible yoga practice designed for all abilities. This class offers the benefits of yoga—including improved flexibility\, balance\, and relaxation—while using a […]
+CATEGORIES:Health & Wellness
+URL:https://www.sheplibrary.org/event/adaptive-chair-yoga-with-dee-marshall-2/2026-04-27/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260427T160000Z-8f226daf-9ada-52c7-b5ab-26b399325d06@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260427T160000Z
+DTEND:20260427T170000Z
+SUMMARY:Art Club for Middle & High Schoolers
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:This relaxed\, drop-in club for Middle and High Schooler explores a different art medium each week. Mediums include collage\, acrylic paint\, clay\, watercolors\, and more!
+CATEGORIES:Arts & Culture, Community & Civic
+URL:https://www.sheplibrary.org/event/teen-art-club-11-3/2026-04-27/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260427T163000Z-2d7f908d-47a3-5051-867f-33b0bc5d20a0@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260427T163000Z
+DTEND:20260427T173000Z
+SUMMARY:Middle School Math Club
+LOCATION:Shepherdstown Public Library Teen Room
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join the competition math program at the Shepherdstown Public Library! Participants will learn strategies to complete challenging math problems and can compete in the National Math Club Competition in April. […]
+CATEGORIES:Community & Civic
+URL:https://www.sheplibrary.org/event/middle-school-math-club-4/2026-04-27/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260428T090000Z-7107d19f-e865-5c37-95b9-bc497a23368c@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260428T090000Z
+DTEND:20260428T120000Z
+SUMMARY:Social Seniors Leisure Lounge
+LOCATION:Shepherdstown Public Library Commons Room
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Stop by the library 9AM - 12PM on Tuesday for the Social Seniors Leisure Lounge and enjoy coffee and conversation with friends and neighbors! Make new friends\, find out what's […]
+CATEGORIES:Seniors
+URL:https://www.sheplibrary.org/event/social-seniors-leisure-lounge/2026-04-28/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260428T110000Z-fc13f450-5bd3-5d49-98cb-2709aec7150a@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260428T110000Z
+DTEND:20260428T113000Z
+SUMMARY:Baby & Toddler Story Time
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Ms. Jessie will lead our youngest patrons on adventures through songs\, rhymes\, stories and socializing. Best for ages 0 - 2.
+CATEGORIES:Family & Kids
+URL:https://www.sheplibrary.org/event/baby-toddler-story-time-3/2026-04-28/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260428T133000Z-082e848e-0b41-560d-8459-36aec1f94b8c@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260428T133000Z
+DTEND:20260428T143000Z
+SUMMARY:Restore Your Self
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:In this 4-week workshop\, you will be given a copy of the book\, Restore Your Self\, and you will become familiar with the Bright technique for self-healing. This technique involves […]
+CATEGORIES:Uncategorized
+URL:https://www.sheplibrary.org/event/restore-your-self/2026-04-28/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260428T160000Z-74f309d7-981d-5e49-a7fd-f9135ffe0288@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260428T160000Z
+DTEND:20260428T170000Z
+SUMMARY:STEM Club
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Our STEM Club for students offers hands-on activities and projects to explore science\, technology\, engineering\, and mathematics in a fun and interactive way. Best for Ages 5 - 10. Parents […]
+CATEGORIES:Community & Civic
+URL:https://www.sheplibrary.org/event/stem-club-13/2026-04-28/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260429T110000Z-bc1c9476-32c3-5914-9618-22f0fc33394e@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260429T110000Z
+DTEND:20260429T120000Z
+SUMMARY:Pre-School Story Time
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Ms. Jessie will lead our youngest patrons on adventures through songs\, rhymes\, stories and socializing. Best for pre-schoolers ages 3 – 5.
+CATEGORIES:Family & Kids
+URL:https://www.sheplibrary.org/event/pre-school-story-time-3/2026-04-29/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260429T120000Z-d07c6530-41dc-5a74-860f-a35b6f160107@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260429T120000Z
+DTEND:20260429T130000Z
+SUMMARY:Meditation
+LOCATION:
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Explore secular mindfulness and meditation with Kath Meadows of Moving Mountains Yoga. Each session will include guided meditation\, mindfulness topics\, and time for discussion. All levels welcome. No experience required. […]
+CATEGORIES:Health & Wellness
+URL:https://www.sheplibrary.org/event/meditation-7-2-3-3-2-2/2026-04-29/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260430T100000Z-44845e1e-60d0-50e6-95b3-5bbf85c5073a@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260430T100000Z
+DTEND:20260430T110000Z
+SUMMARY:Sensory-Friendly Calm Time - Children's Library
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Sensory-Friendly Library Time: A calm browsing experience for neurodivergent visitors and those with sensory needs. During this dedicated hour\, we create a low-stimulus environment with dimmed lighting and reduced noise. […]
+CATEGORIES:Family & Kids
+URL:https://www.sheplibrary.org/event/sensory-friendly-calm-time-childrens-library/2026-04-30/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260501T110000Z-2b88c3be-c154-5626-a41e-969e3c0ff8eb@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260501T110000Z
+DTEND:20260501T130000Z
+SUMMARY:Sip & Stitch
+LOCATION:Shepherdstown Public Library Commons Room
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Bring your current craft project (knit\, crochet\, quilt\, whatever)\, and enjoy time with other creators. All levels and types of crafters are welcome!
+CATEGORIES:Arts & Culture
+URL:https://www.sheplibrary.org/event/sip-stitch-2-2/2026-05-01/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260501T130000Z-f41dd27e-68d6-5958-ab22-64753f009016@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260501T130000Z
+DTEND:20260501T140000Z
+SUMMARY:Youth Chess Club
+LOCATION:
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join us for a youth chess club where kids & teens can learn\, play\, and have fun while improving their chess skills in a friendly environment. Ages 6 -18. Parents […]
+CATEGORIES:Community & Civic, Family & Kids, Games
+URL:https://www.sheplibrary.org/event/youth-chess-club-3-2/2026-05-01/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260504T090000Z-6024a344-f3b2-5279-a7e0-eeaf870a2f89@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260504T090000Z
+DTEND:20260504T100000Z
+SUMMARY:QiGong Class
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:The meditative movement QiGong will be taught and lead at the library by Chuck Steg. QiGong is a Chinese practice that involves movement\, breathing\, and meditation to improve health and […]
+CATEGORIES:Health & Wellness
+URL:https://www.sheplibrary.org/event/qigong-class-4/2026-05-04/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260504T103000Z-685b7140-56db-53d0-b803-aa47942f5f05@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260504T103000Z
+DTEND:20260504T113000Z
+SUMMARY:Adaptive Chair Yoga with Dee Marshall
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join us for Adaptive Chair Yoga\, a gentle and accessible yoga practice designed for all abilities. This class offers the benefits of yoga—including improved flexibility\, balance\, and relaxation—while using a […]
+CATEGORIES:Health & Wellness
+URL:https://www.sheplibrary.org/event/adaptive-chair-yoga-with-dee-marshall-2/2026-05-04/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260504T160000Z-8f226daf-9ada-52c7-b5ab-26b399325d06@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260504T160000Z
+DTEND:20260504T170000Z
+SUMMARY:Art Club for Middle & High Schoolers
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:This relaxed\, drop-in club for Middle and High Schooler explores a different art medium each week. Mediums include collage\, acrylic paint\, clay\, watercolors\, and more!
+CATEGORIES:Arts & Culture, Community & Civic
+URL:https://www.sheplibrary.org/event/teen-art-club-11-3/2026-05-04/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260505T090000Z-7107d19f-e865-5c37-95b9-bc497a23368c@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260505T090000Z
+DTEND:20260505T120000Z
+SUMMARY:Social Seniors Leisure Lounge
+LOCATION:Shepherdstown Public Library Commons Room
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Stop by the library 9AM - 12PM on Tuesday for the Social Seniors Leisure Lounge and enjoy coffee and conversation with friends and neighbors! Make new friends\, find out what's […]
+CATEGORIES:Seniors
+URL:https://www.sheplibrary.org/event/social-seniors-leisure-lounge/2026-05-05/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260505T110000Z-fc13f450-5bd3-5d49-98cb-2709aec7150a@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260505T110000Z
+DTEND:20260505T113000Z
+SUMMARY:Baby & Toddler Story Time
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Ms. Jessie will lead our youngest patrons on adventures through songs\, rhymes\, stories and socializing. Best for ages 0 - 2.
+CATEGORIES:Family & Kids
+URL:https://www.sheplibrary.org/event/baby-toddler-story-time-3/2026-05-05/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260505T120000Z-ca491909-aa1b-5267-a07f-bc94e0325567@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260505T120000Z
+DTEND:20260505T133000Z
+SUMMARY:Death Cafe
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join us for Death Café every 1st Tuesday from 12:00–1:30 p.m. at the library! It’s a welcoming space to talk openly about life\, death\, and everything in between—no agenda\, just […]
+CATEGORIES:Education & Workshops
+URL:https://www.sheplibrary.org/event/death-cafe-2-2-2/2026-05-05/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260505T160000Z-74f309d7-981d-5e49-a7fd-f9135ffe0288@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260505T160000Z
+DTEND:20260505T170000Z
+SUMMARY:STEM Club
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Our STEM Club for students offers hands-on activities and projects to explore science\, technology\, engineering\, and mathematics in a fun and interactive way. Best for Ages 5 - 10. Parents […]
+CATEGORIES:Community & Civic
+URL:https://www.sheplibrary.org/event/stem-club-13/2026-05-05/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260506T110000Z-bc1c9476-32c3-5914-9618-22f0fc33394e@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260506T110000Z
+DTEND:20260506T120000Z
+SUMMARY:Pre-School Story Time
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Ms. Jessie will lead our youngest patrons on adventures through songs\, rhymes\, stories and socializing. Best for pre-schoolers ages 3 – 5.
+CATEGORIES:Family & Kids
+URL:https://www.sheplibrary.org/event/pre-school-story-time-3/2026-05-06/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260506T120000Z-d07c6530-41dc-5a74-860f-a35b6f160107@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260506T120000Z
+DTEND:20260506T130000Z
+SUMMARY:Meditation
+LOCATION:
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Explore secular mindfulness and meditation with Kath Meadows of Moving Mountains Yoga. Each session will include guided meditation\, mindfulness topics\, and time for discussion. All levels welcome. No experience required. […]
+CATEGORIES:Health & Wellness
+URL:https://www.sheplibrary.org/event/meditation-7-2-3-3-2-2/2026-05-06/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260507T100000Z-44845e1e-60d0-50e6-95b3-5bbf85c5073a@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260507T100000Z
+DTEND:20260507T110000Z
+SUMMARY:Sensory-Friendly Calm Time - Children's Library
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Sensory-Friendly Library Time: A calm browsing experience for neurodivergent visitors and those with sensory needs. During this dedicated hour\, we create a low-stimulus environment with dimmed lighting and reduced noise. […]
+CATEGORIES:Family & Kids
+URL:https://www.sheplibrary.org/event/sensory-friendly-calm-time-childrens-library/2026-05-07/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260507T160000Z-4a7c66f3-1a7a-5e51-ab29-ebd81eacdaf5@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260507T160000Z
+DTEND:20260507T170000Z
+SUMMARY:Crafternoon
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join us for a craft program for kids where they can make fun art projects and learn new skills. Best for Ages 5 – 11. Parents are asked to remain […]
+CATEGORIES:Arts & Culture
+URL:https://www.sheplibrary.org/event/crafternoon-12/2026-05-07/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260508T110000Z-2b88c3be-c154-5626-a41e-969e3c0ff8eb@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260508T110000Z
+DTEND:20260508T130000Z
+SUMMARY:Sip & Stitch
+LOCATION:Shepherdstown Public Library Commons Room
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Bring your current craft project (knit\, crochet\, quilt\, whatever)\, and enjoy time with other creators. All levels and types of crafters are welcome!
+CATEGORIES:Arts & Culture
+URL:https://www.sheplibrary.org/event/sip-stitch-2-2/2026-05-08/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260508T130000Z-f41dd27e-68d6-5958-ab22-64753f009016@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260508T130000Z
+DTEND:20260508T140000Z
+SUMMARY:Youth Chess Club
+LOCATION:
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join us for a youth chess club where kids & teens can learn\, play\, and have fun while improving their chess skills in a friendly environment. Ages 6 -18. Parents […]
+CATEGORIES:Community & Civic, Family & Kids, Games
+URL:https://www.sheplibrary.org/event/youth-chess-club-3-2/2026-05-08/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260509T130000Z-978d8caa-7280-5357-a9a0-e5b5bd20943f@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260509T130000Z
+DTEND:20260509T150000Z
+SUMMARY:Adult Craft: Clothespin Star Decor
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Using recycled materials\, create this festive clothespin decoration! Registration is limited and required\, no last minute walk-ins please. Email director@sheplibrary.org to sign up today!
+CATEGORIES:Arts & Culture
+URL:https://www.sheplibrary.org/event/adult-craft-clothespin-star-decor/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260511T090000Z-6024a344-f3b2-5279-a7e0-eeaf870a2f89@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260511T090000Z
+DTEND:20260511T100000Z
+SUMMARY:QiGong Class
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:The meditative movement QiGong will be taught and lead at the library by Chuck Steg. QiGong is a Chinese practice that involves movement\, breathing\, and meditation to improve health and […]
+CATEGORIES:Health & Wellness
+URL:https://www.sheplibrary.org/event/qigong-class-4/2026-05-11/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260511T103000Z-685b7140-56db-53d0-b803-aa47942f5f05@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260511T103000Z
+DTEND:20260511T113000Z
+SUMMARY:Adaptive Chair Yoga with Dee Marshall
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join us for Adaptive Chair Yoga\, a gentle and accessible yoga practice designed for all abilities. This class offers the benefits of yoga—including improved flexibility\, balance\, and relaxation—while using a […]
+CATEGORIES:Health & Wellness
+URL:https://www.sheplibrary.org/event/adaptive-chair-yoga-with-dee-marshall-2/2026-05-11/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260511T160000Z-8f226daf-9ada-52c7-b5ab-26b399325d06@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260511T160000Z
+DTEND:20260511T170000Z
+SUMMARY:Art Club for Middle & High Schoolers
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:This relaxed\, drop-in club for Middle and High Schooler explores a different art medium each week. Mediums include collage\, acrylic paint\, clay\, watercolors\, and more!
+CATEGORIES:Arts & Culture, Community & Civic
+URL:https://www.sheplibrary.org/event/teen-art-club-11-3/2026-05-11/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260512T090000Z-7107d19f-e865-5c37-95b9-bc497a23368c@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260512T090000Z
+DTEND:20260512T120000Z
+SUMMARY:Social Seniors Leisure Lounge
+LOCATION:Shepherdstown Public Library Commons Room
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Stop by the library 9AM - 12PM on Tuesday for the Social Seniors Leisure Lounge and enjoy coffee and conversation with friends and neighbors! Make new friends\, find out what's […]
+CATEGORIES:Seniors
+URL:https://www.sheplibrary.org/event/social-seniors-leisure-lounge/2026-05-12/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260512T110000Z-fc13f450-5bd3-5d49-98cb-2709aec7150a@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260512T110000Z
+DTEND:20260512T113000Z
+SUMMARY:Baby & Toddler Story Time
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Ms. Jessie will lead our youngest patrons on adventures through songs\, rhymes\, stories and socializing. Best for ages 0 - 2.
+CATEGORIES:Family & Kids
+URL:https://www.sheplibrary.org/event/baby-toddler-story-time-3/2026-05-12/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260512T160000Z-74f309d7-981d-5e49-a7fd-f9135ffe0288@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260512T160000Z
+DTEND:20260512T170000Z
+SUMMARY:STEM Club
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Our STEM Club for students offers hands-on activities and projects to explore science\, technology\, engineering\, and mathematics in a fun and interactive way. Best for Ages 5 - 10. Parents […]
+CATEGORIES:Community & Civic
+URL:https://www.sheplibrary.org/event/stem-club-13/2026-05-12/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260513T110000Z-bc1c9476-32c3-5914-9618-22f0fc33394e@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260513T110000Z
+DTEND:20260513T120000Z
+SUMMARY:Pre-School Story Time
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Ms. Jessie will lead our youngest patrons on adventures through songs\, rhymes\, stories and socializing. Best for pre-schoolers ages 3 – 5.
+CATEGORIES:Family & Kids
+URL:https://www.sheplibrary.org/event/pre-school-story-time-3/2026-05-13/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260513T120000Z-d07c6530-41dc-5a74-860f-a35b6f160107@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260513T120000Z
+DTEND:20260513T130000Z
+SUMMARY:Meditation
+LOCATION:
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Explore secular mindfulness and meditation with Kath Meadows of Moving Mountains Yoga. Each session will include guided meditation\, mindfulness topics\, and time for discussion. All levels welcome. No experience required. […]
+CATEGORIES:Health & Wellness
+URL:https://www.sheplibrary.org/event/meditation-7-2-3-3-2-2/2026-05-13/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260514T100000Z-44845e1e-60d0-50e6-95b3-5bbf85c5073a@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260514T100000Z
+DTEND:20260514T110000Z
+SUMMARY:Sensory-Friendly Calm Time - Children's Library
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Sensory-Friendly Library Time: A calm browsing experience for neurodivergent visitors and those with sensory needs. During this dedicated hour\, we create a low-stimulus environment with dimmed lighting and reduced noise. […]
+CATEGORIES:Family & Kids
+URL:https://www.sheplibrary.org/event/sensory-friendly-calm-time-childrens-library/2026-05-14/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260514T110000Z-6aacb8b5-066f-583d-a0e3-a7de928a463b@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260514T110000Z
+DTEND:20260514T120000Z
+SUMMARY:Genealogy Club
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Come work on your individual research in a group setting. We will help each other with research and share our successes and roadblocks. Explore a variety of resources and learn […]
+CATEGORIES:Community & Civic
+URL:https://www.sheplibrary.org/event/genealogy-club/2026-05-14/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260514T160000Z-4a7c66f3-1a7a-5e51-ab29-ebd81eacdaf5@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260514T160000Z
+DTEND:20260514T170000Z
+SUMMARY:Crafternoon
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join us for a craft program for kids where they can make fun art projects and learn new skills. Best for Ages 5 – 11. Parents are asked to remain […]
+CATEGORIES:Arts & Culture
+URL:https://www.sheplibrary.org/event/crafternoon-12/2026-05-14/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260515T110000Z-2b88c3be-c154-5626-a41e-969e3c0ff8eb@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260515T110000Z
+DTEND:20260515T130000Z
+SUMMARY:Sip & Stitch
+LOCATION:Shepherdstown Public Library Commons Room
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Bring your current craft project (knit\, crochet\, quilt\, whatever)\, and enjoy time with other creators. All levels and types of crafters are welcome!
+CATEGORIES:Arts & Culture
+URL:https://www.sheplibrary.org/event/sip-stitch-2-2/2026-05-15/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260515T130000Z-f41dd27e-68d6-5958-ab22-64753f009016@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260515T130000Z
+DTEND:20260515T140000Z
+SUMMARY:Youth Chess Club
+LOCATION:
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join us for a youth chess club where kids & teens can learn\, play\, and have fun while improving their chess skills in a friendly environment. Ages 6 -18. Parents […]
+CATEGORIES:Community & Civic, Family & Kids, Games
+URL:https://www.sheplibrary.org/event/youth-chess-club-3-2/2026-05-15/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260515T140000Z-8f8f4618-0c1f-5b3b-84b6-c39eb99340de@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260515T140000Z
+DTEND:20260515T150000Z
+SUMMARY:Homeschool Teen Hangout
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:In this monthly afternoon program\, teens can play board games\, video games\, or just hang out! The Library has a Wii and plenty of board games. Teens are welcome to […]
+CATEGORIES:Family & Kids
+URL:https://www.sheplibrary.org/event/homeschool-teen-hangout-2/2026-05-15/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260516T110000Z-b4344761-40cd-52ff-98ff-be75976e056d@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260516T110000Z
+DTEND:20260516T130000Z
+SUMMARY:Lego Club
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Come to the monthly Lego Club for fun and creativity with the library's extensive lego collection!  There will also be duplos on the carpet for the little ones. Best for […]
+CATEGORIES:Community & Civic
+URL:https://www.sheplibrary.org/event/lego-club-19/2026-05-16/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260518T090000Z-6024a344-f3b2-5279-a7e0-eeaf870a2f89@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260518T090000Z
+DTEND:20260518T100000Z
+SUMMARY:QiGong Class
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:The meditative movement QiGong will be taught and lead at the library by Chuck Steg. QiGong is a Chinese practice that involves movement\, breathing\, and meditation to improve health and […]
+CATEGORIES:Health & Wellness
+URL:https://www.sheplibrary.org/event/qigong-class-4/2026-05-18/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260518T103000Z-685b7140-56db-53d0-b803-aa47942f5f05@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260518T103000Z
+DTEND:20260518T113000Z
+SUMMARY:Adaptive Chair Yoga with Dee Marshall
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join us for Adaptive Chair Yoga\, a gentle and accessible yoga practice designed for all abilities. This class offers the benefits of yoga—including improved flexibility\, balance\, and relaxation—while using a […]
+CATEGORIES:Health & Wellness
+URL:https://www.sheplibrary.org/event/adaptive-chair-yoga-with-dee-marshall-2/2026-05-18/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260518T160000Z-8f226daf-9ada-52c7-b5ab-26b399325d06@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260518T160000Z
+DTEND:20260518T170000Z
+SUMMARY:Art Club for Middle & High Schoolers
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:This relaxed\, drop-in club for Middle and High Schooler explores a different art medium each week. Mediums include collage\, acrylic paint\, clay\, watercolors\, and more!
+CATEGORIES:Arts & Culture, Community & Civic
+URL:https://www.sheplibrary.org/event/teen-art-club-11-3/2026-05-18/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260519T090000Z-7107d19f-e865-5c37-95b9-bc497a23368c@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260519T090000Z
+DTEND:20260519T120000Z
+SUMMARY:Social Seniors Leisure Lounge
+LOCATION:Shepherdstown Public Library Commons Room
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Stop by the library 9AM - 12PM on Tuesday for the Social Seniors Leisure Lounge and enjoy coffee and conversation with friends and neighbors! Make new friends\, find out what's […]
+CATEGORIES:Seniors
+URL:https://www.sheplibrary.org/event/social-seniors-leisure-lounge/2026-05-19/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260519T110000Z-fc13f450-5bd3-5d49-98cb-2709aec7150a@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260519T110000Z
+DTEND:20260519T113000Z
+SUMMARY:Baby & Toddler Story Time
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Ms. Jessie will lead our youngest patrons on adventures through songs\, rhymes\, stories and socializing. Best for ages 0 - 2.
+CATEGORIES:Family & Kids
+URL:https://www.sheplibrary.org/event/baby-toddler-story-time-3/2026-05-19/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260519T160000Z-74f309d7-981d-5e49-a7fd-f9135ffe0288@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260519T160000Z
+DTEND:20260519T170000Z
+SUMMARY:STEM Club
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Our STEM Club for students offers hands-on activities and projects to explore science\, technology\, engineering\, and mathematics in a fun and interactive way. Best for Ages 5 - 10. Parents […]
+CATEGORIES:Community & Civic
+URL:https://www.sheplibrary.org/event/stem-club-13/2026-05-19/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260520T103000Z-39f6d8f7-2051-5842-b21d-5b16a2935789@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260520T103000Z
+DTEND:20260520T113000Z
+SUMMARY:Socrates Cafe
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:A Socrates Cafe is a gathering where individuals engage in philosophical discussions using the Socratic method\, fostering open dialogue and critical thinking on various topics. These meetings\, inspired by the […]
+CATEGORIES:Education & Workshops
+URL:https://www.sheplibrary.org/event/socrates-cafe-8/2026-05-20/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260520T110000Z-bc1c9476-32c3-5914-9618-22f0fc33394e@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260520T110000Z
+DTEND:20260520T120000Z
+SUMMARY:Pre-School Story Time
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Ms. Jessie will lead our youngest patrons on adventures through songs\, rhymes\, stories and socializing. Best for pre-schoolers ages 3 – 5.
+CATEGORIES:Family & Kids
+URL:https://www.sheplibrary.org/event/pre-school-story-time-3/2026-05-20/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260520T120000Z-d07c6530-41dc-5a74-860f-a35b6f160107@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260520T120000Z
+DTEND:20260520T130000Z
+SUMMARY:Meditation
+LOCATION:
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Explore secular mindfulness and meditation with Kath Meadows of Moving Mountains Yoga. Each session will include guided meditation\, mindfulness topics\, and time for discussion. All levels welcome. No experience required. […]
+CATEGORIES:Health & Wellness
+URL:https://www.sheplibrary.org/event/meditation-7-2-3-3-2-2/2026-05-20/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260520T170000Z-7bf7b04b-6112-57cc-83ed-de0ee54ec1c5@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260520T170000Z
+DTEND:20260520T180000Z
+SUMMARY:"All Booked Up" No Pressure Book Club
+LOCATION:Shepherdstown Public Library Commons Room
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:    All Booked Up is a space for busy parents who love to read but don't have time for traditional book clubs. Instead of assigned books\, we share what […]
+CATEGORIES:Community & Civic
+URL:https://www.sheplibrary.org/event/7992/2026-05-20/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260521T100000Z-44845e1e-60d0-50e6-95b3-5bbf85c5073a@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260521T100000Z
+DTEND:20260521T110000Z
+SUMMARY:Sensory-Friendly Calm Time - Children's Library
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Sensory-Friendly Library Time: A calm browsing experience for neurodivergent visitors and those with sensory needs. During this dedicated hour\, we create a low-stimulus environment with dimmed lighting and reduced noise. […]
+CATEGORIES:Family & Kids
+URL:https://www.sheplibrary.org/event/sensory-friendly-calm-time-childrens-library/2026-05-21/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260521T160000Z-4a7c66f3-1a7a-5e51-ab29-ebd81eacdaf5@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260521T160000Z
+DTEND:20260521T170000Z
+SUMMARY:Crafternoon
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join us for a craft program for kids where they can make fun art projects and learn new skills. Best for Ages 5 – 11. Parents are asked to remain […]
+CATEGORIES:Arts & Culture
+URL:https://www.sheplibrary.org/event/crafternoon-12/2026-05-21/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260521T190000Z-2da32970-ed77-5464-9a25-cc622e128d2f@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260521T190000Z
+DTEND:20260521T200000Z
+SUMMARY:Shepherdstown Public Library Board Meeting
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:
+CATEGORIES:Community & Civic
+URL:https://www.sheplibrary.org/event/shepherdstown-public-library-board-meeting-4/2026-05-21/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260522T110000Z-2b88c3be-c154-5626-a41e-969e3c0ff8eb@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260522T110000Z
+DTEND:20260522T130000Z
+SUMMARY:Sip & Stitch
+LOCATION:Shepherdstown Public Library Commons Room
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Bring your current craft project (knit\, crochet\, quilt\, whatever)\, and enjoy time with other creators. All levels and types of crafters are welcome!
+CATEGORIES:Arts & Culture
+URL:https://www.sheplibrary.org/event/sip-stitch-2-2/2026-05-22/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260522T130000Z-f41dd27e-68d6-5958-ab22-64753f009016@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260522T130000Z
+DTEND:20260522T140000Z
+SUMMARY:Youth Chess Club
+LOCATION:
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join us for a youth chess club where kids & teens can learn\, play\, and have fun while improving their chess skills in a friendly environment. Ages 6 -18. Parents […]
+CATEGORIES:Community & Civic, Family & Kids, Games
+URL:https://www.sheplibrary.org/event/youth-chess-club-3-2/2026-05-22/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260525T090000Z-6024a344-f3b2-5279-a7e0-eeaf870a2f89@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260525T090000Z
+DTEND:20260525T100000Z
+SUMMARY:QiGong Class
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:The meditative movement QiGong will be taught and lead at the library by Chuck Steg. QiGong is a Chinese practice that involves movement\, breathing\, and meditation to improve health and […]
+CATEGORIES:Health & Wellness
+URL:https://www.sheplibrary.org/event/qigong-class-4/2026-05-25/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260525T103000Z-685b7140-56db-53d0-b803-aa47942f5f05@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260525T103000Z
+DTEND:20260525T113000Z
+SUMMARY:Adaptive Chair Yoga with Dee Marshall
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join us for Adaptive Chair Yoga\, a gentle and accessible yoga practice designed for all abilities. This class offers the benefits of yoga—including improved flexibility\, balance\, and relaxation—while using a […]
+CATEGORIES:Health & Wellness
+URL:https://www.sheplibrary.org/event/adaptive-chair-yoga-with-dee-marshall-2/2026-05-25/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260525T160000Z-8f226daf-9ada-52c7-b5ab-26b399325d06@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260525T160000Z
+DTEND:20260525T170000Z
+SUMMARY:Art Club for Middle & High Schoolers
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:This relaxed\, drop-in club for Middle and High Schooler explores a different art medium each week. Mediums include collage\, acrylic paint\, clay\, watercolors\, and more!
+CATEGORIES:Arts & Culture, Community & Civic
+URL:https://www.sheplibrary.org/event/teen-art-club-11-3/2026-05-25/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260526T090000Z-7107d19f-e865-5c37-95b9-bc497a23368c@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260526T090000Z
+DTEND:20260526T120000Z
+SUMMARY:Social Seniors Leisure Lounge
+LOCATION:Shepherdstown Public Library Commons Room
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Stop by the library 9AM - 12PM on Tuesday for the Social Seniors Leisure Lounge and enjoy coffee and conversation with friends and neighbors! Make new friends\, find out what's […]
+CATEGORIES:Seniors
+URL:https://www.sheplibrary.org/event/social-seniors-leisure-lounge/2026-05-26/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260526T110000Z-fc13f450-5bd3-5d49-98cb-2709aec7150a@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260526T110000Z
+DTEND:20260526T113000Z
+SUMMARY:Baby & Toddler Story Time
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Ms. Jessie will lead our youngest patrons on adventures through songs\, rhymes\, stories and socializing. Best for ages 0 - 2.
+CATEGORIES:Family & Kids
+URL:https://www.sheplibrary.org/event/baby-toddler-story-time-3/2026-05-26/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260526T160000Z-74f309d7-981d-5e49-a7fd-f9135ffe0288@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260526T160000Z
+DTEND:20260526T170000Z
+SUMMARY:STEM Club
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Our STEM Club for students offers hands-on activities and projects to explore science\, technology\, engineering\, and mathematics in a fun and interactive way. Best for Ages 5 - 10. Parents […]
+CATEGORIES:Community & Civic
+URL:https://www.sheplibrary.org/event/stem-club-13/2026-05-26/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260527T110000Z-bc1c9476-32c3-5914-9618-22f0fc33394e@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260527T110000Z
+DTEND:20260527T120000Z
+SUMMARY:Pre-School Story Time
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Ms. Jessie will lead our youngest patrons on adventures through songs\, rhymes\, stories and socializing. Best for pre-schoolers ages 3 – 5.
+CATEGORIES:Family & Kids
+URL:https://www.sheplibrary.org/event/pre-school-story-time-3/2026-05-27/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260527T120000Z-d07c6530-41dc-5a74-860f-a35b6f160107@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260527T120000Z
+DTEND:20260527T130000Z
+SUMMARY:Meditation
+LOCATION:
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Explore secular mindfulness and meditation with Kath Meadows of Moving Mountains Yoga. Each session will include guided meditation\, mindfulness topics\, and time for discussion. All levels welcome. No experience required. […]
+CATEGORIES:Health & Wellness
+URL:https://www.sheplibrary.org/event/meditation-7-2-3-3-2-2/2026-05-27/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260528T100000Z-44845e1e-60d0-50e6-95b3-5bbf85c5073a@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260528T100000Z
+DTEND:20260528T110000Z
+SUMMARY:Sensory-Friendly Calm Time - Children's Library
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Sensory-Friendly Library Time: A calm browsing experience for neurodivergent visitors and those with sensory needs. During this dedicated hour\, we create a low-stimulus environment with dimmed lighting and reduced noise. […]
+CATEGORIES:Family & Kids
+URL:https://www.sheplibrary.org/event/sensory-friendly-calm-time-childrens-library/2026-05-28/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260528T160000Z-4a7c66f3-1a7a-5e51-ab29-ebd81eacdaf5@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260528T160000Z
+DTEND:20260528T170000Z
+SUMMARY:Crafternoon
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join us for a craft program for kids where they can make fun art projects and learn new skills. Best for Ages 5 – 11. Parents are asked to remain […]
+CATEGORIES:Arts & Culture
+URL:https://www.sheplibrary.org/event/crafternoon-12/2026-05-28/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260529T110000Z-2b88c3be-c154-5626-a41e-969e3c0ff8eb@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260529T110000Z
+DTEND:20260529T130000Z
+SUMMARY:Sip & Stitch
+LOCATION:Shepherdstown Public Library Commons Room
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Bring your current craft project (knit\, crochet\, quilt\, whatever)\, and enjoy time with other creators. All levels and types of crafters are welcome!
+CATEGORIES:Arts & Culture
+URL:https://www.sheplibrary.org/event/sip-stitch-2-2/2026-05-29/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260529T130000Z-f41dd27e-68d6-5958-ab22-64753f009016@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260529T130000Z
+DTEND:20260529T140000Z
+SUMMARY:Youth Chess Club
+LOCATION:
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join us for a youth chess club where kids & teens can learn\, play\, and have fun while improving their chess skills in a friendly environment. Ages 6 -18. Parents […]
+CATEGORIES:Community & Civic, Family & Kids, Games
+URL:https://www.sheplibrary.org/event/youth-chess-club-3-2/2026-05-29/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260529T133000Z-720fcca4-c627-532b-973c-98ec526bb8c1@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260529T133000Z
+DTEND:20260529T150000Z
+SUMMARY:College Planning Essentials: A Comprehensive Guide to Saving and Investing
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join Financial Advisor Tracy Regalia from Edward Jones investments as she discusses tips and plans for investing for college!
+CATEGORIES:Uncategorized
+URL:https://www.sheplibrary.org/event/college-planning-essentials-a-comprehensive-guide-to-saving-and-investing/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260601T090000Z-6024a344-f3b2-5279-a7e0-eeaf870a2f89@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260601T090000Z
+DTEND:20260601T100000Z
+SUMMARY:QiGong Class
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:The meditative movement QiGong will be taught and lead at the library by Chuck Steg. QiGong is a Chinese practice that involves movement\, breathing\, and meditation to improve health and […]
+CATEGORIES:Health & Wellness
+URL:https://www.sheplibrary.org/event/qigong-class-4/2026-06-01/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260601T103000Z-685b7140-56db-53d0-b803-aa47942f5f05@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260601T103000Z
+DTEND:20260601T113000Z
+SUMMARY:Adaptive Chair Yoga with Dee Marshall
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join us for Adaptive Chair Yoga\, a gentle and accessible yoga practice designed for all abilities. This class offers the benefits of yoga—including improved flexibility\, balance\, and relaxation—while using a […]
+CATEGORIES:Health & Wellness
+URL:https://www.sheplibrary.org/event/adaptive-chair-yoga-with-dee-marshall-2/2026-06-01/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260601T160000Z-8f226daf-9ada-52c7-b5ab-26b399325d06@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260601T160000Z
+DTEND:20260601T170000Z
+SUMMARY:Art Club for Middle & High Schoolers
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:This relaxed\, drop-in club for Middle and High Schooler explores a different art medium each week. Mediums include collage\, acrylic paint\, clay\, watercolors\, and more!
+CATEGORIES:Arts & Culture, Community & Civic
+URL:https://www.sheplibrary.org/event/teen-art-club-11-3/2026-06-01/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260602T090000Z-7107d19f-e865-5c37-95b9-bc497a23368c@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260602T090000Z
+DTEND:20260602T120000Z
+SUMMARY:Social Seniors Leisure Lounge
+LOCATION:Shepherdstown Public Library Commons Room
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Stop by the library 9AM - 12PM on Tuesday for the Social Seniors Leisure Lounge and enjoy coffee and conversation with friends and neighbors! Make new friends\, find out what's […]
+CATEGORIES:Seniors
+URL:https://www.sheplibrary.org/event/social-seniors-leisure-lounge/2026-06-02/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260602T110000Z-fc13f450-5bd3-5d49-98cb-2709aec7150a@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260602T110000Z
+DTEND:20260602T113000Z
+SUMMARY:Baby & Toddler Story Time
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Ms. Jessie will lead our youngest patrons on adventures through songs\, rhymes\, stories and socializing. Best for ages 0 - 2.
+CATEGORIES:Family & Kids
+URL:https://www.sheplibrary.org/event/baby-toddler-story-time-3/2026-06-02/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260602T120000Z-ca491909-aa1b-5267-a07f-bc94e0325567@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260602T120000Z
+DTEND:20260602T133000Z
+SUMMARY:Death Cafe
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join us for Death Café every 1st Tuesday from 12:00–1:30 p.m. at the library! It’s a welcoming space to talk openly about life\, death\, and everything in between—no agenda\, just […]
+CATEGORIES:Education & Workshops
+URL:https://www.sheplibrary.org/event/death-cafe-2-2-2/2026-06-02/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260602T160000Z-74f309d7-981d-5e49-a7fd-f9135ffe0288@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260602T160000Z
+DTEND:20260602T170000Z
+SUMMARY:STEM Club
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Our STEM Club for students offers hands-on activities and projects to explore science\, technology\, engineering\, and mathematics in a fun and interactive way. Best for Ages 5 - 10. Parents […]
+CATEGORIES:Community & Civic
+URL:https://www.sheplibrary.org/event/stem-club-13/2026-06-02/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260603T110000Z-bc1c9476-32c3-5914-9618-22f0fc33394e@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260603T110000Z
+DTEND:20260603T120000Z
+SUMMARY:Pre-School Story Time
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Ms. Jessie will lead our youngest patrons on adventures through songs\, rhymes\, stories and socializing. Best for pre-schoolers ages 3 – 5.
+CATEGORIES:Family & Kids
+URL:https://www.sheplibrary.org/event/pre-school-story-time-3/2026-06-03/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260603T120000Z-d07c6530-41dc-5a74-860f-a35b6f160107@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260603T120000Z
+DTEND:20260603T130000Z
+SUMMARY:Meditation
+LOCATION:
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Explore secular mindfulness and meditation with Kath Meadows of Moving Mountains Yoga. Each session will include guided meditation\, mindfulness topics\, and time for discussion. All levels welcome. No experience required. […]
+CATEGORIES:Health & Wellness
+URL:https://www.sheplibrary.org/event/meditation-7-2-3-3-2-2/2026-06-03/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260604T100000Z-44845e1e-60d0-50e6-95b3-5bbf85c5073a@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260604T100000Z
+DTEND:20260604T110000Z
+SUMMARY:Sensory-Friendly Calm Time - Children's Library
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Sensory-Friendly Library Time: A calm browsing experience for neurodivergent visitors and those with sensory needs. During this dedicated hour\, we create a low-stimulus environment with dimmed lighting and reduced noise. […]
+CATEGORIES:Family & Kids
+URL:https://www.sheplibrary.org/event/sensory-friendly-calm-time-childrens-library/2026-06-04/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260604T160000Z-4a7c66f3-1a7a-5e51-ab29-ebd81eacdaf5@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260604T160000Z
+DTEND:20260604T170000Z
+SUMMARY:Crafternoon
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join us for a craft program for kids where they can make fun art projects and learn new skills. Best for Ages 5 – 11. Parents are asked to remain […]
+CATEGORIES:Arts & Culture
+URL:https://www.sheplibrary.org/event/crafternoon-12/2026-06-04/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260605T110000Z-de7de582-5a29-548f-a41d-78df5a9ae22d@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260605T110000Z
+DTEND:20260605T120000Z
+SUMMARY:Wild Wonders Nature Club
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Through hands-on experiences and creative projects\, we aim to inspire the next generation of nature enthusiasts and environmental stewards. This program is for children aged 6 to 10. We won’t […]
+CATEGORIES:Community & Civic, Outdoors & Nature
+URL:https://www.sheplibrary.org/event/wild-wonders-nature-club-3/2026-06-05/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260605T110000Z-2b88c3be-c154-5626-a41e-969e3c0ff8eb@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260605T110000Z
+DTEND:20260605T130000Z
+SUMMARY:Sip & Stitch
+LOCATION:Shepherdstown Public Library Commons Room
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Bring your current craft project (knit\, crochet\, quilt\, whatever)\, and enjoy time with other creators. All levels and types of crafters are welcome!
+CATEGORIES:Arts & Culture
+URL:https://www.sheplibrary.org/event/sip-stitch-2-2/2026-06-05/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260605T130000Z-f41dd27e-68d6-5958-ab22-64753f009016@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260605T130000Z
+DTEND:20260605T140000Z
+SUMMARY:Youth Chess Club
+LOCATION:
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join us for a youth chess club where kids & teens can learn\, play\, and have fun while improving their chess skills in a friendly environment. Ages 6 -18. Parents […]
+CATEGORIES:Community & Civic, Family & Kids, Games
+URL:https://www.sheplibrary.org/event/youth-chess-club-3-2/2026-06-05/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260608T090000Z-6024a344-f3b2-5279-a7e0-eeaf870a2f89@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260608T090000Z
+DTEND:20260608T100000Z
+SUMMARY:QiGong Class
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:The meditative movement QiGong will be taught and lead at the library by Chuck Steg. QiGong is a Chinese practice that involves movement\, breathing\, and meditation to improve health and […]
+CATEGORIES:Health & Wellness
+URL:https://www.sheplibrary.org/event/qigong-class-4/2026-06-08/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260608T103000Z-685b7140-56db-53d0-b803-aa47942f5f05@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260608T103000Z
+DTEND:20260608T113000Z
+SUMMARY:Adaptive Chair Yoga with Dee Marshall
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join us for Adaptive Chair Yoga\, a gentle and accessible yoga practice designed for all abilities. This class offers the benefits of yoga—including improved flexibility\, balance\, and relaxation—while using a […]
+CATEGORIES:Health & Wellness
+URL:https://www.sheplibrary.org/event/adaptive-chair-yoga-with-dee-marshall-2/2026-06-08/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260608T160000Z-8f226daf-9ada-52c7-b5ab-26b399325d06@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260608T160000Z
+DTEND:20260608T170000Z
+SUMMARY:Art Club for Middle & High Schoolers
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:This relaxed\, drop-in club for Middle and High Schooler explores a different art medium each week. Mediums include collage\, acrylic paint\, clay\, watercolors\, and more!
+CATEGORIES:Arts & Culture, Community & Civic
+URL:https://www.sheplibrary.org/event/teen-art-club-11-3/2026-06-08/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260609T090000Z-7107d19f-e865-5c37-95b9-bc497a23368c@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260609T090000Z
+DTEND:20260609T120000Z
+SUMMARY:Social Seniors Leisure Lounge
+LOCATION:Shepherdstown Public Library Commons Room
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Stop by the library 9AM - 12PM on Tuesday for the Social Seniors Leisure Lounge and enjoy coffee and conversation with friends and neighbors! Make new friends\, find out what's […]
+CATEGORIES:Seniors
+URL:https://www.sheplibrary.org/event/social-seniors-leisure-lounge/2026-06-09/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260609T110000Z-fc13f450-5bd3-5d49-98cb-2709aec7150a@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260609T110000Z
+DTEND:20260609T113000Z
+SUMMARY:Baby & Toddler Story Time
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Ms. Jessie will lead our youngest patrons on adventures through songs\, rhymes\, stories and socializing. Best for ages 0 - 2.
+CATEGORIES:Family & Kids
+URL:https://www.sheplibrary.org/event/baby-toddler-story-time-3/2026-06-09/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260609T160000Z-74f309d7-981d-5e49-a7fd-f9135ffe0288@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260609T160000Z
+DTEND:20260609T170000Z
+SUMMARY:STEM Club
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Our STEM Club for students offers hands-on activities and projects to explore science\, technology\, engineering\, and mathematics in a fun and interactive way. Best for Ages 5 - 10. Parents […]
+CATEGORIES:Community & Civic
+URL:https://www.sheplibrary.org/event/stem-club-13/2026-06-09/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260610T110000Z-bc1c9476-32c3-5914-9618-22f0fc33394e@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260610T110000Z
+DTEND:20260610T120000Z
+SUMMARY:Pre-School Story Time
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Ms. Jessie will lead our youngest patrons on adventures through songs\, rhymes\, stories and socializing. Best for pre-schoolers ages 3 – 5.
+CATEGORIES:Family & Kids
+URL:https://www.sheplibrary.org/event/pre-school-story-time-3/2026-06-10/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260610T120000Z-d07c6530-41dc-5a74-860f-a35b6f160107@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260610T120000Z
+DTEND:20260610T130000Z
+SUMMARY:Meditation
+LOCATION:
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Explore secular mindfulness and meditation with Kath Meadows of Moving Mountains Yoga. Each session will include guided meditation\, mindfulness topics\, and time for discussion. All levels welcome. No experience required. […]
+CATEGORIES:Health & Wellness
+URL:https://www.sheplibrary.org/event/meditation-7-2-3-3-2-2/2026-06-10/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260611T100000Z-44845e1e-60d0-50e6-95b3-5bbf85c5073a@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260611T100000Z
+DTEND:20260611T110000Z
+SUMMARY:Sensory-Friendly Calm Time - Children's Library
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Sensory-Friendly Library Time: A calm browsing experience for neurodivergent visitors and those with sensory needs. During this dedicated hour\, we create a low-stimulus environment with dimmed lighting and reduced noise. […]
+CATEGORIES:Family & Kids
+URL:https://www.sheplibrary.org/event/sensory-friendly-calm-time-childrens-library/2026-06-11/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260611T110000Z-6aacb8b5-066f-583d-a0e3-a7de928a463b@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260611T110000Z
+DTEND:20260611T120000Z
+SUMMARY:Genealogy Club
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Come work on your individual research in a group setting. We will help each other with research and share our successes and roadblocks. Explore a variety of resources and learn […]
+CATEGORIES:Community & Civic
+URL:https://www.sheplibrary.org/event/genealogy-club/2026-06-11/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260611T160000Z-4a7c66f3-1a7a-5e51-ab29-ebd81eacdaf5@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260611T160000Z
+DTEND:20260611T170000Z
+SUMMARY:Crafternoon
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join us for a craft program for kids where they can make fun art projects and learn new skills. Best for Ages 5 – 11. Parents are asked to remain […]
+CATEGORIES:Arts & Culture
+URL:https://www.sheplibrary.org/event/crafternoon-12/2026-06-11/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260612T110000Z-de7de582-5a29-548f-a41d-78df5a9ae22d@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260612T110000Z
+DTEND:20260612T120000Z
+SUMMARY:Wild Wonders Nature Club
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Through hands-on experiences and creative projects\, we aim to inspire the next generation of nature enthusiasts and environmental stewards. This program is for children aged 6 to 10. We won’t […]
+CATEGORIES:Community & Civic, Outdoors & Nature
+URL:https://www.sheplibrary.org/event/wild-wonders-nature-club-3/2026-06-12/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260612T110000Z-2b88c3be-c154-5626-a41e-969e3c0ff8eb@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260612T110000Z
+DTEND:20260612T130000Z
+SUMMARY:Sip & Stitch
+LOCATION:Shepherdstown Public Library Commons Room
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Bring your current craft project (knit\, crochet\, quilt\, whatever)\, and enjoy time with other creators. All levels and types of crafters are welcome!
+CATEGORIES:Arts & Culture
+URL:https://www.sheplibrary.org/event/sip-stitch-2-2/2026-06-12/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260612T130000Z-f41dd27e-68d6-5958-ab22-64753f009016@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260612T130000Z
+DTEND:20260612T140000Z
+SUMMARY:Youth Chess Club
+LOCATION:
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join us for a youth chess club where kids & teens can learn\, play\, and have fun while improving their chess skills in a friendly environment. Ages 6 -18. Parents […]
+CATEGORIES:Community & Civic, Family & Kids, Games
+URL:https://www.sheplibrary.org/event/youth-chess-club-3-2/2026-06-12/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260615T090000Z-6024a344-f3b2-5279-a7e0-eeaf870a2f89@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260615T090000Z
+DTEND:20260615T100000Z
+SUMMARY:QiGong Class
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:The meditative movement QiGong will be taught and lead at the library by Chuck Steg. QiGong is a Chinese practice that involves movement\, breathing\, and meditation to improve health and […]
+CATEGORIES:Health & Wellness
+URL:https://www.sheplibrary.org/event/qigong-class-4/2026-06-15/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260615T103000Z-685b7140-56db-53d0-b803-aa47942f5f05@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260615T103000Z
+DTEND:20260615T113000Z
+SUMMARY:Adaptive Chair Yoga with Dee Marshall
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Join us for Adaptive Chair Yoga\, a gentle and accessible yoga practice designed for all abilities. This class offers the benefits of yoga—including improved flexibility\, balance\, and relaxation—while using a […]
+CATEGORIES:Health & Wellness
+URL:https://www.sheplibrary.org/event/adaptive-chair-yoga-with-dee-marshall-2/2026-06-15/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260615T160000Z-8f226daf-9ada-52c7-b5ab-26b399325d06@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260615T160000Z
+DTEND:20260615T170000Z
+SUMMARY:Art Club for Middle & High Schoolers
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:This relaxed\, drop-in club for Middle and High Schooler explores a different art medium each week. Mediums include collage\, acrylic paint\, clay\, watercolors\, and more!
+CATEGORIES:Arts & Culture, Community & Civic
+URL:https://www.sheplibrary.org/event/teen-art-club-11-3/2026-06-15/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260616T090000Z-7107d19f-e865-5c37-95b9-bc497a23368c@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260616T090000Z
+DTEND:20260616T120000Z
+SUMMARY:Social Seniors Leisure Lounge
+LOCATION:Shepherdstown Public Library Commons Room
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Stop by the library 9AM - 12PM on Tuesday for the Social Seniors Leisure Lounge and enjoy coffee and conversation with friends and neighbors! Make new friends\, find out what's […]
+CATEGORIES:Seniors
+URL:https://www.sheplibrary.org/event/social-seniors-leisure-lounge/2026-06-16/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260616T110000Z-fc13f450-5bd3-5d49-98cb-2709aec7150a@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260616T110000Z
+DTEND:20260616T113000Z
+SUMMARY:Baby & Toddler Story Time
+LOCATION:Shepherdstown Public Library Children's Department
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Ms. Jessie will lead our youngest patrons on adventures through songs\, rhymes\, stories and socializing. Best for ages 0 - 2.
+CATEGORIES:Family & Kids
+URL:https://www.sheplibrary.org/event/baby-toddler-story-time-3/2026-06-16/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260616T160000Z-74f309d7-981d-5e49-a7fd-f9135ffe0288@sheplibrary.info
+DTSTAMP:20260413T123431Z
+DTSTART:20260616T160000Z
+DTEND:20260616T170000Z
+SUMMARY:STEM Club
+LOCATION:Shepherdstown Library, 145 Higbee Lane, Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+DESCRIPTION:Our STEM Club for students offers hands-on activities and projects to explore science\, technology\, engineering\, and mathematics in a fun and interactive way. Best for Ages 5 - 10. Parents […]
+CATEGORIES:Community & Civic
+URL:https://www.sheplibrary.org/event/stem-club-13/2026-06-16/
+STATUS:CONFIRMED
+SOURCE:sheplibrary.org
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

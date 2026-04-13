@@ -1,0 +1,98 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//speakstoryseries.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Speak Story Series Events
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:20260414T193000Z-817ff132-4fdb-5b98-8493-7b4528d54d70@sss
+DTSTAMP:20260413T160109Z
+DTSTART:20260414T193000Z
+DTEND:
+SUMMARY:Speak Story Series - Archy Jamjun
+LOCATION:Byrd Center for Congressional History and Education, 213 North King Street, Shepherdstown
+DESCRIPTION:
+CATEGORIES:Film & Performing Arts
+ORGANIZATION:Speak Story Series
+URL:https://www.speakstoryseries.com/
+STATUS:CONFIRMED
+SOURCE:speakstoryseries.com
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260609T193000Z-4b9e3a76-d116-599a-bc50-380cd3351f6e@sss
+DTSTAMP:20260413T160109Z
+DTSTART:20260609T193000Z
+DTEND:
+SUMMARY:Speak Story Series - Laura Packer
+LOCATION:Byrd Center for Congressional History and Education, 213 North King Street, Shepherdstown
+DESCRIPTION:
+CATEGORIES:Film & Performing Arts
+ORGANIZATION:Speak Story Series
+URL:https://www.speakstoryseries.com/
+STATUS:CONFIRMED
+SOURCE:speakstoryseries.com
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260714T193000Z-df9806b7-7321-5cb4-8dff-74328d7c7146@sss
+DTSTAMP:20260413T160109Z
+DTSTART:20260714T193000Z
+DTEND:
+SUMMARY:Speak Story Series - The Reverend Robert B. Jones, Sr.
+LOCATION:Byrd Center for Congressional History and Education, 213 North King Street, Shepherdstown
+DESCRIPTION:
+CATEGORIES:Film & Performing Arts
+ORGANIZATION:Speak Story Series
+URL:https://www.speakstoryseries.com/
+STATUS:CONFIRMED
+SOURCE:speakstoryseries.com
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260811T193000Z-f27a34ec-db6b-58c6-a5cf-068bc747ee3b@sss
+DTSTAMP:20260413T160109Z
+DTSTART:20260811T193000Z
+DTEND:
+SUMMARY:Speak Story Series - Denise Manning Keyes Page
+LOCATION:Byrd Center for Congressional History and Education, 213 North King Street, Shepherdstown
+DESCRIPTION:
+CATEGORIES:Film & Performing Arts
+ORGANIZATION:Speak Story Series
+URL:https://www.speakstoryseries.com/
+STATUS:CONFIRMED
+SOURCE:speakstoryseries.com
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260908T193000Z-55c839b6-a0af-5ce5-9302-05a9aa3fc56a@sss
+DTSTAMP:20260413T160109Z
+DTSTART:20260908T193000Z
+DTEND:
+SUMMARY:Speak Story Series - Adam Booth
+LOCATION:Byrd Center for Congressional History and Education, 213 North King Street, Shepherdstown
+DESCRIPTION:
+CATEGORIES:Film & Performing Arts
+ORGANIZATION:Speak Story Series
+URL:https://www.speakstoryseries.com/
+STATUS:CONFIRMED
+SOURCE:speakstoryseries.com
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20261013T193000Z-d88a4ac5-3ee0-5e6b-a7c9-0d54c193f80e@sss
+DTSTAMP:20260413T160109Z
+DTSTART:20261013T193000Z
+DTEND:
+SUMMARY:Speak Story Series - Antonio Rocha
+LOCATION:Byrd Center for Congressional History and Education, 213 North King Street, Shepherdstown
+DESCRIPTION:
+CATEGORIES:Film & Performing Arts
+ORGANIZATION:Speak Story Series
+URL:https://www.speakstoryseries.com/
+STATUS:CONFIRMED
+SOURCE:speakstoryseries.com
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR
