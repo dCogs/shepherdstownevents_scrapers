@@ -1,1 +1,8 @@
 cmp -s sss_.ics ../scraped_files/sss.ics
+
+
+pushing changes to github:
+ git add .
+ git commit -m "2026-04-26"
+ git push
+ 
