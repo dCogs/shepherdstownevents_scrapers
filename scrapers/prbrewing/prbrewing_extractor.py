@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Friends of Music Extractor with Browser Automation
+Potomac Ridge Brewing Extractor with Browser Automation
 This script navigates to the calendar page, clicks the List button,
 and extracts all events to an ICS file.
 
@@ -28,7 +28,7 @@ import re
 # parent_dir = os.path.dirname(current_dir)
 # # Insert the parent directory path into sys.path
 # sys.path.insert(0, parent_dir)
-import category_matcher
+# import category_matcher
 
 
 # Global variables
@@ -52,69 +52,51 @@ def setup_driver(headless=False):
     return driver
 
 def extract_date_times(date_time_string):
-    dtstart = dtend = date_part = time_part = ''
-    all_day = False
-    start_description_with_date_time = False
-    if "@" not in date_time_string:
-        all_day = True
-        if "-" in date_time_string:
-            start_date, end_date = date_time_string.split(" - ")
-            dtstart = format_date(start_date) + "T000000Z"
-            start_description_with_date_time = True
-            # dtend = format_date(end_date) + "T000000Z"
-        else:
-            start_date = format_date(date_time_string)
-            dtstart = start_date + "T000000Z"
-    else:
-        date_part, time_part = date_time_string.split(" @ ")
-        start_date = format_date(date_part)
-        if "-" in time_part:
-            begin_time, end_time = time_part.split(" - ")
-            begin_time_formatted = format_time(begin_time)
-            end_time_formatted = format_time(end_time)
-            dtstart = start_date + "T" + begin_time_formatted + "Z"
-            dtend = start_date + "T" + end_time_formatted + "Z"
-        else:
-            begin_time_formatted = format_time(time_part)
-            dtstart = start_date + "T" + begin_time_formatted + "Z"
+    dow, dom, mon_year, time = date_time_string.split('\n')
 
-    return dtstart, dtend, all_day, start_description_with_date_time
+    # Sun
+    # 04
+    # Oct, 2026
+    # 03:00 PM
+    month, year = mon_year.split(", ")
+    match month:
+        case "Jan": month = "01"
+        case "Feb": month = "02"
+        case "Mar": month = "03"
+        case "Apr": month = "04"
+        case "May": month = "05"
+        case "Jun": month = "06"
+        case "Jul": month = "07"
+        case "Aug": month = "08"
+        case "Sep": month = "09"
+        case "Oct": month = "10"
+        case "Nov": month = "11"
+        case "Dec": month = "12"
+    yyyy_mm_dd = year + month + dom
+    time = format_time(time)    
+    dtstart = yyyy_mm_dd + "T" + time + "Z"
+    all_day = False
+    return dtstart
 
 def format_time(time):
     # time = time.replace(":", "")
-    if " • " in time:
-        tm, dt = time.split(" • ")
-    else:
-        tm, dt = time.split(",", 1)
-    
-    event_date = format_date(dt)
-    tm=tm.replace(" ","").strip().replace("Sunday","").replace("Monday","").replace("Tuesday","").\
-        replace("Wednesday","").replace("Thursday","").replace("Friday","").replace("Saturday","")
-    am_pm = "pm"
-    if "am" in time: am_pm = "am"
-    tm = tm.replace(am_pm, "")
-    hh, mm = tm.split(":")
-    if am_pm == "pm" and hh != "12":
+    time=time.replace(" ","").strip()
+    am_pm = "PM"
+    if "AM" in time: am_pm = "AM"
+    time = time.replace(am_pm, "")
+    hh, mm = time.split(":")
+    if am_pm == "PM" and hh != "12":
         hh = str(int(hh) + 12)
     else:         
         if len(hh) == 1: hh = "0" + hh
-    event_time = hh + mm + "00"
-    return (event_date + "T" + event_time + "Z"), event_date
+    return (hh + mm.strip() + "00")
+
 
 def format_date(date_str):
     #remove day of week
     # month_day_part = date_str.split(", ")[1]
     date_str = date_str.strip()
-    if \
-    ("Sunday" in date_str  or "Monday" in date_str  or "Tuesday" in date_str  or "Wednesday" in date_str  or \
-    "Thursday" in date_str  or "Friday" in date_str  or "Saturday" in date_str ):        
-        dow, month_day, year = date_str.split(",")
-    else:
-        month_day, year = date_str.split(",")
-    year = year.strip()
-    month_day = month_day.strip()
-    month, day = month_day.split(" ")
-    month = month.strip()
+    dow, month, day = date_str.split(" ")
     match month:
         case "January": month = "01"
         case "February": month = "02"
@@ -133,12 +115,15 @@ def format_date(date_str):
     # print('month:', month, ' day:', day)
     return year + month + day
 
-def extract_event_info(event_elements, events_extracted):
+def extract_event_info(event_elements):
     """
     Extract Category, More Info, Description, Location, Contact, Phone, and Email
     from event text string
     """
-    # print('event_elements:', event_elements.text)
+    print('event_elements:', event_elements.text)
+    # print(126, heading)
+    # for char in heading:
+    #     print('char:', char, ' code:', ord(char))
 
     result = {
         'category': '',
@@ -156,54 +141,36 @@ def extract_event_info(event_elements, events_extracted):
         'dtend': '',
         'allday': ''
     }
-    title_head = ''
-    title_line = ''
-    times = []
-    location = ''
-    description = ''
-    lines = event_elements.text.split("\n")
-    for line in lines:
-        # print(145, 'line:', line)
-        if title_head == '': 
-            title_head = line
-            continue
-        if title_line == '': 
-            title_line = line
-            continue
-        if \
-        ("Sunday" in line or "Monday" in line or "Tuesday" in line or "Wednesday" in line or \
-         "Thursday" in line or "Friday" in line or "Saturday" in line) and \
-        ("January" in line or "February" in line or "March" in line or "April" in line or "May" in line \
-        or "June" in line or "July" in line or "August" in line or "September" in line or "October" in line \
-        or "November" in line or "December" in line):
-            times.append(line)
-            continue
-        if location == '':
-            location = line
-            continue
-        description = description + line + "\n"
-    for time in times:
-        dtstart, event_date = format_time(time)
-        if event_date >= today_formatted:
-            result = {
-                'category': 'Music & Film & Stage',
-                'time': '',
-                'more_info_url': '',
-                'more_info_text': '',
-                'summary': title_head + ' - ' + title_line,
-                'description': description,
-                'location': location,
-                'location_details': '',
-                'contact_name': '',
-                'contact_phone': '',
-                'contact_email': '',
-                'dtstart': dtstart,
-                'dtend': '',
-                'allday': ''
-            }    
-            events_extracted.append(result)
-
-    return
+    try:
+        parent = event_elements.find_element(By.CSS_SELECTOR, ".MuiBox-root.css-102n6ra").\
+            find_element(By.CSS_SELECTOR,".MuiBox-root.css-1bqg80d")
+        print('parent:', parent.text)
+        dt_time_div = parent.find_element(By.CSS_SELECTOR,".MuiBox-root.css-11a3gys").\
+            find_element(By.CSS_SELECTOR,".MuiBox-root.css-524fvx")
+        print('dt_time_div:', dt_time_div.text)
+        dtstart = extract_date_times(dt_time_div.text)
+        anchor = parent.find_element(By.CSS_SELECTOR,".MuiBox-root.css-srm2o").\
+            find_element(By.CSS_SELECTOR,".MuiBox-root.css-0").\
+            find_element(By.CSS_SELECTOR,".MuiBox-root.css-195iiiq").\
+            find_element(By.CSS_SELECTOR,".MuiTypography-root.MuiTypography-h6.css-5u3pkg").\
+            find_element(By.TAG_NAME,"a")
+        more_info_url = anchor.get_attribute("href")
+        summary = anchor.text
+        print('more_info_url:', more_info_url)
+        print('summary:', summary)
+        category = ['Music & Film & State'] #category_matcher.categorize_by_keywords(title)
+        location = "Potomac Ridge Brewing, 16609 Shepherdstown Pike, Sharpsburg"
+        result['category'] = category
+        result['more_info_url'] = more_info_url
+        result['summary'] = summary
+        result['location'] = location
+        result['dtstart'] = dtstart
+        return result
+    except Exception as e:
+        print(f"\nError: {e}")
+        import traceback
+        traceback.print_exc()
+        return result    
 
 def create_ics_file(events, filename):
     """Create ICS file from events"""
@@ -211,10 +178,10 @@ def create_ics_file(events, filename):
         # Write header
         f.write("BEGIN:VCALENDAR\n")
         f.write("VERSION:2.0\n")
-        f.write("PRODID:-//www.friendswv.org/EN\n")
+        f.write("PRODID:-//speakstoryseries.com//EN\n")
         f.write("CALSCALE:GREGORIAN\n")
         f.write("METHOD:PUBLISH\n")
-        f.write("X-WR-CALNAME:Friends of Music Calendar\n")
+        f.write("X-WR-CALNAME:Potomac Ridge Brewing Events\n")
         f.write("X-WR-TIMEZONE:America/New_York\n")
         
         # Write events
@@ -223,7 +190,7 @@ def create_ics_file(events, filename):
                 continue
             
             # Generate UID
-            uid = f"{event['dtstart']}-{uuid.uuid5(uuid.NAMESPACE_DNS, event['summary'].strip())}@fom"
+            uid = f"{event['dtstart']}-{uuid.uuid5(uuid.NAMESPACE_DNS, event['summary'].strip())}@prbrewing"
             
             # Format dates
             dtstamp = datetime.now().strftime('%Y%m%dT%H%M%SZ')
@@ -239,12 +206,17 @@ def create_ics_file(events, filename):
                            .replace(';', '\\;')
                            .replace('\n', '\\n'))
             
-            summary = escape_ics(event['summary'])
+            # summary = escape_ics(event['summary'])
+            summary = event['summary']
             # location = escape_ics(event['location'])
             location = event['location']
             description = escape_ics(event['description'])
-            # category = ', '.join(event['category'])
-            category = event['category']
+            # category = escape_ics(event['category'])
+            if len(event['category']) > 0:
+                category = ', '.join(event['category'])
+            else:
+                category = 'Music & Film & Stage'
+
             url = event.get('more_info_url', '')
             
             f.write("BEGIN:VEVENT\n")
@@ -256,11 +228,11 @@ def create_ics_file(events, filename):
             f.write(f"LOCATION:{location}\n")
             f.write(f"DESCRIPTION:{description}\n")
             f.write(f"CATEGORIES:{category}\n")
-            f.write(f"ORGANIZATION:Friends of Music\n")
+            f.write(f"ORGANIZATION:Potomac Ridge Brewing\n")
             if url:
                 f.write(f"URL:{url}\n")
             f.write("STATUS:CONFIRMED\n")
-            f.write("SOURCE:friendswv.org/\n")
+            f.write("SOURCE:potomacridgebrewing.com\n")
             f.write("SEQUENCE:0\n")
             f.write("END:VEVENT\n")
         
@@ -270,7 +242,7 @@ def create_ics_file(events, filename):
 def main():
     """Main function"""
     print("="*70)
-    print("Friends of Music Calendar Event Extractor")
+    print("Potomac Ridge Brewing Event Extractor")
     print("="*70)
     print()
     
@@ -281,7 +253,7 @@ def main():
         driver = setup_driver(headless=False)  # Set to True to run in background
         
         # Navigate to calendar page
-        url = "https://www.friendswv.org/current-season-2025-2026/"
+        url = "https://webtunes.com/venues/prbrewing"
         print(f"Navigating to {url}")
         driver.get(url)
         
@@ -297,12 +269,20 @@ def main():
         # max_pages = 5
         # while pages_scraped < max_pages:
             # pages_scraped += 1
-        events = driver.find_elements(By.CLASS_NAME, "flex_column_table_cell")
+        parent_div = driver.find_elements(By.CSS_SELECTOR, ".MuiBox-root.css-0")
+        events = driver.find_elements(By.CSS_SELECTOR, ".MuiPaper-root.MuiPaper-outlined.MuiPaper-rounded.css-1uzfsw8")
         for event in events:
-            # print(306, event.text)
-            event_elements = extract_event_info(event, events_extracted)
-            # if event_elements['summary'] != "":
-            #     events_extracted.append(event_elements)
+            try:
+                # print('event:', event.text)
+                # heading = event.find_element(By.TAG_NAME, "h1").text
+                event_elements = extract_event_info(event)
+                # continue
+            except Exception as e:
+                # print(f"\nError: {e}")
+                continue
+
+            if event_elements['summary'] != "":
+                events_extracted.append(event_elements)
                 # break
 
             # Click next month button
@@ -314,7 +294,7 @@ def main():
             print("\nNo events found. The page structure may have changed.")
         else:
             # Save to ICS
-            output_file = 'fom_' + today_formatted + '.ics'
+            output_file = 'prbrewing_' + today_formatted + '.ics'
             print(f"\nSaving {len(events)} events to {output_file}...")
             create_ics_file(events_extracted, output_file)
             print(f"✓ ICS file created successfully!")

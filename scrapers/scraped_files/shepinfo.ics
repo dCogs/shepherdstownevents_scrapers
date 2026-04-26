@@ -6,53 +6,8 @@ METHOD:PUBLISH
 X-WR-CALNAME:Shepherdstown Events Calendar
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-UID:20260415T190000Z-9bd5f816-a49c-5903-b6b1-fb1487367a8e@shepherdstown.info
-DTSTAMP:20260413T123633Z
-DTSTART:20260415T190000Z
-DTEND:
-SUMMARY:Historic Shepherdstown Speaker Series - Historical Memory of Frontier War in 20th Century Shenandoah Family Histories - Dr. Ben Bankhurst
-ORGANIZATION:Shepherd University
-LOCATION:Shepherd Univ - Byrd Center for Congressional History and Education
-DESCRIPTION:<p>Dr. Ben Bankhurst of Shepherd University will kick off Historic Shepherdstown's 2026 Speaker Series. Dr. Bankhurst is the Director of the Center for Appalachian Studies and the Ray and Madeleine Professor of American History.\n\n<b>Location Details:</b> Shepherd Univ - Byrd Center for Congressional History and Education\, 213 North King Street\, Shepherdstown\, WV\n\n<b>Contact Info:</b> Suprena Mills 304-876-0910 hsc1786@gmail.com</p
-CATEGORIES:Community & Civic, Family & Kids, History
-URL:https://historicshepherdstown.com
-STATUS:CONFIRMED
-SOURCE:shepherdstown.info
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260418T100000Z-fab7b184-41a8-564b-9247-7644511b742d@shepherdstown.info
-DTSTAMP:20260413T123633Z
-DTSTART:20260418T100000Z
-DTEND:20260418T144500Z
-SUMMARY:April Showers Jigsaw Joust
-ORGANIZATION:Game Knights
-LOCATION:Game Knights
-DESCRIPTION:<p>SPEED PUZZLING CONTEST\nSaturday\, April 18\, 2026\n10:00 - 12:15 Solo Competition at 400 South Princess Street\n12:30 - 2:45 Team (3/4 ppl) Competition at 113 South Princess Street\nPrizes for 1st through 3rd place in each category.\nAll registrants receive a $5 gift certificate to Game Knights.\nTake home your 500-piece contest puzzle!\nLight refreshments provided.\n$25 solo registration\n$65 team registration\nRegistration is open now! https://square.link/u/qilrOEat\n\n<b>Location Details:</b> Game Knights\, 400 South Princess Street\, Shepherdstown\, WV\, 25443\, USA\n\n<b>Contact Info:</b> The Shopkeep 681-534-1047 shopkeep@gameknightsshepherdstown.com</p
-CATEGORIES:Arts & Culture, Film & Performing Arts
-URL:https://square.link/u/qilrOEat
-STATUS:CONFIRMED
-SOURCE:shepherdstown.info
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260418T110000Z-95321a48-73eb-5778-a466-fba10765f0db@shepherdstown.info
-DTSTAMP:20260413T123633Z
-DTSTART:20260418T110000Z
-DTEND:20260418T170000Z
-SUMMARY:2026 Opening of Historic Shepherdstown Museum
-ORGANIZATION:Historic Shepherdstown & Museum
-LOCATION:Historic Shepherdstown Museum at the Entler Hotel
-DESCRIPTION:<p>The Historic Shepherdstown Museum reopens for its 2026 season with a community ribbon cutting at 11 am. New exhibits include a recently acquired and rare 35 star US flag when West Virginia became a state\, and artifacts from the Battle of Shepherdstown that have not previously been on public display.\n\n<b>Location Details:</b> Historic Shepherdstown Museum at the Entler Hotel\, 129 East German Street\, Shepherdstown\, WV\, 25443\, United States\n\n<b>Contact Info:</b> Suprena Mills 304-876-0910 hsc1786@gmail.com</p
-CATEGORIES:Arts & Culture, Community & Civic, History
-URL:https://historicshepherdstown.com
-STATUS:CONFIRMED
-SOURCE:shepherdstown.info
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:20260426T130000Z-9ab97ca0-db46-5adc-8f82-8a4db817cfff@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260426T130000Z
 DTEND:20260426T160000Z
 SUMMARY:USGS Eastern Ecological Science Center Earth Day Open House
@@ -67,7 +22,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260428T193000Z-ab914a17-a06c-56cd-a84a-9c79eaceabd3@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260428T193000Z
 DTEND:20260428T210000Z
 SUMMARY:Shepherd Youth Chorus
@@ -80,22 +35,51 @@ SOURCE:shepherdstown.info
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:20260430T193000Z-3af56577-f3a9-564f-bba9-be573e6a4527@shepherdstown.info
+DTSTAMP:20260426T084739Z
+DTSTART:20260430T193000Z
+DTEND:20260430T203000Z
+SUMMARY:a reading of ‘pointy toothed god’ by Eleanor Lepp
+ORGANIZATION:Shepherd University
+LOCATION:Shepherd Univ - Studio 112, 92 West Campus Drive, Shepherdstown
+DESCRIPTION:<p>Lecture / Discussion / Book Talk\nrn\nJoin us for a reading of ‘pointy toothed god’ next Thursday\, April 30\, at 7:30pm in studio 112\, Shepherd University!\nrn\nrn\nrn\n(content warning!! strong language and themes of death. but still a hopeful story!)\nrn\nrn\nrn\n(not suggested for the kiddos)\nrn\n\n<b>Location Details:</b> Shepherd Univ - Studio 112\, 92 West Campus Drive\, Shepherdstown\, WV\, 25443\, US</p
+CATEGORIES:Music & Film & Stage
+STATUS:CONFIRMED
+SOURCE:shepherdstown.info
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:20260501T170000Z-03af2297-6f97-5465-aa8f-33ca010da9b4@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260501T170000Z
 DTEND:20260501T190000Z
 SUMMARY:"Shepherdstown Live" First Friday Music
 ORGANIZATION:Town of Shepherdstown
 LOCATION:McMurran Hall Lawn Outdoors
 DESCRIPTION:<p>Enjoy free live outdoor music on First Fridays in May-October on the lawn of McMurran Hall\, in downtown Shepherdstown. Bring your friends/family\, a chair or blanket\, and stay after the music to dine\, shop and play! Today's band OPHSET -a dynamic six-piece band bringing together the best of Pop\, Rock\, R&B\, Hip Hop\, and Country\, with a special love for the sounds of the 2000s through today\n\n<b>Location Details:</b> McMurran Hall Lawn Outdoors\, 102 S. King St\, Shepherdstown\, WV\, 25443\, United States\n\n<b>Contact Info:</b> Shannon Thomas 6513297063 shanpur@gmail.com</p
-CATEGORIES:Community & Civic, Film & Performing Arts
+CATEGORIES:Community & Civic, Music & Film & Stage
+STATUS:CONFIRMED
+SOURCE:shepherdstown.info
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260501T190000Z-511f2aa4-d27f-5b58-9386-9ca0b0552fe2@shepherdstown.info
+DTSTAMP:20260426T084739Z
+DTSTART:20260501T190000Z
+DTEND:20260501T201500Z
+SUMMARY:Full Moon Sound Healing
+ORGANIZATION:Mohalu Wellness
+LOCATION:Mohalu Wellness
+DESCRIPTION:<p>Each month we honor the full moon through a sound healing and meditation practice designed to focus in on our connection the lunar cycle. Sound healings support emotional\, physical and mental well-being through sound and vibrations created with crystal bowls tuned to the frequency of each chakra. Sound healing reduces anxiety and blood pressure\, while promoting healthier sleep.\nAttendees are encouraged to wear comfy clothes and a bottle of water for this restorative practice.\n\n<b>Location Details:</b> Mohalu Wellness\, 126 W. German St.\, Shepherdstown\, WV\n\n<b>Contact Info:</b> Lona Lozinski info@mohaluwellness.com </p
+CATEGORIES:Uncategorized
+URL:https://share.fitdegree.com/?share=697693a2a24a7
 STATUS:CONFIRMED
 SOURCE:shepherdstown.info
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260502T090000Z-e0efe85a-018c-5c1e-897c-693685d4d3d1@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260502T090000Z
 DTEND:20260502T120000Z
 SUMMARY:Annual Garden Club Plant Sale
@@ -110,7 +94,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260502T090000Z-7d8e3315-8e06-5588-9a18-b2fa55409946@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260502T090000Z
 DTEND:20260502T120000Z
 SUMMARY:Spring Plant Sale
@@ -124,7 +108,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260502T100000Z-1f6c0cf5-cc89-5c7f-8a11-21747186d01f@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260502T100000Z
 DTEND:20260502T180000Z
 SUMMARY:SCC First Weekend Handmade Market
@@ -138,7 +122,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260502T100000Z-8e57a722-a9bc-5e9f-885a-14824e203de8@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260502T100000Z
 DTEND:20260502T110000Z
 SUMMARY:YOGA: $5 Flow
@@ -152,8 +136,52 @@ SOURCE:shepherdstown.info
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:20260502T130000Z-c246e4d3-44a6-54a9-92e4-5a6ad992a68f@shepherdstown.info
+DTSTAMP:20260426T084739Z
+DTSTART:20260502T130000Z
+DTEND:20260502T153000Z
+SUMMARY:Guns to Gardens - unused/unwanted firearm trade-in for gift cards
+ORGANIZATION:Shepherdstown Fire Department
+LOCATION:Shepherdstown Fire Hall
+DESCRIPTION:<p>Activity\nSponsored by Shepherdstown Presbyterian Church\nGUNS TO GARDENS\nA Safe Gun Disposal Event\nUnwanted Firearms Are Made into Garden Tools\nPlease Bring Unwanted Firearms to\nShepherdstown Fire Department\n8052 Martinsburg Pike\, Shepherdstown\, WV\nSaturday\, May 2\, 2026\, 1 – 3:30 pm\nGuns are carefully dismantled on site\nGuns must be:\n• Unloaded\n• Stored in car trunk or back end of vehicle\n• In working order\nYou will receive thank you gift cards to local grocery stores:\n• $50 per handgun\n• $100 per rifle/shotgun\n• $200 per semiautomatic\nFor Further Information:\n(571) 577-9211\nguns2gardens@shepherdstownpresbyterian.org\n\n<b>Location Details:</b> Shepherdstown Fire Hall\, 8052 Martinsburg Pike\, Shepherdstown\, WV\, 25443\, US\n\n<b>Contact Info:</b> Leslie Williams (571) 577-9211 guns2gardens@shepherdstownpresbyterian.org</p
+CATEGORIES:Outdoors & Nature
+STATUS:CONFIRMED
+SOURCE:shepherdstown.info
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260502T140000Z-1cb727d5-6d02-5d35-b52e-cb3ea915c6af@shepherdstown.info
+DTSTAMP:20260426T084739Z
+DTSTART:20260502T140000Z
+DTEND:20260502T170000Z
+SUMMARY:May Day Wine Tasting
+ORGANIZATION:Grapes and Grains Gourmet
+LOCATION:Grapes and Grains Gourmet, 110 E German St, Shepherdstown
+DESCRIPTION:<p>Stop in and sample 3 handpicked wines paired with cheese\, crackers\, and knowledge.\n\n<b>Location Details:</b> Grapes and Grains Gourmet\, 110 E. German St.\, Shepherdstown\, WV\, 25443\, US\n\n<b>Contact Info:</b> Grapes and Grains Gourmet 3048761316 grapesandgrainsgourmet2@gmail.com</p
+CATEGORIES:Uncategorized
+URL:https://www.facebook.com/GrapesandGrainsGourmet
+STATUS:CONFIRMED
+SOURCE:shepherdstown.info
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260502T193000Z-98756c45-8076-5451-98d8-c6765864a1c2@shepherdstown.info
+DTSTAMP:20260426T084739Z
+DTSTART:20260502T193000Z
+DTEND:20260502T223000Z
+SUMMARY:Monthly Contra Dance in Shepherdstown
+ORGANIZATION:Shepherdstown Music & Dance
+LOCATION:War Memorial Building (Community Club)
+DESCRIPTION:<p>Join us for another wonderful contra dance with a fine variety of dances to the music of Terpsichore\, with Elke Baker\n(fiddle)\, Liz Donaldson (piano)\, and Ralph Gordon (bass). Caller: Greg Flock.\n\n<b>Location Details:</b> War Memorial Building (Community Club)\, 102 East German St\, Shepherdstown\, WV\, 25443\, US\n\n<b>Contact Info:</b> Joan Blanton (304) 263-2531 upperpotomac@gmail.com</p
+CATEGORIES:Community & Civic
+URL:https://smad.us
+STATUS:CONFIRMED
+SOURCE:shepherdstown.info
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:20260503T090000Z-1f6c0cf5-cc89-5c7f-8a11-21747186d01f@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260503T090000Z
 DTEND:20260503T160000Z
 SUMMARY:SCC First Weekend Handmade Market
@@ -166,36 +194,66 @@ SOURCE:shepherdstown.info
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:20260503T130000Z-dfcea710-4fc8-5214-8744-e7daa7434d22@shepherdstown.info
+DTSTAMP:20260426T084739Z
+DTSTART:20260503T130000Z
+DTEND:20260503T150000Z
+SUMMARY:Mommy & Me Yoga & Art workshop: The Power of Connection
+ORGANIZATION:Mohalu Wellness
+LOCATION:Mohalu Wellness
+DESCRIPTION:<p>Join us for this cozy studio class with a focus on parent-child connection and bonding through partner poses\, games\, affirmations\, and a collaborative art experience.\n$40 per pair\, each registration covers one parent and one child. Best suited for children ages 5-10. Only six registrations available.\n\n<b>Location Details:</b> Mohalu Wellness\, 126 W. German St.\, Shepherdstown\, WV\, 25443\n\n<b>Contact Info:</b> Lona Lozinski info@mohaluwellness.com </p
+CATEGORIES:Arts & Culture, Education & Workshops, Health & Wellness
+URL:https://share.fitdegree.com/?share=699eca2c9d527
+STATUS:CONFIRMED
+SOURCE:shepherdstown.info
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:20260503T140000Z-ecc31a25-7d9b-570c-8213-959d29807be6@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260503T140000Z
 DTEND:20260503T153000Z
 SUMMARY:Shepherd Big Band Concert
 ORGANIZATION:Shepherd University
 LOCATION:Shepherd Univ - Frank Center
 DESCRIPTION:<p>\n\n<b>Location Details:</b> Shepherd Univ - Frank Center\, 260 University Drive\, Shepherdstown\, WV</p
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
+STATUS:CONFIRMED
+SOURCE:shepherdstown.info
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260505T120000Z-19289758-1c8e-5e1d-842b-0e6153db80f7@shepherdstown.info
+DTSTAMP:20260426T084739Z
+DTSTART:20260505T120000Z
+DTEND:20260505T133000Z
+SUMMARY:Death Café Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+LOCATION:Shepherdstown Public Library
+DESCRIPTION:<p>A Compassionate Conversation About Death & Dying\nDeath Café is a welcoming space to talk openly about death\, as well as life\, and everything in between. No agenda\, just conversation. Bring your thoughts\, questions\, and curiosity! All are welcome. Tea and light refreshments will be provided.\n\n<b>Location Details:</b> Shepherdstown Public Library\, 145 Higbee Ln\, Shepherdstown\, WV\, 25443\, United States\n\n<b>Contact Info:</b> David Macek and Marian Condon 619-208-3833 davidemacek@gmail.com</p
+CATEGORIES:Community & Civic
+URL:https://docs.google.com/forms/d/e/1FAIpQLScCi5BF1EQi0QMOOarO1B4ME5QxnW_DfSbnzfGIlD4fToxGzA/viewform
 STATUS:CONFIRMED
 SOURCE:shepherdstown.info
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260506T200000Z-a7b2ce54-f912-5a44-a0e5-a1e578c31c28@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260506T200000Z
 DTEND:20260506T220000Z
 SUMMARY:Live Jazz
 ORGANIZATION:Mecklenburg Inn
 LOCATION:Mecklenburg Inn
 DESCRIPTION:<p>Come check us out the first Wednesday of the month at @mecklenburginn from 8-10pm. Hot and Cool Jazz for the soul featuring Ken Bussey\, @randallballmusic @jesse_shultzaberger\n\n<b>Location Details:</b> Mecklenburg Inn\, 128 E. German Street\, Shepherdstown \, WV\, 25443\, US</p
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 STATUS:CONFIRMED
 SOURCE:shepherdstown.info
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260509T100000Z-3e3ff114-49e4-5e09-bb32-03a471b495da@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260509T100000Z
 DTEND:20260509T110000Z
 SUMMARY:Community (donation) Yoga
@@ -210,7 +268,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260513T183000Z-a119bfbc-0391-55ad-b940-4282cac3ef89@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260513T183000Z
 DTEND:
 SUMMARY:Town Council Meeting
@@ -224,8 +282,23 @@ SOURCE:shepherdstown.info
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:20260513T190000Z-25ee12ec-7c4a-523f-8456-b62786cda35b@shepherdstown.info
+DTSTAMP:20260426T084739Z
+DTSTART:20260513T190000Z
+DTEND:20260513T200000Z
+SUMMARY:Historic Shepherdstown Speaker Series - "Main Street: A Proven Strategy for Small Historic Towns"
+ORGANIZATION:Shepherd University
+LOCATION:Shepherd Univ - Byrd Center for Congressional History and Education
+DESCRIPTION:<p>Erin Barnes\, President and CEO of Main Street America (a subsidiary of the National Trust for Historic Preservation) will address the success of the Main Street movement over the past 45 years in demonstrating the effectiveness of a combination of historic preservation\, economic development\, marketing and business development strategies in strengthening the competitiveness of the downtowns of historic small towns.\n\n<b>Location Details:</b> Shepherd Univ - Byrd Center for Congressional History and Education\, 213 North King Street\, Shepherdstown\, WV\n\n<b>Contact Info:</b> Suprena Mills 304-876-0910 hsc1786@gmail.com</p
+CATEGORIES:Community & Civic, History
+URL:https://historicshepherdstown.com
+STATUS:CONFIRMED
+SOURCE:shepherdstown.info
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:20260516T193000Z-e8c3d712-4e96-5b16-9686-9ab85aa86641@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260516T193000Z
 DTEND:20260516T213000Z
 SUMMARY:Woven: An Appalachian Tapestry
@@ -240,7 +313,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260522T000000Z-109b8d75-fc52-502b-8e3b-829faa581bd9@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260522T000000Z
 DTEND:20260522T235959Z
 SUMMARY:Back Alley Garden Tour Plein Air Painters Exhibit
@@ -254,7 +327,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260522T170000Z-c68b2679-4058-5a4c-8d12-611395c07e20@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260522T170000Z
 DTEND:20260522T200000Z
 SUMMARY:Back Alley Garden Tour Plein Air Painters Exhibit Opening Reception
@@ -268,7 +341,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260523T000000Z-109b8d75-fc52-502b-8e3b-829faa581bd9@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260523T000000Z
 DTEND:20260523T235959Z
 SUMMARY:Back Alley Garden Tour Plein Air Painters Exhibit
@@ -282,7 +355,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260524T000000Z-109b8d75-fc52-502b-8e3b-829faa581bd9@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260524T000000Z
 DTEND:20260524T235959Z
 SUMMARY:Back Alley Garden Tour Plein Air Painters Exhibit
@@ -296,7 +369,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260525T000000Z-109b8d75-fc52-502b-8e3b-829faa581bd9@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260525T000000Z
 DTEND:20260525T235959Z
 SUMMARY:Back Alley Garden Tour Plein Air Painters Exhibit
@@ -310,7 +383,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260526T000000Z-109b8d75-fc52-502b-8e3b-829faa581bd9@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260526T000000Z
 DTEND:20260526T235959Z
 SUMMARY:Back Alley Garden Tour Plein Air Painters Exhibit
@@ -324,7 +397,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260527T000000Z-109b8d75-fc52-502b-8e3b-829faa581bd9@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260527T000000Z
 DTEND:20260527T235959Z
 SUMMARY:Back Alley Garden Tour Plein Air Painters Exhibit
@@ -338,7 +411,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260528T000000Z-109b8d75-fc52-502b-8e3b-829faa581bd9@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260528T000000Z
 DTEND:20260528T235959Z
 SUMMARY:Back Alley Garden Tour Plein Air Painters Exhibit
@@ -352,7 +425,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260529T000000Z-109b8d75-fc52-502b-8e3b-829faa581bd9@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260529T000000Z
 DTEND:20260529T235959Z
 SUMMARY:Back Alley Garden Tour Plein Air Painters Exhibit
@@ -366,7 +439,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260530T000000Z-109b8d75-fc52-502b-8e3b-829faa581bd9@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260530T000000Z
 DTEND:20260530T235959Z
 SUMMARY:Back Alley Garden Tour Plein Air Painters Exhibit
@@ -380,7 +453,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260530T100000Z-1f6c0cf5-cc89-5c7f-8a11-21747186d01f@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260530T100000Z
 DTEND:20260530T180000Z
 SUMMARY:SCC First Weekend Handmade Market
@@ -393,8 +466,22 @@ SOURCE:shepherdstown.info
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:20260530T120000Z-986c6bab-264f-516d-83dc-0d25614b20cc@shepherdstown.info
+DTSTAMP:20260426T084739Z
+DTSTART:20260530T120000Z
+DTEND:20260530T190000Z
+SUMMARY:Shepherdstown Gay Pride Parade Information Center and Flag in the Map exhibit
+ORGANIZATION:Eclectic
+LOCATION:Eclectic
+DESCRIPTION:<p>Flag in the Map is a moving exhibit of rainbow flag stories from around the world. On loan and created by The Gilbert Baker Foundation and ReportOUT.\n\n<b>Location Details:</b> Eclectic\, 106 W German St\, Shepherdstown \, WV\, 25443\, USA\n\n<b>Contact Info:</b> Joan Moossy shepherdstowngayprideparad e@gmail.com </p
+CATEGORIES:Arts & Culture, Community & Civic
+STATUS:CONFIRMED
+SOURCE:shepherdstown.info
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:20260530T180000Z-86131031-c3fc-5b4b-889a-aeec3f86a47d@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260530T180000Z
 DTEND:20260530T210000Z
 SUMMARY:Dance the Night Away - Dinner and Dance Exhibition
@@ -409,7 +496,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260531T000000Z-109b8d75-fc52-502b-8e3b-829faa581bd9@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260531T000000Z
 DTEND:20260531T235959Z
 SUMMARY:Back Alley Garden Tour Plein Air Painters Exhibit
@@ -422,8 +509,36 @@ SOURCE:shepherdstown.info
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:20260531T090000Z-1f6c0cf5-cc89-5c7f-8a11-21747186d01f@shepherdstown.info
+DTSTAMP:20260426T084739Z
+DTSTART:20260531T090000Z
+DTEND:20260531T160000Z
+SUMMARY:SCC First Weekend Handmade Market
+ORGANIZATION:Shepherdstown Community Club
+LOCATION:War Memorial Building, 102 E. German Street
+DESCRIPTION:<p>Activity\n_Community\n_FAMILY FRIENDLY\nSCC First Weekend Handmade Market\n2026 DATES:\nAPRIL 4–5\nMAY 2–3\nMAY 30–31\nJULY 4–5\nAUGUST 1–2\nSEPTEMBER 5–6\nOCTOBER 3–4\nNOVEMBER 7–8\nHOURS:\nSATURDAYS 10–6\nSUNDAYS 9–4\nWar Memorial Bldg.\n102 E. German St.\nShepherdstown\, WV\nShop Handmade!\n\n<b>Location Details:</b> Community Club (War Memorial Building)\, 102 East German Street\, Shepherdstown\, WV\, 25443</p
+CATEGORIES:Arts & Culture
+STATUS:CONFIRMED
+SOURCE:shepherdstown.info
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260531T120000Z-986c6bab-264f-516d-83dc-0d25614b20cc@shepherdstown.info
+DTSTAMP:20260426T084739Z
+DTSTART:20260531T120000Z
+DTEND:20260531T190000Z
+SUMMARY:Shepherdstown Gay Pride Parade Information Center and Flag in the Map exhibit
+ORGANIZATION:Eclectic
+LOCATION:Eclectic
+DESCRIPTION:<p>Flag in the Map is a moving exhibit of rainbow flag stories from around the world. On loan and created by The Gilbert Baker Foundation and ReportOUT.\n\n<b>Location Details:</b> Eclectic\, 106 W German St\, Shepherdstown \, WV\, 25443\, USA\n\n<b>Contact Info:</b> Joan Moossy shepherdstowngayprideparad e@gmail.com </p
+CATEGORIES:Arts & Culture, Community & Civic
+STATUS:CONFIRMED
+SOURCE:shepherdstown.info
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:20260601T000000Z-109b8d75-fc52-502b-8e3b-829faa581bd9@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260601T000000Z
 DTEND:20260601T235959Z
 SUMMARY:Back Alley Garden Tour Plein Air Painters Exhibit
@@ -436,8 +551,22 @@ SOURCE:shepherdstown.info
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:20260601T120000Z-986c6bab-264f-516d-83dc-0d25614b20cc@shepherdstown.info
+DTSTAMP:20260426T084739Z
+DTSTART:20260601T120000Z
+DTEND:20260601T190000Z
+SUMMARY:Shepherdstown Gay Pride Parade Information Center and Flag in the Map exhibit
+ORGANIZATION:Eclectic
+LOCATION:Eclectic
+DESCRIPTION:<p>Flag in the Map is a moving exhibit of rainbow flag stories from around the world. On loan and created by The Gilbert Baker Foundation and ReportOUT.\n\n<b>Location Details:</b> Eclectic\, 106 W German St\, Shepherdstown \, WV\, 25443\, USA\n\n<b>Contact Info:</b> Joan Moossy shepherdstowngayprideparad e@gmail.com </p
+CATEGORIES:Arts & Culture, Community & Civic
+STATUS:CONFIRMED
+SOURCE:shepherdstown.info
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:20260601T180000Z-9966b298-5522-5bc0-88a3-401a04feb754@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260601T180000Z
 DTEND:20260601T190000Z
 SUMMARY:Shepherdstown Gay Pride Parade
@@ -451,8 +580,23 @@ SOURCE:shepherdstown.info
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:20260601T184500Z-e6cd2080-b8e6-5414-a497-0dd5b7e725c9@shepherdstown.info
+DTSTAMP:20260426T084739Z
+DTSTART:20260601T184500Z
+DTEND:20260601T194500Z
+SUMMARY:FREE YOGA: Flow with Pride
+ORGANIZATION:Mohalu Wellness
+LOCATION:Shepherd Univ - McMurran Hall
+DESCRIPTION:<p>Join us as we celebrate Pride!\nThe month of June is Pride Month\, a chance to celebrate our LGBTQ+ community\, highlight their contributions and support their access to civic rights.\nThis is a FREE yoga offering on the lawn of McMurran Hall immediately following the Shepherdstown Pride Parade. Come as you are\, mats will be provided. No registration required. Rain location will be the Mohalu Wellness studio on German St\, just down the block from McMurran.\n\n<b>Location Details:</b> Shepherd Univ - McMurran Hall\, 101 E German St\, Shepherdstown\, WV\, 25443\, US\n\n<b>Contact Info:</b> Lona Lozinski info@mohaluwellness.com </p
+CATEGORIES:Health & Wellness
+URL:https://share.fitdegree.com/?share=69da33548e6a3
+STATUS:CONFIRMED
+SOURCE:shepherdstown.info
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:20260602T000000Z-109b8d75-fc52-502b-8e3b-829faa581bd9@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260602T000000Z
 DTEND:20260602T235959Z
 SUMMARY:Back Alley Garden Tour Plein Air Painters Exhibit
@@ -465,8 +609,23 @@ SOURCE:shepherdstown.info
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:20260602T120000Z-19289758-1c8e-5e1d-842b-0e6153db80f7@shepherdstown.info
+DTSTAMP:20260426T084739Z
+DTSTART:20260602T120000Z
+DTEND:20260602T133000Z
+SUMMARY:Death Café Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+LOCATION:Shepherdstown Public Library
+DESCRIPTION:<p>A Compassionate Conversation About Death & Dying\nDeath Café is a welcoming space to talk openly about death\, as well as life\, and everything in between. No agenda\, just conversation. Bring your thoughts\, questions\, and curiosity! All are welcome. Tea and light refreshments will be provided.\n\n<b>Location Details:</b> Shepherdstown Public Library\, 145 Higbee Ln\, Shepherdstown\, WV\, 25443\, United States\n\n<b>Contact Info:</b> David Macek and Marian Condon 619-208-3833 davidemacek@gmail.com</p
+CATEGORIES:Community & Civic
+URL:https://docs.google.com/forms/d/e/1FAIpQLScCi5BF1EQi0QMOOarO1B4ME5QxnW_DfSbnzfGIlD4fToxGzA/viewform
+STATUS:CONFIRMED
+SOURCE:shepherdstown.info
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:20260603T000000Z-109b8d75-fc52-502b-8e3b-829faa581bd9@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260603T000000Z
 DTEND:20260603T235959Z
 SUMMARY:Back Alley Garden Tour Plein Air Painters Exhibit
@@ -480,21 +639,21 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260603T200000Z-a7b2ce54-f912-5a44-a0e5-a1e578c31c28@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260603T200000Z
 DTEND:20260603T220000Z
 SUMMARY:Live Jazz
 ORGANIZATION:Mecklenburg Inn
 LOCATION:Mecklenburg Inn
 DESCRIPTION:<p>Come check us out the first Wednesday of the month at @mecklenburginn from 8-10pm. Hot and Cool Jazz for the soul featuring Ken Bussey\, @randallballmusic @jesse_shultzaberger\n\n<b>Location Details:</b> Mecklenburg Inn\, 128 E. German Street\, Shepherdstown \, WV\, 25443\, US</p
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 STATUS:CONFIRMED
 SOURCE:shepherdstown.info
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260604T000000Z-109b8d75-fc52-502b-8e3b-829faa581bd9@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260604T000000Z
 DTEND:20260604T235959Z
 SUMMARY:Back Alley Garden Tour Plein Air Painters Exhibit
@@ -508,7 +667,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260605T000000Z-109b8d75-fc52-502b-8e3b-829faa581bd9@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260605T000000Z
 DTEND:20260605T235959Z
 SUMMARY:Back Alley Garden Tour Plein Air Painters Exhibit
@@ -522,21 +681,21 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260605T170000Z-03af2297-6f97-5465-aa8f-33ca010da9b4@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260605T170000Z
 DTEND:20260605T190000Z
 SUMMARY:"Shepherdstown Live" First Friday Music
 ORGANIZATION:Town of Shepherdstown
 LOCATION:McMurran Hall Lawn Outdoors
 DESCRIPTION:<p>Enjoy free live outdoor music on First Fridays in May-October on the lawn of McMurran Hall\, in downtown Shepherdstown. Bring your friends/family\, a chair or blanket\, and stay after the music to dine\, shop and play! Today's band TBD\n\n<b>Location Details:</b> McMurran Hall Lawn Outdoors\, 102 S. King St\, Shepherdstown\, WV\, 25443\, United States\n\n<b>Contact Info:</b> Shannon Thomas 6513297063 shanpur@gmail.com</p
-CATEGORIES:Community & Civic, Film & Performing Arts
+CATEGORIES:Community & Civic, Music & Film & Stage
 STATUS:CONFIRMED
 SOURCE:shepherdstown.info
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260606T000000Z-109b8d75-fc52-502b-8e3b-829faa581bd9@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260606T000000Z
 DTEND:20260606T235959Z
 SUMMARY:Back Alley Garden Tour Plein Air Painters Exhibit
@@ -550,7 +709,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260606T000000Z-6053fb41-f50f-5356-a6c6-150c79653b5a@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260606T000000Z
 DTEND:20260606T235959Z
 SUMMARY:Shepherdstown STREETFEST
@@ -565,7 +724,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260606T100000Z-8e57a722-a9bc-5e9f-885a-14824e203de8@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260606T100000Z
 DTEND:20260606T110000Z
 SUMMARY:YOGA: $5 Flow
@@ -580,7 +739,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260607T000000Z-109b8d75-fc52-502b-8e3b-829faa581bd9@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260607T000000Z
 DTEND:20260607T235959Z
 SUMMARY:Back Alley Garden Tour Plein Air Painters Exhibit
@@ -594,7 +753,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260608T000000Z-109b8d75-fc52-502b-8e3b-829faa581bd9@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260608T000000Z
 DTEND:20260608T235959Z
 SUMMARY:Back Alley Garden Tour Plein Air Painters Exhibit
@@ -608,7 +767,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260609T000000Z-109b8d75-fc52-502b-8e3b-829faa581bd9@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260609T000000Z
 DTEND:20260609T235959Z
 SUMMARY:Back Alley Garden Tour Plein Air Painters Exhibit
@@ -622,7 +781,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260610T000000Z-109b8d75-fc52-502b-8e3b-829faa581bd9@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260610T000000Z
 DTEND:20260610T235959Z
 SUMMARY:Back Alley Garden Tour Plein Air Painters Exhibit
@@ -636,7 +795,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260610T183000Z-a119bfbc-0391-55ad-b940-4282cac3ef89@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260610T183000Z
 DTEND:
 SUMMARY:Town Council Meeting
@@ -651,7 +810,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260611T000000Z-109b8d75-fc52-502b-8e3b-829faa581bd9@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260611T000000Z
 DTEND:20260611T235959Z
 SUMMARY:Back Alley Garden Tour Plein Air Painters Exhibit
@@ -665,7 +824,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260612T000000Z-109b8d75-fc52-502b-8e3b-829faa581bd9@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260612T000000Z
 DTEND:20260612T235959Z
 SUMMARY:Back Alley Garden Tour Plein Air Painters Exhibit
@@ -679,7 +838,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260613T000000Z-109b8d75-fc52-502b-8e3b-829faa581bd9@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260613T000000Z
 DTEND:20260613T235959Z
 SUMMARY:Back Alley Garden Tour Plein Air Painters Exhibit
@@ -693,7 +852,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260613T100000Z-3e3ff114-49e4-5e09-bb32-03a471b495da@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260613T100000Z
 DTEND:20260613T110000Z
 SUMMARY:Community (donation) Yoga
@@ -708,7 +867,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260614T000000Z-109b8d75-fc52-502b-8e3b-829faa581bd9@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260614T000000Z
 DTEND:20260614T235959Z
 SUMMARY:Back Alley Garden Tour Plein Air Painters Exhibit
@@ -722,35 +881,35 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260701T200000Z-a7b2ce54-f912-5a44-a0e5-a1e578c31c28@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260701T200000Z
 DTEND:20260701T220000Z
 SUMMARY:Live Jazz
 ORGANIZATION:Mecklenburg Inn
 LOCATION:Mecklenburg Inn
 DESCRIPTION:<p>Come check us out the first Wednesday of the month at @mecklenburginn from 8-10pm. Hot and Cool Jazz for the soul featuring Ken Bussey\, @randallballmusic @jesse_shultzaberger\n\n<b>Location Details:</b> Mecklenburg Inn\, 128 E. German Street\, Shepherdstown \, WV\, 25443\, US</p
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 STATUS:CONFIRMED
 SOURCE:shepherdstown.info
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260703T170000Z-03af2297-6f97-5465-aa8f-33ca010da9b4@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260703T170000Z
 DTEND:20260703T190000Z
 SUMMARY:"Shepherdstown Live" First Friday Music
 ORGANIZATION:Town of Shepherdstown
 LOCATION:McMurran Hall Lawn Outdoors
 DESCRIPTION:<p>Enjoy free live outdoor music on First Fridays in May-October on the lawn of McMurran Hall\, in downtown Shepherdstown. Bring your friends/family\, a chair or blanket\, and stay after the music to dine\, shop and play! Today's band TBD\n\n<b>Location Details:</b> McMurran Hall Lawn Outdoors\, 102 S. King St\, Shepherdstown\, WV\, 25443\, United States\n\n<b>Contact Info:</b> Shannon Thomas 6513297063 shanpur@gmail.com</p
-CATEGORIES:Community & Civic, Film & Performing Arts
+CATEGORIES:Community & Civic, Music & Film & Stage
 STATUS:CONFIRMED
 SOURCE:shepherdstown.info
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260704T100000Z-1f6c0cf5-cc89-5c7f-8a11-21747186d01f@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260704T100000Z
 DTEND:20260704T180000Z
 SUMMARY:SCC First Weekend Handmade Market
@@ -764,7 +923,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260704T100000Z-8e57a722-a9bc-5e9f-885a-14824e203de8@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260704T100000Z
 DTEND:20260704T110000Z
 SUMMARY:YOGA: $5 Flow
@@ -779,7 +938,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260705T090000Z-1f6c0cf5-cc89-5c7f-8a11-21747186d01f@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260705T090000Z
 DTEND:20260705T160000Z
 SUMMARY:SCC First Weekend Handmade Market
@@ -792,8 +951,23 @@ SOURCE:shepherdstown.info
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:20260707T120000Z-19289758-1c8e-5e1d-842b-0e6153db80f7@shepherdstown.info
+DTSTAMP:20260426T084739Z
+DTSTART:20260707T120000Z
+DTEND:20260707T133000Z
+SUMMARY:Death Café Shepherdstown
+ORGANIZATION:Shepherdstown Public Library
+LOCATION:Shepherdstown Public Library
+DESCRIPTION:<p>A Compassionate Conversation About Death & Dying\nDeath Café is a welcoming space to talk openly about death\, as well as life\, and everything in between. No agenda\, just conversation. Bring your thoughts\, questions\, and curiosity! All are welcome. Tea and light refreshments will be provided.\n\n<b>Location Details:</b> Shepherdstown Public Library\, 145 Higbee Ln\, Shepherdstown\, WV\, 25443\, United States\n\n<b>Contact Info:</b> David Macek and Marian Condon 619-208-3833 davidemacek@gmail.com</p
+CATEGORIES:Community & Civic
+URL:https://docs.google.com/forms/d/e/1FAIpQLScCi5BF1EQi0QMOOarO1B4ME5QxnW_DfSbnzfGIlD4fToxGzA/viewform
+STATUS:CONFIRMED
+SOURCE:shepherdstown.info
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:20260708T183000Z-a119bfbc-0391-55ad-b940-4282cac3ef89@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260708T183000Z
 DTEND:
 SUMMARY:Town Council Meeting
@@ -808,7 +982,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260711T100000Z-3e3ff114-49e4-5e09-bb32-03a471b495da@shepherdstown.info
-DTSTAMP:20260413T123633Z
+DTSTAMP:20260426T084739Z
 DTSTART:20260711T100000Z
 DTEND:20260711T110000Z
 SUMMARY:Community (donation) Yoga

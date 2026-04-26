@@ -209,7 +209,7 @@ def create_ics_file(events, filename):
             if len(event['category']) > 0:
                 category = ', '.join(event['category'])
             else:
-                category = 'Film & Performing Arts'
+                category = 'Music & Film & Stage'
 
             url = event.get('more_info_url', '')
             

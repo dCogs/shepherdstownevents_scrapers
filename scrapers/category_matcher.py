@@ -61,7 +61,7 @@ def categorize_by_keywords(title):
             'VALENTINE', 'INDEPENDENCE', 'MEMORIAL'
         ],
 
-        "Film & Performing Arts": [
+        "Music & Film & Stage": [
             'THEATER', 'THEATRE', 'PLAY', 'DRAMA', 'COMEDY', 'MUSICAL',
             'PRODUCTION', 'STAGE', 'PERFORMANCE', 'ACTING', 'ACTOR', 'SHOW',
             'REHEARSAL', 'BROADWAY', 'IMPROV',
@@ -69,7 +69,7 @@ def categorize_by_keywords(title):
             'FEATURE', 'PREMIERE', 'FESTIVAL', 'VIDEO', 'ANIMATION',
             'MUSIC', 'CONCERT', 'BAND', 'SINGER', 'JAZZ', 'ROCK', 'CLASSICAL',
             'ORCHESTRA', 'PERFORMANCE', 'LIVE', 'ACOUSTIC', 'FOLK', 'BLUES',
-            'COUNTRY', 'POP', 'INSTRUMENTAL', 'SONG', 'GUITAR', 'PIANO'
+            'COUNTRY', 'POP', 'INSTRUMENTAL', 'SONG', 'GUITAR', 'PIANO', 'READING'
         ],
         
         'Outdoors & Nature': [

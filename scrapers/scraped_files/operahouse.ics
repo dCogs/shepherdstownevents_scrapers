@@ -6,105 +6,15 @@ METHOD:PUBLISH
 X-WR-CALNAME:Shepherdstown Opera House Schedule
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-UID:20260416T190000Z-47f286f3-489f-5c6c-bfab-ea28656c7631@operahouse
-DTSTAMP:20260410T195317Z
-DTSTART:20260416T190000Z
-DTEND:
-SUMMARY:Live Theater: A Doll’s House
-DESCRIPTION:Presented by the Town Run Theater Company\nSingle Weekend Only\n“A Doll’s House“\nA play by Henrik Ibsen\nTown Run Theater Company Artistic Director: Joe Yates\nTRTC Company Members: Joe Yates\, Homer Speaker\, Emily Wanger\, Sarah Ward and Richard Yates\nOur production of Henrik Ibsen’s timeless classic about self-discovery and independence is inspired by the 2022 Broadway revival\, which stripped the stage of all scenery and props\, smashing the boundary between the 19th century and today. The play follows Nora Helmer as she begins to question the roles imposed on her by society and family—setting the stage for one of theater’s most famous exits.\nAudience: All ages\nGeneral Admission. Advance purchase strongly recommended to ensure selection of performance.\nTicket Prices (including taxes and ticketing fees):\nAdvance Purchase: $23.30 ($20 ticket plus 7% sales tax & ticketing fees)\nAt Door Purchase: $28.65 ($25 ticket plus 7% sales tax & ticketing fees)\nPay-What-You-Can Performance: Thursday\, April 16\nDoors open 30 minutes before showtime.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
-LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
-URL:https://operahouselive.com/apr-10-19-a-dolls-house/
-CATEGORIES:Film & Performing Arts
-ORGANIZATION:Town Run Theater Company
-STATUS:CONFIRMED
-SOURCE:operahouselive.com
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260417T190000Z-47f286f3-489f-5c6c-bfab-ea28656c7631@operahouse
-DTSTAMP:20260410T195317Z
-DTSTART:20260417T190000Z
-DTEND:
-SUMMARY:Live Theater: A Doll’s House
-DESCRIPTION:Presented by the Town Run Theater Company\nSingle Weekend Only\n“A Doll’s House“\nA play by Henrik Ibsen\nTown Run Theater Company Artistic Director: Joe Yates\nTRTC Company Members: Joe Yates\, Homer Speaker\, Emily Wanger\, Sarah Ward and Richard Yates\nOur production of Henrik Ibsen’s timeless classic about self-discovery and independence is inspired by the 2022 Broadway revival\, which stripped the stage of all scenery and props\, smashing the boundary between the 19th century and today. The play follows Nora Helmer as she begins to question the roles imposed on her by society and family—setting the stage for one of theater’s most famous exits.\nAudience: All ages\nGeneral Admission. Advance purchase strongly recommended to ensure selection of performance.\nTicket Prices (including taxes and ticketing fees):\nAdvance Purchase: $23.30 ($20 ticket plus 7% sales tax & ticketing fees)\nAt Door Purchase: $28.65 ($25 ticket plus 7% sales tax & ticketing fees)\nPay-What-You-Can Performance: Thursday\, April 16\nDoors open 30 minutes before showtime.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
-LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
-URL:https://operahouselive.com/apr-10-19-a-dolls-house/
-CATEGORIES:Film & Performing Arts
-ORGANIZATION:Town Run Theater Company
-STATUS:CONFIRMED
-SOURCE:operahouselive.com
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260418T190000Z-47f286f3-489f-5c6c-bfab-ea28656c7631@operahouse
-DTSTAMP:20260410T195317Z
-DTSTART:20260418T190000Z
-DTEND:
-SUMMARY:Live Theater: A Doll’s House
-DESCRIPTION:Presented by the Town Run Theater Company\nSingle Weekend Only\n“A Doll’s House“\nA play by Henrik Ibsen\nTown Run Theater Company Artistic Director: Joe Yates\nTRTC Company Members: Joe Yates\, Homer Speaker\, Emily Wanger\, Sarah Ward and Richard Yates\nOur production of Henrik Ibsen’s timeless classic about self-discovery and independence is inspired by the 2022 Broadway revival\, which stripped the stage of all scenery and props\, smashing the boundary between the 19th century and today. The play follows Nora Helmer as she begins to question the roles imposed on her by society and family—setting the stage for one of theater’s most famous exits.\nAudience: All ages\nGeneral Admission. Advance purchase strongly recommended to ensure selection of performance.\nTicket Prices (including taxes and ticketing fees):\nAdvance Purchase: $23.30 ($20 ticket plus 7% sales tax & ticketing fees)\nAt Door Purchase: $28.65 ($25 ticket plus 7% sales tax & ticketing fees)\nPay-What-You-Can Performance: Thursday\, April 16\nDoors open 30 minutes before showtime.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
-LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
-URL:https://operahouselive.com/apr-10-19-a-dolls-house/
-CATEGORIES:Film & Performing Arts
-ORGANIZATION:Town Run Theater Company
-STATUS:CONFIRMED
-SOURCE:operahouselive.com
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260419T150000Z-47f286f3-489f-5c6c-bfab-ea28656c7631@operahouse
-DTSTAMP:20260410T195317Z
-DTSTART:20260419T150000Z
-DTEND:
-SUMMARY:Live Theater: A Doll’s House
-DESCRIPTION:Presented by the Town Run Theater Company\nSingle Weekend Only\n“A Doll’s House“\nA play by Henrik Ibsen\nTown Run Theater Company Artistic Director: Joe Yates\nTRTC Company Members: Joe Yates\, Homer Speaker\, Emily Wanger\, Sarah Ward and Richard Yates\nOur production of Henrik Ibsen’s timeless classic about self-discovery and independence is inspired by the 2022 Broadway revival\, which stripped the stage of all scenery and props\, smashing the boundary between the 19th century and today. The play follows Nora Helmer as she begins to question the roles imposed on her by society and family—setting the stage for one of theater’s most famous exits.\nAudience: All ages\nGeneral Admission. Advance purchase strongly recommended to ensure selection of performance.\nTicket Prices (including taxes and ticketing fees):\nAdvance Purchase: $23.30 ($20 ticket plus 7% sales tax & ticketing fees)\nAt Door Purchase: $28.65 ($25 ticket plus 7% sales tax & ticketing fees)\nPay-What-You-Can Performance: Thursday\, April 16\nDoors open 30 minutes before showtime.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
-LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
-URL:https://operahouselive.com/apr-10-19-a-dolls-house/
-CATEGORIES:Film & Performing Arts
-ORGANIZATION:Town Run Theater Company
-STATUS:CONFIRMED
-SOURCE:operahouselive.com
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260422T180000Z-cad6f5d5-fecf-5a3d-9652-46739db9da5b@operahouse
-DTSTAMP:20260410T195317Z
-DTSTART:20260422T180000Z
-DTEND:
-SUMMARY:I Am Evidence
-DESCRIPTION:A community-wide film + discussion event in observance of Sexual Assault Awareness Month.\nI AM EVIDENCE – winner of an Emmy for Best Documentary – tells the story of four survivors whose rape kits went untested for years\, following them as they navigate their way through the criminal justice system and learn that so often\, the system is broken. The film reveals the historic nature of the way we treat the crime of sexual assault in this country\, and the positive effects that occur when perpetrators are held accountable and survivors are given an opportunity for healing and justice. \nThis event is hosted by the Shepherdstown Opera House and organized by the Eastern Panhandle Empowerment Center (EPEC).\nAfter the film\, EPEC representatives will lead a brief discussion and describe available resources.\nContent Advisory: The film and discussion will have clear and detailed descriptions of sexual violence. Mature audiences only.\nRuntime: total program approximately 2 hours\nFree admission (unreserved seating).\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
-LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
-URL:https://operahouselive.com/apr-22-i-am-evidence/
-CATEGORIES:Film & Performing Arts
-ORGANIZATION:Shepherdstown Opera House
-STATUS:CONFIRMED
-SOURCE:operahouselive.com
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260424T193000Z-fb12cc64-9209-55ba-b74b-d4c2a333e908@operahouse
-DTSTAMP:20260410T195317Z
-DTSTART:20260424T193000Z
-DTEND:
-SUMMARY:Mr. Nobody Against Putin
-DESCRIPTION:Mr. Nobody Against Putin (2025)\n2026 Academy Award Winner for Best Documentary Feature.\nDirected by David Borenstein and Pavel Talankin\nFeaturing Pavel Talankin\nThis riveting first-person exposé of Russia’s wartime student indoctrination program is told through the eyes of a small-town primary school teacher who dared to challenge the program and expose the truth.\nYear Released: 2025\nRating: Not rated. Suggested 12+\nRuntime: 90 minutes\nLanguage: Russian\, with English subtitles\nTickets: Pay-What-You-Can ($10 suggested). Presented in partnership with Shepherd University’s Lifelong Learning Program – A volunteer member-driven program dedicated to offering stimulating academic courses and activities to the community.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
-LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
-URL:https://operahouselive.com/apr-24-mr-nobody-against-putin/
-CATEGORIES:Film & Performing Arts
-ORGANIZATION:Shepherdstown Opera House
-STATUS:CONFIRMED
-SOURCE:operahouselive.com
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:20260425T200000Z-405a5ce7-cd83-5e04-8a40-20667c41f041@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20260425T200000Z
 DTEND:
 SUMMARY:Black Masala w/ the Gypsy Ramblers
 DESCRIPTION:Spring Fever Party Alert!\nIt’s been a long winter\, but Spring is in full bloom and we are ready to have a party with Black Masala and The Gypsy Ramblers! Come ready to dance!\nLocal favorites The Gypsy Ramblers will start the show with their signature blend of gypsy jazz\, ‘dawg\,’ and blues.\nBrassy\, funky\, 7-piece band Black Masala is a DC-based genre-busting whirlwind of dueling energies\, competing harmonies\, and driving hypnotic beats.\nThis is their FIRST show at the Opera House since our top-to-bottom rebuild\, and we’re thrilled to welcome them back to Shepherdstown!\nWith rock drive and a willingness to be as weird and wonderful as the party demands\, Black Masala’s original tunes tell stories of powerful women\, rascally dudes\, raucous nights\, and life on the road. \nWhether they are performing live shows or releasing new music\, Black Masala pushes the boundaries between genres and explores new musical frontiers. This unorthodox and highly creative approach is what makes the shows so much fun with a wild and unpredictable vibe for the audience.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nBlack Masala links\nWebsite\nFacebook\nSpotify\nInstagram\nSoundCloud\nGypsy Rambler links\nWebsite\nFacebook\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/apr-25-black-masala-full-band-show/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -112,14 +22,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260426T150000Z-d106e518-ac92-5354-bf10-a903a7aae3e9@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20260426T150000Z
 DTEND:
 SUMMARY:National Theatre Live: The Fifth Step
 DESCRIPTION:National Theatre Live – On Screen\nThe Fifth Step\nBy David Ireland\nDirected by Finn den Hertog\nAfter years in the 12-step progrm of Alcoholics Anonymous\, James becomes a sponsor to newcomer Luka. The pair bond over black coffee\, trade stories and build a fragile friendship out of their shared experiences. But as Luka approaches step five – the moment of confession – dangerous truths emerge\, threatening the trust on which both of their recoveries depend.\nFinn den Hertog directs the provocative and entertaining production filmed live from Soho Theatre on London’s West End.\nAge Rating:R (due to due to strong language\, sexual themes\, and intense discussions regarding addiction)\nRunning Time: 90 minutes (no intermission)\nGeneral admission (unreserved seating).\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/apr-26-national-theatre-live-the-fifth-step/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -127,14 +37,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260501T193000Z-4656af10-ebcf-5416-bf80-6ac33c5ce2bf@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20260501T193000Z
 DTEND:
 SUMMARY:Eleanor the Great
 DESCRIPTION:A Shepherdstown Film Society presentation\nEleanor the Great (2025)\nDirector: Scarlett Johansson\nIn Eleanor The Great\, June Squibb brings to vivid life the witty and proudly troublesome 94-year-old Eleanor Morgenstein\, who after a devastating loss\, tells a tale that takes on a dangerous life of its own. Scarlett Johansson’s directorial debut is a comically poignant exploration of how the stories we hear become the stories we tell.\nPost-film discussion: Facilitated discussion follows the film for those who wish to stay. Discussion leader TBA\nYear Released: 2025\nRating: PG-13\nRuntime: 98 minutes\nGeneral admission (unreserved seating). Ticket price is “pay what you can.”\nThe Film Society is self-supporting. We depend on ticket revenues to bring these films to our community. If you are able\, please be generous in purchasing your tickets.  \nWant to do more?  Sponsor a film for just $250 and see your name in lights on the Opera House screen. Call 304-876-3704 or email Contact@OperaHouseLive.com to get the ball rolling. And thank you for supporting the Shepherdstown Film Society!!!\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nFILM SOCIETY SPONSORS\nA BIG THANKS to the sponsors whose generosity helps the Opera House bring this Shepherdstown Film Society selection to the community:\nSponsor for this event: TBA\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/may-1-eleanor-the-great/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Film Society
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -142,14 +52,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260503T150000Z-dc10d34b-3540-592c-982d-ae5f49f54622@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20260503T150000Z
 DTEND:
 SUMMARY:All The President’s Men
 DESCRIPTION:All The President’s Men (1976) — 50th Anniversary Screening\n2026 Academy Award Winner for Best Documentary Feature.\nCast: Robert Redford\, Dustin Hoffman\, Jason Robards\, Jack Warden\, Martin Balsam\nMark the 50th anniversary of the release of All the President’s Men\, the acclaimed journalistic drama based on the reporting of Washington Post journalists Bob Woodward and Carl Bernstein\, whose investigation helped uncover the Watergate scandal and led to President Nixon’s resignation.\nA post-film discussion will allow the audience to explore Watergate-related memories\, the film’s legacy\, and the continuing importance of investigative journalism.\nOptional: Guests are welcome to embrace the spirit of 1970s Washington DC — think newsroom reporters and Capitol Hill professionals\, with blazers\, wide ties\, trench coats\, shirt dresses\, note pads\, oversized glasses\, and printed newspapers under their arm.\nYear Released: 1976\nRating: PG\nRuntime: 138 minutes\nLanguage: English\nTickets: Pay-What-You-Can ($10 suggested). Presented in partnership with Shepherd University’s Lifelong Learning Program – A volunteer member-driven program dedicated to offering stimulating academic courses and activities to the community.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/may-3-all-the-presidents-men/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -157,14 +67,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260508T193000Z-3cc32b5f-20e9-53ad-babe-6149e98c6559@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20260508T193000Z
 DTEND:
 SUMMARY:Hamnet
 DESCRIPTION:Hamnet (2025)\n2026 Academy Award Winner for Best Actress.\nDirected by Chloe Zhao\nCast: Jessie Buckley\, Paul Mescal\, Zac Wishart\, James Lintern\, Joe Alwyn\nIn late 16th-century England\, Agnes\, a healer sensitive to the world around her\, builds a home with William\, a local tutor and aspiring playwright. As their lives fracture\, they are tested by distance\, silence\, and grief.\nYear Released: 2025\nRating: PG-13\nRuntime: 124 minutes\nLanguage: English\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/may-8-hamnet/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -172,14 +82,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260509T190000Z-d96bbaa8-2752-5de4-864a-aefa1dbb60c4@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20260509T190000Z
 DTEND:
 SUMMARY:Georgia O’Keeffe: the Brightness of Light
 DESCRIPTION:Georgia O’Keeffe: the Brightness of Light (2025)\nA feature documentary film exploring the life and art of the most important American woman artist of the 20th century.\nShepherdstown Opera House is thrilled to screen this film and host a post-film in-person discussion with filmmakers Paul Wagner (director) and Ellen Casey Wagner (co-producer).\nKnown as the “Mother of American Modernism\,” O’Keeffe exploded on the New York art scene in the 1920s with her paintings of flowers\, bones\, and the beauty of nature. Nude photographs of O’Keeffe taken by her lover\, Alfred Stieglitz\, shocked the public and contributed to the perception that her paintings were sexually charged. In the 1970s\, O’Keeffe\, famously isolated in the New Mexico desert\, emerged as an iconic role model for second wave feminists.\nFrom Academy Award-winning director Paul Wagner\, the film features music by Emilie Levienaise-Farrouch\, narration by Hugh Dancy\, and Claire Danes as the Voice of Georgia O’Keeffe.\nNot Rated\nRuntime: 118 minutes\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/may-9-georgia-okeeffe-the-brightness-of-light/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -187,14 +97,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260515T193000Z-415a8f58-447c-5af7-b05f-4caa571c8284@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20260515T193000Z
 DTEND:
 SUMMARY:O Pioneer
 DESCRIPTION:Join us this special evening to:\nEnjoy watching O Pioneer\, a made-in-West Virginia film\nEngage live with the filmmakers (via Zoom)\nSupport Shepherdstown’s Appalachian Heritage Festival\nMade in West Virginia\, O Pioneer reckons with and redefines the American pioneer.\nThis documentary follows three West Virginians—a blacksmith\, a seamstress\, and a hospital chaplain—as they creatively navigate hardship and call us to champion the pioneer within.\nNarrated by lyricist and musician Kaïa Kater\, the film weaves verité moments with archival footage\, poetic vignettes\, and dream-like animation—as Tim Hibbs\, Nellie Rose Gundersen Davis\, and James Morley humbly answer their calls to pioneer a way forward.\nPost-film discussion features a live Q&A with Helvetia\, WV-based filmmakers Clara Lehman and Jonathan Lacocque via Zoom.\nAdmission is Pay-What-You-Can (suggested $20/ticket). 100% of the ticket proceeds will be donated to Experience Shepherdstown to help this nonprofit organization support the 2026 Appalachian Heritage Festival.\nFilm website: OPioneer.com\nA Coat of Arms film. Directed by Clara Lehman and Jonathan Lacocque. Made Possible by Country Roads Angel Network (CRAN). This and other screenings in West Virginia are supported by WVU Medicine\nRuntime: 73 minutes + discussion\nGeneral admission (unreserved seating). Ticket price is “pay what you can.”\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nMore about this evening’s nonprofit beneficiaries:\nAppalachian Heritage Festival. Founded by Rachael Meads and now in its 30th year\, Shepherd University’s 2026 Appalachian Heritage Festival will take place this September. The Festival brings the finest Appalachian musicians\, story tellers and other artists to town for the entire community to enjoy\, and is a cornerstone of Shepherdstown’s monthlong celebration of Appalachian art\, music\, and cuisine.\nExperience Shepherdstown promotes\, supports\, and enhances Shepherdstown\, West Virginia\, a vibrant historic town with world class shops\, cuisine\, culture and community. Sign up for its biweekly newsletter about Shepherdstown happenings at Shepherdstown.info\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/may-15-o-pioneer/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -202,14 +112,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260516T193000Z-43b55f0a-a544-5649-aa59-1646afef17c8@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20260516T193000Z
 DTEND:
 SUMMARY:Kurt Crandall and True Story
-DESCRIPTION:Music has taken Kurt throughout the United States with stops in Kansas City\, Washington\, D.C.\, Macon\, Chicago\, Seattle and most recently Richmond\, Virginia. In DC Kurt played regularly with Jesse James Brown (former bass player for Bo Diddley). Kurt relocated to the Deep South\, where he spent three years playing with the Macon Blues All-Stars which included several alumni from Otis Redding’s band. Kurt left Georgia and moved to Chicago to immerse himself in the city’s storied blues scene as well as travel nationally and internationally to promote his debut album – True Story. During his tenure in Chicago\, he landed on the regular rotation at the House of Blues\, Shaw’s Crabhouse\, Andy’s Jazz Club\, Wise Fools Pub and Smoke Daddy and played with blues heavyweights Dave Specter\, Kenny Smith\, Barrelhouse Chuck and Jimmy Sutton.\nBio/Music: KurtCrandall.com\nGeneral Admission (all ages): $15 advance\, $20 at door.\nDoors open 30 minutes before showtime.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nARTIST LINKS – Kurt Crandall\nWebsite\nFacebook\nInstagram\nSpotify\nYouTube\n
+DESCRIPTION:If you saw them perform at the Opera House last year\, you know Kurt Crandall and True Story bring it all: talent\, skills\, and GREAT sound! We are thrilled to welcome these fine blues musicians back on Saturday\, May 16. Get your tickets now!\nMusic has taken Kurt throughout the United States with stops in Kansas City\, Washington\, D.C.\, Macon\, Chicago\, Seattle and most recently Richmond\, Virginia. In DC Kurt played regularly with Jesse James Brown (former bass player for Bo Diddley). Kurt relocated to the Deep South\, where he spent three years playing with the Macon Blues All-Stars which included several alumni from Otis Redding’s band. Kurt left Georgia and moved to Chicago to immerse himself in the city’s storied blues scene as well as travel nationally and internationally to promote his debut album – True Story. During his tenure in Chicago\, he landed on the regular rotation at the House of Blues\, Shaw’s Crabhouse\, Andy’s Jazz Club\, Wise Fools Pub and Smoke Daddy and played with blues heavyweights Dave Specter\, Kenny Smith\, Barrelhouse Chuck and Jimmy Sutton.\nBio/Music: KurtCrandall.com\nGeneral Admission (all ages): $15 advance\, $20 at door.\nDoors open 30 minutes before showtime.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nARTIST LINKS – Kurt Crandall\nWebsite\nFacebook\nInstagram\nSpotify\nYouTube\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/may-16-kurt-crandall-and-true-story/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -217,14 +127,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260522T193000Z-484f5fd7-8bbe-544d-8367-f0a42ab436d7@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20260522T193000Z
 DTEND:
 SUMMARY:Dara James and the Soul Disciples
-DESCRIPTION:Dara James and the Soul Disciples is an award-winning Central Virginia-based organ trio known for their powerhouse blend of blues\, funk\, R&B\, and soul. \nThe band features Dara James (Guitar\, Vocals)\, Eric Franzen (Hammond Organ)\, and Jeff Louderback (Drums). Lead singer Dara James began his professional career at age 11 as a harmonica player and previously played with the Jon Spear Band.\nTheir performances feature award-winning original songwriting alongside “refreshing” covers of classic rock and soul artists like Stevie Wonder\, Curtis Mayfield\, and Hall & Oates.\nThe band has released several critically acclaimed albums that have earned them a stack of Washington Area Music Awards (WAMMIES). Their discography reflects their journey from blues purists to masters of a “blues-infused” hybrid sound:\nThe group reached the semi-finals of the International Blues Challenge in Memphis in early 2026.\nArtist website: DaraJonesMusic.com\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
+DESCRIPTION:Dara James and the Soul Disciples is an award-winning Central Virginia-based organ trio known for their powerhouse blend of blues\, funk\, R&B\, and soul. \nThe band features Dara James (Guitar\, Vocals)\, Eric Franzen (Hammond Organ)\, and Jeff Louderback (Drums). Lead singer Dara James began his professional career at age 11 as a harmonica player and previously played with the Jon Spear Band.\nTheir performances feature award-winning original songwriting alongside “refreshing” covers of classic rock and soul artists like Stevie Wonder\, Curtis Mayfield\, and Hall & Oates.\nThe band has released several critically acclaimed albums that have earned them a stack of Washington Area Music Awards (WAMMIES). Their discography reflects their journey from blues purists to masters of a “blues-infused” hybrid sound:\nThe group reached the semi-finals of the International Blues Challenge in Memphis in early 2026.\nArtist website: DaraJanesMusic.com\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/may-22-dara-james-and-the-soul-disciples/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -232,14 +142,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260529T193000Z-22d4d260-ba6a-5f98-a87b-9db2cbca2343@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20260529T193000Z
 DTEND:
 SUMMARY:Jamie Turner & Those Revelators
 DESCRIPTION:Jamie Alan Turner is a seasoned musician whose music traverses the rich tapestry of Folk\, Americana\, and Blues music. With over two decades of musical experience\, Jamie’s compositions and evocative performances transport audiences on a journey through the heartland of American roots music. His skillful guitar work harkens back to the greats of these genres while carving a unique path of his own.\nInfluenced by a diverse array of musical legends\, Jamie’s music reflects the essence of artists who have shaped the sound of a generation. From the gritty authenticity of Delta Blues to the storytelling traditions of American Folk\, his music pays homage to these timeless influences while adding a modern twist.\nJamie Turner and Those Revelators is Jamie on guitar\, Rob Adaire on bass and Nick Kline tapping the drums. They are all very experienced musicians with Jamie having over 30 years of guitar under his belt\, Rob and they play contemporary blues rock – their own tunes and those by bands that have recently graced the blues charts.\nArtist website: JamieTurnerMusic.com\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/may-29-jamie-turner-those-revelators/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -247,14 +157,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260530T190000Z-b6458b53-2069-518c-8f03-220ad0ac71c6@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20260530T190000Z
 DTEND:
 SUMMARY:Milk
 DESCRIPTION:Milk (2008)\nDirected by Gus Van Sant | Starring Sean Penn\nIn advance of Shepherdstown’s 2nd Annual Gay Pride Parade celebration on June 1\, join us for a special screening of Milk\, the Academy Award-winning film that tells the powerful true story of Harvey Milk — one of the first openly gay elected officials in the United States.\nSet in 1970s San Francisco\, Milk traces the rise of a grassroots movement that transformed American politics and expanded the fight for equality. Anchored by a remarkable performance from Sean Penn\, the film is both an intimate portrait and an inspiring call to civic courage.\nThis evening’s screening encourages reflection on the history of LGBTQ+ activism and the enduring importance of visibility\, participation\, and local engagement.\nRated R\nRuntime: 128 minutes\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/may-30-milk/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -262,14 +172,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260531T150000Z-e8d49ed3-068f-53e4-ba6c-f22fe4036b85@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20260531T150000Z
 DTEND:
 SUMMARY:Becoming a Man in 127 EASY Steps — Film + Discussion Event
-DESCRIPTION:Becoming a Man in 127 EASY Steps\nPart comedy special\, part oral history\, and part love letter to becoming your true self\, Becoming a Man in 127 EASY Steps chronicles two decades of Emmy-nominated creator/performer Scott Turner Schofield’s life as an out transgender man. With a knowing nod to the often-overlooked comedy of transitioning\, the film reflects on the many layers of becoming oneself\, exploring nuanced truths and breaking important new ground in trans representation.\nTwice censored (so far) and arriving amid a cultural and legislative reckoning\, the film resists simplification in what it explores\, how it tells the story\, and the form it takes. Instead\, Schofield brings vulnerability\, wit\, and presence to the details of his own life\, connecting the personal to the universal and reminding audiences of all we share.\nFunny\, profound\, and fiercely honest\, Becoming a Man in 127 EASY Steps celebrates complexity and invites viewers to consider\, more deeply and compassionately\, what becoming—and being—a man can mean.\nRating: 18+ only\nRuntime: The entire program will be under two hours (film runs approximately 65 minutes)\nGeneral Admission: Pay What You Can (suggested $10)\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
+DESCRIPTION:Becoming a Man in 127 EASY Steps\nIn advance of the 2nd Annual Shepherdstown Gay Pride Parade\, join us on Sunday\, May 31 at 3:00 pm for this film screening followed by a special discussion led in person by the film’s star Scotty Schofield.\nPart comedy special\, part oral history\, and part love letter to becoming your true self\, Becoming a Man in 127 EASY Steps chronicles two decades of Emmy-nominated creator/performer Scott Turner Schofield’s life as an out transgender man. With a knowing nod to the often-overlooked comedy of transitioning\, the film reflects on the many layers of becoming oneself\, exploring nuanced truths and breaking important new ground in trans representation.\nTwice censored (so far) and arriving amid a cultural and legislative reckoning\, the film resists simplification in what it explores\, how it tells the story\, and the form it takes. Instead\, Schofield brings vulnerability\, wit\, and presence to the details of his own life\, connecting the personal to the universal and reminding audiences of all we share.\nFunny\, profound\, and fiercely honest\, Becoming a Man in 127 EASY Steps celebrates complexity and invites viewers to consider\, more deeply and compassionately\, what becoming—and being—a man can mean.\nRating: 18+ only\nRuntime: The entire program will be under two hours (film runs approximately 65 minutes)\nGeneral Admission: Pay What You Can (suggested $10)\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/may-31-becoming-a-man-in-127-easy-steps-film-discussion-event/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -277,29 +187,119 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260607T150000Z-f3291ab7-5e22-546d-8a8a-74d7fdb7ffa5@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20260607T150000Z
 DTEND:
 SUMMARY:National Theatre Live: The Audience
 DESCRIPTION:National Theatre Live – On Screen\nThe Audience\nBy Peter Morgan\nDirected by Stephen Daldry\nReturning to cinemas for the first time in over a decade\, Helen Mirren plays Queen Elizabeth II in the Olivier and Tony Award® -winning hit production\, directed by Stephen Daldry.\nFor 60 years\, Queen Elizabeth II met with each of her 12 prime ministers in a private weekly meeting. This meeting is known as The Audience. From Winston Churchill to Margaret Thatcher and David Cameron\, the Queen advised her prime ministers on matters both public and personal. Through these private audiences\, we see glimpses of the woman behind the crown and witness the moments that shaped a monarch.\nPeter Morgan’s Netflix phenomenon The Crown was based on this hit play that was captured live from London’s West End in 2013 and went on to become one of the most-watched NT Live productions. \nAge Rating: UK 12A (equivalent to PG-13)\nRunning Time: 170 minutes (including intermission)\nGeneral admission (unreserved seating).\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/jun-7-national-theatre-live-the-audience/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:20260612T190000Z-4375e351-f473-5044-8d89-9eb8bf1e59f0@operahouse
+DTSTAMP:20260425T082259Z
+DTSTART:20260612T190000Z
+DTEND:
+SUMMARY:21 Live Theater: Greater Tuna
+DESCRIPTION:Presented by the Town Run Theater Company\nSingle Weekend Only\nGreater Tuna\nA play by by Jaston Williams\, Ed Howard & Joe Sears\nTown Run Theater Company Artistic Director: Joe Yates\nGreater Tuna is a satirical comedy that explores life in the fictional Texas town of Tuna\, the third-smallest town in Texas\, through the eyes of two actors portraying twenty different citizens\, including among others Thurston Wheelis\, Arles Struvie\, Bertha Bumiller\, Didi Snavely\, Rev. Spikes\, Vera Carp and Yippy\, the family dog. The play uses quick-change artistry and caricatured characters to present a zany\, sometimes politically incorrect\, look at small-town life.\nAudience: Teens & Adult\nGeneral Admission. Advance purchase strongly recommended to ensure selection of performance.\nTicket Prices (including taxes and ticketing fees):\nAdvance Purchase: $23.30 ($20 ticket plus 7% sales tax & ticketing fees)\nAt Door Purchase: $28.65 ($25 ticket plus 7% sales tax & ticketing fees)\nPay-What-You-Can Performance: Friday\, June 12\nDoors open 30 minutes before showtime.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
+LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
+URL:https://operahouselive.com/jun-12-21-live-theater-greater-tuna/
+CATEGORIES:Music & Film & Stage
+ORGANIZATION:Town Run Theater Company
+STATUS:CONFIRMED
+SOURCE:operahouselive.com
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260613T190000Z-4375e351-f473-5044-8d89-9eb8bf1e59f0@operahouse
+DTSTAMP:20260425T082259Z
+DTSTART:20260613T190000Z
+DTEND:
+SUMMARY:21 Live Theater: Greater Tuna
+DESCRIPTION:Presented by the Town Run Theater Company\nSingle Weekend Only\nGreater Tuna\nA play by by Jaston Williams\, Ed Howard & Joe Sears\nTown Run Theater Company Artistic Director: Joe Yates\nGreater Tuna is a satirical comedy that explores life in the fictional Texas town of Tuna\, the third-smallest town in Texas\, through the eyes of two actors portraying twenty different citizens\, including among others Thurston Wheelis\, Arles Struvie\, Bertha Bumiller\, Didi Snavely\, Rev. Spikes\, Vera Carp and Yippy\, the family dog. The play uses quick-change artistry and caricatured characters to present a zany\, sometimes politically incorrect\, look at small-town life.\nAudience: Teens & Adult\nGeneral Admission. Advance purchase strongly recommended to ensure selection of performance.\nTicket Prices (including taxes and ticketing fees):\nAdvance Purchase: $23.30 ($20 ticket plus 7% sales tax & ticketing fees)\nAt Door Purchase: $28.65 ($25 ticket plus 7% sales tax & ticketing fees)\nPay-What-You-Can Performance: Friday\, June 12\nDoors open 30 minutes before showtime.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
+LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
+URL:https://operahouselive.com/jun-12-21-live-theater-greater-tuna/
+CATEGORIES:Music & Film & Stage
+ORGANIZATION:Town Run Theater Company
+STATUS:CONFIRMED
+SOURCE:operahouselive.com
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260614T150000Z-4375e351-f473-5044-8d89-9eb8bf1e59f0@operahouse
+DTSTAMP:20260425T082259Z
+DTSTART:20260614T150000Z
+DTEND:
+SUMMARY:21 Live Theater: Greater Tuna
+DESCRIPTION:Presented by the Town Run Theater Company\nSingle Weekend Only\nGreater Tuna\nA play by by Jaston Williams\, Ed Howard & Joe Sears\nTown Run Theater Company Artistic Director: Joe Yates\nGreater Tuna is a satirical comedy that explores life in the fictional Texas town of Tuna\, the third-smallest town in Texas\, through the eyes of two actors portraying twenty different citizens\, including among others Thurston Wheelis\, Arles Struvie\, Bertha Bumiller\, Didi Snavely\, Rev. Spikes\, Vera Carp and Yippy\, the family dog. The play uses quick-change artistry and caricatured characters to present a zany\, sometimes politically incorrect\, look at small-town life.\nAudience: Teens & Adult\nGeneral Admission. Advance purchase strongly recommended to ensure selection of performance.\nTicket Prices (including taxes and ticketing fees):\nAdvance Purchase: $23.30 ($20 ticket plus 7% sales tax & ticketing fees)\nAt Door Purchase: $28.65 ($25 ticket plus 7% sales tax & ticketing fees)\nPay-What-You-Can Performance: Friday\, June 12\nDoors open 30 minutes before showtime.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
+LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
+URL:https://operahouselive.com/jun-12-21-live-theater-greater-tuna/
+CATEGORIES:Music & Film & Stage
+ORGANIZATION:Town Run Theater Company
+STATUS:CONFIRMED
+SOURCE:operahouselive.com
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260619T190000Z-4375e351-f473-5044-8d89-9eb8bf1e59f0@operahouse
+DTSTAMP:20260425T082259Z
+DTSTART:20260619T190000Z
+DTEND:
+SUMMARY:21 Live Theater: Greater Tuna
+DESCRIPTION:Presented by the Town Run Theater Company\nSingle Weekend Only\nGreater Tuna\nA play by by Jaston Williams\, Ed Howard & Joe Sears\nTown Run Theater Company Artistic Director: Joe Yates\nGreater Tuna is a satirical comedy that explores life in the fictional Texas town of Tuna\, the third-smallest town in Texas\, through the eyes of two actors portraying twenty different citizens\, including among others Thurston Wheelis\, Arles Struvie\, Bertha Bumiller\, Didi Snavely\, Rev. Spikes\, Vera Carp and Yippy\, the family dog. The play uses quick-change artistry and caricatured characters to present a zany\, sometimes politically incorrect\, look at small-town life.\nAudience: Teens & Adult\nGeneral Admission. Advance purchase strongly recommended to ensure selection of performance.\nTicket Prices (including taxes and ticketing fees):\nAdvance Purchase: $23.30 ($20 ticket plus 7% sales tax & ticketing fees)\nAt Door Purchase: $28.65 ($25 ticket plus 7% sales tax & ticketing fees)\nPay-What-You-Can Performance: Friday\, June 12\nDoors open 30 minutes before showtime.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
+LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
+URL:https://operahouselive.com/jun-12-21-live-theater-greater-tuna/
+CATEGORIES:Music & Film & Stage
+ORGANIZATION:Town Run Theater Company
+STATUS:CONFIRMED
+SOURCE:operahouselive.com
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260620T190000Z-4375e351-f473-5044-8d89-9eb8bf1e59f0@operahouse
+DTSTAMP:20260425T082259Z
+DTSTART:20260620T190000Z
+DTEND:
+SUMMARY:21 Live Theater: Greater Tuna
+DESCRIPTION:Presented by the Town Run Theater Company\nSingle Weekend Only\nGreater Tuna\nA play by by Jaston Williams\, Ed Howard & Joe Sears\nTown Run Theater Company Artistic Director: Joe Yates\nGreater Tuna is a satirical comedy that explores life in the fictional Texas town of Tuna\, the third-smallest town in Texas\, through the eyes of two actors portraying twenty different citizens\, including among others Thurston Wheelis\, Arles Struvie\, Bertha Bumiller\, Didi Snavely\, Rev. Spikes\, Vera Carp and Yippy\, the family dog. The play uses quick-change artistry and caricatured characters to present a zany\, sometimes politically incorrect\, look at small-town life.\nAudience: Teens & Adult\nGeneral Admission. Advance purchase strongly recommended to ensure selection of performance.\nTicket Prices (including taxes and ticketing fees):\nAdvance Purchase: $23.30 ($20 ticket plus 7% sales tax & ticketing fees)\nAt Door Purchase: $28.65 ($25 ticket plus 7% sales tax & ticketing fees)\nPay-What-You-Can Performance: Friday\, June 12\nDoors open 30 minutes before showtime.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
+LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
+URL:https://operahouselive.com/jun-12-21-live-theater-greater-tuna/
+CATEGORIES:Music & Film & Stage
+ORGANIZATION:Town Run Theater Company
+STATUS:CONFIRMED
+SOURCE:operahouselive.com
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260621T150000Z-4375e351-f473-5044-8d89-9eb8bf1e59f0@operahouse
+DTSTAMP:20260425T082259Z
+DTSTART:20260621T150000Z
+DTEND:
+SUMMARY:21 Live Theater: Greater Tuna
+DESCRIPTION:Presented by the Town Run Theater Company\nSingle Weekend Only\nGreater Tuna\nA play by by Jaston Williams\, Ed Howard & Joe Sears\nTown Run Theater Company Artistic Director: Joe Yates\nGreater Tuna is a satirical comedy that explores life in the fictional Texas town of Tuna\, the third-smallest town in Texas\, through the eyes of two actors portraying twenty different citizens\, including among others Thurston Wheelis\, Arles Struvie\, Bertha Bumiller\, Didi Snavely\, Rev. Spikes\, Vera Carp and Yippy\, the family dog. The play uses quick-change artistry and caricatured characters to present a zany\, sometimes politically incorrect\, look at small-town life.\nAudience: Teens & Adult\nGeneral Admission. Advance purchase strongly recommended to ensure selection of performance.\nTicket Prices (including taxes and ticketing fees):\nAdvance Purchase: $23.30 ($20 ticket plus 7% sales tax & ticketing fees)\nAt Door Purchase: $28.65 ($25 ticket plus 7% sales tax & ticketing fees)\nPay-What-You-Can Performance: Friday\, June 12\nDoors open 30 minutes before showtime.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
+LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
+URL:https://operahouselive.com/jun-12-21-live-theater-greater-tuna/
+CATEGORIES:Music & Film & Stage
+ORGANIZATION:Town Run Theater Company
+STATUS:CONFIRMED
+SOURCE:operahouselive.com
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:20260628T190000Z-43c9f5e9-9d74-5e57-bc5f-274be8303211@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20260628T190000Z
 DTEND:
 SUMMARY:John PayCheck and his full Cavalry Band
 DESCRIPTION:Say howdy to John PayCheck and his full Cavalry Band!\nThe son of country music legend Johnny PayCheck is continuing the family tradition – but forging his own path. A combat veteran\, a lavender farmer\, a family man\, and a modern torchbearer for authentic country\, his sound fuses the steel and fiddle of tradition with the edge of today’s live show energy.\nCrowds describe PayCheck’s live show as pure honkey-tonk revival — danceable\, heartfelt\, and real!\nArtist website: JohnPaycheck.com\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/jun-28-john-paycheck-and-his-full-cavalry-band/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -307,14 +307,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260830T150000Z-9ac69bd9-3697-553c-8fed-6b524d29ceba@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20260830T150000Z
 DTEND:
 SUMMARY:National Theatre Live: All Of My Sons
 DESCRIPTION:National Theatre Live – On Screen\nAll Of My Sons\nBy Arthur Miller\nDirected by Ivo Van Hove\nDesign by Jan Versweyveld\nBryan Cranston (Breaking Bad) and Marianne Jean-Baptiste (Hard Truths) feature in a five-star\, triumphantly acclaimed new production of Arthur Miller’s classic play\, from visionary director Ivo Van Hove (A View from the Bridge).\nOne family\, the heart of the American dream. When wartime delivers profits for Joe\, it comes at a price when his partner is charged with criminal manufacturing deals\, and his eldest son goes missing in action. Will peacetime bring peace of mind\, or will he be confronted by the consequence of his actions?\nFilmed live from the West End\, Paapa Essiedu (I May Destroy You)\, Tom Glynn-Carney (House of the Dragon)\, and Hayley Squires (I\, Daniel Blake) also feature in this disturbingly prescient play.\nAge Rating: UK 12A (equivalent to PG-13) — dramatic\, emotional and thematic content\nRunning Time: 165 minutes (including intermission)\nGeneral admission (unreserved seating).\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/aug-30-national-theatre-live-all-of-my-sons/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -322,14 +322,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260919T193000Z-2f769baa-4ad2-5392-9b75-f2bb63aa7568@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20260919T193000Z
 DTEND:
 SUMMARY:Trae Sheehan — Home from the Road
 DESCRIPTION:Martinsburg native Trae Sheehan returns home for a very special performance after months on the road.\nTrae sold out the Opera House last year\, and got rave reviews\, so get your tickets now for his 2026 show!\nBorn amidst the rustic splendor of an Alpaca farm in the Eastern Panhandle of West Virginia\, Trae Sheehan was raised in the gentle embrace of nature’s bounty. But even as a lad\, his heart yearned for a life beyond the rolling hills and verdant valleys.\nFrom a tender age\, he discovered his love for the melodies that danced upon the winds\, whispering secrets of the world around him. He would spend hours beneath the starry canopy\, strumming his guitar and composing songs that told tales of love\, loss\, and the wonders of life. His voice\, smooth as the air\, carry his ballads far and wide.\nIn 2019\, Trae Sheehan’s album Arizona soared to the Top 10 on the Roots Radio Charts\, casting his warming melodies far and wide. With lyrics as vast as the woodland landscape\, the album echoed through valleys and towns\, drawing listeners to the troubadour’s stage. His songs\, imbued with the timeless spirit of the road\, spoke to their hearts\, soothing their worries and kindling the fires of hope.\nHis 2020 follow-up record\, Postcards from the Country\, earned praise from the likes of American Songwriter Magazine\, PopMatters\, and The Bluegrass Situation\, solidifying Trae’s place in the musical world. But it was 2021’s Hello From the End of the World that truly marked his ascent. Featuring the fan-favorite “Sleeveless Hearts\,” the album charted in the Top 100 on the Americana Radio Charts.\nThrough bustling cities and quaint hamlets\, Trae has crafted his talent. Drawing townsfolk from far and near to witness his enchanting performances\, his heart forever entwined with the thrill of touring\, for it is on the road that he has discovered the true essence of his being. From the grandest stages to the humblest street corners\, he performs and sings with a passion unmatched.\nArtist website: https://traesheehan.com/\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/sep-19-trae-sheehan-home-from-the-road/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -337,14 +337,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260925T190000Z-5ae2b15e-abb9-55c5-a6fa-875fe718beb5@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20260925T190000Z
 DTEND:
 SUMMARY:Manhattan SHORT Film Festival
 DESCRIPTION:In 2026\, the Opera House will AGAIN host the MANHATTAN SHORT Film Festival!\nMANHATTAN SHORT Film Festival: You Be the Judge!\nDiscover your inner film critic by casting your vote for Best Film and Best Actor in the 28th Annual MANHATTAN SHORT Film Festival. You’ll join film lovers in over 500 venues across the globe gathering between 9/24-10/4 to see the Ten Finalists in this year’s event. With past finalists garnering Oscar nominations and short films continuing to move into the Hollywood mainstream\, come see this entertaining program featuring the best short films in the world today! Printed ballots supplied upon entry.\nWe will show MANHATTAN SHORT selections three times this year: Friday night\, Saturday night\, and Sunday afternoon. Each screening will present the SAME films – select just one screening (or see them multiple times!).\nMANHATTAN SHORT began in 1998\, when founder Nicholas Mason gathered an audience of 200 people and showed 16 short films on a screen mounted to the side of a truck on Mulberry Street\, Little Italy\, New York City. A year later the Festival moved uptown to Union Square Park NYC\, where audiences grew to love the annual event. From these humble beginnings\, MANHATTAN SHORT has now transformed into a worldwide phenomenon. Celebrating its 29th birthday in 2025\, MANHATTAN SHORT is the only film festival on the planet to unfold simultaneously\, in more than 500 cinemas on six continents\, bringing over 100\,000 film-lovers in all corners of the globe together for one week\, via the next generation of filmmakers..\nEntire show is approximately 140 minutes\nGeneral admission (unreserved seating).\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nTICKETS – Sep 25\nTICKETS – Sep 26\nTICKETS – Sep 27\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/sep-25-26-27-manhattan-short-film-festival/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -352,14 +352,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260926T190000Z-5ae2b15e-abb9-55c5-a6fa-875fe718beb5@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20260926T190000Z
 DTEND:
 SUMMARY:Manhattan SHORT Film Festival
 DESCRIPTION:In 2026\, the Opera House will AGAIN host the MANHATTAN SHORT Film Festival!\nMANHATTAN SHORT Film Festival: You Be the Judge!\nDiscover your inner film critic by casting your vote for Best Film and Best Actor in the 28th Annual MANHATTAN SHORT Film Festival. You’ll join film lovers in over 500 venues across the globe gathering between 9/24-10/4 to see the Ten Finalists in this year’s event. With past finalists garnering Oscar nominations and short films continuing to move into the Hollywood mainstream\, come see this entertaining program featuring the best short films in the world today! Printed ballots supplied upon entry.\nWe will show MANHATTAN SHORT selections three times this year: Friday night\, Saturday night\, and Sunday afternoon. Each screening will present the SAME films – select just one screening (or see them multiple times!).\nMANHATTAN SHORT began in 1998\, when founder Nicholas Mason gathered an audience of 200 people and showed 16 short films on a screen mounted to the side of a truck on Mulberry Street\, Little Italy\, New York City. A year later the Festival moved uptown to Union Square Park NYC\, where audiences grew to love the annual event. From these humble beginnings\, MANHATTAN SHORT has now transformed into a worldwide phenomenon. Celebrating its 29th birthday in 2025\, MANHATTAN SHORT is the only film festival on the planet to unfold simultaneously\, in more than 500 cinemas on six continents\, bringing over 100\,000 film-lovers in all corners of the globe together for one week\, via the next generation of filmmakers..\nEntire show is approximately 140 minutes\nGeneral admission (unreserved seating).\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nTICKETS – Sep 25\nTICKETS – Sep 26\nTICKETS – Sep 27\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/sep-25-26-27-manhattan-short-film-festival/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -367,14 +367,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260927T150000Z-5ae2b15e-abb9-55c5-a6fa-875fe718beb5@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20260927T150000Z
 DTEND:
 SUMMARY:Manhattan SHORT Film Festival
 DESCRIPTION:In 2026\, the Opera House will AGAIN host the MANHATTAN SHORT Film Festival!\nMANHATTAN SHORT Film Festival: You Be the Judge!\nDiscover your inner film critic by casting your vote for Best Film and Best Actor in the 28th Annual MANHATTAN SHORT Film Festival. You’ll join film lovers in over 500 venues across the globe gathering between 9/24-10/4 to see the Ten Finalists in this year’s event. With past finalists garnering Oscar nominations and short films continuing to move into the Hollywood mainstream\, come see this entertaining program featuring the best short films in the world today! Printed ballots supplied upon entry.\nWe will show MANHATTAN SHORT selections three times this year: Friday night\, Saturday night\, and Sunday afternoon. Each screening will present the SAME films – select just one screening (or see them multiple times!).\nMANHATTAN SHORT began in 1998\, when founder Nicholas Mason gathered an audience of 200 people and showed 16 short films on a screen mounted to the side of a truck on Mulberry Street\, Little Italy\, New York City. A year later the Festival moved uptown to Union Square Park NYC\, where audiences grew to love the annual event. From these humble beginnings\, MANHATTAN SHORT has now transformed into a worldwide phenomenon. Celebrating its 29th birthday in 2025\, MANHATTAN SHORT is the only film festival on the planet to unfold simultaneously\, in more than 500 cinemas on six continents\, bringing over 100\,000 film-lovers in all corners of the globe together for one week\, via the next generation of filmmakers..\nEntire show is approximately 140 minutes\nGeneral admission (unreserved seating).\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nTICKETS – Sep 25\nTICKETS – Sep 26\nTICKETS – Sep 27\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/sep-25-26-27-manhattan-short-film-festival/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -382,14 +382,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261017T193000Z-3f96dde2-6869-5dbe-8320-bfff9e36c528@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20261017T193000Z
 DTEND:
 SUMMARY:Wellvis — Glambilly & Psychedelic Soul
 DESCRIPTION:We bet you’ll enjoy Wellvis’ original brand of “glambilly” & psychedelic soul in a rock-accordion-rich environment. \nWellvis brings a “wonderfully raucous racket replete with 3-part harmony & stellar guitar work over a driving rhythm section reminiscent of Elvis & The Attractions… great originals and well-chosen covers.” \nThe band launched in 2025 and is drawing large crowds in the DMV and recording at a furious pace. Their energy is infectious – in a good way! Lead singers/guitar players Matt Hahn\, well-known in the Berkeley Springs area\, and Karl Straub\, from NoVa\, are joined by Erica Antonelli (accordion/vocals)\, Jeff Muller (bass) & Nick Ruggieri (drums).\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/oct-17-wellvis-glambilly-psychedelic-soul/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -397,14 +397,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261018T150000Z-41c09827-322f-5696-8fca-7ed42869472b@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20261018T150000Z
 DTEND:
 SUMMARY:National Theatre Live: The Playboy Of The Western World
 DESCRIPTION:National Theatre Live – On Screen\nThe Playboy Of The Western World\nBy John Millington Synge\nDirected by Caitríona McLaughlin\nNicola Coughlan (Bridgerton) joins Éanna Hardwicke (The Sixth Commandment) and Siobhán McSweeney (Derry Girls) in John Millington Synge’s riveting play of youth and self-discovery.\nPegeen Flaherty’s life is turned upside down when a young man walks into her pub claiming that he’s killed his father. Instead of being shunned\, the killer becomes a local hero and begins to win hearts\, that is until a second man unexpectedly arrives on the scene…\nFilmed live on stage at the National Theatre\, Caitríona McLaughlin directs this darkly funny tale full to the brim with secrets.\nAge Rating: UK 12A (equivalent to PG-13)\nRunning Time: 150 minutes (including intermission)\nGeneral admission (unreserved seating).\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/oct-18-national-theatre-live-the-playboy-of-the-western-world/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -412,14 +412,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261024T193000Z-9a647ccd-3924-5404-95e3-c9091f6cbd1f@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20261024T193000Z
 DTEND:
 SUMMARY:Bad Influence Band
 DESCRIPTION:Founded in 1988\, the Bad Influence Band has spent over three decades as a cornerstone of the Washington\, D.C.\, and Mid-Atlantic blues scene. While many bands drift through personnel changes\, Bad Influence is defined by a remarkable consistency\; their core lineup remained largely unchanged for over 25 years\, a rarity that has resulted in an exceptionally tight\, intuitive ensemble sound.\nThe Lineup and Evolution\nThe band was founded by guitarist and bandleader Michael “Jr” Tash. After spending years in the rock trenches\, Tash was mentored by D.C. blues legend Steve Jacobs\, which pivoted his focus toward the roots and grit of the blues. The “classic” lineup\, which cemented in 1993\, includes:\nMichael “Jr” Tash: Guitar and vocals.\nRoger Edsall: Harmonica and vocals.\nBob Mallardi: Bass and vocals.\nJoe Wells: Drums.\nUnlike many blues bands\, Bad Influence features two lead singers in Edsall and Mallardi\, allowing them to shift seamlessly between different textures—from soulful R&B to high-energy Chicago shuffle.\nRecorded Legacy\nThe band has released several critically acclaimed albums that have earned them a stack of Washington Area Music Awards (WAMMIES). Their discography reflects their journey from blues purists to masters of a “blues-infused” hybrid sound:\nGot What You Need (2019): Their 30th-anniversary celebration\, showcasing a refined blend of original songwriting and reimagined covers.\nWhere We Been (1998): A 13-track homage to their roots that put them on the national map.\nTastes Like Chicken (2003): Winner of the WAMMIE for Best Blues Recording.\nUnder the Influence (2011): This album reached the top five on SiriusXM’s B.B. King’s Bluesville “Picks to Click” chart.\nInfluence and Presence\nBeyond the local haunts of D.C. and Maryland\, Bad Influence has established a national reputation\, performing everywhere from the blues festivals on the East Coast to Buddy Guy’s Legends club in Chicago to the hallowed clubs of Beale Street in Memphis. They are known for their “unabashed crowd-pleasing” style\, which combines technical virtuosity (Bad Influence is a Northern Virginia Blues Hall of Fame inductee) with an insistence that the audience has as much fun as the band.\nWhether they are tearing through their originals or slowing down James Brown’s “I Feel Good” into a greasy swing\, Bad Influence remains a vital part of the “long and worthy Washington blues tradition.”\nArtist links\nWebsite\nFacebook\nInstagram\nYouTube\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/oct-24-bad-influence-band/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -427,14 +427,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261030T190000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20261030T190000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
 DESCRIPTION:Welcome to the Hitchcock Architecture of Suspense Film Festival at the Shepherdstown Opera House\nThree hosting screenings with live introduction and post-film discussion by author Christine Madrid French\, author of the acclaimed book “The Architecture of Suspense”\nCostumes Invited! Come dressed as your favorite Hitchcock character\, a building from the films\, the mood of suspense—or the master director himself.\nClick the button below to buy a discounted ticket for the entire Festival (all three film blocks including author talksand Q&A sessions). Can’t come to all three films? No problem\, you can buy single-film tickets\, too!\nFestival Pass — All 3 Films\nBlock 1: Psycho (1960)\nHitchcock’s famous thriller about a psychotic motel owner who obsesses over his late\, controlling mother while becoming the prime suspect in a murder case involving one of his recent guests\, a pretty secretary who checked into the Bates Motel after impulsively stealing $40\,000 and never checked out.\nCast: Anthony Perkins\, Janet Leigh\, Vera Miles\, John Gavin\, Martin Balsam\nProgram time: Film is 108 minutes + presentation/Q&A\nRating: R\nTickets — Psycho\nBlock 2: North by Northwest (1959)\nCary Grant stars as an innocent man mistaken for a spy in one of director Alfred Hitchcock’s greatest thrillers. While leaving New York’s Plaza Hotel\, advertising executive Roger Thornhill (Grant) has the misfortune of standing just as the name “George Kaplan” is paged–starting a lethal case of mistaken identity and a nonstop game of cat and mouse as he is pursued across North America by espionage agents trying to kill him–and by police who suspect him of murder.\nCast: Cary Grant\, Eva Marie Saint\, James Mason\, Jessie Royce Landis\, Philip Ober\nProgram time: Film is 136 minutes + presentation/Q&A\nRating: PG\nTickets — North by Northwest\nBlock 3: Vertigo (1958)\nA retired cop\, afflicted with acrophobia\, agrees to shadow the wife of an old acquaintance\, who fears that she may be suicidal.\nCast: James Stewart\, Kim Novak\, Barbara Bel Geddes\, Tom Helmore\nProgram time: Film is 129 minutes + presentation/Q&A\nRating: PG\nTickets — Vertigo\nAll films are general admission (unreserved seating).\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nFestival Pass — All 3 Films\nSingle Show Tickets – Psycho\nSingle Show Tickets – North by Northwest\nSingle Show Tickets – Vertigo\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/oct-30-psycho-hitchcock-architecture-of-suspense-film-festival/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -442,14 +442,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261031T130000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20261031T130000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
 DESCRIPTION:Welcome to the Hitchcock Architecture of Suspense Film Festival at the Shepherdstown Opera House\nThree hosting screenings with live introduction and post-film discussion by author Christine Madrid French\, author of the acclaimed book “The Architecture of Suspense”\nCostumes Invited! Come dressed as your favorite Hitchcock character\, a building from the films\, the mood of suspense—or the master director himself.\nClick the button below to buy a discounted ticket for the entire Festival (all three film blocks including author talksand Q&A sessions). Can’t come to all three films? No problem\, you can buy single-film tickets\, too!\nFestival Pass — All 3 Films\nBlock 1: Psycho (1960)\nHitchcock’s famous thriller about a psychotic motel owner who obsesses over his late\, controlling mother while becoming the prime suspect in a murder case involving one of his recent guests\, a pretty secretary who checked into the Bates Motel after impulsively stealing $40\,000 and never checked out.\nCast: Anthony Perkins\, Janet Leigh\, Vera Miles\, John Gavin\, Martin Balsam\nProgram time: Film is 108 minutes + presentation/Q&A\nRating: R\nTickets — Psycho\nBlock 2: North by Northwest (1959)\nCary Grant stars as an innocent man mistaken for a spy in one of director Alfred Hitchcock’s greatest thrillers. While leaving New York’s Plaza Hotel\, advertising executive Roger Thornhill (Grant) has the misfortune of standing just as the name “George Kaplan” is paged–starting a lethal case of mistaken identity and a nonstop game of cat and mouse as he is pursued across North America by espionage agents trying to kill him–and by police who suspect him of murder.\nCast: Cary Grant\, Eva Marie Saint\, James Mason\, Jessie Royce Landis\, Philip Ober\nProgram time: Film is 136 minutes + presentation/Q&A\nRating: PG\nTickets — North by Northwest\nBlock 3: Vertigo (1958)\nA retired cop\, afflicted with acrophobia\, agrees to shadow the wife of an old acquaintance\, who fears that she may be suicidal.\nCast: James Stewart\, Kim Novak\, Barbara Bel Geddes\, Tom Helmore\nProgram time: Film is 129 minutes + presentation/Q&A\nRating: PG\nTickets — Vertigo\nAll films are general admission (unreserved seating).\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nFestival Pass — All 3 Films\nSingle Show Tickets – Psycho\nSingle Show Tickets – North by Northwest\nSingle Show Tickets – Vertigo\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/oct-30-psycho-hitchcock-architecture-of-suspense-film-festival/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -457,14 +457,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261101T130000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20261101T130000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
 DESCRIPTION:Welcome to the Hitchcock Architecture of Suspense Film Festival at the Shepherdstown Opera House\nThree hosting screenings with live introduction and post-film discussion by author Christine Madrid French\, author of the acclaimed book “The Architecture of Suspense”\nCostumes Invited! Come dressed as your favorite Hitchcock character\, a building from the films\, the mood of suspense—or the master director himself.\nClick the button below to buy a discounted ticket for the entire Festival (all three film blocks including author talksand Q&A sessions). Can’t come to all three films? No problem\, you can buy single-film tickets\, too!\nFestival Pass — All 3 Films\nBlock 1: Psycho (1960)\nHitchcock’s famous thriller about a psychotic motel owner who obsesses over his late\, controlling mother while becoming the prime suspect in a murder case involving one of his recent guests\, a pretty secretary who checked into the Bates Motel after impulsively stealing $40\,000 and never checked out.\nCast: Anthony Perkins\, Janet Leigh\, Vera Miles\, John Gavin\, Martin Balsam\nProgram time: Film is 108 minutes + presentation/Q&A\nRating: R\nTickets — Psycho\nBlock 2: North by Northwest (1959)\nCary Grant stars as an innocent man mistaken for a spy in one of director Alfred Hitchcock’s greatest thrillers. While leaving New York’s Plaza Hotel\, advertising executive Roger Thornhill (Grant) has the misfortune of standing just as the name “George Kaplan” is paged–starting a lethal case of mistaken identity and a nonstop game of cat and mouse as he is pursued across North America by espionage agents trying to kill him–and by police who suspect him of murder.\nCast: Cary Grant\, Eva Marie Saint\, James Mason\, Jessie Royce Landis\, Philip Ober\nProgram time: Film is 136 minutes + presentation/Q&A\nRating: PG\nTickets — North by Northwest\nBlock 3: Vertigo (1958)\nA retired cop\, afflicted with acrophobia\, agrees to shadow the wife of an old acquaintance\, who fears that she may be suicidal.\nCast: James Stewart\, Kim Novak\, Barbara Bel Geddes\, Tom Helmore\nProgram time: Film is 129 minutes + presentation/Q&A\nRating: PG\nTickets — Vertigo\nAll films are general admission (unreserved seating).\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nFestival Pass — All 3 Films\nSingle Show Tickets – Psycho\nSingle Show Tickets – North by Northwest\nSingle Show Tickets – Vertigo\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/oct-30-psycho-hitchcock-architecture-of-suspense-film-festival/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -472,14 +472,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261030T190000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20261030T190000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
 DESCRIPTION:Welcome to the Hitchcock Architecture of Suspense Film Festival at the Shepherdstown Opera House\nThree hosting screenings with live introduction and post-film discussion by author Christine Madrid French\, author of the acclaimed book “The Architecture of Suspense”\nCostumes Invited! Come dressed as your favorite Hitchcock character\, a building from the films\, the mood of suspense—or the master director himself.\nClick the button below to buy a discounted ticket for the entire Festival (all three film blocks including author talksand Q&A sessions). Can’t come to all three films? No problem\, you can buy single-film tickets\, too!\nFestival Pass — All 3 Films\nBlock 1: Psycho (1960)\nHitchcock’s famous thriller about a psychotic motel owner who obsesses over his late\, controlling mother while becoming the prime suspect in a murder case involving one of his recent guests\, a pretty secretary who checked into the Bates Motel after impulsively stealing $40\,000 and never checked out.\nCast: Anthony Perkins\, Janet Leigh\, Vera Miles\, John Gavin\, Martin Balsam\nProgram time: Film is 108 minutes + presentation/Q&A\nRating: R\nTickets — Psycho\nBlock 2: North by Northwest (1959)\nCary Grant stars as an innocent man mistaken for a spy in one of director Alfred Hitchcock’s greatest thrillers. While leaving New York’s Plaza Hotel\, advertising executive Roger Thornhill (Grant) has the misfortune of standing just as the name “George Kaplan” is paged–starting a lethal case of mistaken identity and a nonstop game of cat and mouse as he is pursued across North America by espionage agents trying to kill him–and by police who suspect him of murder.\nCast: Cary Grant\, Eva Marie Saint\, James Mason\, Jessie Royce Landis\, Philip Ober\nProgram time: Film is 136 minutes + presentation/Q&A\nRating: PG\nTickets — North by Northwest\nBlock 3: Vertigo (1958)\nA retired cop\, afflicted with acrophobia\, agrees to shadow the wife of an old acquaintance\, who fears that she may be suicidal.\nCast: James Stewart\, Kim Novak\, Barbara Bel Geddes\, Tom Helmore\nProgram time: Film is 129 minutes + presentation/Q&A\nRating: PG\nTickets — Vertigo\nAll films are general admission (unreserved seating).\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nFestival Pass — All 3 Films\nSingle Show Tickets – Psycho\nSingle Show Tickets – North by Northwest\nSingle Show Tickets – Vertigo\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/oct-30-psycho-hitchcock-architecture-of-suspense-film-festival/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -487,14 +487,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261031T130000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20261031T130000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
 DESCRIPTION:Welcome to the Hitchcock Architecture of Suspense Film Festival at the Shepherdstown Opera House\nThree hosting screenings with live introduction and post-film discussion by author Christine Madrid French\, author of the acclaimed book “The Architecture of Suspense”\nCostumes Invited! Come dressed as your favorite Hitchcock character\, a building from the films\, the mood of suspense—or the master director himself.\nClick the button below to buy a discounted ticket for the entire Festival (all three film blocks including author talksand Q&A sessions). Can’t come to all three films? No problem\, you can buy single-film tickets\, too!\nFestival Pass — All 3 Films\nBlock 1: Psycho (1960)\nHitchcock’s famous thriller about a psychotic motel owner who obsesses over his late\, controlling mother while becoming the prime suspect in a murder case involving one of his recent guests\, a pretty secretary who checked into the Bates Motel after impulsively stealing $40\,000 and never checked out.\nCast: Anthony Perkins\, Janet Leigh\, Vera Miles\, John Gavin\, Martin Balsam\nProgram time: Film is 108 minutes + presentation/Q&A\nRating: R\nTickets — Psycho\nBlock 2: North by Northwest (1959)\nCary Grant stars as an innocent man mistaken for a spy in one of director Alfred Hitchcock’s greatest thrillers. While leaving New York’s Plaza Hotel\, advertising executive Roger Thornhill (Grant) has the misfortune of standing just as the name “George Kaplan” is paged–starting a lethal case of mistaken identity and a nonstop game of cat and mouse as he is pursued across North America by espionage agents trying to kill him–and by police who suspect him of murder.\nCast: Cary Grant\, Eva Marie Saint\, James Mason\, Jessie Royce Landis\, Philip Ober\nProgram time: Film is 136 minutes + presentation/Q&A\nRating: PG\nTickets — North by Northwest\nBlock 3: Vertigo (1958)\nA retired cop\, afflicted with acrophobia\, agrees to shadow the wife of an old acquaintance\, who fears that she may be suicidal.\nCast: James Stewart\, Kim Novak\, Barbara Bel Geddes\, Tom Helmore\nProgram time: Film is 129 minutes + presentation/Q&A\nRating: PG\nTickets — Vertigo\nAll films are general admission (unreserved seating).\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nFestival Pass — All 3 Films\nSingle Show Tickets – Psycho\nSingle Show Tickets – North by Northwest\nSingle Show Tickets – Vertigo\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/oct-30-psycho-hitchcock-architecture-of-suspense-film-festival/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -502,14 +502,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261101T130000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20261101T130000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
 DESCRIPTION:Welcome to the Hitchcock Architecture of Suspense Film Festival at the Shepherdstown Opera House\nThree hosting screenings with live introduction and post-film discussion by author Christine Madrid French\, author of the acclaimed book “The Architecture of Suspense”\nCostumes Invited! Come dressed as your favorite Hitchcock character\, a building from the films\, the mood of suspense—or the master director himself.\nClick the button below to buy a discounted ticket for the entire Festival (all three film blocks including author talksand Q&A sessions). Can’t come to all three films? No problem\, you can buy single-film tickets\, too!\nFestival Pass — All 3 Films\nBlock 1: Psycho (1960)\nHitchcock’s famous thriller about a psychotic motel owner who obsesses over his late\, controlling mother while becoming the prime suspect in a murder case involving one of his recent guests\, a pretty secretary who checked into the Bates Motel after impulsively stealing $40\,000 and never checked out.\nCast: Anthony Perkins\, Janet Leigh\, Vera Miles\, John Gavin\, Martin Balsam\nProgram time: Film is 108 minutes + presentation/Q&A\nRating: R\nTickets — Psycho\nBlock 2: North by Northwest (1959)\nCary Grant stars as an innocent man mistaken for a spy in one of director Alfred Hitchcock’s greatest thrillers. While leaving New York’s Plaza Hotel\, advertising executive Roger Thornhill (Grant) has the misfortune of standing just as the name “George Kaplan” is paged–starting a lethal case of mistaken identity and a nonstop game of cat and mouse as he is pursued across North America by espionage agents trying to kill him–and by police who suspect him of murder.\nCast: Cary Grant\, Eva Marie Saint\, James Mason\, Jessie Royce Landis\, Philip Ober\nProgram time: Film is 136 minutes + presentation/Q&A\nRating: PG\nTickets — North by Northwest\nBlock 3: Vertigo (1958)\nA retired cop\, afflicted with acrophobia\, agrees to shadow the wife of an old acquaintance\, who fears that she may be suicidal.\nCast: James Stewart\, Kim Novak\, Barbara Bel Geddes\, Tom Helmore\nProgram time: Film is 129 minutes + presentation/Q&A\nRating: PG\nTickets — Vertigo\nAll films are general admission (unreserved seating).\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nFestival Pass — All 3 Films\nSingle Show Tickets – Psycho\nSingle Show Tickets – North by Northwest\nSingle Show Tickets – Vertigo\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/oct-30-psycho-hitchcock-architecture-of-suspense-film-festival/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -517,14 +517,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261030T190000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20261030T190000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
 DESCRIPTION:Welcome to the Hitchcock Architecture of Suspense Film Festival at the Shepherdstown Opera House\nThree hosting screenings with live introduction and post-film discussion by author Christine Madrid French\, author of the acclaimed book “The Architecture of Suspense”\nCostumes Invited! Come dressed as your favorite Hitchcock character\, a building from the films\, the mood of suspense—or the master director himself.\nClick the button below to buy a discounted ticket for the entire Festival (all three film blocks including author talksand Q&A sessions). Can’t come to all three films? No problem\, you can buy single-film tickets\, too!\nFestival Pass — All 3 Films\nBlock 1: Psycho (1960)\nHitchcock’s famous thriller about a psychotic motel owner who obsesses over his late\, controlling mother while becoming the prime suspect in a murder case involving one of his recent guests\, a pretty secretary who checked into the Bates Motel after impulsively stealing $40\,000 and never checked out.\nCast: Anthony Perkins\, Janet Leigh\, Vera Miles\, John Gavin\, Martin Balsam\nProgram time: Film is 108 minutes + presentation/Q&A\nRating: R\nTickets — Psycho\nBlock 2: North by Northwest (1959)\nCary Grant stars as an innocent man mistaken for a spy in one of director Alfred Hitchcock’s greatest thrillers. While leaving New York’s Plaza Hotel\, advertising executive Roger Thornhill (Grant) has the misfortune of standing just as the name “George Kaplan” is paged–starting a lethal case of mistaken identity and a nonstop game of cat and mouse as he is pursued across North America by espionage agents trying to kill him–and by police who suspect him of murder.\nCast: Cary Grant\, Eva Marie Saint\, James Mason\, Jessie Royce Landis\, Philip Ober\nProgram time: Film is 136 minutes + presentation/Q&A\nRating: PG\nTickets — North by Northwest\nBlock 3: Vertigo (1958)\nA retired cop\, afflicted with acrophobia\, agrees to shadow the wife of an old acquaintance\, who fears that she may be suicidal.\nCast: James Stewart\, Kim Novak\, Barbara Bel Geddes\, Tom Helmore\nProgram time: Film is 129 minutes + presentation/Q&A\nRating: PG\nTickets — Vertigo\nAll films are general admission (unreserved seating).\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nFestival Pass — All 3 Films\nSingle Show Tickets – Psycho\nSingle Show Tickets – North by Northwest\nSingle Show Tickets – Vertigo\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/oct-31-north-by-northwest-hitchcock-architecture-of-suspense-film-festival/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -532,14 +532,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261031T130000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20261031T130000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
 DESCRIPTION:Welcome to the Hitchcock Architecture of Suspense Film Festival at the Shepherdstown Opera House\nThree hosting screenings with live introduction and post-film discussion by author Christine Madrid French\, author of the acclaimed book “The Architecture of Suspense”\nCostumes Invited! Come dressed as your favorite Hitchcock character\, a building from the films\, the mood of suspense—or the master director himself.\nClick the button below to buy a discounted ticket for the entire Festival (all three film blocks including author talksand Q&A sessions). Can’t come to all three films? No problem\, you can buy single-film tickets\, too!\nFestival Pass — All 3 Films\nBlock 1: Psycho (1960)\nHitchcock’s famous thriller about a psychotic motel owner who obsesses over his late\, controlling mother while becoming the prime suspect in a murder case involving one of his recent guests\, a pretty secretary who checked into the Bates Motel after impulsively stealing $40\,000 and never checked out.\nCast: Anthony Perkins\, Janet Leigh\, Vera Miles\, John Gavin\, Martin Balsam\nProgram time: Film is 108 minutes + presentation/Q&A\nRating: R\nTickets — Psycho\nBlock 2: North by Northwest (1959)\nCary Grant stars as an innocent man mistaken for a spy in one of director Alfred Hitchcock’s greatest thrillers. While leaving New York’s Plaza Hotel\, advertising executive Roger Thornhill (Grant) has the misfortune of standing just as the name “George Kaplan” is paged–starting a lethal case of mistaken identity and a nonstop game of cat and mouse as he is pursued across North America by espionage agents trying to kill him–and by police who suspect him of murder.\nCast: Cary Grant\, Eva Marie Saint\, James Mason\, Jessie Royce Landis\, Philip Ober\nProgram time: Film is 136 minutes + presentation/Q&A\nRating: PG\nTickets — North by Northwest\nBlock 3: Vertigo (1958)\nA retired cop\, afflicted with acrophobia\, agrees to shadow the wife of an old acquaintance\, who fears that she may be suicidal.\nCast: James Stewart\, Kim Novak\, Barbara Bel Geddes\, Tom Helmore\nProgram time: Film is 129 minutes + presentation/Q&A\nRating: PG\nTickets — Vertigo\nAll films are general admission (unreserved seating).\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nFestival Pass — All 3 Films\nSingle Show Tickets – Psycho\nSingle Show Tickets – North by Northwest\nSingle Show Tickets – Vertigo\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/oct-31-north-by-northwest-hitchcock-architecture-of-suspense-film-festival/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -547,14 +547,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261101T130000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20261101T130000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
 DESCRIPTION:Welcome to the Hitchcock Architecture of Suspense Film Festival at the Shepherdstown Opera House\nThree hosting screenings with live introduction and post-film discussion by author Christine Madrid French\, author of the acclaimed book “The Architecture of Suspense”\nCostumes Invited! Come dressed as your favorite Hitchcock character\, a building from the films\, the mood of suspense—or the master director himself.\nClick the button below to buy a discounted ticket for the entire Festival (all three film blocks including author talksand Q&A sessions). Can’t come to all three films? No problem\, you can buy single-film tickets\, too!\nFestival Pass — All 3 Films\nBlock 1: Psycho (1960)\nHitchcock’s famous thriller about a psychotic motel owner who obsesses over his late\, controlling mother while becoming the prime suspect in a murder case involving one of his recent guests\, a pretty secretary who checked into the Bates Motel after impulsively stealing $40\,000 and never checked out.\nCast: Anthony Perkins\, Janet Leigh\, Vera Miles\, John Gavin\, Martin Balsam\nProgram time: Film is 108 minutes + presentation/Q&A\nRating: R\nTickets — Psycho\nBlock 2: North by Northwest (1959)\nCary Grant stars as an innocent man mistaken for a spy in one of director Alfred Hitchcock’s greatest thrillers. While leaving New York’s Plaza Hotel\, advertising executive Roger Thornhill (Grant) has the misfortune of standing just as the name “George Kaplan” is paged–starting a lethal case of mistaken identity and a nonstop game of cat and mouse as he is pursued across North America by espionage agents trying to kill him–and by police who suspect him of murder.\nCast: Cary Grant\, Eva Marie Saint\, James Mason\, Jessie Royce Landis\, Philip Ober\nProgram time: Film is 136 minutes + presentation/Q&A\nRating: PG\nTickets — North by Northwest\nBlock 3: Vertigo (1958)\nA retired cop\, afflicted with acrophobia\, agrees to shadow the wife of an old acquaintance\, who fears that she may be suicidal.\nCast: James Stewart\, Kim Novak\, Barbara Bel Geddes\, Tom Helmore\nProgram time: Film is 129 minutes + presentation/Q&A\nRating: PG\nTickets — Vertigo\nAll films are general admission (unreserved seating).\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nFestival Pass — All 3 Films\nSingle Show Tickets – Psycho\nSingle Show Tickets – North by Northwest\nSingle Show Tickets – Vertigo\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/oct-31-north-by-northwest-hitchcock-architecture-of-suspense-film-festival/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -562,14 +562,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261030T190000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20261030T190000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
 DESCRIPTION:Welcome to the Hitchcock Architecture of Suspense Film Festival at the Shepherdstown Opera House\nThree hosting screenings with live introduction and post-film discussion by author Christine Madrid French\, author of the acclaimed book “The Architecture of Suspense”\nCostumes Invited! Come dressed as your favorite Hitchcock character\, a building from the films\, the mood of suspense—or the master director himself.\nClick the button below to buy a discounted ticket for the entire Festival (all three film blocks including author talksand Q&A sessions). Can’t come to all three films? No problem\, you can buy single-film tickets\, too!\nFestival Pass — All 3 Films\nBlock 1: Psycho (1960)\nHitchcock’s famous thriller about a psychotic motel owner who obsesses over his late\, controlling mother while becoming the prime suspect in a murder case involving one of his recent guests\, a pretty secretary who checked into the Bates Motel after impulsively stealing $40\,000 and never checked out.\nCast: Anthony Perkins\, Janet Leigh\, Vera Miles\, John Gavin\, Martin Balsam\nProgram time: Film is 108 minutes + presentation/Q&A\nRating: R\nTickets — Psycho\nBlock 2: North by Northwest (1959)\nCary Grant stars as an innocent man mistaken for a spy in one of director Alfred Hitchcock’s greatest thrillers. While leaving New York’s Plaza Hotel\, advertising executive Roger Thornhill (Grant) has the misfortune of standing just as the name “George Kaplan” is paged–starting a lethal case of mistaken identity and a nonstop game of cat and mouse as he is pursued across North America by espionage agents trying to kill him–and by police who suspect him of murder.\nCast: Cary Grant\, Eva Marie Saint\, James Mason\, Jessie Royce Landis\, Philip Ober\nProgram time: Film is 136 minutes + presentation/Q&A\nRating: PG\nTickets — North by Northwest\nBlock 3: Vertigo (1958)\nA retired cop\, afflicted with acrophobia\, agrees to shadow the wife of an old acquaintance\, who fears that she may be suicidal.\nCast: James Stewart\, Kim Novak\, Barbara Bel Geddes\, Tom Helmore\nProgram time: Film is 129 minutes + presentation/Q&A\nRating: PG\nTickets — Vertigo\nAll films are general admission (unreserved seating).\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nFestival Pass — All 3 Films\nSingle Show Tickets – Psycho\nSingle Show Tickets – North by Northwest\nSingle Show Tickets – Vertigo\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/oct-31-north-by-northwest-hitchcock-architecture-of-suspense-film-festival/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -577,14 +577,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261031T130000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20261031T130000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
 DESCRIPTION:Welcome to the Hitchcock Architecture of Suspense Film Festival at the Shepherdstown Opera House\nThree hosting screenings with live introduction and post-film discussion by author Christine Madrid French\, author of the acclaimed book “The Architecture of Suspense”\nCostumes Invited! Come dressed as your favorite Hitchcock character\, a building from the films\, the mood of suspense—or the master director himself.\nClick the button below to buy a discounted ticket for the entire Festival (all three film blocks including author talksand Q&A sessions). Can’t come to all three films? No problem\, you can buy single-film tickets\, too!\nFestival Pass — All 3 Films\nBlock 1: Psycho (1960)\nHitchcock’s famous thriller about a psychotic motel owner who obsesses over his late\, controlling mother while becoming the prime suspect in a murder case involving one of his recent guests\, a pretty secretary who checked into the Bates Motel after impulsively stealing $40\,000 and never checked out.\nCast: Anthony Perkins\, Janet Leigh\, Vera Miles\, John Gavin\, Martin Balsam\nProgram time: Film is 108 minutes + presentation/Q&A\nRating: R\nTickets — Psycho\nBlock 2: North by Northwest (1959)\nCary Grant stars as an innocent man mistaken for a spy in one of director Alfred Hitchcock’s greatest thrillers. While leaving New York’s Plaza Hotel\, advertising executive Roger Thornhill (Grant) has the misfortune of standing just as the name “George Kaplan” is paged–starting a lethal case of mistaken identity and a nonstop game of cat and mouse as he is pursued across North America by espionage agents trying to kill him–and by police who suspect him of murder.\nCast: Cary Grant\, Eva Marie Saint\, James Mason\, Jessie Royce Landis\, Philip Ober\nProgram time: Film is 136 minutes + presentation/Q&A\nRating: PG\nTickets — North by Northwest\nBlock 3: Vertigo (1958)\nA retired cop\, afflicted with acrophobia\, agrees to shadow the wife of an old acquaintance\, who fears that she may be suicidal.\nCast: James Stewart\, Kim Novak\, Barbara Bel Geddes\, Tom Helmore\nProgram time: Film is 129 minutes + presentation/Q&A\nRating: PG\nTickets — Vertigo\nAll films are general admission (unreserved seating).\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nFestival Pass — All 3 Films\nSingle Show Tickets – Psycho\nSingle Show Tickets – North by Northwest\nSingle Show Tickets – Vertigo\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/oct-31-north-by-northwest-hitchcock-architecture-of-suspense-film-festival/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -592,14 +592,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261101T130000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20261101T130000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
 DESCRIPTION:Welcome to the Hitchcock Architecture of Suspense Film Festival at the Shepherdstown Opera House\nThree hosting screenings with live introduction and post-film discussion by author Christine Madrid French\, author of the acclaimed book “The Architecture of Suspense”\nCostumes Invited! Come dressed as your favorite Hitchcock character\, a building from the films\, the mood of suspense—or the master director himself.\nClick the button below to buy a discounted ticket for the entire Festival (all three film blocks including author talksand Q&A sessions). Can’t come to all three films? No problem\, you can buy single-film tickets\, too!\nFestival Pass — All 3 Films\nBlock 1: Psycho (1960)\nHitchcock’s famous thriller about a psychotic motel owner who obsesses over his late\, controlling mother while becoming the prime suspect in a murder case involving one of his recent guests\, a pretty secretary who checked into the Bates Motel after impulsively stealing $40\,000 and never checked out.\nCast: Anthony Perkins\, Janet Leigh\, Vera Miles\, John Gavin\, Martin Balsam\nProgram time: Film is 108 minutes + presentation/Q&A\nRating: R\nTickets — Psycho\nBlock 2: North by Northwest (1959)\nCary Grant stars as an innocent man mistaken for a spy in one of director Alfred Hitchcock’s greatest thrillers. While leaving New York’s Plaza Hotel\, advertising executive Roger Thornhill (Grant) has the misfortune of standing just as the name “George Kaplan” is paged–starting a lethal case of mistaken identity and a nonstop game of cat and mouse as he is pursued across North America by espionage agents trying to kill him–and by police who suspect him of murder.\nCast: Cary Grant\, Eva Marie Saint\, James Mason\, Jessie Royce Landis\, Philip Ober\nProgram time: Film is 136 minutes + presentation/Q&A\nRating: PG\nTickets — North by Northwest\nBlock 3: Vertigo (1958)\nA retired cop\, afflicted with acrophobia\, agrees to shadow the wife of an old acquaintance\, who fears that she may be suicidal.\nCast: James Stewart\, Kim Novak\, Barbara Bel Geddes\, Tom Helmore\nProgram time: Film is 129 minutes + presentation/Q&A\nRating: PG\nTickets — Vertigo\nAll films are general admission (unreserved seating).\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nFestival Pass — All 3 Films\nSingle Show Tickets – Psycho\nSingle Show Tickets – North by Northwest\nSingle Show Tickets – Vertigo\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/oct-31-north-by-northwest-hitchcock-architecture-of-suspense-film-festival/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -607,14 +607,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261030T190000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20261030T190000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
 DESCRIPTION:Welcome to the Hitchcock Architecture of Suspense Film Festival at the Shepherdstown Opera House\nThree hosting screenings with live introduction and post-film discussion by author Christine Madrid French\, author of the acclaimed book “The Architecture of Suspense”\nCostumes Invited! Come dressed as your favorite Hitchcock character\, a building from the films\, the mood of suspense—or the master director himself.\nClick the button below to buy a discounted ticket for the entire Festival (all three film blocks including author talksand Q&A sessions). Can’t come to all three films? No problem\, you can buy single-film tickets\, too!\nFestival Pass — All 3 Films\nBlock 1: Psycho (1960)\nHitchcock’s famous thriller about a psychotic motel owner who obsesses over his late\, controlling mother while becoming the prime suspect in a murder case involving one of his recent guests\, a pretty secretary who checked into the Bates Motel after impulsively stealing $40\,000 and never checked out.\nCast: Anthony Perkins\, Janet Leigh\, Vera Miles\, John Gavin\, Martin Balsam\nProgram time: Film is 108 minutes + presentation/Q&A\nRating: R\nTickets — Psycho\nBlock 2: North by Northwest (1959)\nCary Grant stars as an innocent man mistaken for a spy in one of director Alfred Hitchcock’s greatest thrillers. While leaving New York’s Plaza Hotel\, advertising executive Roger Thornhill (Grant) has the misfortune of standing just as the name “George Kaplan” is paged–starting a lethal case of mistaken identity and a nonstop game of cat and mouse as he is pursued across North America by espionage agents trying to kill him–and by police who suspect him of murder.\nCast: Cary Grant\, Eva Marie Saint\, James Mason\, Jessie Royce Landis\, Philip Ober\nProgram time: Film is 136 minutes + presentation/Q&A\nRating: PG\nTickets — North by Northwest\nBlock 3: Vertigo (1958)\nA retired cop\, afflicted with acrophobia\, agrees to shadow the wife of an old acquaintance\, who fears that she may be suicidal.\nCast: James Stewart\, Kim Novak\, Barbara Bel Geddes\, Tom Helmore\nProgram time: Film is 129 minutes + presentation/Q&A\nRating: PG\nTickets — Vertigo\nAll films are general admission (unreserved seating).\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nFestival Pass — All 3 Films\nSingle Show Tickets – Psycho\nSingle Show Tickets – North by Northwest\nSingle Show Tickets – Vertigo\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/nov-1-vertigo-hitchcock-architecture-of-suspense-film-festival/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -622,14 +622,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261031T130000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20261031T130000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
 DESCRIPTION:Welcome to the Hitchcock Architecture of Suspense Film Festival at the Shepherdstown Opera House\nThree hosting screenings with live introduction and post-film discussion by author Christine Madrid French\, author of the acclaimed book “The Architecture of Suspense”\nCostumes Invited! Come dressed as your favorite Hitchcock character\, a building from the films\, the mood of suspense—or the master director himself.\nClick the button below to buy a discounted ticket for the entire Festival (all three film blocks including author talksand Q&A sessions). Can’t come to all three films? No problem\, you can buy single-film tickets\, too!\nFestival Pass — All 3 Films\nBlock 1: Psycho (1960)\nHitchcock’s famous thriller about a psychotic motel owner who obsesses over his late\, controlling mother while becoming the prime suspect in a murder case involving one of his recent guests\, a pretty secretary who checked into the Bates Motel after impulsively stealing $40\,000 and never checked out.\nCast: Anthony Perkins\, Janet Leigh\, Vera Miles\, John Gavin\, Martin Balsam\nProgram time: Film is 108 minutes + presentation/Q&A\nRating: R\nTickets — Psycho\nBlock 2: North by Northwest (1959)\nCary Grant stars as an innocent man mistaken for a spy in one of director Alfred Hitchcock’s greatest thrillers. While leaving New York’s Plaza Hotel\, advertising executive Roger Thornhill (Grant) has the misfortune of standing just as the name “George Kaplan” is paged–starting a lethal case of mistaken identity and a nonstop game of cat and mouse as he is pursued across North America by espionage agents trying to kill him–and by police who suspect him of murder.\nCast: Cary Grant\, Eva Marie Saint\, James Mason\, Jessie Royce Landis\, Philip Ober\nProgram time: Film is 136 minutes + presentation/Q&A\nRating: PG\nTickets — North by Northwest\nBlock 3: Vertigo (1958)\nA retired cop\, afflicted with acrophobia\, agrees to shadow the wife of an old acquaintance\, who fears that she may be suicidal.\nCast: James Stewart\, Kim Novak\, Barbara Bel Geddes\, Tom Helmore\nProgram time: Film is 129 minutes + presentation/Q&A\nRating: PG\nTickets — Vertigo\nAll films are general admission (unreserved seating).\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nFestival Pass — All 3 Films\nSingle Show Tickets – Psycho\nSingle Show Tickets – North by Northwest\nSingle Show Tickets – Vertigo\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/nov-1-vertigo-hitchcock-architecture-of-suspense-film-festival/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -637,14 +637,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261101T130000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20261101T130000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
 DESCRIPTION:Welcome to the Hitchcock Architecture of Suspense Film Festival at the Shepherdstown Opera House\nThree hosting screenings with live introduction and post-film discussion by author Christine Madrid French\, author of the acclaimed book “The Architecture of Suspense”\nCostumes Invited! Come dressed as your favorite Hitchcock character\, a building from the films\, the mood of suspense—or the master director himself.\nClick the button below to buy a discounted ticket for the entire Festival (all three film blocks including author talksand Q&A sessions). Can’t come to all three films? No problem\, you can buy single-film tickets\, too!\nFestival Pass — All 3 Films\nBlock 1: Psycho (1960)\nHitchcock’s famous thriller about a psychotic motel owner who obsesses over his late\, controlling mother while becoming the prime suspect in a murder case involving one of his recent guests\, a pretty secretary who checked into the Bates Motel after impulsively stealing $40\,000 and never checked out.\nCast: Anthony Perkins\, Janet Leigh\, Vera Miles\, John Gavin\, Martin Balsam\nProgram time: Film is 108 minutes + presentation/Q&A\nRating: R\nTickets — Psycho\nBlock 2: North by Northwest (1959)\nCary Grant stars as an innocent man mistaken for a spy in one of director Alfred Hitchcock’s greatest thrillers. While leaving New York’s Plaza Hotel\, advertising executive Roger Thornhill (Grant) has the misfortune of standing just as the name “George Kaplan” is paged–starting a lethal case of mistaken identity and a nonstop game of cat and mouse as he is pursued across North America by espionage agents trying to kill him–and by police who suspect him of murder.\nCast: Cary Grant\, Eva Marie Saint\, James Mason\, Jessie Royce Landis\, Philip Ober\nProgram time: Film is 136 minutes + presentation/Q&A\nRating: PG\nTickets — North by Northwest\nBlock 3: Vertigo (1958)\nA retired cop\, afflicted with acrophobia\, agrees to shadow the wife of an old acquaintance\, who fears that she may be suicidal.\nCast: James Stewart\, Kim Novak\, Barbara Bel Geddes\, Tom Helmore\nProgram time: Film is 129 minutes + presentation/Q&A\nRating: PG\nTickets — Vertigo\nAll films are general admission (unreserved seating).\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nFestival Pass — All 3 Films\nSingle Show Tickets – Psycho\nSingle Show Tickets – North by Northwest\nSingle Show Tickets – Vertigo\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/nov-1-vertigo-hitchcock-architecture-of-suspense-film-festival/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -652,14 +652,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261030T190000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20261030T190000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
 DESCRIPTION:Welcome to the Hitchcock Architecture of Suspense Film Festival at the Shepherdstown Opera House\nThree hosting screenings with live introduction and post-film discussion by author Christine Madrid French\, author of the acclaimed book “The Architecture of Suspense”\nCostumes Invited! Come dressed as your favorite Hitchcock character\, a building from the films\, the mood of suspense—or the master director himself.\nClick the button below to buy a discounted ticket for the entire Festival (all three film blocks including author talksand Q&A sessions). Can’t come to all three films? No problem\, you can buy single-film tickets\, too!\nFestival Pass — All 3 Films\nBlock 1: Psycho (1960)\nHitchcock’s famous thriller about a psychotic motel owner who obsesses over his late\, controlling mother while becoming the prime suspect in a murder case involving one of his recent guests\, a pretty secretary who checked into the Bates Motel after impulsively stealing $40\,000 and never checked out.\nCast: Anthony Perkins\, Janet Leigh\, Vera Miles\, John Gavin\, Martin Balsam\nProgram time: Film is 108 minutes + presentation/Q&A\nRating: R\nTickets — Psycho\nBlock 2: North by Northwest (1959)\nCary Grant stars as an innocent man mistaken for a spy in one of director Alfred Hitchcock’s greatest thrillers. While leaving New York’s Plaza Hotel\, advertising executive Roger Thornhill (Grant) has the misfortune of standing just as the name “George Kaplan” is paged–starting a lethal case of mistaken identity and a nonstop game of cat and mouse as he is pursued across North America by espionage agents trying to kill him–and by police who suspect him of murder.\nCast: Cary Grant\, Eva Marie Saint\, James Mason\, Jessie Royce Landis\, Philip Ober\nProgram time: Film is 136 minutes + presentation/Q&A\nRating: PG\nTickets — North by Northwest\nBlock 3: Vertigo (1958)\nA retired cop\, afflicted with acrophobia\, agrees to shadow the wife of an old acquaintance\, who fears that she may be suicidal.\nCast: James Stewart\, Kim Novak\, Barbara Bel Geddes\, Tom Helmore\nProgram time: Film is 129 minutes + presentation/Q&A\nRating: PG\nTickets — Vertigo\nAll films are general admission (unreserved seating).\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nFestival Pass — All 3 Films\nSingle Show Tickets – Psycho\nSingle Show Tickets – North by Northwest\nSingle Show Tickets – Vertigo\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/nov-1-vertigo-hitchcock-architecture-of-suspense-film-festival/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -667,14 +667,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261031T130000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20261031T130000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
 DESCRIPTION:Welcome to the Hitchcock Architecture of Suspense Film Festival at the Shepherdstown Opera House\nThree hosting screenings with live introduction and post-film discussion by author Christine Madrid French\, author of the acclaimed book “The Architecture of Suspense”\nCostumes Invited! Come dressed as your favorite Hitchcock character\, a building from the films\, the mood of suspense—or the master director himself.\nClick the button below to buy a discounted ticket for the entire Festival (all three film blocks including author talksand Q&A sessions). Can’t come to all three films? No problem\, you can buy single-film tickets\, too!\nFestival Pass — All 3 Films\nBlock 1: Psycho (1960)\nHitchcock’s famous thriller about a psychotic motel owner who obsesses over his late\, controlling mother while becoming the prime suspect in a murder case involving one of his recent guests\, a pretty secretary who checked into the Bates Motel after impulsively stealing $40\,000 and never checked out.\nCast: Anthony Perkins\, Janet Leigh\, Vera Miles\, John Gavin\, Martin Balsam\nProgram time: Film is 108 minutes + presentation/Q&A\nRating: R\nTickets — Psycho\nBlock 2: North by Northwest (1959)\nCary Grant stars as an innocent man mistaken for a spy in one of director Alfred Hitchcock’s greatest thrillers. While leaving New York’s Plaza Hotel\, advertising executive Roger Thornhill (Grant) has the misfortune of standing just as the name “George Kaplan” is paged–starting a lethal case of mistaken identity and a nonstop game of cat and mouse as he is pursued across North America by espionage agents trying to kill him–and by police who suspect him of murder.\nCast: Cary Grant\, Eva Marie Saint\, James Mason\, Jessie Royce Landis\, Philip Ober\nProgram time: Film is 136 minutes + presentation/Q&A\nRating: PG\nTickets — North by Northwest\nBlock 3: Vertigo (1958)\nA retired cop\, afflicted with acrophobia\, agrees to shadow the wife of an old acquaintance\, who fears that she may be suicidal.\nCast: James Stewart\, Kim Novak\, Barbara Bel Geddes\, Tom Helmore\nProgram time: Film is 129 minutes + presentation/Q&A\nRating: PG\nTickets — Vertigo\nAll films are general admission (unreserved seating).\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nFestival Pass — All 3 Films\nSingle Show Tickets – Psycho\nSingle Show Tickets – North by Northwest\nSingle Show Tickets – Vertigo\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/nov-1-vertigo-hitchcock-architecture-of-suspense-film-festival/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -682,14 +682,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261101T130000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20261101T130000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
 DESCRIPTION:Welcome to the Hitchcock Architecture of Suspense Film Festival at the Shepherdstown Opera House\nThree hosting screenings with live introduction and post-film discussion by author Christine Madrid French\, author of the acclaimed book “The Architecture of Suspense”\nCostumes Invited! Come dressed as your favorite Hitchcock character\, a building from the films\, the mood of suspense—or the master director himself.\nClick the button below to buy a discounted ticket for the entire Festival (all three film blocks including author talksand Q&A sessions). Can’t come to all three films? No problem\, you can buy single-film tickets\, too!\nFestival Pass — All 3 Films\nBlock 1: Psycho (1960)\nHitchcock’s famous thriller about a psychotic motel owner who obsesses over his late\, controlling mother while becoming the prime suspect in a murder case involving one of his recent guests\, a pretty secretary who checked into the Bates Motel after impulsively stealing $40\,000 and never checked out.\nCast: Anthony Perkins\, Janet Leigh\, Vera Miles\, John Gavin\, Martin Balsam\nProgram time: Film is 108 minutes + presentation/Q&A\nRating: R\nTickets — Psycho\nBlock 2: North by Northwest (1959)\nCary Grant stars as an innocent man mistaken for a spy in one of director Alfred Hitchcock’s greatest thrillers. While leaving New York’s Plaza Hotel\, advertising executive Roger Thornhill (Grant) has the misfortune of standing just as the name “George Kaplan” is paged–starting a lethal case of mistaken identity and a nonstop game of cat and mouse as he is pursued across North America by espionage agents trying to kill him–and by police who suspect him of murder.\nCast: Cary Grant\, Eva Marie Saint\, James Mason\, Jessie Royce Landis\, Philip Ober\nProgram time: Film is 136 minutes + presentation/Q&A\nRating: PG\nTickets — North by Northwest\nBlock 3: Vertigo (1958)\nA retired cop\, afflicted with acrophobia\, agrees to shadow the wife of an old acquaintance\, who fears that she may be suicidal.\nCast: James Stewart\, Kim Novak\, Barbara Bel Geddes\, Tom Helmore\nProgram time: Film is 129 minutes + presentation/Q&A\nRating: PG\nTickets — Vertigo\nAll films are general admission (unreserved seating).\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nFestival Pass — All 3 Films\nSingle Show Tickets – Psycho\nSingle Show Tickets – North by Northwest\nSingle Show Tickets – Vertigo\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/nov-1-vertigo-hitchcock-architecture-of-suspense-film-festival/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -697,14 +697,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261114T190000Z-016323d4-de46-54d1-aed1-6f6c802b7169@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20261114T190000Z
 DTEND:
 SUMMARY:Beauty & the B Flats
 DESCRIPTION:Beauty and the B Flats is a vocal and instrumental jazz band from right here in music-loving Shepherdstown\, WV!\nBringing diverse backgrounds and experiences to their collaboration\, these talented performers play jazz standards from the Great American Songbook by artists like Ella Fitzgerald\, Louis Armstrong\, Doris Day\, Duke Ellington\, Frank Sinatra\, as well as Charlie Parker\, Sonny Rollins and many others.\nCome out for a night of wonderful jazz!\nArtist links\nWebsite\nInstagram\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/nov-14-beauty-the-b-flats/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com
@@ -712,14 +712,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261115T150000Z-660b460f-654b-558d-9487-2d7000035801@operahouse
-DTSTAMP:20260410T195317Z
+DTSTAMP:20260425T082259Z
 DTSTART:20261115T150000Z
 DTEND:
 SUMMARY:National Theatre Live: Les Liaisons Dangereuses
 DESCRIPTION:National Theatre Live – On Screen\nLes Liaisons Dangereuses \nBy Christopher Hampton\nBased on the novel by Pierre Choderlos de Laclos\nDirected by Marianne Elliott\nBAFTA Award-winner Lesley Manville (Phantom Thread) joins Aidan Turner (Rivals) in a striking new staging of Christopher Hampton’s celebrated adaptation of the classic novel\, where among the glittering salons of the super-rich\, one misstep can mean ruin.\nMarquise de Merteuil is a master in the art of survival. Alongside the magnetic Vicomte de Valmont\, they turn seduction into strategy and weaponize desire. But when their alliance collapses into rivalry\, the battle between them threatens to destroy everyone in their path.\nFilmed live on stage at the National Theatre\, Marianne Elliott (Angels in America) directs this thrilling game of love\, lies\, and social warfare.\nAge Rating: Equivalent to R due to dark themes and sexual content\nRunning Time: 150 minutes (including intermission)\nGeneral admission (unreserved seating).\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/nov-15-national-theatre-live-les-liaisons-dangereuses/
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherdstown Opera House
 STATUS:CONFIRMED
 SOURCE:operahouselive.com

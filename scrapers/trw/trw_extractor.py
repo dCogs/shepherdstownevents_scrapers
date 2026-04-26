@@ -36,7 +36,11 @@ year = "2026"
 # Format the date as a string in YYYYMMDD format
 today = datetime.today()
 today_formatted = today.strftime("%Y%m%d")
-
+ninety_days = timedelta(days=90)
+last_import_date = today + ninety_days
+last_import_date = (today + ninety_days).strftime("%Y%m%d")
+print('today:', today, 'last_import_date:', last_import_date)
+after_last_import_date = False
 
 def setup_driver(headless=False):
     """Setup Chrome WebDriver"""
@@ -52,32 +56,42 @@ def setup_driver(headless=False):
     return driver
 
 def extract_date_times(date_time_string):
+    global after_last_import_date
     dtstart = dtend = date_part = time_part = ''
     all_day = False
     start_description_with_date_time = False
-    # print('date_time_string:', date_time_string)
+    print('date_time_string:', date_time_string)
     if "@" not in date_time_string:
         all_day = True
         if "-" in date_time_string:
             start_date, end_date = date_time_string.split(" - ")
-            dtstart = format_date(start_date) + "T000000Z"
-            start_description_with_date_time = True
-            # dtend = format_date(end_date) + "T000000Z"
+            if format_date(start_date) <= last_import_date:
+                dtstart = format_date(start_date) + "T000000Z"
+                start_description_with_date_time = True
+                # dtend = format_date(end_date) + "T000000Z"
+            else:
+                after_last_import_date = True
         else:
             start_date = format_date(date_time_string)
-            dtstart = start_date + "T000000Z"
+            if start_date <= last_import_date:
+                dtstart = start_date + "T000000Z"
+            else:
+                after_last_import_date = True
     else:
         date_part, time_part = date_time_string.split(" @ ")
         start_date = format_date(date_part)
-        if "-" in time_part:
-            begin_time, end_time = time_part.split(" - ")
-            begin_time_formatted = format_time(begin_time)
-            end_time_formatted = format_time(end_time)
-            dtstart = start_date + "T" + begin_time_formatted + "Z"
-            dtend = start_date + "T" + end_time_formatted + "Z"
+        if start_date <= last_import_date:
+            if "-" in time_part:
+                begin_time, end_time = time_part.split(" - ")
+                begin_time_formatted = format_time(begin_time)
+                end_time_formatted = format_time(end_time)
+                dtstart = start_date + "T" + begin_time_formatted + "Z"
+                dtend = start_date + "T" + end_time_formatted + "Z"
+            else:
+                begin_time_formatted = format_time(time_part)
+                dtstart = start_date + "T" + begin_time_formatted + "Z"
         else:
-            begin_time_formatted = format_time(time_part)
-            dtstart = start_date + "T" + begin_time_formatted + "Z"
+            after_last_import_date = True
 
     return dtstart, dtend, all_day, start_description_with_date_time
 
@@ -102,7 +116,12 @@ def format_date(date_str):
     if date_str == '': return ''
     # dow, month_day = date_str.split(", ")
     date_str = date_str.strip()
-    month, day = date_str.split(" ")
+    print('date_str:', date_str)
+    if ", " in date_str:
+        mm_dd, yy = date_str.split(", ")
+        month, day = mm_dd.split(" ")
+    else:        
+        month, day = date_str.split(" ")
     match month:
         case "January": month = "01"
         case "February": month = "02"
@@ -119,6 +138,7 @@ def format_date(date_str):
     day = re.sub(r'(\d+)(st|nd|rd|th)', r'\1', day)
     if len(day) == 1: day = "0" + day
     # print('month:', month, ' day:', day)
+    print('returning:', year + month + day)
     return year + month + day
 
 def click_next_month_button(driver, wait):
@@ -188,7 +208,8 @@ def extract_event_info(event_elements):
     except:
         pass
 
-    if "American Conservation Film Festival" in title or "Earth Fest" in title:
+    if "American Conservation Film Festival" in title or "Earth Fest" in title or dtstart == '' or \
+    "Steering Comittee Meeting" in title:
         return result
     
     result['category'] = category
@@ -296,7 +317,7 @@ def main():
 
         # Extract up to a maximum months. Keep 1 or 2 while testing
         max_pages = 5
-        while pages_scraped < max_pages:
+        while pages_scraped < max_pages and after_last_import_date == False:
             pages_scraped += 1
             events = driver.find_elements(By.CSS_SELECTOR, ".tribe-events-calendar-list__event-row")
             for event in events:

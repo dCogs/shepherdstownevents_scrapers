@@ -292,7 +292,7 @@ def main():
                 # print('event_date:', event_date, 'start_time:', start_time, 'dtstart:', dtstart, 'dtend:', dtend, 'end_time:', end_time, 'all_day:', all_day, 'location:', location, 'title:', title, 'desc:', desc)
                 
                 result = {
-                    'category': "Film & Performing Arts",
+                    'category': "Music & Film & Stage",
                     'time': '',
                     'more_info_url': 'https://www.shepherd.edu/music/calendar-of-concerts',
                     'more_info_text': '',

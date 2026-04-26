@@ -65,7 +65,7 @@ def categorize_by_keywords(title):
             'CLOSED'
         ],
 
-        'Film & Performing Arts': [
+        'Music & Film & Stage': [
             'THEATER', 'THEATRE', 'PLAY', 'DRAMA', 'COMEDY', 'MUSICAL',
             'PRODUCTION', 'STAGE', 'PERFORMANCE', 'ACTING', 'ACTOR', 'SHOW',
             'REHEARSAL', 'BROADWAY', 'IMPROV',

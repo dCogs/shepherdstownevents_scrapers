@@ -178,11 +178,14 @@ def extract_event_info(date, event_elements):
             # print('more_info_text:', result['more_info_text'])
         else:
             # If there was no more_info_match, look at the lines below category_match to pull summary and description
-            category_match = re.search(r'Category\s*\n(.*?)(?=Location Details:|Contact\n|Location\n|$)', text, re.IGNORECASE | re.DOTALL)
-            # print('category_match:', category_match)        
-            category_section = category_match.group(1).strip()
-            lines = category_section.split('\n')
-        
+            # category_match = re.search(r'Category\s*\n(.*?)(?=Location Details:|Contact\n|Location\n|$)', text, re.IGNORECASE | re.DOTALL)
+            category_match = re.search(r'Categor(?:y|ies)\s*\n(.*?)(?=Location Details:|Contact\n|Location\n|$)', text, re.IGNORECASE | re.DOTALL)
+            if category_match == None:
+                print('category_match = None. Here is the text:\n')
+                print(text)
+            else:                      
+                category_section = category_match.group(1).strip()
+                lines = category_section.split('\n')
         if lines:
             # Extract description (everything after the first line/URL)
             desc_lines = []
@@ -285,7 +288,7 @@ def extract_event_info(date, event_elements):
             else:
                 if result['summary'] == "Family, Friends & Fear":
                     result['organization'] = "Artful Codgers"
-                    category.append('Film & Performing Arts')
+                    category.append('Music & Film & Stage')
                 else:
                     result['organization'] = result['location']
         if result['location'] == "Public Library (Shepherdstown)" : 
@@ -304,9 +307,11 @@ def extract_event_info(date, event_elements):
                 result['organization'] = "Shepherdstown Film Society"
             if result['more_info_url'] == '':
                 result['more_info_url'] = "https://operahouselive.com/schedule/"
-            if "Film & Performing Arts" not in result['category']:
-                result['category'].append('Film & Performing Arts')
+            if "Music & Film & Stage" not in result['category']:
+                result['category'].append('Music & Film & Stage')
         # print(281, result['location'])
+        if result['location'] == "Shepherdstown Fire Hall":
+            result['organization'] = "Shepherdstown Fire Department"
         if result['location'] == "Shepherd Univ - Student Center":
             result['organization'] = "Shepherd University"
         if result['location'] == "Skull City Studio & The Roving Peregrine Theater Company":
@@ -322,7 +327,12 @@ def extract_event_info(date, event_elements):
             result['organization'] = "Historic Shepherdstown & Museum"
         if result['location'] == "USGS Eastern Ecological Science Center":
             result['location'] = "USGS Eastern Ecological Science Center, 11649 Leetown Road, Kearneysville"
-
+        if result['location'] == "Community Club (War Memorial Building)" and "SCC" in result['summary']:
+            result['organization'] = "Shepherdstown Community Club"
+            result['location'] = "War Memorial Building, 102 E. German Street"
+        if result['location'] == "Shepherd Univ - Studio 112":
+            result['organization'] = "Shepherd University"
+            result['location'] = "Shepherd Univ - Studio 112, 92 West Campus Drive, Shepherdstown"
 
         # These are brought in on other scrapers
         if result['location'] == "Shepherd Univ - Shipley Recital Hall" or result['location'] == "Shepherd Univ - Tabler Farm" or \
@@ -343,6 +353,9 @@ def extract_event_info(date, event_elements):
         if result['summary'] == "Shepherdstown Gay Pride Parade":
             result['organization'] = "Miscellaneous"
             result['more_info_url'] = "https://www.facebook.com/events/german-st-shepherdstown-wv-25443-united-states/2nd-annual-shepherdstown-gay-pride-parade/1585216485841054/"
+
+        if result['location'] == "Grapes and Grains Gourmet":
+            result['location'] = "Grapes and Grains Gourmet, 110 E German St, Shepherdstown"
 
         # Check for TICKET LINK they do for Opera House sometimes
         ticket_link = re.search(r'TICKET LINK\s*\n(.*?)', text)
@@ -383,7 +396,9 @@ def extract_event_info(date, event_elements):
                 result['dtstart'] = ''
                 return result
         
-        if "Speak Story Series" in result['summary']:
+        if "Speak Story Series" in result['summary'] or \
+        "Shepherdstown Mystery Walks" in result['description'] or \
+        "May Day Celebration" in result['summary']:
             result['dtstart'] = ''
             return result
         

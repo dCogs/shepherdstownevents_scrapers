@@ -235,7 +235,8 @@ def create_ics_file(events, filename):
                            .replace(';', '\\;')
                            .replace('\n', '\\n'))
             
-            summary = escape_ics(event['summary'])
+            # summary = escape_ics(event['summary'])
+            summary = event['summary']
             # location = escape_ics(event['location'])
             location = event['location']
             description = escape_ics(event['description'])

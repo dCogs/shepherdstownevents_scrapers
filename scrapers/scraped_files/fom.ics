@@ -6,42 +6,14 @@ METHOD:PUBLISH
 X-WR-CALNAME:Friends of Music Calendar
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-UID:20260418T193000Z-c54f2caa-2421-53c2-8ad5-062d79db398d@fom
-DTSTAMP:20260402T095621Z
-DTSTART:20260418T193000Z
-DTEND:
-SUMMARY:MUSIC OF THE REGIMENT - EQUAL TO ANY BAND IN THIS COUNTRY
-LOCATION:Trinity Episcopal Church, Shepherdstown WV
-DESCRIPTION:Single Tickets: $35\nZion Episcopal Church\, Charles Town\, WV\n(ticketed separately through Friends of Happy Retreat)\nCombining world-class musicianship with historical scholarship\, Music of the Regiment is an ensemble of musicians dedicated to the study and performance of martial music of the 18th and 19th centuries. They are period-instrument specialists who perform on instrument technologies of the past. With the story of the 2nd Virginia Regiment’s Band of Music at its center\, this historically immersive program combines dramatic readings of 18th-century sources with the marches\, opera arrangements\, and musical divertimenti that served as the soundtrack of the French\, American\, and British armies that converged at Yorktown in 1781. The concert is being cosponsored by Friends of Music and the Friends of Happy Retreat as a special addition to Jefferson County’s celebration of the 250th Anniversary of the Declaration of Independence.\nRESERVATIONS & TICKETS: APRIL 18\, 2026\n
-CATEGORIES:Film & Performing Arts
-ORGANIZATION:Friends of Music
-STATUS:CONFIRMED
-SOURCE:friendswv.org/
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260419T140000Z-c54f2caa-2421-53c2-8ad5-062d79db398d@fom
-DTSTAMP:20260402T095621Z
-DTSTART:20260419T140000Z
-DTEND:
-SUMMARY:MUSIC OF THE REGIMENT - EQUAL TO ANY BAND IN THIS COUNTRY
-LOCATION:Trinity Episcopal Church, Shepherdstown WV
-DESCRIPTION:Single Tickets: $35\nZion Episcopal Church\, Charles Town\, WV\n(ticketed separately through Friends of Happy Retreat)\nCombining world-class musicianship with historical scholarship\, Music of the Regiment is an ensemble of musicians dedicated to the study and performance of martial music of the 18th and 19th centuries. They are period-instrument specialists who perform on instrument technologies of the past. With the story of the 2nd Virginia Regiment’s Band of Music at its center\, this historically immersive program combines dramatic readings of 18th-century sources with the marches\, opera arrangements\, and musical divertimenti that served as the soundtrack of the French\, American\, and British armies that converged at Yorktown in 1781. The concert is being cosponsored by Friends of Music and the Friends of Happy Retreat as a special addition to Jefferson County’s celebration of the 250th Anniversary of the Declaration of Independence.\nRESERVATIONS & TICKETS: APRIL 18\, 2026\n
-CATEGORIES:Film & Performing Arts
-ORGANIZATION:Friends of Music
-STATUS:CONFIRMED
-SOURCE:friendswv.org/
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:20260530T193000Z-d50d8e90-7dba-59dd-8c74-f6cbadb3a776@fom
-DTSTAMP:20260402T095621Z
+DTSTAMP:20260420T074750Z
 DTSTART:20260530T193000Z
 DTEND:
 SUMMARY:TWO RIVERS CHAMBER ORCHESTRA - DOUBLES ANYONE?
 LOCATION:Shepherdstown Presbyterian Church, Shepherdstown, WV
 DESCRIPTION:Single Tickets: $40\nOsvaldo Golijov (Born 1960) — Last Round\nJohann Sebastian Bach (1685-1750) — Concerto for two violins in D minor\, Heather Austin-Stone\, violin\nSalvatore Amadeo\, violin\, Antonin Dvorak (1841-1904) —Serenade for Strings\, Op. 22\nThis concert begins with a fiery homage by Argentine composer Osvaldo Golijov to tango legend Astor Piazzolla\, written for double string quartet with a bass added as arbiter. The program continues with Bach’s beloved concerto for two violins\, whose three movements move from haunting to uplifting to vigorous. We close the concert and our season with Dvořák’s Serenade for Strings\, a richly romantic work for string orchestra.\nRESERVATIONS & TICKETS: MAY 30\, 2026 RESERVATIONS & TICKETS: MAY 31\, 2026\n
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Friends of Music
 STATUS:CONFIRMED
 SOURCE:friendswv.org/
@@ -49,13 +21,13 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260531T150000Z-d50d8e90-7dba-59dd-8c74-f6cbadb3a776@fom
-DTSTAMP:20260402T095621Z
+DTSTAMP:20260420T074750Z
 DTSTART:20260531T150000Z
 DTEND:
 SUMMARY:TWO RIVERS CHAMBER ORCHESTRA - DOUBLES ANYONE?
 LOCATION:Shepherdstown Presbyterian Church, Shepherdstown, WV
 DESCRIPTION:Single Tickets: $40\nOsvaldo Golijov (Born 1960) — Last Round\nJohann Sebastian Bach (1685-1750) — Concerto for two violins in D minor\, Heather Austin-Stone\, violin\nSalvatore Amadeo\, violin\, Antonin Dvorak (1841-1904) —Serenade for Strings\, Op. 22\nThis concert begins with a fiery homage by Argentine composer Osvaldo Golijov to tango legend Astor Piazzolla\, written for double string quartet with a bass added as arbiter. The program continues with Bach’s beloved concerto for two violins\, whose three movements move from haunting to uplifting to vigorous. We close the concert and our season with Dvořák’s Serenade for Strings\, a richly romantic work for string orchestra.\nRESERVATIONS & TICKETS: MAY 30\, 2026 RESERVATIONS & TICKETS: MAY 31\, 2026\n
-CATEGORIES:Film & Performing Arts
+CATEGORIES:Music & Film & Stage
 ORGANIZATION:Friends of Music
 STATUS:CONFIRMED
 SOURCE:friendswv.org/

@@ -270,7 +270,7 @@ def main():
         events = driver.find_elements(By.CLASS_NAME, "month-current")
 
         # Extract up to a maximum months. Keep 1 or 2 while testing
-        max_pages = 2
+        max_pages = 3
         while pages_scraped < max_pages:
             # pages_scraped += 1
             print("scraping ", pages_scraped)

@@ -47,28 +47,42 @@ def extract_date_times(date_time_string):
     dtstart = dtend = date_part = time_part = ''
     all_day = False
     start_description_with_date_time = False
-    if "@" not in date_time_string:
-        all_day = True
-        if "-" in date_time_string:
-            start_date, end_date = date_time_string.split(" - ")
-            dtstart = format_date(start_date) + "T000000Z"
-            start_description_with_date_time = True
-            # dtend = format_date(end_date) + "T000000Z"
-        else:
-            start_date = format_date(date_time_string)
-            dtstart = start_date + "T000000Z"
+    print('date_time_string:', date_time_string)
+
+    if date_time_string.count("@") == 2:
+        start_date_time, end_date_time = date_time_string.split(" - ")
+        st_date, st_time = start_date_time.split(" @ ")
+        dtstart = format_date(st_date) + "T" + format_time(st_time) + "Z"
+        en_date, en_time = end_date_time.split(" @ ")
+        dtend = format_date(en_date) + "T" + format_time(en_time) + "Z"
+        start_description_with_date_time = True
     else:
-        date_part, time_part = date_time_string.split(" @ ")
-        start_date = format_date(date_part)
-        if "-" in time_part:
-            begin_time, end_time = time_part.split(" - ")
-            begin_time_formatted = format_time(begin_time)
-            end_time_formatted = format_time(end_time)
-            dtstart = start_date + "T" + begin_time_formatted + "Z"
-            dtend = start_date + "T" + end_time_formatted + "Z"
+        if "@" not in date_time_string:
+            all_day = True
+            if "-" in date_time_string:
+                start_date, end_date = date_time_string.split(" - ")
+                dtstart = format_date(start_date) + "T000000Z"
+                dtend = format_date(end_date) + "T000000Z"
+                start_description_with_date_time = True
+                # dtend = format_date(end_date) + "T000000Z"
+            else:
+                start_date = format_date(date_time_string)
+                dtstart = start_date + "T000000Z"
         else:
-            begin_time_formatted = format_time(time_part)
-            dtstart = start_date + "T" + begin_time_formatted + "Z"
+            # print('date_time_string:', date_time_string)
+            date_part, time_part = date_time_string.split(" @ ")
+            start_date = format_date(date_part)
+            if "-" in time_part:
+                begin_time, end_time = time_part.split(" - ")
+                begin_time_formatted = format_time(begin_time)
+                end_time_formatted = format_time(end_time)
+                dtstart = start_date + "T" + begin_time_formatted + "Z"
+                dtend = start_date + "T" + end_time_formatted + "Z"
+            else:
+                begin_time_formatted = format_time(time_part)
+                dtstart = start_date + "T" + begin_time_formatted + "Z"
+
+    print('dtstart:', dtstart, 'dtend:', dtend, 'all_day:', all_day)
 
     return dtstart, dtend, all_day, start_description_with_date_time
 
@@ -120,8 +134,8 @@ def click_next_month_button(driver, wait):
         wait = WebDriverWait(driver, 5)
         wait.until(EC.element_to_be_clickable((By.CLASS_NAME,"tribe-events-c-top-bar__datepicker-desktop")))
         # class="tribe-events-c-top-bar__datepicker-desktop tribe-common-a11y-hidden"
-        WebDriverWait(driver, 150)
-        time.sleep(15)
+        WebDriverWait(driver, 25)
+        time.sleep(5)
         print("✓ Clicked Next Month button")
         # time.sleep(15)
         return True

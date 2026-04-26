@@ -6,23 +6,8 @@ METHOD:PUBLISH
 X-WR-CALNAME:Town Run Watershed Events Calendar
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-UID:20260419T140000Z-9a5c134e-09ca-5441-a68f-8ff75923c211@trw
-DTSTAMP:20260413T123849Z
-DTSTART:20260419T140000Z
-DTEND:20260419T160000Z
-SUMMARY:Back Alley Garden Refresher – Please Help!
-LOCATION:
-DESCRIPTION:After two years\, the planting area along Town Run at Back Alley needs refreshment and renewal.  Adding priority to this effort\, the area has been selected for the Shepherdstown Community Club’s Backyard Garden tour coming up in two months on May 16 and 17. Town Run Watershed Group’s Restoration Project Leader\, Peggy Bowers\, has developed […]
-CATEGORIES:Education & Workshops, Outdoors & Nature
-ORGANIZATION:Town Run Watershed
-URL:https://townrunwatershed.org/event/back-alley-garden-refresher-please-help-2-2/
-STATUS:CONFIRMED
-SOURCE:townrunwatershed.org
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:20260425T100000Z-093e2bfd-592c-56d4-8ab5-e28ca571c162@trw
-DTSTAMP:20260413T123849Z
+DTSTAMP:20260421T170859Z
 DTSTART:20260425T100000Z
 DTEND:
 SUMMARY:Tree Planting at Asbury UMC
@@ -37,7 +22,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260430T140000Z-c71da3b4-0434-517f-a5fa-7a64305f787c@trw
-DTSTAMP:20260413T123849Z
+DTSTAMP:20260421T170859Z
 DTSTART:20260430T140000Z
 DTEND:20260430T160000Z
 SUMMARY:Capture the Rain
@@ -52,12 +37,12 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260503T140000Z-9a5c134e-09ca-5441-a68f-8ff75923c211@trw
-DTSTAMP:20260413T123849Z
+DTSTAMP:20260421T170859Z
 DTSTART:20260503T140000Z
 DTEND:20260503T160000Z
 SUMMARY:Back Alley Garden Refresher – Please Help!
 LOCATION:
-DESCRIPTION:After two years\, the planting area along Town Run at Back Alley needs refreshment and renewal.  Adding priority to this effort\, the area has been selected for the Shepherdstown Community Club’s Backyard Garden tour coming up in two months on May 16 and 17. Town Run Watershed Group’s Restoration Project Leader\, Peggy Bowers\, has developed […]
+DESCRIPTION:After two years\, the planting area along Town Run at Back Alley needs refreshing and renewal.  Adding priority to this effort\, the garden has been selected for the Shepherdstown Community Club’s Backyard Garden tour coming up in two months on May 16 and 17. Town Run Watershed Group’s Restoration Project Leader\, Peggy Bowers\, has developed […]
 CATEGORIES:Education & Workshops, Outdoors & Nature
 ORGANIZATION:Town Run Watershed
 URL:https://townrunwatershed.org/event/back-alley-garden-refresher-please-help-2/2026-05-03/
@@ -67,12 +52,12 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260515T110000Z-9a5c134e-09ca-5441-a68f-8ff75923c211@trw
-DTSTAMP:20260413T123849Z
+DTSTAMP:20260421T170859Z
 DTSTART:20260515T110000Z
 DTEND:20260515T140000Z
 SUMMARY:Back Alley Garden Refresher – Please Help!
 LOCATION:
-DESCRIPTION:After two years\, the planting area along Town Run at Back Alley needs refreshment and renewal.  Adding priority to this effort\, the area has been selected for the Shepherdstown Community Club’s Backyard Garden tour coming up in two months on May 16 and 17. Town Run Watershed Group’s Restoration Project Leader\, Peggy Bowers\, has developed […]
+DESCRIPTION:After two years\, the planting area along Town Run at Back Alley needs refreshing and renewal.  Adding priority to this effort\, the garden has been selected for the Shepherdstown Community Club’s Backyard Garden tour coming up in two months on May 16 and 17. Town Run Watershed Group’s Restoration Project Leader\, Peggy Bowers\, has developed […]
 CATEGORIES:Education & Workshops, Outdoors & Nature
 ORGANIZATION:Town Run Watershed
 URL:https://townrunwatershed.org/event/back-alley-garden-refresher-please-help-2/2026-05-15/
@@ -81,8 +66,38 @@ SOURCE:townrunwatershed.org
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:20260527T100000Z-6b19f811-1812-5954-a6ed-2e1b1ca55c1c@trw
+DTSTAMP:20260421T170859Z
+DTSTART:20260527T100000Z
+DTEND:20260527T110000Z
+SUMMARY:Town Run Watershed Stakeholders Meeting
+LOCATION:Shepherdstown Public Library, 145 HIgbee Lane, Shepherdstown, WV, United States
+DESCRIPTION:
+CATEGORIES:Education & Workshops, Outdoors & Nature
+ORGANIZATION:Town Run Watershed
+URL:https://townrunwatershed.org/event/town-run-watershed-stakeholders-meeting-3/
+STATUS:CONFIRMED
+SOURCE:townrunwatershed.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260602T180000Z-29aac783-3f1a-5966-b5cc-2cafbf77c40f@trw
+DTSTAMP:20260421T170859Z
+DTSTART:20260602T180000Z
+DTEND:20260602T190000Z
+SUMMARY:WV Watershed Network Virtual Social Hour: Planting for Pollinators and Birds
+LOCATION:
+DESCRIPTION:Join us for an upcoming WV Watershed Network Virtual Social Hour\, featuring a special presentation by Peggy Bowers on creating habitat for pollinators and birds. This informal virtual gathering is a great opportunity to connect with watershed groups across the state\, learn from local experts\, and explore practical ways to support wildlife in your own […]
+CATEGORIES:Education & Workshops, Outdoors & Nature
+ORGANIZATION:Town Run Watershed
+URL:https://townrunwatershed.org/event/wv-watershed-network-virtual-social-hour-planting-for-pollinators-and-birds/
+STATUS:CONFIRMED
+SOURCE:townrunwatershed.org
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:20260610T160000Z-d4be82bb-8431-5a63-bcb1-4e3e5e09dfd0@trw
-DTSTAMP:20260413T123849Z
+DTSTAMP:20260421T170859Z
 DTSTART:20260610T160000Z
 DTEND:20260610T170000Z
 SUMMARY:Homeowner Septic Workshop
@@ -97,7 +112,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260613T090000Z-37067776-c8b8-5dbb-9dac-6558e5085a36@trw
-DTSTAMP:20260413T123849Z
+DTSTAMP:20260421T170859Z
 DTSTART:20260613T090000Z
 DTEND:20260613T120000Z
 SUMMARY:Join the Town Run “Stream Cleaners”
@@ -112,7 +127,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260711T090000Z-37067776-c8b8-5dbb-9dac-6558e5085a36@trw
-DTSTAMP:20260413T123849Z
+DTSTAMP:20260421T170859Z
 DTSTART:20260711T090000Z
 DTEND:20260711T120000Z
 SUMMARY:Join the Town Run “Stream Cleaners”
@@ -121,51 +136,6 @@ DESCRIPTION:Help keep our Town Run in running order by removing invasive plants\
 CATEGORIES:Education & Workshops, Outdoors & Nature
 ORGANIZATION:Town Run Watershed
 URL:https://townrunwatershed.org/event/join-the-town-run-stream-cleaners-4/2026-07-11/
-STATUS:CONFIRMED
-SOURCE:townrunwatershed.org
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260808T090000Z-37067776-c8b8-5dbb-9dac-6558e5085a36@trw
-DTSTAMP:20260413T123849Z
-DTSTART:20260808T090000Z
-DTEND:20260808T120000Z
-SUMMARY:Join the Town Run “Stream Cleaners”
-LOCATION:
-DESCRIPTION:Help keep our Town Run in running order by removing invasive plants\, picking up trash\, and building community relationships. Join us the 2nd Saturday of each month (May - October). Pizza will be provided for all volunteers after the cleanup as a thank-you for your hard work. Bring your waders\, boots\, tools & smiles to […]
-CATEGORIES:Education & Workshops, Outdoors & Nature
-ORGANIZATION:Town Run Watershed
-URL:https://townrunwatershed.org/event/join-the-town-run-stream-cleaners-4/2026-08-08/
-STATUS:CONFIRMED
-SOURCE:townrunwatershed.org
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260912T090000Z-37067776-c8b8-5dbb-9dac-6558e5085a36@trw
-DTSTAMP:20260413T123849Z
-DTSTART:20260912T090000Z
-DTEND:20260912T120000Z
-SUMMARY:Join the Town Run “Stream Cleaners”
-LOCATION:
-DESCRIPTION:Help keep our Town Run in running order by removing invasive plants\, picking up trash\, and building community relationships. Join us the 2nd Saturday of each month (May - October). Pizza will be provided for all volunteers after the cleanup as a thank-you for your hard work. Bring your waders\, boots\, tools & smiles to […]
-CATEGORIES:Education & Workshops, Outdoors & Nature
-ORGANIZATION:Town Run Watershed
-URL:https://townrunwatershed.org/event/join-the-town-run-stream-cleaners-4/2026-09-12/
-STATUS:CONFIRMED
-SOURCE:townrunwatershed.org
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20261010T090000Z-37067776-c8b8-5dbb-9dac-6558e5085a36@trw
-DTSTAMP:20260413T123849Z
-DTSTART:20261010T090000Z
-DTEND:20261010T120000Z
-SUMMARY:Join the Town Run “Stream Cleaners”
-LOCATION:
-DESCRIPTION:Help keep our Town Run in running order by removing invasive plants\, picking up trash\, and building community relationships. Join us the 2nd Saturday of each month (May - October). Pizza will be provided for all volunteers after the cleanup as a thank-you for your hard work. Bring your waders\, boots\, tools & smiles to […]
-CATEGORIES:Education & Workshops, Outdoors & Nature
-ORGANIZATION:Town Run Watershed
-URL:https://townrunwatershed.org/event/join-the-town-run-stream-cleaners-4/2026-10-10/
 STATUS:CONFIRMED
 SOURCE:townrunwatershed.org
 SEQUENCE:0

@@ -6,216 +6,8 @@ METHOD:PUBLISH
 X-WR-CALNAME:Shepherd University Calendar
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-UID:20260417T140000Z-1c43acec-2067-505a-9f23-2c12d4ce7a9d@sua
-DTSTAMP:20260413T160220Z
-DTSTART:20260417T140000Z
-DTEND:
-SUMMARY:Shepherd U Softball vs Lock Haven
-LOCATION:Shepherdstown, W.Va
-DESCRIPTION:
-CATEGORIES:Sports
-ORGANIZATION:Shepherd University Athletics
-URL:https://shepherdrams.com/calendar
-organization:Shepherd University Athletics
-STATUS:CONFIRMED
-SOURCE:shepherdrams.com
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260417T160000Z-1c43acec-2067-505a-9f23-2c12d4ce7a9d@sua
-DTSTAMP:20260413T160220Z
-DTSTART:20260417T160000Z
-DTEND:
-SUMMARY:Shepherd U Softball vs Lock Haven
-LOCATION:Shepherdstown, W.Va
-DESCRIPTION:
-CATEGORIES:Sports
-ORGANIZATION:Shepherd University Athletics
-URL:https://shepherdrams.com/calendar
-organization:Shepherd University Athletics
-STATUS:CONFIRMED
-SOURCE:shepherdrams.com
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260418T1300PM00Z-568881dd-3e33-5ef0-98fa-3e9e68556626@sua
-DTSTAMP:20260413T160220Z
-DTSTART:20260418T1300PM00Z
-DTEND:
-SUMMARY:Shepherd U Women's Lacrosse vs East Stroudsburg (Relay for Life Game)
-LOCATION:Shepherdstown, WV
-DESCRIPTION:
-CATEGORIES:Sports
-ORGANIZATION:Shepherd University Athletics
-URL:https://shepherdrams.com/calendar
-organization:Shepherd University Athletics
-STATUS:CONFIRMED
-SOURCE:shepherdrams.com
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260418T1300PM00Z-3e8df12c-420c-5c1d-b125-f1f57c4e5120@sua
-DTSTAMP:20260413T160220Z
-DTSTART:20260418T1300PM00Z
-DTEND:
-SUMMARY:Shepherd U Baseball vs West Chester (Relay for Life Game/Faculty/Staff Family Day)
-LOCATION:Shepherdstown, W.Va.
-DESCRIPTION:
-CATEGORIES:Sports
-ORGANIZATION:Shepherd University Athletics
-URL:https://shepherdrams.com/calendar
-organization:Shepherd University Athletics
-STATUS:CONFIRMED
-SOURCE:shepherdrams.com
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260418T130000Z-dd575a42-7e74-59e9-87ec-694eadd7da08@sua
-DTSTAMP:20260413T160220Z
-DTSTART:20260418T130000Z
-DTEND:
-SUMMARY:Shepherd U Softball vs Mansfield (Relay for Life Game/Meet the Rams Day)
-LOCATION:Shepherdstown, W.Va
-DESCRIPTION:
-CATEGORIES:Sports
-ORGANIZATION:Shepherd University Athletics
-URL:https://shepherdrams.com/calendar
-organization:Shepherd University Athletics
-STATUS:CONFIRMED
-SOURCE:shepherdrams.com
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260418T150000Z-dd575a42-7e74-59e9-87ec-694eadd7da08@sua
-DTSTAMP:20260413T160220Z
-DTSTART:20260418T150000Z
-DTEND:
-SUMMARY:Shepherd U Softball vs Mansfield (Relay for Life Game/Meet the Rams Day)
-LOCATION:Shepherdstown, W.Va
-DESCRIPTION:
-CATEGORIES:Sports
-ORGANIZATION:Shepherd University Athletics
-URL:https://shepherdrams.com/calendar
-organization:Shepherd University Athletics
-STATUS:CONFIRMED
-SOURCE:shepherdrams.com
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260418T1530PM00Z-3e8df12c-420c-5c1d-b125-f1f57c4e5120@sua
-DTSTAMP:20260413T160220Z
-DTSTART:20260418T1530PM00Z
-DTEND:
-SUMMARY:Shepherd U Baseball vs West Chester (Relay for Life Game/Faculty/Staff Family Day)
-LOCATION:Shepherdstown, W.Va.
-DESCRIPTION:
-CATEGORIES:Sports
-ORGANIZATION:Shepherd University Athletics
-URL:https://shepherdrams.com/calendar
-organization:Shepherd University Athletics
-STATUS:CONFIRMED
-SOURCE:shepherdrams.com
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260418T1530PM00Z-69fcd500-a216-5222-93b4-6c473bc7dbf6@sua
-DTSTAMP:20260413T160220Z
-DTSTART:20260418T1530PM00Z
-DTEND:
-SUMMARY:Shepherd U Football vs Spring Game (at Ram Stadium)
-LOCATION:Shepherdstown, WV
-DESCRIPTION:
-CATEGORIES:Sports
-ORGANIZATION:Shepherd University Athletics
-URL:https://shepherdrams.com/calendar
-organization:Shepherd University Athletics
-STATUS:CONFIRMED
-SOURCE:shepherdrams.com
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260420T1500PM00Z-23f240b6-7b6c-55de-b88e-3df9b2c76e2a@sua
-DTSTAMP:20260413T160220Z
-DTSTART:20260420T1500PM00Z
-DTEND:
-SUMMARY:Shepherd U Women's Lacrosse vs Kutztown 
-LOCATION:Shepherdstown, WV
-DESCRIPTION:
-CATEGORIES:Sports
-ORGANIZATION:Shepherd University Athletics
-URL:https://shepherdrams.com/calendar
-organization:Shepherd University Athletics
-STATUS:CONFIRMED
-SOURCE:shepherdrams.com
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260424T1300PM00Z-ad986ae7-f003-55e4-9e57-cdcccff511ea@sua
-DTSTAMP:20260413T160220Z
-DTSTART:20260424T1300PM00Z
-DTEND:
-SUMMARY:Shepherd U Softball vs Kutztown 
-LOCATION:Shepherdstown, WV
-DESCRIPTION:
-CATEGORIES:Sports
-ORGANIZATION:Shepherd University Athletics
-URL:https://shepherdrams.com/calendar
-organization:Shepherd University Athletics
-STATUS:CONFIRMED
-SOURCE:shepherdrams.com
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260424T1300PM00Z-4b53f3ab-4a9e-553f-9738-3a403bf09989@sua
-DTSTAMP:20260413T160220Z
-DTSTART:20260424T1300PM00Z
-DTEND:
-SUMMARY:Shepherd U Baseball vs East Stroudsburg 
-LOCATION:Shepherdstown, W.Va.
-DESCRIPTION:
-CATEGORIES:Sports
-ORGANIZATION:Shepherd University Athletics
-URL:https://shepherdrams.com/calendar
-organization:Shepherd University Athletics
-STATUS:CONFIRMED
-SOURCE:shepherdrams.com
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260424T1500PM00Z-ad986ae7-f003-55e4-9e57-cdcccff511ea@sua
-DTSTAMP:20260413T160220Z
-DTSTART:20260424T1500PM00Z
-DTEND:
-SUMMARY:Shepherd U Softball vs Kutztown 
-LOCATION:Shepherdstown, WV
-DESCRIPTION:
-CATEGORIES:Sports
-ORGANIZATION:Shepherd University Athletics
-URL:https://shepherdrams.com/calendar
-organization:Shepherd University Athletics
-STATUS:CONFIRMED
-SOURCE:shepherdrams.com
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260424T1530PM00Z-4b53f3ab-4a9e-553f-9738-3a403bf09989@sua
-DTSTAMP:20260413T160220Z
-DTSTART:20260424T1530PM00Z
-DTEND:
-SUMMARY:Shepherd U Baseball vs East Stroudsburg 
-LOCATION:Shepherdstown, W.Va.
-DESCRIPTION:
-CATEGORIES:Sports
-ORGANIZATION:Shepherd University Athletics
-URL:https://shepherdrams.com/calendar
-organization:Shepherd University Athletics
-STATUS:CONFIRMED
-SOURCE:shepherdrams.com
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:20260501T130000Z-d9df728a-a30a-54b0-8f96-9455d8694c96@sua
-DTSTAMP:20260413T160220Z
+DTSTAMP:20260425T082555Z
 DTSTART:20260501T130000Z
 DTEND:
 SUMMARY:Shepherd U Softball vs West Chester 
@@ -231,7 +23,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260501T1300PM00Z-407e4c45-d06e-5f9e-abc8-b47ee812a78d@sua
-DTSTAMP:20260413T160220Z
+DTSTAMP:20260425T082555Z
 DTSTART:20260501T1300PM00Z
 DTEND:
 SUMMARY:Shepherd U Baseball vs Shippensburg 
@@ -247,7 +39,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260501T150000Z-d9df728a-a30a-54b0-8f96-9455d8694c96@sua
-DTSTAMP:20260413T160220Z
+DTSTAMP:20260425T082555Z
 DTSTART:20260501T150000Z
 DTEND:
 SUMMARY:Shepherd U Softball vs West Chester 
@@ -263,7 +55,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260501T1530PM00Z-407e4c45-d06e-5f9e-abc8-b47ee812a78d@sua
-DTSTAMP:20260413T160220Z
+DTSTAMP:20260425T082555Z
 DTSTART:20260501T1530PM00Z
 DTEND:
 SUMMARY:Shepherd U Baseball vs Shippensburg 

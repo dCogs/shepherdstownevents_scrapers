@@ -40,7 +40,7 @@ def setup_driver(headless=True):
     driver = webdriver.Chrome(options=options)
     return driver
 
-def format_time(time):
+def format_time(time, title_line):
     # print('time:', time)
     try:
         if time.startswith("Sunday") or time.startswith("Monday") or time.startswith("Tuesday") or \
@@ -57,7 +57,7 @@ def format_time(time):
             else:
                 tm, dt = time.split(",", 1)
         
-        event_date = format_date(dt)
+        event_date = format_date(dt, title_line)
         tm=tm.replace(" ","").strip().replace("Sunday","").replace("Monday","").replace("Tuesday","").\
             replace("Wednesday","").replace("Thursday","").replace("Friday","").replace("Saturday","").\
             replace("Sun","").replace("Mon","").replace("Tue","").\
@@ -76,7 +76,7 @@ def format_time(time):
     except:
         return '', ''
 
-def format_date(date_str):
+def format_date(date_str, title_line):
     try:
         # print('date_str:', date_str)
         date_str = date_str.strip()
@@ -102,6 +102,7 @@ def format_date(date_str):
         return year + month + day
     except Exception as e:
         print(f"Error in format_date: {date_str} - {e}")
+        print(f"title_line:", title_line)
         print("string length:", len(date_str))
 
 def scrape_schedule_page(driver):
@@ -233,22 +234,23 @@ def extract_event_info(event_elements, events_extracted, event_url, event_title 
             ("Jan" in line or "Feb" in line or "Mar" in line or "Apr" in line or "May" in line \
             or "Jun" in line or "Jul" in line or "Aug" in line or "Sep" in line or "Oct" in line \
             or "Nov" in line or "Dec" in line)):
-                if "Weekend" in line:
-                    line = line[line.index(": ") + 2:]
-                    line=line.replace("Sunday","").replace("Monday","").replace("Tuesday","").\
-                        replace("Wednesday","").replace("Thursday","").replace("Friday","").replace("Saturday","").\
-                        replace("Sun","").replace("Mon","").replace("Tue","").\
-                        replace("Wed","").replace("Thu","").replace("Fri","").replace("Sat","")
-                    mult_times = line.split(",")
-                    for mt in mult_times:
-                        if mt > ' ':
-                            times.append(mt)
-                else:
-                    if "Pay-What-You-Can Performance" in line:
-                        description = description + line + "\n"
+                if len(line) < 100:
+                    if "Weekend" in line:
+                        line = line[line.index(": ") + 2:]
+                        line=line.replace("Sunday","").replace("Monday","").replace("Tuesday","").\
+                            replace("Wednesday","").replace("Thursday","").replace("Friday","").replace("Saturday","").\
+                            replace("Sun","").replace("Mon","").replace("Tue","").\
+                            replace("Wed","").replace("Thu","").replace("Fri","").replace("Sat","")
+                        mult_times = line.split(",")
+                        for mt in mult_times:
+                            if mt > ' ':
+                                times.append(mt)
                     else:
-                        times.append(line)
-                continue
+                        if "Pay-What-You-Can Performance" in line:
+                            description = description + line + "\n"
+                        else:
+                            times.append(line)
+                    continue
             if line == title_line: 
                 continue
             if line.strip() != "TICKETS":
@@ -259,11 +261,12 @@ def extract_event_info(event_elements, events_extracted, event_url, event_title 
     if "Shepherdstown Film Society" in description:
         organization = 'Shepherdstown Film Society'
     for time in times:
-        dtstart, event_date = format_time(time)
+        
+        dtstart, event_date = format_time(time, title_line)
         if dtstart > '' and event_date > '':
             if event_date >= today_formatted:
                 result = {
-                    'category': 'Film & Performing Arts',
+                    'category': 'Music & Film & Stage',
                     'time': '',
                     'more_info_url': event_url,
                     'more_info_text': '',
