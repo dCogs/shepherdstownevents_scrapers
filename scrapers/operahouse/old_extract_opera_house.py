@@ -272,9 +272,9 @@ def save_to_ics(events, filename):
 
 def main():
     """Main function"""
-    print("="*70)
+    # print("="*70)
     print("Shepherdstown Opera House Events Extractor")
-    print("="*70)
+    # # print("="*70)
     print()
     
     print("Processing events from operahouselive.com/schedule/...")
@@ -294,9 +294,9 @@ def main():
     print("✓ ICS file created\n")
     
     # Display summary
-    print("="*70)
-    print("EVENTS SUMMARY")
-    print("="*70)
+    # # print("="*70)
+    # # print("EVENTS SUMMARY")
+    # print("="*70)
     for i, event in enumerate(events[:5], 1):
         print(f"\n{i}. {event['title']}")
         print(f"   Category: {event['category']}")
@@ -310,7 +310,7 @@ def main():
     
     print("\n" + "="*70)
     print(f"Total events extracted: {len(events)}")
-    print("="*70)
+    # print("="*70)
 
 if __name__ == "__main__":
     main()

@@ -6,102 +6,12 @@ METHOD:PUBLISH
 X-WR-CALNAME:Shepherdstown Opera House Schedule
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-UID:20260425T200000Z-405a5ce7-cd83-5e04-8a40-20667c41f041@operahouse
-DTSTAMP:20260425T082259Z
-DTSTART:20260425T200000Z
-DTEND:
-SUMMARY:Black Masala w/ the Gypsy Ramblers
-DESCRIPTION:Spring Fever Party Alert!\nIt’s been a long winter\, but Spring is in full bloom and we are ready to have a party with Black Masala and The Gypsy Ramblers! Come ready to dance!\nLocal favorites The Gypsy Ramblers will start the show with their signature blend of gypsy jazz\, ‘dawg\,’ and blues.\nBrassy\, funky\, 7-piece band Black Masala is a DC-based genre-busting whirlwind of dueling energies\, competing harmonies\, and driving hypnotic beats.\nThis is their FIRST show at the Opera House since our top-to-bottom rebuild\, and we’re thrilled to welcome them back to Shepherdstown!\nWith rock drive and a willingness to be as weird and wonderful as the party demands\, Black Masala’s original tunes tell stories of powerful women\, rascally dudes\, raucous nights\, and life on the road. \nWhether they are performing live shows or releasing new music\, Black Masala pushes the boundaries between genres and explores new musical frontiers. This unorthodox and highly creative approach is what makes the shows so much fun with a wild and unpredictable vibe for the audience.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nBlack Masala links\nWebsite\nFacebook\nSpotify\nInstagram\nSoundCloud\nGypsy Rambler links\nWebsite\nFacebook\n
-LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
-URL:https://operahouselive.com/apr-25-black-masala-full-band-show/
-CATEGORIES:Music & Film & Stage
-ORGANIZATION:Shepherdstown Opera House
-STATUS:CONFIRMED
-SOURCE:operahouselive.com
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260426T150000Z-d106e518-ac92-5354-bf10-a903a7aae3e9@operahouse
-DTSTAMP:20260425T082259Z
-DTSTART:20260426T150000Z
-DTEND:
-SUMMARY:National Theatre Live: The Fifth Step
-DESCRIPTION:National Theatre Live – On Screen\nThe Fifth Step\nBy David Ireland\nDirected by Finn den Hertog\nAfter years in the 12-step progrm of Alcoholics Anonymous\, James becomes a sponsor to newcomer Luka. The pair bond over black coffee\, trade stories and build a fragile friendship out of their shared experiences. But as Luka approaches step five – the moment of confession – dangerous truths emerge\, threatening the trust on which both of their recoveries depend.\nFinn den Hertog directs the provocative and entertaining production filmed live from Soho Theatre on London’s West End.\nAge Rating:R (due to due to strong language\, sexual themes\, and intense discussions regarding addiction)\nRunning Time: 90 minutes (no intermission)\nGeneral admission (unreserved seating).\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
-LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
-URL:https://operahouselive.com/apr-26-national-theatre-live-the-fifth-step/
-CATEGORIES:Music & Film & Stage
-ORGANIZATION:Shepherdstown Opera House
-STATUS:CONFIRMED
-SOURCE:operahouselive.com
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260501T193000Z-4656af10-ebcf-5416-bf80-6ac33c5ce2bf@operahouse
-DTSTAMP:20260425T082259Z
-DTSTART:20260501T193000Z
-DTEND:
-SUMMARY:Eleanor the Great
-DESCRIPTION:A Shepherdstown Film Society presentation\nEleanor the Great (2025)\nDirector: Scarlett Johansson\nIn Eleanor The Great\, June Squibb brings to vivid life the witty and proudly troublesome 94-year-old Eleanor Morgenstein\, who after a devastating loss\, tells a tale that takes on a dangerous life of its own. Scarlett Johansson’s directorial debut is a comically poignant exploration of how the stories we hear become the stories we tell.\nPost-film discussion: Facilitated discussion follows the film for those who wish to stay. Discussion leader TBA\nYear Released: 2025\nRating: PG-13\nRuntime: 98 minutes\nGeneral admission (unreserved seating). Ticket price is “pay what you can.”\nThe Film Society is self-supporting. We depend on ticket revenues to bring these films to our community. If you are able\, please be generous in purchasing your tickets.  \nWant to do more?  Sponsor a film for just $250 and see your name in lights on the Opera House screen. Call 304-876-3704 or email Contact@OperaHouseLive.com to get the ball rolling. And thank you for supporting the Shepherdstown Film Society!!!\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nFILM SOCIETY SPONSORS\nA BIG THANKS to the sponsors whose generosity helps the Opera House bring this Shepherdstown Film Society selection to the community:\nSponsor for this event: TBA\n
-LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
-URL:https://operahouselive.com/may-1-eleanor-the-great/
-CATEGORIES:Music & Film & Stage
-ORGANIZATION:Shepherdstown Film Society
-STATUS:CONFIRMED
-SOURCE:operahouselive.com
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260503T150000Z-dc10d34b-3540-592c-982d-ae5f49f54622@operahouse
-DTSTAMP:20260425T082259Z
-DTSTART:20260503T150000Z
-DTEND:
-SUMMARY:All The President’s Men
-DESCRIPTION:All The President’s Men (1976) — 50th Anniversary Screening\n2026 Academy Award Winner for Best Documentary Feature.\nCast: Robert Redford\, Dustin Hoffman\, Jason Robards\, Jack Warden\, Martin Balsam\nMark the 50th anniversary of the release of All the President’s Men\, the acclaimed journalistic drama based on the reporting of Washington Post journalists Bob Woodward and Carl Bernstein\, whose investigation helped uncover the Watergate scandal and led to President Nixon’s resignation.\nA post-film discussion will allow the audience to explore Watergate-related memories\, the film’s legacy\, and the continuing importance of investigative journalism.\nOptional: Guests are welcome to embrace the spirit of 1970s Washington DC — think newsroom reporters and Capitol Hill professionals\, with blazers\, wide ties\, trench coats\, shirt dresses\, note pads\, oversized glasses\, and printed newspapers under their arm.\nYear Released: 1976\nRating: PG\nRuntime: 138 minutes\nLanguage: English\nTickets: Pay-What-You-Can ($10 suggested). Presented in partnership with Shepherd University’s Lifelong Learning Program – A volunteer member-driven program dedicated to offering stimulating academic courses and activities to the community.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
-LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
-URL:https://operahouselive.com/may-3-all-the-presidents-men/
-CATEGORIES:Music & Film & Stage
-ORGANIZATION:Shepherdstown Opera House
-STATUS:CONFIRMED
-SOURCE:operahouselive.com
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260508T193000Z-3cc32b5f-20e9-53ad-babe-6149e98c6559@operahouse
-DTSTAMP:20260425T082259Z
-DTSTART:20260508T193000Z
-DTEND:
-SUMMARY:Hamnet
-DESCRIPTION:Hamnet (2025)\n2026 Academy Award Winner for Best Actress.\nDirected by Chloe Zhao\nCast: Jessie Buckley\, Paul Mescal\, Zac Wishart\, James Lintern\, Joe Alwyn\nIn late 16th-century England\, Agnes\, a healer sensitive to the world around her\, builds a home with William\, a local tutor and aspiring playwright. As their lives fracture\, they are tested by distance\, silence\, and grief.\nYear Released: 2025\nRating: PG-13\nRuntime: 124 minutes\nLanguage: English\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
-LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
-URL:https://operahouselive.com/may-8-hamnet/
-CATEGORIES:Music & Film & Stage
-ORGANIZATION:Shepherdstown Opera House
-STATUS:CONFIRMED
-SOURCE:operahouselive.com
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260509T190000Z-d96bbaa8-2752-5de4-864a-aefa1dbb60c4@operahouse
-DTSTAMP:20260425T082259Z
-DTSTART:20260509T190000Z
-DTEND:
-SUMMARY:Georgia O’Keeffe: the Brightness of Light
-DESCRIPTION:Georgia O’Keeffe: the Brightness of Light (2025)\nA feature documentary film exploring the life and art of the most important American woman artist of the 20th century.\nShepherdstown Opera House is thrilled to screen this film and host a post-film in-person discussion with filmmakers Paul Wagner (director) and Ellen Casey Wagner (co-producer).\nKnown as the “Mother of American Modernism\,” O’Keeffe exploded on the New York art scene in the 1920s with her paintings of flowers\, bones\, and the beauty of nature. Nude photographs of O’Keeffe taken by her lover\, Alfred Stieglitz\, shocked the public and contributed to the perception that her paintings were sexually charged. In the 1970s\, O’Keeffe\, famously isolated in the New Mexico desert\, emerged as an iconic role model for second wave feminists.\nFrom Academy Award-winning director Paul Wagner\, the film features music by Emilie Levienaise-Farrouch\, narration by Hugh Dancy\, and Claire Danes as the Voice of Georgia O’Keeffe.\nNot Rated\nRuntime: 118 minutes\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
-LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
-URL:https://operahouselive.com/may-9-georgia-okeeffe-the-brightness-of-light/
-CATEGORIES:Music & Film & Stage
-ORGANIZATION:Shepherdstown Opera House
-STATUS:CONFIRMED
-SOURCE:operahouselive.com
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:20260515T193000Z-415a8f58-447c-5af7-b05f-4caa571c8284@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20260515T193000Z
 DTEND:
 SUMMARY:O Pioneer
-DESCRIPTION:Join us this special evening to:\nEnjoy watching O Pioneer\, a made-in-West Virginia film\nEngage live with the filmmakers (via Zoom)\nSupport Shepherdstown’s Appalachian Heritage Festival\nMade in West Virginia\, O Pioneer reckons with and redefines the American pioneer.\nThis documentary follows three West Virginians—a blacksmith\, a seamstress\, and a hospital chaplain—as they creatively navigate hardship and call us to champion the pioneer within.\nNarrated by lyricist and musician Kaïa Kater\, the film weaves verité moments with archival footage\, poetic vignettes\, and dream-like animation—as Tim Hibbs\, Nellie Rose Gundersen Davis\, and James Morley humbly answer their calls to pioneer a way forward.\nPost-film discussion features a live Q&A with Helvetia\, WV-based filmmakers Clara Lehman and Jonathan Lacocque via Zoom.\nAdmission is Pay-What-You-Can (suggested $20/ticket). 100% of the ticket proceeds will be donated to Experience Shepherdstown to help this nonprofit organization support the 2026 Appalachian Heritage Festival.\nFilm website: OPioneer.com\nA Coat of Arms film. Directed by Clara Lehman and Jonathan Lacocque. Made Possible by Country Roads Angel Network (CRAN). This and other screenings in West Virginia are supported by WVU Medicine\nRuntime: 73 minutes + discussion\nGeneral admission (unreserved seating). Ticket price is “pay what you can.”\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nMore about this evening’s nonprofit beneficiaries:\nAppalachian Heritage Festival. Founded by Rachael Meads and now in its 30th year\, Shepherd University’s 2026 Appalachian Heritage Festival will take place this September. The Festival brings the finest Appalachian musicians\, story tellers and other artists to town for the entire community to enjoy\, and is a cornerstone of Shepherdstown’s monthlong celebration of Appalachian art\, music\, and cuisine.\nExperience Shepherdstown promotes\, supports\, and enhances Shepherdstown\, West Virginia\, a vibrant historic town with world class shops\, cuisine\, culture and community. Sign up for its biweekly newsletter about Shepherdstown happenings at Shepherdstown.info\n
+DESCRIPTION:Join us this special evening to:\nEnjoy watching O Pioneer\, a made-in-West Virginia film\nEngage live with the filmmakers (via Zoom)\nSupport Shepherdstown’s Appalachian Heritage Festival\nMade in West Virginia\, O Pioneer reckons with and redefines the American pioneer.\nThis documentary follows three West Virginians—a blacksmith\, a seamstress\, and a hospital chaplain—as they creatively navigate hardship and call us to champion the pioneer within.\nNarrated by lyricist and musician Kaïa Kater\, the film weaves verité moments with archival footage\, poetic vignettes\, and dream-like animation—as Tim Hibbs\, Nellie Rose Gundersen Davis\, and James Morley humbly answer their calls to pioneer a way forward.\nPost-film discussion features a live Q&A with Helvetia\, WV-based filmmakers Clara Lehman and Jonathan Lacocque via Zoom.\nAdmission is Pay-What-You-Can (suggested $20/ticket). 100% of the ticket proceeds will go to help support the 2026 Appalachian Heritage Festival.\nFilm website: OPioneer.com\nA Coat of Arms film. Directed by Clara Lehman and Jonathan Lacocque. Made Possible by Country Roads Angel Network (CRAN). This and other screenings in West Virginia are supported by WVU Medicine\nRuntime: 73 minutes + discussion\nGeneral admission (unreserved seating). Ticket price is “pay what you can.”\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nMore about this evening’s nonprofit beneficiaries:\nAppalachian Heritage Festival. Founded by Rachael Meads and now in its 30th year\, Shepherd University’s 2026 Appalachian Heritage Festival will take place this September. The Festival brings the finest Appalachian musicians\, story tellers and other artists to town for the entire community to enjoy\, and is a cornerstone of Shepherdstown’s monthlong celebration of Appalachian art\, music\, and cuisine.\nExperience Shepherdstown promotes\, supports\, and enhances Shepherdstown\, West Virginia\, a vibrant historic town with world class shops\, cuisine\, culture and community. Sign up for its biweekly newsletter about Shepherdstown happenings at Shepherdstown.info\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/may-15-o-pioneer/
 CATEGORIES:Music & Film & Stage
@@ -112,11 +22,11 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260516T193000Z-43b55f0a-a544-5649-aa59-1646afef17c8@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20260516T193000Z
 DTEND:
 SUMMARY:Kurt Crandall and True Story
-DESCRIPTION:If you saw them perform at the Opera House last year\, you know Kurt Crandall and True Story bring it all: talent\, skills\, and GREAT sound! We are thrilled to welcome these fine blues musicians back on Saturday\, May 16. Get your tickets now!\nMusic has taken Kurt throughout the United States with stops in Kansas City\, Washington\, D.C.\, Macon\, Chicago\, Seattle and most recently Richmond\, Virginia. In DC Kurt played regularly with Jesse James Brown (former bass player for Bo Diddley). Kurt relocated to the Deep South\, where he spent three years playing with the Macon Blues All-Stars which included several alumni from Otis Redding’s band. Kurt left Georgia and moved to Chicago to immerse himself in the city’s storied blues scene as well as travel nationally and internationally to promote his debut album – True Story. During his tenure in Chicago\, he landed on the regular rotation at the House of Blues\, Shaw’s Crabhouse\, Andy’s Jazz Club\, Wise Fools Pub and Smoke Daddy and played with blues heavyweights Dave Specter\, Kenny Smith\, Barrelhouse Chuck and Jimmy Sutton.\nBio/Music: KurtCrandall.com\nGeneral Admission (all ages): $15 advance\, $20 at door.\nDoors open 30 minutes before showtime.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nARTIST LINKS – Kurt Crandall\nWebsite\nFacebook\nInstagram\nSpotify\nYouTube\n
+DESCRIPTION:If you saw them perform at the Opera House last year\, you know Kurt Crandall and True Story bring it all: talent\, skills\, and GREAT sound! We are thrilled to welcome these fine blues musicians back on Saturday\, May 16. Get your tickets now!\nMusic has taken Kurt throughout the United States with stops in Kansas City\, Washington\, D.C.\, Macon\, Chicago\, Seattle and most recently Richmond\, Virginia. In DC Kurt played regularly with Jesse James Brown (former bass player for Bo Diddley). Kurt relocated to the Deep South\, where he spent three years playing with the Macon Blues All-Stars which included several alumni from Otis Redding’s band. Kurt left Georgia and moved to Chicago to immerse himself in the city’s storied blues scene as well as travel nationally and internationally to promote his debut album – True Story. During his tenure in Chicago\, he landed on the regular rotation at the House of Blues\, Shaw’s Crabhouse\, Andy’s Jazz Club\, Wise Fools Pub and Smoke Daddy and played with blues heavyweights Dave Specter\, Kenny Smith\, Barrelhouse Chuck and Jimmy Sutton.\nBio/Music: KurtCrandall.com\nDoors open 30 minutes before showtime.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\nARTIST LINKS – Kurt Crandall\nWebsite\nFacebook\nInstagram\nSpotify\nYouTube\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/may-16-kurt-crandall-and-true-story/
 CATEGORIES:Music & Film & Stage
@@ -127,7 +37,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260522T193000Z-484f5fd7-8bbe-544d-8367-f0a42ab436d7@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20260522T193000Z
 DTEND:
 SUMMARY:Dara James and the Soul Disciples
@@ -141,12 +51,12 @@ SOURCE:operahouselive.com
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:20260529T193000Z-22d4d260-ba6a-5f98-a87b-9db2cbca2343@operahouse
-DTSTAMP:20260425T082259Z
+UID:20260529T193000Z-6ec485eb-2e63-5e30-8cbd-d7397efb23a7@operahouse
+DTSTAMP:20260512T074832Z
 DTSTART:20260529T193000Z
 DTEND:
-SUMMARY:Jamie Turner & Those Revelators
-DESCRIPTION:Jamie Alan Turner is a seasoned musician whose music traverses the rich tapestry of Folk\, Americana\, and Blues music. With over two decades of musical experience\, Jamie’s compositions and evocative performances transport audiences on a journey through the heartland of American roots music. His skillful guitar work harkens back to the greats of these genres while carving a unique path of his own.\nInfluenced by a diverse array of musical legends\, Jamie’s music reflects the essence of artists who have shaped the sound of a generation. From the gritty authenticity of Delta Blues to the storytelling traditions of American Folk\, his music pays homage to these timeless influences while adding a modern twist.\nJamie Turner and Those Revelators is Jamie on guitar\, Rob Adaire on bass and Nick Kline tapping the drums. They are all very experienced musicians with Jamie having over 30 years of guitar under his belt\, Rob and they play contemporary blues rock – their own tunes and those by bands that have recently graced the blues charts.\nArtist website: JamieTurnerMusic.com\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
+SUMMARY:Jamie Turner & Those Revelators w/ Sleepers — Contemporary Blues Rock
+DESCRIPTION:Jamie Turner and Those Revelators is Jamie on guitar\, Rob Adaire on bass and Nick Kline tapping the drums. They play contemporary blues rock – their own tunes and those by bands that have recently graced the blues charts.\nJamie Alan Turner is a seasoned musician whose music traverses the rich tapestry of Folk\, Americana\, and Blues music. With over two decades of musical experience\, Jamie’s compositions and evocative performances transport audiences on a journey through the heartland of American roots music. His skillful guitar work harkens back to the greats of these genres while carving a unique path of his own.\nOpening band: Sleepers — a local MD electro-psych-jam-rock band playing high energy originals in the vein of Radiohead\, Pink Floyd\, King Gizzard\, and more\, as well as some off-the-beaten-path cover choices. A double guitar attack provides dreamscapes and adventurous excursions\, while the best rhythm section in the land keeps your feet moving. Expand your mind and bring your dancing shoes to get the full Sleepers experience.\nJamier Turner band website: JamieTurnerMusic.com\nSleepers website: Sleepers.band\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/may-29-jamie-turner-those-revelators/
 CATEGORIES:Music & Film & Stage
@@ -157,7 +67,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260530T190000Z-b6458b53-2069-518c-8f03-220ad0ac71c6@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20260530T190000Z
 DTEND:
 SUMMARY:Milk
@@ -172,7 +82,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260531T150000Z-e8d49ed3-068f-53e4-ba6c-f22fe4036b85@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20260531T150000Z
 DTEND:
 SUMMARY:Becoming a Man in 127 EASY Steps — Film + Discussion Event
@@ -187,7 +97,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260607T150000Z-f3291ab7-5e22-546d-8a8a-74d7fdb7ffa5@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20260607T150000Z
 DTEND:
 SUMMARY:National Theatre Live: The Audience
@@ -202,11 +112,11 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260612T190000Z-4375e351-f473-5044-8d89-9eb8bf1e59f0@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20260612T190000Z
 DTEND:
 SUMMARY:21 Live Theater: Greater Tuna
-DESCRIPTION:Presented by the Town Run Theater Company\nSingle Weekend Only\nGreater Tuna\nA play by by Jaston Williams\, Ed Howard & Joe Sears\nTown Run Theater Company Artistic Director: Joe Yates\nGreater Tuna is a satirical comedy that explores life in the fictional Texas town of Tuna\, the third-smallest town in Texas\, through the eyes of two actors portraying twenty different citizens\, including among others Thurston Wheelis\, Arles Struvie\, Bertha Bumiller\, Didi Snavely\, Rev. Spikes\, Vera Carp and Yippy\, the family dog. The play uses quick-change artistry and caricatured characters to present a zany\, sometimes politically incorrect\, look at small-town life.\nAudience: Teens & Adult\nGeneral Admission. Advance purchase strongly recommended to ensure selection of performance.\nTicket Prices (including taxes and ticketing fees):\nAdvance Purchase: $23.30 ($20 ticket plus 7% sales tax & ticketing fees)\nAt Door Purchase: $28.65 ($25 ticket plus 7% sales tax & ticketing fees)\nPay-What-You-Can Performance: Friday\, June 12\nDoors open 30 minutes before showtime.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
+DESCRIPTION:Presented by the Town Run Theater Company\nTwo Weekends of Shows\nGreater Tuna\nA play by by Jaston Williams\, Joe Sears & Ed Howard\nTown Run Theater Company Artistic Director: Joe Yates\nGreater Tuna is a satirical comedy that explores life in the fictional Texas town of Tuna\, the third-smallest town in Texas\, through the eyes of two actors portraying twenty different citizens\, including among others Thurston Wheelis\, Arles Struvie\, Bertha Bumiller\, Didi Snavely\, Rev. Spikes\, Vera Carp and Yippy\, the family dog. The play uses quick-change artistry and caricatured characters to present a zany\, sometimes politically incorrect\, look at small-town life.\nAudience: Teens & Adult\nGeneral Admission. Advance purchase strongly recommended to ensure selection of performance.\nTicket Prices (including taxes and ticketing fees):\nAdvance Purchase: $23.30 ($20 ticket plus 7% sales tax & ticketing fees)\nAt Door Purchase: $28.65 ($25 ticket plus 7% sales tax & ticketing fees)\nPay-What-You-Can Performance: Friday\, June 12\nDoors open 30 minutes before showtime.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/jun-12-21-live-theater-greater-tuna/
 CATEGORIES:Music & Film & Stage
@@ -217,11 +127,11 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260613T190000Z-4375e351-f473-5044-8d89-9eb8bf1e59f0@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20260613T190000Z
 DTEND:
 SUMMARY:21 Live Theater: Greater Tuna
-DESCRIPTION:Presented by the Town Run Theater Company\nSingle Weekend Only\nGreater Tuna\nA play by by Jaston Williams\, Ed Howard & Joe Sears\nTown Run Theater Company Artistic Director: Joe Yates\nGreater Tuna is a satirical comedy that explores life in the fictional Texas town of Tuna\, the third-smallest town in Texas\, through the eyes of two actors portraying twenty different citizens\, including among others Thurston Wheelis\, Arles Struvie\, Bertha Bumiller\, Didi Snavely\, Rev. Spikes\, Vera Carp and Yippy\, the family dog. The play uses quick-change artistry and caricatured characters to present a zany\, sometimes politically incorrect\, look at small-town life.\nAudience: Teens & Adult\nGeneral Admission. Advance purchase strongly recommended to ensure selection of performance.\nTicket Prices (including taxes and ticketing fees):\nAdvance Purchase: $23.30 ($20 ticket plus 7% sales tax & ticketing fees)\nAt Door Purchase: $28.65 ($25 ticket plus 7% sales tax & ticketing fees)\nPay-What-You-Can Performance: Friday\, June 12\nDoors open 30 minutes before showtime.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
+DESCRIPTION:Presented by the Town Run Theater Company\nTwo Weekends of Shows\nGreater Tuna\nA play by by Jaston Williams\, Joe Sears & Ed Howard\nTown Run Theater Company Artistic Director: Joe Yates\nGreater Tuna is a satirical comedy that explores life in the fictional Texas town of Tuna\, the third-smallest town in Texas\, through the eyes of two actors portraying twenty different citizens\, including among others Thurston Wheelis\, Arles Struvie\, Bertha Bumiller\, Didi Snavely\, Rev. Spikes\, Vera Carp and Yippy\, the family dog. The play uses quick-change artistry and caricatured characters to present a zany\, sometimes politically incorrect\, look at small-town life.\nAudience: Teens & Adult\nGeneral Admission. Advance purchase strongly recommended to ensure selection of performance.\nTicket Prices (including taxes and ticketing fees):\nAdvance Purchase: $23.30 ($20 ticket plus 7% sales tax & ticketing fees)\nAt Door Purchase: $28.65 ($25 ticket plus 7% sales tax & ticketing fees)\nPay-What-You-Can Performance: Friday\, June 12\nDoors open 30 minutes before showtime.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/jun-12-21-live-theater-greater-tuna/
 CATEGORIES:Music & Film & Stage
@@ -232,11 +142,11 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260614T150000Z-4375e351-f473-5044-8d89-9eb8bf1e59f0@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20260614T150000Z
 DTEND:
 SUMMARY:21 Live Theater: Greater Tuna
-DESCRIPTION:Presented by the Town Run Theater Company\nSingle Weekend Only\nGreater Tuna\nA play by by Jaston Williams\, Ed Howard & Joe Sears\nTown Run Theater Company Artistic Director: Joe Yates\nGreater Tuna is a satirical comedy that explores life in the fictional Texas town of Tuna\, the third-smallest town in Texas\, through the eyes of two actors portraying twenty different citizens\, including among others Thurston Wheelis\, Arles Struvie\, Bertha Bumiller\, Didi Snavely\, Rev. Spikes\, Vera Carp and Yippy\, the family dog. The play uses quick-change artistry and caricatured characters to present a zany\, sometimes politically incorrect\, look at small-town life.\nAudience: Teens & Adult\nGeneral Admission. Advance purchase strongly recommended to ensure selection of performance.\nTicket Prices (including taxes and ticketing fees):\nAdvance Purchase: $23.30 ($20 ticket plus 7% sales tax & ticketing fees)\nAt Door Purchase: $28.65 ($25 ticket plus 7% sales tax & ticketing fees)\nPay-What-You-Can Performance: Friday\, June 12\nDoors open 30 minutes before showtime.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
+DESCRIPTION:Presented by the Town Run Theater Company\nTwo Weekends of Shows\nGreater Tuna\nA play by by Jaston Williams\, Joe Sears & Ed Howard\nTown Run Theater Company Artistic Director: Joe Yates\nGreater Tuna is a satirical comedy that explores life in the fictional Texas town of Tuna\, the third-smallest town in Texas\, through the eyes of two actors portraying twenty different citizens\, including among others Thurston Wheelis\, Arles Struvie\, Bertha Bumiller\, Didi Snavely\, Rev. Spikes\, Vera Carp and Yippy\, the family dog. The play uses quick-change artistry and caricatured characters to present a zany\, sometimes politically incorrect\, look at small-town life.\nAudience: Teens & Adult\nGeneral Admission. Advance purchase strongly recommended to ensure selection of performance.\nTicket Prices (including taxes and ticketing fees):\nAdvance Purchase: $23.30 ($20 ticket plus 7% sales tax & ticketing fees)\nAt Door Purchase: $28.65 ($25 ticket plus 7% sales tax & ticketing fees)\nPay-What-You-Can Performance: Friday\, June 12\nDoors open 30 minutes before showtime.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/jun-12-21-live-theater-greater-tuna/
 CATEGORIES:Music & Film & Stage
@@ -247,11 +157,11 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260619T190000Z-4375e351-f473-5044-8d89-9eb8bf1e59f0@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20260619T190000Z
 DTEND:
 SUMMARY:21 Live Theater: Greater Tuna
-DESCRIPTION:Presented by the Town Run Theater Company\nSingle Weekend Only\nGreater Tuna\nA play by by Jaston Williams\, Ed Howard & Joe Sears\nTown Run Theater Company Artistic Director: Joe Yates\nGreater Tuna is a satirical comedy that explores life in the fictional Texas town of Tuna\, the third-smallest town in Texas\, through the eyes of two actors portraying twenty different citizens\, including among others Thurston Wheelis\, Arles Struvie\, Bertha Bumiller\, Didi Snavely\, Rev. Spikes\, Vera Carp and Yippy\, the family dog. The play uses quick-change artistry and caricatured characters to present a zany\, sometimes politically incorrect\, look at small-town life.\nAudience: Teens & Adult\nGeneral Admission. Advance purchase strongly recommended to ensure selection of performance.\nTicket Prices (including taxes and ticketing fees):\nAdvance Purchase: $23.30 ($20 ticket plus 7% sales tax & ticketing fees)\nAt Door Purchase: $28.65 ($25 ticket plus 7% sales tax & ticketing fees)\nPay-What-You-Can Performance: Friday\, June 12\nDoors open 30 minutes before showtime.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
+DESCRIPTION:Presented by the Town Run Theater Company\nTwo Weekends of Shows\nGreater Tuna\nA play by by Jaston Williams\, Joe Sears & Ed Howard\nTown Run Theater Company Artistic Director: Joe Yates\nGreater Tuna is a satirical comedy that explores life in the fictional Texas town of Tuna\, the third-smallest town in Texas\, through the eyes of two actors portraying twenty different citizens\, including among others Thurston Wheelis\, Arles Struvie\, Bertha Bumiller\, Didi Snavely\, Rev. Spikes\, Vera Carp and Yippy\, the family dog. The play uses quick-change artistry and caricatured characters to present a zany\, sometimes politically incorrect\, look at small-town life.\nAudience: Teens & Adult\nGeneral Admission. Advance purchase strongly recommended to ensure selection of performance.\nTicket Prices (including taxes and ticketing fees):\nAdvance Purchase: $23.30 ($20 ticket plus 7% sales tax & ticketing fees)\nAt Door Purchase: $28.65 ($25 ticket plus 7% sales tax & ticketing fees)\nPay-What-You-Can Performance: Friday\, June 12\nDoors open 30 minutes before showtime.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/jun-12-21-live-theater-greater-tuna/
 CATEGORIES:Music & Film & Stage
@@ -262,11 +172,11 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260620T190000Z-4375e351-f473-5044-8d89-9eb8bf1e59f0@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20260620T190000Z
 DTEND:
 SUMMARY:21 Live Theater: Greater Tuna
-DESCRIPTION:Presented by the Town Run Theater Company\nSingle Weekend Only\nGreater Tuna\nA play by by Jaston Williams\, Ed Howard & Joe Sears\nTown Run Theater Company Artistic Director: Joe Yates\nGreater Tuna is a satirical comedy that explores life in the fictional Texas town of Tuna\, the third-smallest town in Texas\, through the eyes of two actors portraying twenty different citizens\, including among others Thurston Wheelis\, Arles Struvie\, Bertha Bumiller\, Didi Snavely\, Rev. Spikes\, Vera Carp and Yippy\, the family dog. The play uses quick-change artistry and caricatured characters to present a zany\, sometimes politically incorrect\, look at small-town life.\nAudience: Teens & Adult\nGeneral Admission. Advance purchase strongly recommended to ensure selection of performance.\nTicket Prices (including taxes and ticketing fees):\nAdvance Purchase: $23.30 ($20 ticket plus 7% sales tax & ticketing fees)\nAt Door Purchase: $28.65 ($25 ticket plus 7% sales tax & ticketing fees)\nPay-What-You-Can Performance: Friday\, June 12\nDoors open 30 minutes before showtime.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
+DESCRIPTION:Presented by the Town Run Theater Company\nTwo Weekends of Shows\nGreater Tuna\nA play by by Jaston Williams\, Joe Sears & Ed Howard\nTown Run Theater Company Artistic Director: Joe Yates\nGreater Tuna is a satirical comedy that explores life in the fictional Texas town of Tuna\, the third-smallest town in Texas\, through the eyes of two actors portraying twenty different citizens\, including among others Thurston Wheelis\, Arles Struvie\, Bertha Bumiller\, Didi Snavely\, Rev. Spikes\, Vera Carp and Yippy\, the family dog. The play uses quick-change artistry and caricatured characters to present a zany\, sometimes politically incorrect\, look at small-town life.\nAudience: Teens & Adult\nGeneral Admission. Advance purchase strongly recommended to ensure selection of performance.\nTicket Prices (including taxes and ticketing fees):\nAdvance Purchase: $23.30 ($20 ticket plus 7% sales tax & ticketing fees)\nAt Door Purchase: $28.65 ($25 ticket plus 7% sales tax & ticketing fees)\nPay-What-You-Can Performance: Friday\, June 12\nDoors open 30 minutes before showtime.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/jun-12-21-live-theater-greater-tuna/
 CATEGORIES:Music & Film & Stage
@@ -277,11 +187,11 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260621T150000Z-4375e351-f473-5044-8d89-9eb8bf1e59f0@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20260621T150000Z
 DTEND:
 SUMMARY:21 Live Theater: Greater Tuna
-DESCRIPTION:Presented by the Town Run Theater Company\nSingle Weekend Only\nGreater Tuna\nA play by by Jaston Williams\, Ed Howard & Joe Sears\nTown Run Theater Company Artistic Director: Joe Yates\nGreater Tuna is a satirical comedy that explores life in the fictional Texas town of Tuna\, the third-smallest town in Texas\, through the eyes of two actors portraying twenty different citizens\, including among others Thurston Wheelis\, Arles Struvie\, Bertha Bumiller\, Didi Snavely\, Rev. Spikes\, Vera Carp and Yippy\, the family dog. The play uses quick-change artistry and caricatured characters to present a zany\, sometimes politically incorrect\, look at small-town life.\nAudience: Teens & Adult\nGeneral Admission. Advance purchase strongly recommended to ensure selection of performance.\nTicket Prices (including taxes and ticketing fees):\nAdvance Purchase: $23.30 ($20 ticket plus 7% sales tax & ticketing fees)\nAt Door Purchase: $28.65 ($25 ticket plus 7% sales tax & ticketing fees)\nPay-What-You-Can Performance: Friday\, June 12\nDoors open 30 minutes before showtime.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
+DESCRIPTION:Presented by the Town Run Theater Company\nTwo Weekends of Shows\nGreater Tuna\nA play by by Jaston Williams\, Joe Sears & Ed Howard\nTown Run Theater Company Artistic Director: Joe Yates\nGreater Tuna is a satirical comedy that explores life in the fictional Texas town of Tuna\, the third-smallest town in Texas\, through the eyes of two actors portraying twenty different citizens\, including among others Thurston Wheelis\, Arles Struvie\, Bertha Bumiller\, Didi Snavely\, Rev. Spikes\, Vera Carp and Yippy\, the family dog. The play uses quick-change artistry and caricatured characters to present a zany\, sometimes politically incorrect\, look at small-town life.\nAudience: Teens & Adult\nGeneral Admission. Advance purchase strongly recommended to ensure selection of performance.\nTicket Prices (including taxes and ticketing fees):\nAdvance Purchase: $23.30 ($20 ticket plus 7% sales tax & ticketing fees)\nAt Door Purchase: $28.65 ($25 ticket plus 7% sales tax & ticketing fees)\nPay-What-You-Can Performance: Friday\, June 12\nDoors open 30 minutes before showtime.\nThe historic Shepherdstown Opera House is a cozy 99-seat vaudeville-era theater — we encourage patrons to purchase tickets in advance. Online sales end 1 hour before showtime. Doors open 30 minutes before showtime and our shows start promptly. Popcorn\, candy\, soft drinks\, beer & wine available for purchase (no outside food or drinks please). Lobby\, theater & restroom are wheelchair accessible.\n
 LOCATION:Shepherdstown Opera House, 131 West German Street, Shepherdstown
 URL:https://operahouselive.com/jun-12-21-live-theater-greater-tuna/
 CATEGORIES:Music & Film & Stage
@@ -292,7 +202,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260628T190000Z-43c9f5e9-9d74-5e57-bc5f-274be8303211@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20260628T190000Z
 DTEND:
 SUMMARY:John PayCheck and his full Cavalry Band
@@ -307,7 +217,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260830T150000Z-9ac69bd9-3697-553c-8fed-6b524d29ceba@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20260830T150000Z
 DTEND:
 SUMMARY:National Theatre Live: All Of My Sons
@@ -322,7 +232,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260919T193000Z-2f769baa-4ad2-5392-9b75-f2bb63aa7568@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20260919T193000Z
 DTEND:
 SUMMARY:Trae Sheehan — Home from the Road
@@ -337,7 +247,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260925T190000Z-5ae2b15e-abb9-55c5-a6fa-875fe718beb5@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20260925T190000Z
 DTEND:
 SUMMARY:Manhattan SHORT Film Festival
@@ -352,7 +262,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260926T190000Z-5ae2b15e-abb9-55c5-a6fa-875fe718beb5@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20260926T190000Z
 DTEND:
 SUMMARY:Manhattan SHORT Film Festival
@@ -367,7 +277,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260927T150000Z-5ae2b15e-abb9-55c5-a6fa-875fe718beb5@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20260927T150000Z
 DTEND:
 SUMMARY:Manhattan SHORT Film Festival
@@ -382,7 +292,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261017T193000Z-3f96dde2-6869-5dbe-8320-bfff9e36c528@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20261017T193000Z
 DTEND:
 SUMMARY:Wellvis — Glambilly & Psychedelic Soul
@@ -397,7 +307,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261018T150000Z-41c09827-322f-5696-8fca-7ed42869472b@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20261018T150000Z
 DTEND:
 SUMMARY:National Theatre Live: The Playboy Of The Western World
@@ -412,7 +322,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261024T193000Z-9a647ccd-3924-5404-95e3-c9091f6cbd1f@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20261024T193000Z
 DTEND:
 SUMMARY:Bad Influence Band
@@ -427,7 +337,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261030T190000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20261030T190000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
@@ -442,7 +352,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261031T130000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20261031T130000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
@@ -457,7 +367,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261101T130000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20261101T130000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
@@ -472,7 +382,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261030T190000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20261030T190000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
@@ -487,7 +397,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261031T130000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20261031T130000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
@@ -502,7 +412,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261101T130000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20261101T130000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
@@ -517,7 +427,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261030T190000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20261030T190000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
@@ -532,7 +442,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261031T130000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20261031T130000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
@@ -547,7 +457,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261101T130000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20261101T130000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
@@ -562,7 +472,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261030T190000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20261030T190000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
@@ -577,7 +487,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261031T130000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20261031T130000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
@@ -592,7 +502,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261101T130000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20261101T130000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
@@ -607,7 +517,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261030T190000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20261030T190000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
@@ -622,7 +532,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261031T130000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20261031T130000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
@@ -637,7 +547,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261101T130000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20261101T130000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
@@ -652,7 +562,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261030T190000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20261030T190000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
@@ -667,7 +577,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261031T130000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20261031T130000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
@@ -682,7 +592,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261101T130000Z-4717ac48-b128-576d-939a-f033b6e2fa2a@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20261101T130000Z
 DTEND:
 SUMMARY:Hitchcock Architecture of Suspense Film Festival
@@ -697,7 +607,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261114T190000Z-016323d4-de46-54d1-aed1-6f6c802b7169@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20261114T190000Z
 DTEND:
 SUMMARY:Beauty & the B Flats
@@ -712,7 +622,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20261115T150000Z-660b460f-654b-558d-9487-2d7000035801@operahouse
-DTSTAMP:20260425T082259Z
+DTSTAMP:20260512T074832Z
 DTSTART:20261115T150000Z
 DTEND:
 SUMMARY:National Theatre Live: Les Liaisons Dangereuses

@@ -26,7 +26,7 @@ def categorize_by_keywords(title):
         'Music': [
             'MUSIC', 'CONCERT', 'BAND', 'SINGER', 'JAZZ', 'ROCK', 'CLASSICAL',
             'ORCHESTRA', 'PERFORMANCE', 'LIVE', 'ACOUSTIC', 'FOLK', 'BLUES',
-            'COUNTRY', 'POP', 'INSTRUMENTAL', 'SONG', 'GUITAR', 'PIANO'
+            'COUNTRY', 'POP', 'INSTRUMENTAL', 'SONG', 'GUITAR', 'PIANO', 'UKULELE'
         ],
 
         'Community & Civic': [

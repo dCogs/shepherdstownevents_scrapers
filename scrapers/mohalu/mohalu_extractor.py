@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Four Seasons Books Extractor with Browser Automation
+Mohalu Wellness Extractor with Browser Automation
 This script navigates to the calendar page, clicks the List button,
 and extracts all events to an ICS file.
 
@@ -30,7 +30,7 @@ import re
 # parent_dir = os.path.dirname(current_dir)
 # # Insert the parent directory path into sys.path
 # sys.path.insert(0, parent_dir)
-# import category_matcher
+import category_matcher
 
 
 # Global variables
@@ -86,7 +86,11 @@ def format_time(time):
     am_pm = "PM"
     if "AM" in time: am_pm = "AM"
     time = time.replace(am_pm, "")
-    hh, mm = time.split(":")
+    if ":" in time:
+        hh, mm = time.split(":")
+    else:
+        hh = time
+        mm = "00"
     if am_pm == "PM" and hh != "12":
         hh = str(int(hh) + 12)
     else:         
@@ -96,20 +100,27 @@ def format_time(time):
 
 def format_date(date_str):
     date_str = date_str.strip()
-    month, day = date_str.split(" ")
+    # print(98, date_str)
+    dow, day, month = date_str.split("\n")
+
+#     Sat
+# 14
+# February
+
+    # month, day = date_str.split(" ")
     match month:
-        case "Jan": month = "01"
-        case "Feb": month = "02"
-        case "Mar": month = "03"
-        case "Apr": month = "04"
+        case "January": month = "01"
+        case "February": month = "02"
+        case "March": month = "03"
+        case "April": month = "04"
         case "May": month = "05"
-        case "Jun": month = "06"
-        case "Jul": month = "07"
-        case "Aug": month = "08"
-        case "Sep": month = "09"
-        case "Oct": month = "10"
-        case "Nov": month = "11"
-        case "Dec": month = "12"
+        case "June": month = "06"
+        case "July": month = "07"
+        case "August": month = "08"
+        case "September": month = "09"
+        case "October": month = "10"
+        case "November": month = "11"
+        case "December": month = "12"
     day = re.sub(r'(\d+)(st|nd|rd|th)', r'\1', day)
     if len(day) == 1: day = "0" + day
     # print('month:', month, ' day:', day)
@@ -120,6 +131,7 @@ def extract_event_info(event_elements):
     Extract Category, More Info, Description, Location, Contact, Phone, and Email
     from event text string
     """
+    # print(122, event_elements.text)
     result = {
         'category': '',
         'time': '',
@@ -137,68 +149,57 @@ def extract_event_info(event_elements):
         'allday': ''
     }
     try:
-        all_children = event_elements.find_elements(By.XPATH, ".//*")
-        for element in all_children:
-            print(141, element.tag_name, element.text)
-            if element.tag_name == "a":
-                title_href = element.get_attribute("href")
-                title = element.text
-                print('title:', title, 'href:', title_href)
-
-        return
-    
-        if re.match(r'(Mon|Tue|Wed|Thu|Fri|Sat|Sun),\s+[A-Z][a-z]+\s+\d+', line):
-            # This is a date line
-            date_str = line
-
-
-        # parent_element = event_elements.find_element(By.CLASS_NAME,"mq7Mp3")
-        # parent_element = parent_element.find_element(By.CLASS_NAME,"Y42my3")
-        event_card_link = event_elements.find_element(By.CLASS_NAME, "DjQEyU MTyds5")
-        title_href = event_card_link.get_attribute("href")
-        title = event_card_link.text
-        print(145, title, title_href)
-        return
-        event_details = event_elements.find_element(By.CLASS_NAME, "event-card-details")
-        all_descendant_tags = event_details.find_elements(By.CLASS_NAME, "Typography_root__487rx")
-        title = ''
-        event_date = ''
-        location = ''
-        for element in all_descendant_tags:
-            element_text = element.get_attribute('textContent')
-            if title == '': 
-                title = element_text
+        # print('')
+        event_date = event_elements.find_element(By.CLASS_NAME,"clickable").find_element(By.CLASS_NAME, "event-card-date").text
+        today = date.today()
+        if event_date == "Today":
+            event_YMD = today.strftime("%Y%m%d")
+        else:
+            if event_date == "Tomorrow":
+                tomorrow = today + timedelta(days=1)
+                event_YMD = tomorrow.strftime("%Y%m%d")
             else:
-                if event_date == '':
-                    event_date = element_text
-                    dt, tm = event_date.split(" • ")
-                    #remove day of week
-                    day, mon_day = dt.split(", ")
-                    dt = format_date(mon_day)
-                    # Don't post expired events
-                    if dt < today_formatted:
-                        return result
-                    tm = format_time(tm)
-                    dtstart = dt + "T" + tm + "Z"
-                else:
-                    if location == '':
-                        location = element_text
+                event_YMD = format_date(event_date)
+        # print(142, 'event_date:', event_date, "event_YMD:", event_YMD)
+        event_times = event_elements.find_element(By.CLASS_NAME,"clickable").find_element(By.CLASS_NAME, "event-card-details").\
+            find_element(By.TAG_NAME, 'h3').text        
+        start_time, end_time = event_times.split(" - ")
+        if "AM" not in start_time and "PM" not in start_time:
+            if "PM" in end_time: start_time = start_time + "PM"
+            else: start_time = start_time + "AM"
+        start_tm = format_time(start_time)
+        end_tm = format_time(end_time)
+        # print('event_times:', event_times, "start_tm:", start_tm, "end_tm:", end_tm)
+        dtstart = event_YMD + "T" + start_tm + "Z"
+        dtend = event_YMD + "T" + end_tm + "Z"        
+        # event_href = event_elements.find_element(By.CLASS_NAME,"clickable").get_attribute("href")
+        event_href = "https://www.growyoga.us/schedule"
+        # print('event_href:', event_href)
+        event_title = event_elements.find_element(By.CLASS_NAME,"clickable").find_element(By.CLASS_NAME, "event-card-details").\
+            find_element(By.TAG_NAME, 'h2').text
         category = []
-        category = category_matcher.categorize_by_keywords(title)
+        category = category_matcher.categorize_by_keywords(event_title)
+        # print(144, 'event_title:', event_title)
+        event_address = event_elements.find_element(By.CLASS_NAME,"clickable").find_element(By.CLASS_NAME, "event-card-details").\
+            find_element(By.CLASS_NAME,"event-card-location-address").text.replace("\n", " - ").replace(", West Virginia, 25443","")
+        if "SHEPHERDSTOWN" not in event_address.upper():
+            return result
+        # print(147, 'event_address:', event_address)
 
-    except:
+        result['more_info_url'] = event_href
+        result['more_info_text'] = ''
+        result['summary'] = event_title
+        result['description'] = ''
+        result['location'] = event_address
+        result['dtstart'] = dtstart
+        result['dtend'] = dtend
+        result['category'] = category
+        return result
+    except Exception as e:
+        print(f"\nError: {e}")
+        import traceback
+        traceback.print_exc()
         return result    
-    
-    result['more_info_url'] = title_href
-    result['more_info_text'] = title
-    result['summary'] = title
-    result['description'] = ''
-    result['location'] = location
-    result['dtstart'] = dtstart
-    result['dtend'] = ''  
-    result['category'] = category
-    # print("result:", result)
-    return result
 
 def create_ics_file(events, filename):
     """Create ICS file from events"""
@@ -206,10 +207,10 @@ def create_ics_file(events, filename):
         # Write header
         f.write("BEGIN:VCALENDAR\n")
         f.write("VERSION:2.0\n")
-        f.write("PRODID:-//fourseasonsbooks.com/events//EN\n")
+        f.write("PRODID:-//www.growyoga.us/schedule//EN\n")
         f.write("CALSCALE:GREGORIAN\n")
         f.write("METHOD:PUBLISH\n")
-        f.write("X-WR-CALNAME:Four Seasons Books Events Calendar\n")
+        f.write("X-WR-CALNAME:Mohalu Wellness Events Calendar\n")
         f.write("X-WR-TIMEZONE:America/New_York\n")
         
         # Write events
@@ -218,7 +219,7 @@ def create_ics_file(events, filename):
                 continue
             
             # Generate UID
-            uid = f"{event['dtstart']}-{uuid.uuid5(uuid.NAMESPACE_DNS, event['summary'].strip())}@4seasons"
+            uid = f"{event['dtstart']}-{uuid.uuid5(uuid.NAMESPACE_DNS, event['summary'].strip())}@grow_yoga"
             
             # Format dates
             dtstamp = datetime.now().strftime('%Y%m%dT%H%M%SZ')
@@ -234,14 +235,15 @@ def create_ics_file(events, filename):
                            .replace(';', '\\;')
                            .replace('\n', '\\n'))
             
-            summary = escape_ics(event['summary'])
+            # summary = escape_ics(event['summary'])
+            summary = event['summary']
             # location = escape_ics(event['location'])
             location = event['location']
             description = escape_ics(event['description'])
             if len(event['category']) > 0:
                 category = ', '.join(event['category'])
             else:
-                category = 'Arts & Culture'
+                category = 'Health & Wellness'
             url = event.get('more_info_url', '')
             
             f.write("BEGIN:VEVENT\n")
@@ -253,11 +255,11 @@ def create_ics_file(events, filename):
             f.write(f"LOCATION:{location}\n")
             f.write(f"DESCRIPTION:{description}\n")
             f.write(f"CATEGORIES:{category}\n")
-            f.write(f"ORGANIZATION:Four Seasons Books\n")
+            f.write(f"ORGANIZATION:Mohalu Wellness\n")
             if url:
                 f.write(f"URL:{url}\n")
             f.write("STATUS:CONFIRMED\n")
-            f.write("SOURCE:https://www.fourseasonsbooks.com\n")
+            f.write("SOURCE:https://www.growyoga.us\n")
             f.write("SEQUENCE:0\n")
             f.write("END:VEVENT\n")
         
@@ -266,71 +268,69 @@ def create_ics_file(events, filename):
 
 def main():
     """Main function"""
-    print("="*70)
-    print("Four Seasons Calendar Event Extractor")
-    print("="*70)
+    # print("="*70)
+    print("Mohalu Wellness Calendar Event Extractor")
+    # # print("="*70)
     print()
     
     driver = None
-    
     try:
-        print("\nLooking for event elements...")
-
         # Setup driver
-        print("Setting up Chrome WebDriver...")
+        # print("Setting up Chrome WebDriver...")
         driver = setup_driver(headless=True)  # Set to True to run in background
         
         # Navigate to calendar page
-        url = "https://www.ghfarm.org/events-1"
+        url = "https://app.fitdegree.com/t/dashboard/live-schedule?f=753&co=702"
         print(f"Navigating to {url}")
         driver.get(url)
         
-        # Wait for page to load
-        wait = WebDriverWait(driver, 10)
-        # print("Waiting for page to load...")
+        wait = WebDriverWait(driver, 15)
+        wait.until(EC.presence_of_element_located((By.CLASS_NAME, "btn-content")))
+        
+        # Give JS a moment to fully render
         time.sleep(5)
+        
+        # driver.execute_script()
+        # wait = WebDriverWait(driver, 15)
+        # time.sleep(5)
+        # button = driver.find_element(By.XPATH, "//*[@id='btn_view_list']")
+        # button.click()
 
-        events = []
-
-        # Try to find event containers
-        # Wix sites often use specific class patterns
+        # Print the full rendered HTML so you can inspect it
+        print('page source:')
+        print(driver.page_source)
+        # Wait for page to load
+        # wait = WebDriverWait(driver, 10)
+        # # # print("Waiting for page to load...")
+        # time.sleep(5)
+        return        
         events_extracted = []
-        
-        # Try multiple selectors
-        # selectors = [
-        #     '[data-hook="event-list-item"]',
-        #     '.event-item',
-        #     'article',
-        #     '[class*="event"]',
-        #     'li'
-        # ]
-
-        # selectors = [
-        #     '[class*="qElViY"]'
-        # ]
-        
-        event_containers = driver.find_elements(By.CSS_SELECTOR, '[class*="qElViY"]')
-        
-        for event in event_containers:
-            print (308)
-            event_elements = extract_event_info(event)
-            if event_elements['summary'] != "":
-                events_extracted.append(event_elements)
+        # current_events = driver.find_elements(By.CLASS_NAME, "event-card-container")
+        current_events = driver.find_elements(By.XPATH, "//*")
+        # Loop through current events
+        for event in current_events:
+            element_text = event.get_attribute('textContent')
+            print('event:', element_text)
+            # event_elements = extract_event_info(event)
+            # if event_elements['summary'] != "":
+            #     events_extracted.append(event_elements)
             # break
-            
+
+        return
+
         if not events_extracted:
             print("\nNo events found. The page structure may have changed.")
         else:
             # Save to ICS
-            output_file = '4seasons_' + today_formatted + '.ics'
-            print(f"\nSaving {len(events)} events to {output_file}...")
+            output_file = 'grow_yoga_' + today_formatted + '.ics'
+            print(f"\nSaving {len(events_extracted)} events to {output_file}...")
             create_ics_file(events_extracted, output_file)
             print(f"✓ ICS file created successfully!")
             
             # Print summary
             print("\n" + "="*70)
-            print("EVENTS SUMMARY")
-            print("="*70)
+            # # print("EVENTS SUMMARY")
+            # print("="*70)
             for i, event in enumerate(events_extracted[:5], 1):
                 print(f"\n{i}. {event['summary']}")
                 print(f"   Date: {event['dtstart']}")
@@ -341,7 +341,7 @@ def main():
             
             print("\n" + "="*70)
             print(f"Total events: {len(events_extracted)}")
-            print("="*70)
+            # print("="*70)
         
     except Exception as e:
         print(f"\nError: {e}")
@@ -352,7 +352,7 @@ def main():
         if driver:
             print("\nClosing browser...")
             driver.quit()
-            print("Done!")
+            # print("Done!")
 
 if __name__ == "__main__":
     main()

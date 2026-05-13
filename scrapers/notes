@@ -13,3 +13,12 @@ Future:
 -- Add a personal dashboard for users to view events they are organizing or attending. Include options for users to RSVP to events and manage their personal event list. Also, add the ability for users to export their personal event list to an ICS file.
 -- Archive events?
 
+Github:
+cmp -s sss_.ics ../scraped_files/sss.ics
+
+
+pushing changes to github:
+ git add .
+ git commit -m "2026-04-26"
+ git push
+ 

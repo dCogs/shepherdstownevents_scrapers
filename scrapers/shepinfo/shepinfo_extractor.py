@@ -39,7 +39,7 @@ now = datetime.now()
 # Extract the year
 year_int = now.year
 year = str(year_int)
-print("year:", year)
+# print("year:", year)
 today_formatted = today.strftime("%Y%m%d")
 
 
@@ -134,7 +134,7 @@ def extract_event_info(date, event_elements):
         exclude_urls = ['sheplibrary.org', 'foslwv.org', 'speakstoryseries.com', 'shepherd.edu/music', 'shepherdrams.universitytickets.com',
                         'shepherd.edu/sustainable-agriculture', 'townrunwatershed.org', 'friendswv.org', 'fourseasonsbooks.com',
                         'operahouselive.com', 'shepherdstownoperahouse.thundertix.com', 'ShepherdstownMysteryWalks.com',
-                        'shepherdstowncommunityclub.org'
+                        'shepherdstowncommunityclub.org', 'shepherdstownstreetfest.org'
                         ]
         # Extract More Info section
         # for elem in event_elements:
@@ -327,7 +327,10 @@ def extract_event_info(date, event_elements):
             result['organization'] = "Historic Shepherdstown & Museum"
         if result['location'] == "USGS Eastern Ecological Science Center":
             result['location'] = "USGS Eastern Ecological Science Center, 11649 Leetown Road, Kearneysville"
-        if result['location'] == "Community Club (War Memorial Building)" and "SCC" in result['summary']:
+        if (result['location'] == "Community Club (War Memorial Building)" or \
+        result['location'] == "War Memorial Building (Community Club)") and \
+        "SCC" in result['summary']:
+            # print(result['summary'])
             result['organization'] = "Shepherdstown Community Club"
             result['location'] = "War Memorial Building, 102 E. German Street"
         if result['location'] == "Shepherd Univ - Studio 112":
@@ -349,6 +352,11 @@ def extract_event_info(date, event_elements):
         "Blue Ridge Arts & Crafts" in result['summary']:
             result['dtstart'] = ''
             return result
+        
+        if result['organization'] == "Morgan's Grove Park" or \
+        result['organization'] == "Dogwood General Store":
+            # and 'Ukulele' in result['summary']:
+            result['organization'] = 'Miscellaneous'
         
         if result['summary'] == "Shepherdstown Gay Pride Parade":
             result['organization'] = "Miscellaneous"
@@ -488,15 +496,15 @@ def create_ics_file(events, filename):
 
 def main():
     """Main function"""
-    print("="*70)
+    # print("="*70)
     print("Shepherdstown.info Calendar Event Extractor")
-    print("="*70)
+    # # print("="*70)
     print()
     
     driver = None
     try:
         # Setup driver
-        print("Setting up Chrome WebDriver...")
+        # print("Setting up Chrome WebDriver...")
         driver = setup_driver(headless=True)  # Set to True to run in background
         
         # Navigate to calendar page
@@ -506,7 +514,7 @@ def main():
         
         # Wait for page to load
         wait = WebDriverWait(driver, 20)
-        print("Waiting for page to load...")
+        # print("Waiting for page to load...")
         time.sleep(3)
         
         # Click List button
@@ -550,20 +558,20 @@ def main():
             print(f"✓ ICS file created successfully!")
             
             # Print summary
-            print("\n" + "="*70)
-            print("EVENTS SUMMARY")
-            print("="*70)
-            for i, event in enumerate(events[:5], 1):
-                print(f"\n{i}. {event['summary']}")
-                print(f"   Date: {event['dtstart']}")
-                print(f"   Location: {event['location']}")
+            # print("\n" + "="*70)
+            # # print("EVENTS SUMMARY")
+            # # print("="*70)
+            # for i, event in enumerate(events[:5], 1):
+            #     print(f"\n{i}. {event['summary']}")
+            #     print(f"   Date: {event['dtstart']}")
+            #     print(f"   Location: {event['location']}")
             
-            if len(events) > 5:
-                print(f"\n... and {len(events) - 5} more events")
+            # if len(events) > 5:
+            #     print(f"\n... and {len(events) - 5} more events")
             
-            print("\n" + "="*70)
+            # print("\n" + "="*70)
             print(f"Total events: {len(events)}")
-            print("="*70)
+            # print("="*70)
         
     except Exception as e:
         print(f"\nError: {e}")
@@ -574,7 +582,7 @@ def main():
         if driver:
             print("\nClosing browser...")
             driver.quit()
-            print("Done!")
+            # print("Done!")
 
 if __name__ == "__main__":
     main()

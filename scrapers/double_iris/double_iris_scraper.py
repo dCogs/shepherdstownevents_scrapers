@@ -99,7 +99,7 @@ def scrape_schedule(driver):
     driver.get(url)
     wait = WebDriverWait(driver, 20)
     
-    print("Waiting for page to load...")
+    # print("Waiting for page to load...")
     time.sleep(5)  # Give extra time for dynamic content
     
     # Save page source for debugging
@@ -339,9 +339,9 @@ def create_sample_schedule():
 def main():
     """Main function"""
     
-    print("="*70)
+    # print("="*70)
     print("Double Iris Yoga and Massage Schedule Scraper")
-    print("="*70)
+    # print("="*70)
     print()
     
     driver = None
@@ -356,7 +356,7 @@ def main():
         headless = (choice == '1')
         
         # Setup driver
-        print("\nSetting up Chrome WebDriver...")
+        print("\n# Setting up Chrome WebDriver...")
         driver = setup_driver(headless=headless)
         
         # Scrape schedule
@@ -366,7 +366,7 @@ def main():
         if not events:
             print("\n" + "="*70)
             print("⚠️  No schedule items were automatically detected")
-            print("="*70)
+            # print("="*70)
             print("\nThe schedule page may use:")
             print("  - An embedded booking widget (like MindBody, Acuity, etc.)")
             print("  - A third-party scheduling system")
@@ -401,7 +401,7 @@ def main():
             # Summary
             print("\n" + "="*70)
             print("✓ ICS FILE CREATED!")
-            print("="*70)
+            # print("="*70)
             print(f"  Output: {output_file}")
             print(f"  Weekly classes: {len(events)}")
             print(f"  Total occurrences: {len(events) * 12}")
@@ -426,7 +426,7 @@ def main():
         if driver:
             print("Closing browser...")
             driver.quit()
-            print("Done!")
+            # print("Done!")
 
 if __name__ == "__main__":
     main()

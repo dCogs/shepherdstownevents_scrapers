@@ -9,6 +9,7 @@ today_date=$(date +"%Y%m%d")
 file_prefix=$1
 echo " "
 echo " "
+echo "=================================================="
 echo "The organization is: $1"
 
 # Define the project directory and virtual environment path
@@ -42,7 +43,7 @@ rm file1
 rm file2
 
 echo " "
-echo " "
+echo "=================================================="
 
 # Optional: Deactivate the environment when finished (if you want the shell to return to normal after execution)
 deactivate

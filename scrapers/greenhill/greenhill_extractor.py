@@ -96,7 +96,7 @@ def scrape_schedule_page(driver):
     
     # Wait for page to load
     wait = WebDriverWait(driver, 15)
-    print("Waiting for page to load...")
+    # print("Waiting for page to load...")
     
     try:
         # Wait for event headers to appear
@@ -179,7 +179,12 @@ def extract_event_info(event_elements, events_extracted, event_url, event_title 
         'dtend': '',
         'allday': ''
     }
-    description = event_elements.find_element(By.CSS_SELECTOR,'[data-hook="event-description"]').text
+    try:
+        description = event_elements.find_element(By.CSS_SELECTOR,'[data-hook="event-description"]').text
+    except:
+        print('skipping event_elements:', event_elements.text)
+        return
+
     date_time = event_elements.find_element(By.CSS_SELECTOR,'[data-hook="event-full-date"]').text
     date, time = date_time.rsplit(", ",1)
     date = format_date(date)
@@ -272,9 +277,9 @@ def create_ics_file(events, filename):
 def main():
     """Main function"""
     
-    print("="*70)
+    # print("="*70)
     print("Green Hill Farm Schedule Scraper (Selenium)")
-    print("="*70)
+    # print("="*70)
     print()
     
     driver = None
@@ -283,7 +288,7 @@ def main():
         fetch_details = True
         headless = True
         # Setup driver
-        print("\nSetting up Chrome WebDriver...")
+        print("\n# Setting up Chrome WebDriver...")
         driver = setup_driver(headless=headless)
         if headless:
             print("Running in headless mode (no browser window)")
@@ -304,7 +309,7 @@ def main():
         # Optionally fetch details from each event page
         if fetch_details and events:
             print(f"\nFetching details from {len(events)} event pages...")
-            print("(This may take a minute...)")
+            # print("(This may take a minute...)")
             
             for i, event in enumerate(events, 1):
                 # if i < 7:
@@ -316,33 +321,30 @@ def main():
         
         # Create ICS file
         output_file = 'greenhill_' + today_formatted + '.ics'
-        print(f"\n{'='*70}")
+        # print(f"\n{'='*70}")
         print(f"Creating ICS file: {output_file}")
         
         create_ics_file(events_extracted, output_file)
         
         # Summary
-        print(f"\n{'='*70}")
-        print("✓ SCRAPING COMPLETE!")
-        print(f"{'='*70}")
         print(f"  Total events: {len(events_extracted)}")
         print(f"  Output file: {output_file}")
         
         # Print summary
-        print("\n" + "="*70)
-        print("EVENTS SUMMARY")
-        print("="*70)
-        for i, event in enumerate(events_extracted[:5], 1):
-            print(f"\n{i}. {event['summary']}")
-            print(f"   Date: {event['dtstart']}")
-            print(f"   Location: {event['location']}")
+        # print("\n" + "="*70)
+        # # # print("EVENTS SUMMARY")
+        # # print("="*70)
+        # for i, event in enumerate(events_extracted[:5], 1):
+        #     print(f"\n{i}. {event['summary']}")
+        #     print(f"   Date: {event['dtstart']}")
+        #     print(f"   Location: {event['location']}")
         
-        if len(events_extracted) > 5:
-            print(f"\n... and {len(events_extracted) - 5} more events")
+        # if len(events_extracted) > 5:
+        #     print(f"\n... and {len(events_extracted) - 5} more events")
         
-        print("\n" + "="*70)
-        print(f"Total events: {len(events_extracted)}")
-        print("="*70)
+        # print("\n" + "="*70)
+        # print(f"Total events: {len(events_extracted)}")
+        # print("="*70)
         
     except Exception as e:
         print(f"\nError: {e}")
@@ -353,7 +355,7 @@ def main():
         if driver:
             print("Closing browser...")
             driver.quit()
-            print("Done!")
+            # print("Done!")
 
 if __name__ == "__main__":
     main()

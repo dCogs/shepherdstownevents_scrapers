@@ -6,12 +6,12 @@ METHOD:PUBLISH
 X-WR-CALNAME:Shepherd University School of Music Calendar
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-UID:20260425T193000Z-845def19-d0b4-5a90-851e-4fe1d9f07916@sum
-DTSTAMP:20260424T084737Z
-DTSTART:20260425T193000Z
-DTEND:20260425T203000Z
-SUMMARY:Masterworks Concert
-LOCATION:Frank Center, 260 University Dr, Shepherdstown, WV 25443, USA
+UID:20260517T130000Z-1435b270-ef91-50d8-b1a6-f294f7c08d6f@sum
+DTSTAMP:20260507T081443Z
+DTSTART:20260517T130000Z
+DTEND:20260517T170000Z
+SUMMARY:RB Drumline Clinic
+LOCATION:Frank Arts Center 260 University Dr, Shepherdstown, WV 25443, United States
 DESCRIPTION:
 CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherd University School of Music
@@ -21,132 +21,42 @@ SOURCE:shepherd.edu/music
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:20260427T180000Z-b626145e-297c-5811-9fbb-7210d56c4d55@sum
-DTSTAMP:20260424T084737Z
-DTSTART:20260427T180000Z
-DTEND:20260427T210000Z
-SUMMARY:Community Dress Rehearsal
-LOCATION:Calendar: Community Music Rehearsals, Accepted
-DESCRIPTION:
-CATEGORIES:Music & Film & Stage
-ORGANIZATION:Shepherd University School of Music
-URL:https://www.shepherd.edu/music/calendar-of-concerts
-STATUS:CONFIRMED
-SOURCE:shepherd.edu/music
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260428T193000Z-8f31b113-1dfa-50c6-96c8-ff848bf38dfa@sum
-DTSTAMP:20260424T084737Z
-DTSTART:20260428T193000Z
-DTEND:20260428T210000Z
-SUMMARY:Shepherd Youth Chorus and Recorder Ensemble
-LOCATION:Frank Center, 260 University Dr, Shepherdstown, WV 25443, USA
-DESCRIPTION:
-CATEGORIES:Music & Film & Stage
-ORGANIZATION:Shepherd University School of Music
-URL:https://www.shepherd.edu/music/calendar-of-concerts
-STATUS:CONFIRMED
-SOURCE:shepherd.edu/music
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260429T193000Z-73d7e61b-b5dd-51fb-9d03-dae49d82e948@sum
-DTSTAMP:20260424T084737Z
-DTSTART:20260429T193000Z
-DTEND:20260429T210000Z
-SUMMARY:Community Music Strings
-LOCATION:Frank Center, 260 University Dr, Shepherdstown, WV 25443, USA
-DESCRIPTION:
-CATEGORIES:Music & Film & Stage
-ORGANIZATION:Shepherd University School of Music
-URL:https://www.shepherd.edu/music/calendar-of-concerts
-STATUS:CONFIRMED
-SOURCE:shepherd.edu/music
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260502T000000Z-94ec1789-d0ca-5c9c-8a48-56aaf4bce3da@sum
-DTSTAMP:20260424T084737Z
-DTSTART:20260502T000000Z
-DTEND:20260502T235959Z
-SUMMARY:Frauke Studio Recital
-LOCATION:Calendar: Community Music Events, Accepted
-DESCRIPTION:
-CATEGORIES:Music & Film & Stage
-ORGANIZATION:Shepherd University School of Music
-URL:https://www.shepherd.edu/music/calendar-of-concerts
-STATUS:CONFIRMED
-SOURCE:shepherd.edu/music
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260502T140000Z-04e1d516-f0d1-56ec-adfb-e2f47c316a99@sum
-DTSTAMP:20260424T084737Z
-DTSTART:20260502T140000Z
-DTEND:20260502T150000Z
-SUMMARY:Community Vocal Recital
-LOCATION:Calendar: Community Music Events, Accepted
-DESCRIPTION:
-CATEGORIES:Music & Film & Stage
-ORGANIZATION:Shepherd University School of Music
-URL:https://www.shepherd.edu/music/calendar-of-concerts
-STATUS:CONFIRMED
-SOURCE:shepherd.edu/music
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260502T170000Z-6417a561-da83-5cda-8164-8c1f8b322221@sum
-DTSTAMP:20260424T084737Z
-DTSTART:20260502T170000Z
-DTEND:20260502T220000Z
-SUMMARY:Martinsburg MS Choir
-LOCATION:Stage & MRH
-DESCRIPTION:
-CATEGORIES:Music & Film & Stage
-ORGANIZATION:Shepherd University School of Music
-URL:https://www.shepherd.edu/music/calendar-of-concerts
-STATUS:CONFIRMED
-SOURCE:shepherd.edu/music
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260503T140000Z-ecc31a25-7d9b-570c-8213-959d29807be6@sum
-DTSTAMP:20260424T084737Z
-DTSTART:20260503T140000Z
-DTEND:20260503T150000Z
-SUMMARY:Shepherd Big Band Concert
-LOCATION:Calendar: Community Music Events, Accepted
-DESCRIPTION:
-CATEGORIES:Music & Film & Stage
-ORGANIZATION:Shepherd University School of Music
-URL:https://www.shepherd.edu/music/calendar-of-concerts
-STATUS:CONFIRMED
-SOURCE:shepherd.edu/music
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260506T190000Z-d2d83781-6296-59b2-abcc-94698c3ef1a7@sum
-DTSTAMP:20260424T084737Z
-DTSTART:20260506T190000Z
-DTEND:20260506T200000Z
-SUMMARY:MHS Band Concert
-LOCATION:Calendar: Special Events, Accepted
-DESCRIPTION:
-CATEGORIES:Music & Film & Stage
-ORGANIZATION:Shepherd University School of Music
-URL:https://www.shepherd.edu/music/calendar-of-concerts
-STATUS:CONFIRMED
-SOURCE:shepherd.edu/music
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260517T140000Z-a5bfafa3-af8b-5182-815c-f8fb76006a9e@sum
-DTSTAMP:20260424T084737Z
+UID:20260517T140000Z-42023b1b-b371-59c3-988f-0a43f220ac11@sum
+DTSTAMP:20260507T081443Z
 DTSTART:20260517T140000Z
 DTEND:20260517T150000Z
-SUMMARY:Shophie Palmer Studio Recital
+SUMMARY:Sophie Palmer Studio Recital
 LOCATION:Calendar: Community Music Events, Accepted
+DESCRIPTION:
+CATEGORIES:Music & Film & Stage
+ORGANIZATION:Shepherd University School of Music
+URL:https://www.shepherd.edu/music/calendar-of-concerts
+STATUS:CONFIRMED
+SOURCE:shepherd.edu/music
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260620T090000Z-e3180ca7-8f94-5bd2-8aac-7317c2a056eb@sum
+DTSTAMP:20260507T081443Z
+DTSTART:20260620T090000Z
+DTEND:20260620T160000Z
+SUMMARY:RB Summer Clinic 1
+LOCATION:Frank Arts Center 260 University Dr, Shepherdstown, WV 25443, United States
+DESCRIPTION:
+CATEGORIES:Music & Film & Stage
+ORGANIZATION:Shepherd University School of Music
+URL:https://www.shepherd.edu/music/calendar-of-concerts
+STATUS:CONFIRMED
+SOURCE:shepherd.edu/music
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20260711T090000Z-21ca9f55-44ca-550f-a2ec-66213ca1c443@sum
+DTSTAMP:20260507T081443Z
+DTSTART:20260711T090000Z
+DTEND:20260711T160000Z
+SUMMARY:RB Summer clinic 2
+LOCATION:Frank Arts Center 260 University Dr, Shepherdstown, WV 25443, United States
 DESCRIPTION:
 CATEGORIES:Music & Film & Stage
 ORGANIZATION:Shepherd University School of Music
@@ -157,7 +67,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260820TR Band Exhibition0000Z-8ec99ae6-e811-500a-8993-1fbbc97316b5@sum
-DTSTAMP:20260424T084737Z
+DTSTAMP:20260507T081443Z
 DTSTART:20260820TR Band Exhibition0000Z
 DTEND:20260820TZ
 SUMMARY:Ram Stadium 123 E Campus Dr, Shepherdstown, WV 25443, United States

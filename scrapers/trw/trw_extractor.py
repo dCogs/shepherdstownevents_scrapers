@@ -60,7 +60,7 @@ def extract_date_times(date_time_string):
     dtstart = dtend = date_part = time_part = ''
     all_day = False
     start_description_with_date_time = False
-    print('date_time_string:', date_time_string)
+    # print('date_time_string:', date_time_string)
     if "@" not in date_time_string:
         all_day = True
         if "-" in date_time_string:
@@ -116,7 +116,7 @@ def format_date(date_str):
     if date_str == '': return ''
     # dow, month_day = date_str.split(", ")
     date_str = date_str.strip()
-    print('date_str:', date_str)
+    # print('date_str:', date_str)
     if ", " in date_str:
         mm_dd, yy = date_str.split(", ")
         month, day = mm_dd.split(" ")
@@ -138,7 +138,7 @@ def format_date(date_str):
     day = re.sub(r'(\d+)(st|nd|rd|th)', r'\1', day)
     if len(day) == 1: day = "0" + day
     # print('month:', month, ' day:', day)
-    print('returning:', year + month + day)
+    # print('returning:', year + month + day)
     return year + month + day
 
 def click_next_month_button(driver, wait):
@@ -291,15 +291,15 @@ def create_ics_file(events, filename):
 
 def main():
     """Main function"""
-    print("="*70)
+    # print("="*70)
     print("Town Run Watershed Calendar Event Extractor")
-    print("="*70)
+    # # print("="*70)
     print()
     
     driver = None
     try:
         # Setup driver
-        print("Setting up Chrome WebDriver...")
+        # print("Setting up Chrome WebDriver...")
         driver = setup_driver(headless=False)  # Set to True to run in background
         
         # Navigate to calendar page
@@ -309,7 +309,7 @@ def main():
         
         # Wait for page to load
         wait = WebDriverWait(driver, 20)
-        print("Waiting for page to load...")
+        # print("Waiting for page to load...")
         time.sleep(3)
         
         events_extracted = []
@@ -317,7 +317,7 @@ def main():
 
         # Extract up to a maximum months. Keep 1 or 2 while testing
         max_pages = 5
-        while pages_scraped < max_pages and after_last_import_date == False:
+        while pages_scraped < max_pages and not after_last_import_date:
             pages_scraped += 1
             events = driver.find_elements(By.CSS_SELECTOR, ".tribe-events-calendar-list__event-row")
             for event in events:
@@ -340,25 +340,25 @@ def main():
         else:
             # Save to ICS
             output_file = 'trw_' + today_formatted + '.ics'
-            print(f"\nSaving {len(events)} events to {output_file}...")
+            print(f"\nSaving {len(events_extracted)} events to {output_file}...")
             create_ics_file(events_extracted, output_file)
             print(f"✓ ICS file created successfully!")
             
             # Print summary
-            print("\n" + "="*70)
-            print("EVENTS SUMMARY")
-            print("="*70)
-            for i, event in enumerate(events_extracted[:5], 1):
-                print(f"\n{i}. {event['summary']}")
-                print(f"   Date: {event['dtstart']}")
-                print(f"   Location: {event['location']}")
+            # print("\n" + "="*70)
+            # # print("EVENTS SUMMARY")
+            # # print("="*70)
+            # for i, event in enumerate(events_extracted[:5], 1):
+            #     print(f"\n{i}. {event['summary']}")
+            #     print(f"   Date: {event['dtstart']}")
+            #     print(f"   Location: {event['location']}")
             
-            if len(events_extracted) > 5:
-                print(f"\n... and {len(events_extracted) - 5} more events")
+            # if len(events_extracted) > 5:
+            #     print(f"\n... and {len(events_extracted) - 5} more events")
             
-            print("\n" + "="*70)
+            # print("\n" + "="*70)
             print(f"Total events: {len(events_extracted)}")
-            print("="*70)
+            # print("="*70)
         
     except Exception as e:
         print(f"\nError: {e}")
@@ -369,7 +369,7 @@ def main():
         if driver:
             print("\nClosing browser...")
             driver.quit()
-            print("Done!")
+            # print("Done!")
 
 if __name__ == "__main__":
     main()

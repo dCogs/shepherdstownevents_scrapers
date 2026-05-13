@@ -120,7 +120,7 @@ def extract_event_info(event_elements):
     Extract Category, More Info, Description, Location, Contact, Phone, and Email
     from event text string
     """
-    print('event_elements:', event_elements.text)
+    # print('event_elements:', event_elements.text)
     # print(126, heading)
     # for char in heading:
     #     print('char:', char, ' code:', ord(char))
@@ -144,21 +144,21 @@ def extract_event_info(event_elements):
     try:
         parent = event_elements.find_element(By.CSS_SELECTOR, ".MuiBox-root.css-102n6ra").\
             find_element(By.CSS_SELECTOR,".MuiBox-root.css-1bqg80d")
-        print('parent:', parent.text)
+        # print('parent:', parent.text)
         dt_time_div = parent.find_element(By.CSS_SELECTOR,".MuiBox-root.css-11a3gys").\
             find_element(By.CSS_SELECTOR,".MuiBox-root.css-524fvx")
-        print('dt_time_div:', dt_time_div.text)
+        # print('dt_time_div:', dt_time_div.text)
         dtstart = extract_date_times(dt_time_div.text)
-        anchor = parent.find_element(By.CSS_SELECTOR,".MuiBox-root.css-srm2o").\
+        anchor = parent.find_element(By.CSS_SELECTOR,".MuiBox-root.css-i6yj2h").\
             find_element(By.CSS_SELECTOR,".MuiBox-root.css-0").\
             find_element(By.CSS_SELECTOR,".MuiBox-root.css-195iiiq").\
             find_element(By.CSS_SELECTOR,".MuiTypography-root.MuiTypography-h6.css-5u3pkg").\
             find_element(By.TAG_NAME,"a")
         more_info_url = anchor.get_attribute("href")
         summary = anchor.text
-        print('more_info_url:', more_info_url)
-        print('summary:', summary)
-        category = ['Music & Film & State'] #category_matcher.categorize_by_keywords(title)
+        # print('more_info_url:', more_info_url)
+        # print('summary:', summary)
+        category = ['Music & Film & Stage'] #category_matcher.categorize_by_keywords(title)
         location = "Potomac Ridge Brewing, 16609 Shepherdstown Pike, Sharpsburg"
         result['category'] = category
         result['more_info_url'] = more_info_url
@@ -241,15 +241,15 @@ def create_ics_file(events, filename):
 
 def main():
     """Main function"""
-    print("="*70)
+    # print("="*70)
     print("Potomac Ridge Brewing Event Extractor")
-    print("="*70)
+    # # print("="*70)
     print()
     
     driver = None
     try:
         # Setup driver
-        print("Setting up Chrome WebDriver...")
+        # print("Setting up Chrome WebDriver...")
         driver = setup_driver(headless=False)  # Set to True to run in background
         
         # Navigate to calendar page
@@ -259,7 +259,7 @@ def main():
         
         # Wait for page to load
         wait = WebDriverWait(driver, 20)
-        print("Waiting for page to load...")
+        # print("Waiting for page to load...")
         time.sleep(3)
         
         events_extracted = []
@@ -295,25 +295,25 @@ def main():
         else:
             # Save to ICS
             output_file = 'prbrewing_' + today_formatted + '.ics'
-            print(f"\nSaving {len(events)} events to {output_file}...")
+            print(f"\nSaving {len(events_extracted)} events to {output_file}...")
             create_ics_file(events_extracted, output_file)
             print(f"✓ ICS file created successfully!")
             
             # Print summary
-            print("\n" + "="*70)
-            print("EVENTS SUMMARY")
-            print("="*70)
-            for i, event in enumerate(events_extracted[:5], 1):
-                print(f"\n{i}. {event['summary']}")
-                print(f"   Date: {event['dtstart']}")
-                print(f"   Location: {event['location']}")
+            # print("\n" + "="*70)
+            # # print("EVENTS SUMMARY")
+            # # print("="*70)
+            # for i, event in enumerate(events_extracted[:5], 1):
+            #     print(f"\n{i}. {event['summary']}")
+            #     print(f"   Date: {event['dtstart']}")
+            #     print(f"   Location: {event['location']}")
             
-            if len(events_extracted) > 5:
-                print(f"\n... and {len(events_extracted) - 5} more events")
+            # if len(events_extracted) > 5:
+            #     print(f"\n... and {len(events_extracted) - 5} more events")
             
-            print("\n" + "="*70)
+            # print("\n" + "="*70)
             print(f"Total events: {len(events_extracted)}")
-            print("="*70)
+            # print("="*70)
         
     except Exception as e:
         print(f"\nError: {e}")
@@ -324,7 +324,7 @@ def main():
         if driver:
             print("\nClosing browser...")
             driver.quit()
-            print("Done!")
+            # print("Done!")
 
 if __name__ == "__main__":
     main()

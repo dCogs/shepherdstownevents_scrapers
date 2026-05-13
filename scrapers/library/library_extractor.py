@@ -47,7 +47,7 @@ def extract_date_times(date_time_string):
     dtstart = dtend = date_part = time_part = ''
     all_day = False
     start_description_with_date_time = False
-    print('date_time_string:', date_time_string)
+    # print('date_time_string:', date_time_string)
 
     if date_time_string.count("@") == 2:
         start_date_time, end_date_time = date_time_string.split(" - ")
@@ -82,7 +82,7 @@ def extract_date_times(date_time_string):
                 begin_time_formatted = format_time(time_part)
                 dtstart = start_date + "T" + begin_time_formatted + "Z"
 
-    print('dtstart:', dtstart, 'dtend:', dtend, 'all_day:', all_day)
+    # print('dtstart:', dtstart, 'dtend:', dtend, 'all_day:', all_day)
 
     return dtstart, dtend, all_day, start_description_with_date_time
 
@@ -125,7 +125,7 @@ def format_date(date_str):
 
 def click_next_month_button(driver, wait):
     """Click the List button on the calendar page"""
-    print("Looking for Next Month button...")
+    # print("Looking for Next Month button...")
     # driver.switch_to.frame("cw_frame")
     try:
         button = driver.find_element(By.XPATH, "//a[@title='Next Events']")
@@ -281,15 +281,15 @@ def create_ics_file(events, filename):
 
 def main():
     """Main function"""
-    print("="*70)
+    # print("="*70)
     print("Shepherdstown Public Library Calendar Event Extractor")
-    print("="*70)
+    # # print("="*70)
     print()
     
     driver = None
     try:
         # Setup driver
-        print("Setting up Chrome WebDriver...")
+        # print("Setting up Chrome WebDriver...")
         driver = setup_driver(headless=False)  # Set to True to run in background
         
         # Navigate to calendar page
@@ -299,7 +299,7 @@ def main():
         
         # Wait for page to load
         wait = WebDriverWait(driver, 20)
-        print("Waiting for page to load...")
+        # print("Waiting for page to load...")
         time.sleep(5)
         
         events_extracted = []
@@ -328,25 +328,25 @@ def main():
         else:
             # Save to ICS
             output_file = 'library_' + today_formatted + '.ics'
-            print(f"\nSaving {len(events)} events to {output_file}...")
+            print(f"\nSaving {len(events_extracted)} events to {output_file}...")
             create_ics_file(events_extracted, output_file)
             print(f"✓ ICS file created successfully!")
             
             # Print summary
-            print("\n" + "="*70)
-            print("EVENTS SUMMARY")
-            print("="*70)
-            for i, event in enumerate(events_extracted[:5], 1):
-                print(f"\n{i}. {event['summary']}")
-                print(f"   Date: {event['dtstart']}")
-                print(f"   Location: {event['location']}")
+            # print("\n" + "="*70)
+            # # print("EVENTS SUMMARY")
+            # # print("="*70)
+            # for i, event in enumerate(events_extracted[:5], 1):
+            #     print(f"\n{i}. {event['summary']}")
+            #     print(f"   Date: {event['dtstart']}")
+            #     print(f"   Location: {event['location']}")
             
-            if len(events_extracted) > 5:
-                print(f"\n... and {len(events_extracted) - 5} more events")
+            # if len(events_extracted) > 5:
+            #     print(f"\n... and {len(events_extracted) - 5} more events")
             
-            print("\n" + "="*70)
+            # print("\n" + "="*70)
             print(f"Total events: {len(events_extracted)}")
-            print("="*70)
+            # print("="*70)
         
     except Exception as e:
         print(f"\nError: {e}")
@@ -357,7 +357,7 @@ def main():
         if driver:
             print("\nClosing browser...")
             driver.quit()
-            print("Done!")
+            # print("Done!")
 
 if __name__ == "__main__":
     main()

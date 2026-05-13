@@ -26,7 +26,7 @@ def categorize_by_keywords(title):
         'Music': [
             'MUSIC', 'CONCERT', 'BAND', 'SINGER', 'JAZZ', 'ROCK', 'CLASSICAL',
             'ORCHESTRA', 'PERFORMANCE', 'LIVE', 'ACOUSTIC', 'FOLK', 'BLUES',
-            'COUNTRY', 'POP', 'INSTRUMENTAL', 'SONG', 'GUITAR', 'PIANO'
+            'COUNTRY', 'POP', 'INSTRUMENTAL', 'SONG', 'GUITAR', 'PIANO', 'UKULELE'
         ],
 
         'Community & Civic': [
@@ -146,7 +146,7 @@ def categorize_by_keywords_detailed(title):
         'MUSIC': [
             'MUSIC', 'CONCERT', 'BAND', 'SINGER', 'JAZZ', 'ROCK', 'CLASSICAL',
             'ORCHESTRA', 'PERFORMANCE', 'LIVE', 'ACOUSTIC', 'FOLK', 'BLUES',
-            'COUNTRY', 'POP', 'INSTRUMENTAL', 'SONG', 'GUITAR', 'PIANO'
+            'COUNTRY', 'POP', 'INSTRUMENTAL', 'SONG', 'GUITAR', 'PIANO', 'UKULELE'
         ],
         
         'THEATER': [
@@ -236,9 +236,9 @@ def categorize_by_keywords_detailed(title):
 
 # Test examples
 if __name__ == "__main__":
-    print("="*70)
+    # print("="*70)
     print("CATEGORY MATCHER - TEST EXAMPLES")
-    print("="*70)
+    # print("="*70)
     
     # Test cases
     test_titles = [
@@ -282,7 +282,7 @@ if __name__ == "__main__":
     
     print("\n" + "="*70)
     print("USAGE EXAMPLES")
-    print("="*70)
+    # print("="*70)
     
     # Example 1: Simple usage
     print("\n# Example 1: Simple usage")

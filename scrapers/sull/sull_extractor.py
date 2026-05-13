@@ -189,15 +189,15 @@ def create_ics_file(events, filename):
 
 def main():
     """Main function"""
-    print("="*70)
+    # print("="*70)
     print("Shepherdstown University Lifelong Learning Calendar Event Extractor")
-    print("="*70)
+    # # print("="*70)
     print()
     
     driver = None
     try:
         # Setup driver
-        print("Setting up Chrome WebDriver...")
+        # print("Setting up Chrome WebDriver...")
         driver = setup_driver(headless=True)  # Set to True to run in background
         
         # Navigate to calendar page
@@ -207,7 +207,7 @@ def main():
         
         # Wait for page to load
         wait = WebDriverWait(driver, 10)
-        # print("Waiting for page to load...")
+        # # print("Waiting for page to load...")
         time.sleep(5)
         
         events_extracted = []
@@ -347,20 +347,20 @@ def main():
             print(f"✓ ICS file created successfully!")
             
             # Print summary
-            print("\n" + "="*70)
-            print("EVENTS SUMMARY")
-            print("="*70)
-            for i, event in enumerate(events_extracted[:5], 1):
-                print(f"\n{i}. {event['summary']}")
-                print(f"   Date: {event['dtstart']}")
-                print(f"   Location: {event['location']}")
+            # print("\n" + "="*70)
+            # # print("EVENTS SUMMARY")
+            # # print("="*70)
+            # for i, event in enumerate(events_extracted[:5], 1):
+            #     print(f"\n{i}. {event['summary']}")
+            #     print(f"   Date: {event['dtstart']}")
+            #     print(f"   Location: {event['location']}")
             
-            if len(events_extracted) > 5:
-                print(f"\n... and {len(events_extracted) - 5} more events")
+            # if len(events_extracted) > 5:
+            #     print(f"\n... and {len(events_extracted) - 5} more events")
             
-            print("\n" + "="*70)
+            # print("\n" + "="*70)
             print(f"Total events: {len(events_extracted)}")
-            print("="*70)
+            # print("="*70)
         
     except Exception as e:
         print(f"\nError: {e}")
@@ -371,7 +371,7 @@ def main():
         if driver:
             print("\nClosing browser...")
             driver.quit()
-            print("Done!")
+            # print("Done!")
 
 if __name__ == "__main__":
     main()

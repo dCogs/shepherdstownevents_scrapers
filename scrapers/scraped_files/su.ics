@@ -6,72 +6,24 @@ METHOD:PUBLISH
 X-WR-CALNAME:Shepherd University Calendar
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-UID:20260425T193000Z-cefa13df-c513-5873-9483-a38f6ac60201@su
-DTSTAMP:20260425T082504Z
-DTSTART:20260425T193000Z
+UID:20260515T193000Z-d2643b8d-3e71-53af-930a-bdbbef5cd92a@su
+DTSTAMP:20260513T062704Z
+DTSTART:20260515T193000Z
 DTEND:
 ALLDAY:False
-SUMMARY:Masterworks Chorale
-LOCATION:Frank Arts Center 260 University Dr, Shepherdstown, WV 25443 
+SUMMARY:“O Pioneer” Screening and Discussion to benefit Shepherd University’s Appalachian Heritage Festival
+LOCATION:Old Opera House (learn more)
 DESCRIPTION:
-CATEGORIES:Uncategorized
+CATEGORIES:History, Music & Film & Stage
 ORGANIZATION:Shepherd University
-URL:https://shepherdrams.universitytickets.com/w/default.aspx?cid=197
-STATUS:CONFIRMED
-SOURCE:shepherd.edu
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260429T173000Z-664cf7a0-ed14-5f9f-afed-678a31e872c2@su
-DTSTAMP:20260425T082504Z
-DTSTART:20260429T173000Z
-DTEND:
-ALLDAY:False
-SUMMARY:Workshop: Integrated Pest Management
-LOCATION:Agricultural Innovation Center 
-DESCRIPTION:
-CATEGORIES:Education & Workshops
-ORGANIZATION:Shepherd University
-URL:https://www.shepherd.edu/sustainable-agriculture/suaic-workshops
-STATUS:CONFIRMED
-SOURCE:shepherd.edu
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260502T100000Z-36a671e9-129e-5a0e-9cb5-591612a8eec2@su
-DTSTAMP:20260425T082504Z
-DTSTART:20260502T100000Z
-DTEND:
-ALLDAY:False
-SUMMARY:A Victory Turned from Disaster: Battle of Cedar Creek Tour 
-LOCATION:Shepherd University
-DESCRIPTION:
-CATEGORIES:History, Outdoors & Nature
-ORGANIZATION:Shepherd University
-URL:https://www.shepherd.edu/civilwar/civil-war-events
-STATUS:CONFIRMED
-SOURCE:shepherd.edu
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260502T120000Z-aa29fcea-8f96-5b6a-a16a-7efe8fd5a3df@su
-DTSTAMP:20260425T082504Z
-DTSTART:20260502T120000Z
-DTEND:
-ALLDAY:False
-SUMMARY:Tabler Student Farm 8th Annual Plant Sale
-LOCATION:82 Billmyer Mill Rd., Shepherdstown
-DESCRIPTION:
-CATEGORIES:Uncategorized
-ORGANIZATION:Shepherd University
-URL:https://www.shepherd.edu/calendar
+URL:https://www.facebook.com/share/1L19KYrWhF/
 STATUS:CONFIRMED
 SOURCE:shepherd.edu
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260519T173000Z-d9ee705b-5d6c-5b30-8462-d7c41b08ccfa@su
-DTSTAMP:20260425T082504Z
+DTSTAMP:20260513T062704Z
 DTSTART:20260519T173000Z
 DTEND:
 ALLDAY:False
@@ -86,72 +38,24 @@ SOURCE:shepherd.edu
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:20260425T193000Z-cefa13df-c513-5873-9483-a38f6ac60201@su
-DTSTAMP:20260425T082504Z
-DTSTART:20260425T193000Z
+UID:20260515T193000Z-d2643b8d-3e71-53af-930a-bdbbef5cd92a@su
+DTSTAMP:20260513T062704Z
+DTSTART:20260515T193000Z
 DTEND:
 ALLDAY:False
-SUMMARY:Masterworks Chorale
-LOCATION:Frank Arts Center 260 University Dr, Shepherdstown, WV 25443 
+SUMMARY:“O Pioneer” Screening and Discussion to benefit Shepherd University’s Appalachian Heritage Festival
+LOCATION:Old Opera House (learn more)
 DESCRIPTION:
-CATEGORIES:Uncategorized
+CATEGORIES:History, Music & Film & Stage
 ORGANIZATION:Shepherd University
-URL:https://shepherdrams.universitytickets.com/w/default.aspx?cid=197
-STATUS:CONFIRMED
-SOURCE:shepherd.edu
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260429T173000Z-664cf7a0-ed14-5f9f-afed-678a31e872c2@su
-DTSTAMP:20260425T082504Z
-DTSTART:20260429T173000Z
-DTEND:
-ALLDAY:False
-SUMMARY:Workshop: Integrated Pest Management
-LOCATION:Agricultural Innovation Center 
-DESCRIPTION:
-CATEGORIES:Education & Workshops
-ORGANIZATION:Shepherd University
-URL:https://www.shepherd.edu/sustainable-agriculture/suaic-workshops
-STATUS:CONFIRMED
-SOURCE:shepherd.edu
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260502T100000Z-36a671e9-129e-5a0e-9cb5-591612a8eec2@su
-DTSTAMP:20260425T082504Z
-DTSTART:20260502T100000Z
-DTEND:
-ALLDAY:False
-SUMMARY:A Victory Turned from Disaster: Battle of Cedar Creek Tour 
-LOCATION:Shepherd University
-DESCRIPTION:
-CATEGORIES:History, Outdoors & Nature
-ORGANIZATION:Shepherd University
-URL:https://www.shepherd.edu/civilwar/civil-war-events
-STATUS:CONFIRMED
-SOURCE:shepherd.edu
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20260502T120000Z-aa29fcea-8f96-5b6a-a16a-7efe8fd5a3df@su
-DTSTAMP:20260425T082504Z
-DTSTART:20260502T120000Z
-DTEND:
-ALLDAY:False
-SUMMARY:Tabler Student Farm 8th Annual Plant Sale
-LOCATION:82 Billmyer Mill Rd., Shepherdstown
-DESCRIPTION:
-CATEGORIES:Uncategorized
-ORGANIZATION:Shepherd University
-URL:https://www.shepherd.edu/calendar
+URL:https://www.facebook.com/share/1L19KYrWhF/
 STATUS:CONFIRMED
 SOURCE:shepherd.edu
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20260519T173000Z-d9ee705b-5d6c-5b30-8462-d7c41b08ccfa@su
-DTSTAMP:20260425T082504Z
+DTSTAMP:20260513T062704Z
 DTSTART:20260519T173000Z
 DTEND:
 ALLDAY:False
@@ -161,6 +65,54 @@ DESCRIPTION:
 CATEGORIES:Education & Workshops
 ORGANIZATION:Shepherd University
 URL:https://www.shepherd.edu/seedingyourfuture/syfiworkshop2025
+STATUS:CONFIRMED
+SOURCE:shepherd.edu
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20261017T100000Z-9d1049c1-75fc-568c-b92f-38fd8888f83b@su
+DTSTAMP:20260513T062704Z
+DTSTART:20261017T100000Z
+DTEND:
+ALLDAY:False
+SUMMARY:Shepherd University Homecoming Day Parade
+LOCATION:German Street, Shepherdstown (click for more)
+DESCRIPTION:
+CATEGORIES:Uncategorized
+ORGANIZATION:Shepherd University
+URL:https://www.shepherd.edu/suaa/upcoming-events-2/
+STATUS:CONFIRMED
+SOURCE:shepherd.edu
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20261017T113000Z-c2b8e7cc-ff1a-5144-b60e-f7a7c4b80e86@su
+DTSTAMP:20260513T062704Z
+DTSTART:20261017T113000Z
+DTEND:
+ALLDAY:False
+SUMMARY:Homecoming Pre-Game Festivities\, including Homecoming Court (click for more)
+LOCATION:Shepherd University
+DESCRIPTION:
+CATEGORIES:Uncategorized
+ORGANIZATION:Shepherd University
+URL:https://www.shepherd.edu/suaa/upcoming-events-2/
+STATUS:CONFIRMED
+SOURCE:shepherd.edu
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:20261017T120000Z-0c5ab4a3-635a-5e79-a808-77b566c53766@su
+DTSTAMP:20260513T062704Z
+DTSTART:20261017T120000Z
+DTEND:
+ALLDAY:False
+SUMMARY:Shepherd University Football 2026 Homecoming Game
+LOCATION:Shepherd University
+DESCRIPTION:
+CATEGORIES:Sports
+ORGANIZATION:Shepherd University
+URL:https://www.shepherd.edu/calendar
 STATUS:CONFIRMED
 SOURCE:shepherd.edu
 SEQUENCE:0
