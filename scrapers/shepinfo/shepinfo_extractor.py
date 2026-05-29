@@ -134,7 +134,7 @@ def extract_event_info(date, event_elements):
         exclude_urls = ['sheplibrary.org', 'foslwv.org', 'speakstoryseries.com', 'shepherd.edu/music', 'shepherdrams.universitytickets.com',
                         'shepherd.edu/sustainable-agriculture', 'townrunwatershed.org', 'friendswv.org', 'fourseasonsbooks.com',
                         'operahouselive.com', 'shepherdstownoperahouse.thundertix.com', 'ShepherdstownMysteryWalks.com',
-                        'shepherdstowncommunityclub.org', 'shepherdstownstreetfest.org'
+                        'shepherdstowncommunityclub.org', 'shepherdstownstreetfest.org', 'stubblefieldinstitute.org'
                         ]
         # Extract More Info section
         # for elem in event_elements:
@@ -336,6 +336,8 @@ def extract_event_info(date, event_elements):
         if result['location'] == "Shepherd Univ - Studio 112":
             result['organization'] = "Shepherd University"
             result['location'] = "Shepherd Univ - Studio 112, 92 West Campus Drive, Shepherdstown"
+        if result['location'] == "War Memorial Building (Community Club)":
+            result['organization'] = "Miscellaneous"
 
         # These are brought in on other scrapers
         if result['location'] == "Shepherd Univ - Shipley Recital Hall" or result['location'] == "Shepherd Univ - Tabler Farm" or \

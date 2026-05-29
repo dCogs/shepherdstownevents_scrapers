@@ -7,10 +7,12 @@ echo "Parent script started."
 
 # Pass each organization to the org_scraper script
 # ./scrape.sh "4seasons"
+./scrape.sh "anb"
 ./scrape.sh "fom"
 ./scrape.sh "ghost"
 ./scrape.sh "greenhill"
 ./scrape.sh "grow_yoga"
+./scrape.sh "hfnhp"
 ./scrape.sh "library"
 ./scrape.sh "operahouse"
 ./scrape.sh "prbrewing"

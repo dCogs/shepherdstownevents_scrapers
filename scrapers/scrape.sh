@@ -30,13 +30,32 @@ python3 ${file_prefix}_extractor.py
 # Remove lines beginning with DTSTAMP:
 grep -v DTSTAMP: "${file_prefix}_${today_date}.ics" > file1
 grep -v DTSTAMP: "../scraped_files/${file_prefix}.ics" > file2
-if cmp -s file1 file2
-then
-    echo "Files are identical"
-else
+
+# python3 ../compare_files.py file1 file2 > result
+# RESULT=$(python3 ../compare_files.py file1 file2)
+# remove trailing spaces and line feeds
+RESULT=$(python3 ../compare_files.py file1 file2 | tr -d '\r\n')
+
+echo "RESULT is $RESULT"
+# echo ""
+# echo ">$RESULT<"
+# echo ""
+# printf '%q\n' "$RESULT"
+
+if [[ "$RESULT" == "changed" ]]; then 
     echo "Files are different"
     cp "${file_prefix}_${today_date}.ics" "../scraped_files/${file_prefix}.ics" 
+else
+    echo "Files are identical"
 fi
+
+# if cmp -s file1 file2
+# then
+#     echo "Files are identical"
+# else
+#     echo "Files are different"
+#     cp "${file_prefix}_${today_date}.ics" "../scraped_files/${file_prefix}.ics" 
+# fi
 
 # remove the temp file1 & file2
 rm file1

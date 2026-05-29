@@ -1,3 +1,6 @@
+cmp -s sss_.ics ../scraped_files/sss.ics
+
+
 School of music calendar URL:
 https://calendar.google.com/calendar/u/0/embed?height=600&wkst=1&ctz=America/New_York&bgcolor=%23ffffff&showPrint=0&title=School+of+Music+Events&src=czFzamphYTBsYmdqa2tmODdtYW5icnBhNzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZG1uYzFhamtiYzJkbDk4YjNtYWd0b244MWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=bjNrdmxnMzJzODRjNHVnOHNyczVscjFscThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=OGt0YmZuNDQwMTJrNHVwMTJ0aG80dmRpa2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=aGllcDd1YmdjZ3I4ZDZnbmNuNTdqc3RiZW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=MXQzMmtnZmhyZjkyZmUwZ2RkN3NyOXJ1ZDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=Zm9wMzJkY3FwcWRjMHFmaGZobHQxN291MjBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=YzMwMjdsdHFqY2J1azFwYWs4dGljamdkZW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=c2J2ZDMzaHZiN3ZrZWR1NDE5YXRya2hndWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=c2I5NzFyNWRucWpkdDBuZjZjOGs2MWJkYjRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=N2NvZnU2OGFmN2I0aG8xNjQzZjFhY3FidThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=aWhnaHMycXNtNWQwbjRxM3NrdWZpN2xtZ29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%2333B679&color=%237CB342&color=%23F09300&color=%234285F4&color=%23c53f00&color=%23F4511E&color=%234285F4&color=%23EF6C00&color=%23AD1457&color=%23B39DDB&color=%23F6BF26&color=%23C0CA33&&mode=AGENDA
 
@@ -14,8 +17,6 @@ Future:
 -- Archive events?
 
 Github:
-cmp -s sss_.ics ../scraped_files/sss.ics
-
 
 pushing changes to github:
  git add .

@@ -189,11 +189,12 @@ def create_ics_file(events, filename):
         f.write("X-WR-CALNAME:Shepherdstown Mystery Walks Calendar\n")
         f.write("X-WR-TIMEZONE:America/New_York\n")
         
+        event_num = 0
         # Write events
         for event in events:
             if not event.get('dtstart'):
                 continue
-            
+            event_num += 1
             # Generate UID
             uid = f"{event['dtstart']}-{uuid.uuid5(uuid.NAMESPACE_DNS, event['summary'].strip())}@ghost"
             
@@ -235,6 +236,8 @@ def create_ics_file(events, filename):
                 f.write(f"URL:{url}\n")
             f.write("STATUS:CONFIRMED\n")
             f.write("SOURCE:shepherdstownmysterywalks.com/\n")
+            if event_num % 3 == 0:
+                f.write("IMAGE_URL:shepherdstownmysterywalks.com/wp-content/uploads/2023/04/download-_5_.jpg\n")
             f.write("SEQUENCE:0\n")
             f.write("END:VEVENT\n")
         

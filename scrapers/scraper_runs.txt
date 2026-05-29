@@ -1,0 +1,1232 @@
+Parent script started.
+ 
+ 
+==================================================
+The organization is: fom
+Friends of Music Calendar Event Extractor
+
+Navigating to https://www.friendswv.org/current-season-2025-2026/
+
+Saving 2 events to fom_20260524.ics...
+✓ ICS file created successfully!
+Total events: 2
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: ghost
+Shepherdstown Mystery Walks Calendar Event Extractor
+
+Navigating to https://fareharbor.com/embeds/book/shepherdstownmysterywalks/items/190345/calendar/
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+
+Saving 24 events to ghost_20260524.ics...
+✓ ICS file created successfully!
+Total events: 24
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: greenhill
+Green Hill Farm Schedule Scraper (Selenium)
+
+
+# Setting up Chrome WebDriver...
+Running in headless mode (no browser window)
+Navigating to https://www.ghfarm.org/events-1...
+✓ Page loaded successfully
+
+Extracting events...
+Found 8 potential event elements
+
+✓ Found 8 events
+
+Fetching details from 8 event pages...
+362 Cruisin' with The Cruisers. - CANCELLED
+362 Summer Happy Hours begin June 18th 2026!
+362 Gators and Gumbo -Father's Day @greenhillfarm
+362 Summer Sunday Fundays Begin!
+362 REWIND REVIVAL
+362 An Evening with Jamie Kaye
+362 RootsFest | General Admission
+362 Vendors | FARMFEST2026 (1)
+Creating ICS file: greenhill_20260524.ics
+  Total events: 6
+  Output file: greenhill_20260524.ics
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: grow_yoga
+Grow Yoga Calendar Event Extractor
+
+Navigating to https://www.growyoga.us/schedule
+event_address:  Home Studio
+event_address:  Soul Food Farm LLC
+1665 Persimmon Lane, Shepherdstown, West Virginia, 25443
+event_address:  Home Studio
+event_address:  Soul Food Farm LLC
+1665 Persimmon Lane, Shepherdstown, West Virginia, 25443
+event_address:  Soul Food Farm LLC
+1665 Persimmon Lane, Shepherdstown, West Virginia, 25443
+event_address:  Soul Food Farm LLC
+1665 Persimmon Lane, Shepherdstown, West Virginia, 25443
+event_address:  Renzo Gracie Martinsburg
+event_address:  Soul Food Farm LLC
+1665 Persimmon Lane, Shepherdstown, West Virginia, 25443
+event_address:  Home Studio
+event_address:  Soul Food Farm LLC
+1665 Persimmon Lane, Shepherdstown, West Virginia, 25443
+event_address:  Home Studio
+event_address:  Soul Food Farm LLC
+1665 Persimmon Lane, Shepherdstown, West Virginia, 25443
+
+Saving 7 events to grow_yoga_20260524.ics...
+✓ ICS file created successfully!
+Total events: 7
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: library
+Shepherdstown Public Library Calendar Event Extractor
+
+Navigating to https://www.sheplibrary.org/events/list/
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+
+Saving 144 events to library_20260524.ics...
+✓ ICS file created successfully!
+Total events: 144
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: operahouse
+Opera House Schedule Scraper (Selenium)
+
+
+# Setting up Chrome WebDriver...
+Running in headless mode (no browser window)
+Navigating to https://operahouselive.com/schedule/...
+✓ Page loaded successfully
+
+Extracting events...
+Found 18 potential event elements
+141 MAY 29 – Jamie Turner & Those Revelators w/ Sleepers — Contemporary Blues Rock
+141 MAY 30 – Milk
+141 MAY 31 – Becoming a Man in 127 EASY Steps — Film + Discussion Event
+141 JUN 7 – National Theatre Live: The Audience
+141 JUN 12 – 21 Live Theater: Greater Tuna
+141 JUN 27 – A Love Letter to Handsome John
+141 JUN 28 – John PayCheck and his full Cavalry Band
+141 AUG 30 – National Theatre Live: All Of My Sons
+141 SEP 19 – Trae Sheehan — Home from the Road
+145 SEP 25/26/27 — Manhattan SHORT Film Festival
+141 OCT 17 – Wellvis — Glambilly & Psychedelic Soul
+141 OCT 18 – National Theatre Live: The Playboy Of The Western World
+141 OCT 24 – Bad Influence Band
+141 OCT 30 — Psycho – Hitchcock Architecture of Suspense Film Festival
+141 OCT 31 — North by Northwest – Hitchcock Architecture of Suspense Film Festival
+141 NOV 1 — Vertigo – Hitchcock Architecture of Suspense Film Festival
+141 NOV 14 – Beauty & the B Flats
+141 NOV 15 – National Theatre Live: Les Liaisons Dangereuses
+
+✓ Found 18 events
+
+Fetching details from 18 event pages...
+Creating ICS file: operahouse_20260524.ics
+  Total events: 39
+  Output file: operahouse_20260524.ics
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: prbrewing
+Potomac Ridge Brewing Event Extractor
+
+Navigating to https://webtunes.com/venues/prbrewing
+
+Saving 5 events to prbrewing_20260524.ics...
+✓ ICS file created successfully!
+Total events: 5
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: pvas
+Potomac Valley Audubon Society Calendar Event Extractor
+
+Navigating to https://www.potomacaudubon.org/calendar/
+Navigating to https://www.potomacaudubon.org/calendar/list/page/2/
+Navigating to https://www.potomacaudubon.org/calendar/list/page/3/
+Navigating to https://www.potomacaudubon.org/calendar/list/page/4/
+Navigating to https://www.potomacaudubon.org/calendar/list/page/5/
+Navigating to https://www.potomacaudubon.org/calendar/list/page/6/
+Navigating to https://www.potomacaudubon.org/calendar/list/page/7/
+
+Saving 46 events to pvas_20260524.ics...
+✓ ICS file created successfully!
+Total events: 46
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: scc
+Shepherdstown Community Club Calendar Event Extractor
+
+Navigating to https://www.shepherdstowncommunityclub.org/events/
+
+Saving 1 events to scc_20260524.ics...
+✓ ICS file created successfully!
+Total events: 1
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: shepinfo
+Shepherdstown.info Calendar Event Extractor
+
+Navigating to https://shepherdstown.info/events/
+✓ Clicked List button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+
+Saving 69 events to shepinfo_20260524.ics...
+✓ ICS file created successfully!
+Total events: 69
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: sss
+Speak Story Series Event Extractor
+
+Navigating to https://www.speakstoryseries.com/
+
+Saving 5 events to sss_20260524.ics...
+✓ ICS file created successfully!
+Total events: 5
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: su
+Shepherdstown University Calendar Event Extractor
+
+Navigating to https://www.shepherd.edu/calendar
+
+Saving 5 events to su_20260524.ics...
+✓ ICS file created successfully!
+Total events: 5
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: sua
+Shepherdstown University Athletics Calendar Event Extractor
+
+Navigating to https://shepherdrams.com/calendar?vtype=list
+
+Saving 4 events to sua_20260524.ics...
+✓ ICS file created successfully!
+Total events: 4
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: sum
+Shepherdstown University School of Music Event Extractor
+
+Navigating to https://calendar.google.com/calendar/u/0/embed?height=600&wkst=1&ctz=America/New_York&bgcolor=%23ffffff&showPrint=0&title=School+of+Music+Events&src=czFzamphYTBsYmdqa2tmODdtYW5icnBhNzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZG1uYzFhamtiYzJkbDk4YjNtYWd0b244MWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=bjNrdmxnMzJzODRjNHVnOHNyczVscjFscThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=OGt0YmZuNDQwMTJrNHVwMTJ0aG80dmRpa2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=aGllcDd1YmdjZ3I4ZDZnbmNuNTdqc3RiZW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=MXQzMmtnZmhyZjkyZmUwZ2RkN3NyOXJ1ZDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=Zm9wMzJkY3FwcWRjMHFmaGZobHQxN291MjBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=YzMwMjdsdHFqY2J1azFwYWs4dGljamdkZW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=c2J2ZDMzaHZiN3ZrZWR1NDE5YXRya2hndWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=c2I5NzFyNWRucWpkdDBuZjZjOGs2MWJkYjRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=N2NvZnU2OGFmN2I0aG8xNjQzZjFhY3FidThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=aWhnaHMycXNtNWQwbjRxM3NrdWZpN2xtZ29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&mode=AGENDA
+skipping
+skipping
+skipping
+
+Saving 16 events to sum_20260524.ics...
+✓ ICS file created successfully!
+Total events: 16
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: sull
+Shepherdstown University Lifelong Learning Calendar Event Extractor
+
+Navigating to https://www.shepherd.edu/brown-bag-lecture-series/
+
+Saving 14 events to sull_20260524.ics...
+✓ ICS file created successfully!
+Total events: 14
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: trptc
+The Roving Peregrine Theatre Event Extractor
+
+Navigating to https://www.rovingperegrinetheatre.org/shows
+
+Saving 3 events to trptc_20260524.ics...
+✓ ICS file created successfully!
+Total events: 3
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: trw
+today: 2026-05-24 14:58:20.404554 last_import_date: 20260822
+Town Run Watershed Calendar Event Extractor
+
+Navigating to https://townrunwatershed.org/events/
+Looking for Next Month button...
+✓ Clicked Next Month button
+
+Saving 6 events to trw_20260524.ics...
+✓ ICS file created successfully!
+Total events: 6
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+Here are the scraped_files.
+total 888
+-rw-r--r--@ 1 dan  staff   15912 May 24 14:28 ghost.ics
+-rw-r--r--  1 dan  staff   40936 May 24 08:28 pvas.ics
+-rw-r--r--  1 dan  staff    3314 May 24 08:25 grow_yoga.ics
+-rw-r--r--  1 dan  staff    4200 May 24 08:25 greenhill.ics
+-rw-r--r--  1 dan  staff    7455 May 23 09:11 sum.ics
+-rw-r--r--  1 dan  staff   90074 May 23 09:07 library.ics
+-rw-r--r--  1 dan  staff    2020 May 22 12:28 sua.ics
+-rw-r--r--  1 dan  staff    1627 May 21 16:41 trptc.ics
+-rw-r--r--  1 dan  staff    2903 May 21 09:04 su.ics
+-rw-r--r--@ 1 dan  staff   70982 May 21 09:03 shepinfo.ics
+-rw-r--r--  1 dan  staff    2619 May 21 09:02 prbrewing.ics
+-rw-r--r--  1 dan  staff    1990 May 17 15:13 scc.ics
+-rw-r--r--  1 dan  staff  105359 May 17 15:12 operahouse.ics
+-rw-r--r--@ 1 dan  staff    4757 May 16 08:08 trw.ics
+-rw-r--r--  1 dan  staff    2497 Apr 20 07:47 fom.ics
+-rw-r--r--  1 dan  staff    2489 Apr 16 08:58 sss.ics
+-rw-r--r--@ 1 dan  staff   35484 Apr 15 08:36 shepherdstown_info.ics
+-rw-r--r--@ 1 dan  staff   26207 Apr 12 20:58 sull.ics
+-rw-r--r--@ 1 dan  staff     679 Apr 12 08:37 4seasons.ics
+Parent script started.
+ 
+ 
+==================================================
+The organization is: fom
+Friends of Music Calendar Event Extractor
+
+Navigating to https://www.friendswv.org/current-season-2025-2026/
+
+Saving 2 events to fom_20260525.ics...
+✓ ICS file created successfully!
+Total events: 2
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: ghost
+Shepherdstown Mystery Walks Calendar Event Extractor
+
+Navigating to https://fareharbor.com/embeds/book/shepherdstownmysterywalks/items/190345/calendar/
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+
+Saving 23 events to ghost_20260525.ics...
+✓ ICS file created successfully!
+Total events: 23
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: greenhill
+Green Hill Farm Schedule Scraper (Selenium)
+
+
+# Setting up Chrome WebDriver...
+Running in headless mode (no browser window)
+Navigating to https://www.ghfarm.org/events-1...
+✓ Page loaded successfully
+
+Extracting events...
+Found 7 potential event elements
+
+✓ Found 7 events
+
+Fetching details from 7 event pages...
+362 Summer Happy Hours begin June 18th 2026!
+362 Gators and Gumbo -Father's Day @greenhillfarm
+362 Summer Sunday Fundays Begin!
+362 REWIND REVIVAL
+362 An Evening with Jamie Kaye
+362 RootsFest | General Admission
+362 Vendors | FARMFEST2026 (1)
+Creating ICS file: greenhill_20260525.ics
+  Total events: 5
+  Output file: greenhill_20260525.ics
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: grow_yoga
+Grow Yoga Calendar Event Extractor
+
+Navigating to https://www.growyoga.us/schedule
+event_address:  Soul Food Farm LLC
+1665 Persimmon Lane, Shepherdstown, West Virginia, 25443
+event_address:  Home Studio
+event_address:  Soul Food Farm LLC
+1665 Persimmon Lane, Shepherdstown, West Virginia, 25443
+event_address:  Soul Food Farm LLC
+1665 Persimmon Lane, Shepherdstown, West Virginia, 25443
+event_address:  Soul Food Farm LLC
+1665 Persimmon Lane, Shepherdstown, West Virginia, 25443
+event_address:  Renzo Gracie Martinsburg
+event_address:  Soul Food Farm LLC
+1665 Persimmon Lane, Shepherdstown, West Virginia, 25443
+event_address:  Home Studio
+event_address:  Soul Food Farm LLC
+1665 Persimmon Lane, Shepherdstown, West Virginia, 25443
+event_address:  Home Studio
+event_address:  Soul Food Farm LLC
+1665 Persimmon Lane, Shepherdstown, West Virginia, 25443
+event_address:  Soul Food Farm LLC
+1665 Persimmon Lane, Shepherdstown, West Virginia, 25443
+
+Saving 8 events to grow_yoga_20260525.ics...
+✓ ICS file created successfully!
+Total events: 8
+
+Closing browser...
+  Events only in file1: 1
+    DTSTART:20260603T183000Z  SUMMARY:Gentle & Restorative Yurt Yoga with Melissa
+RESULT is changed
+Files are different
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: library
+Shepherdstown Public Library Calendar Event Extractor
+
+Navigating to https://www.sheplibrary.org/events/list/
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+
+Saving 144 events to library_20260525.ics...
+✓ ICS file created successfully!
+Total events: 144
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: operahouse
+Opera House Schedule Scraper (Selenium)
+
+
+# Setting up Chrome WebDriver...
+Running in headless mode (no browser window)
+Navigating to https://operahouselive.com/schedule/...
+✓ Page loaded successfully
+
+Extracting events...
+Found 18 potential event elements
+141 MAY 29 – Jamie Turner & Those Revelators w/ Sleepers — Contemporary Blues Rock
+141 MAY 30 – Milk
+141 MAY 31 – Becoming a Man in 127 EASY Steps — Film + Discussion Event
+141 JUN 7 – National Theatre Live: The Audience
+141 JUN 12 – 21 Live Theater: Greater Tuna
+141 JUN 27 – A Love Letter to Handsome John
+141 JUN 28 – John PayCheck and his full Cavalry Band
+141 AUG 30 – National Theatre Live: All Of My Sons
+141 SEP 19 – Trae Sheehan — Home from the Road
+145 SEP 25/26/27 — Manhattan SHORT Film Festival
+141 OCT 17 – Wellvis — Glambilly & Psychedelic Soul
+141 OCT 18 – National Theatre Live: The Playboy Of The Western World
+141 OCT 24 – Bad Influence Band
+141 OCT 30 — Psycho – Hitchcock Architecture of Suspense Film Festival
+141 OCT 31 — North by Northwest – Hitchcock Architecture of Suspense Film Festival
+141 NOV 1 — Vertigo – Hitchcock Architecture of Suspense Film Festival
+141 NOV 14 – Beauty & the B Flats
+141 NOV 15 – National Theatre Live: Les Liaisons Dangereuses
+
+✓ Found 18 events
+
+Fetching details from 18 event pages...
+Creating ICS file: operahouse_20260525.ics
+  Total events: 39
+  Output file: operahouse_20260525.ics
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: prbrewing
+Potomac Ridge Brewing Event Extractor
+
+Navigating to https://webtunes.com/venues/prbrewing
+
+Saving 5 events to prbrewing_20260525.ics...
+✓ ICS file created successfully!
+Total events: 5
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: pvas
+Potomac Valley Audubon Society Calendar Event Extractor
+
+Navigating to https://www.potomacaudubon.org/calendar/
+Navigating to https://www.potomacaudubon.org/calendar/list/page/2/
+Navigating to https://www.potomacaudubon.org/calendar/list/page/3/
+Navigating to https://www.potomacaudubon.org/calendar/list/page/4/
+Navigating to https://www.potomacaudubon.org/calendar/list/page/5/
+Navigating to https://www.potomacaudubon.org/calendar/list/page/6/
+Navigating to https://www.potomacaudubon.org/calendar/list/page/7/
+
+Saving 46 events to pvas_20260525.ics...
+✓ ICS file created successfully!
+Total events: 46
+
+Closing browser...
+  Events only in file1: 1
+    DTSTART:20260530T110000Z  SUMMARY:Carnivorous Plant Nursery Field Trip
+  Events only in file2: 1
+    DTSTART:20260714T073000Z  SUMMARY:Rolling Ridge Conservancy Bird Walk
+RESULT is changed
+Files are different
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: scc
+Shepherdstown Community Club Calendar Event Extractor
+
+Navigating to https://www.shepherdstowncommunityclub.org/events/
+
+Saving 1 events to scc_20260525.ics...
+✓ ICS file created successfully!
+Total events: 1
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: shepinfo
+Shepherdstown.info Calendar Event Extractor
+
+Navigating to https://shepherdstown.info/events/
+✓ Clicked List button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+
+Saving 68 events to shepinfo_20260525.ics...
+✓ ICS file created successfully!
+Total events: 68
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: sss
+Speak Story Series Event Extractor
+
+Navigating to https://www.speakstoryseries.com/
+
+Saving 5 events to sss_20260525.ics...
+✓ ICS file created successfully!
+Total events: 5
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: su
+Shepherdstown University Calendar Event Extractor
+
+Navigating to https://www.shepherd.edu/calendar
+
+Saving 5 events to su_20260525.ics...
+✓ ICS file created successfully!
+Total events: 5
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: sua
+Shepherdstown University Athletics Calendar Event Extractor
+
+Navigating to https://shepherdrams.com/calendar?vtype=list
+
+Saving 4 events to sua_20260525.ics...
+✓ ICS file created successfully!
+Total events: 4
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: sum
+Shepherdstown University School of Music Event Extractor
+
+Navigating to https://calendar.google.com/calendar/u/0/embed?height=600&wkst=1&ctz=America/New_York&bgcolor=%23ffffff&showPrint=0&title=School+of+Music+Events&src=czFzamphYTBsYmdqa2tmODdtYW5icnBhNzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZG1uYzFhamtiYzJkbDk4YjNtYWd0b244MWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=bjNrdmxnMzJzODRjNHVnOHNyczVscjFscThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=OGt0YmZuNDQwMTJrNHVwMTJ0aG80dmRpa2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=aGllcDd1YmdjZ3I4ZDZnbmNuNTdqc3RiZW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=MXQzMmtnZmhyZjkyZmUwZ2RkN3NyOXJ1ZDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=Zm9wMzJkY3FwcWRjMHFmaGZobHQxN291MjBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=YzMwMjdsdHFqY2J1azFwYWs4dGljamdkZW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=c2J2ZDMzaHZiN3ZrZWR1NDE5YXRya2hndWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=c2I5NzFyNWRucWpkdDBuZjZjOGs2MWJkYjRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=N2NvZnU2OGFmN2I0aG8xNjQzZjFhY3FidThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=aWhnaHMycXNtNWQwbjRxM3NrdWZpN2xtZ29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&mode=AGENDA
+skipping
+skipping
+skipping
+
+Saving 16 events to sum_20260525.ics...
+✓ ICS file created successfully!
+Total events: 16
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: sull
+Shepherdstown University Lifelong Learning Calendar Event Extractor
+
+Navigating to https://www.shepherd.edu/brown-bag-lecture-series/
+
+Saving 14 events to sull_20260525.ics...
+✓ ICS file created successfully!
+Total events: 14
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: trptc
+The Roving Peregrine Theatre Event Extractor
+
+Navigating to https://www.rovingperegrinetheatre.org/shows
+
+Saving 3 events to trptc_20260525.ics...
+✓ ICS file created successfully!
+Total events: 3
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: trw
+today: 2026-05-25 14:57:42.263002 last_import_date: 20260823
+Town Run Watershed Calendar Event Extractor
+
+Navigating to https://townrunwatershed.org/events/
+Looking for Next Month button...
+✓ Clicked Next Month button
+
+Saving 6 events to trw_20260525.ics...
+✓ ICS file created successfully!
+Total events: 6
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+Here are the scraped_files.
+total 888
+-rw-r--r--  1 dan  staff   40936 May 25 14:54 pvas.ics
+-rw-r--r--  1 dan  staff    3758 May 25 14:50 grow_yoga.ics
+-rw-r--r--  1 dan  staff   15140 May 25 07:09 ghost.ics
+-rw-r--r--  1 dan  staff    4200 May 24 08:25 greenhill.ics
+-rw-r--r--  1 dan  staff    7455 May 23 09:11 sum.ics
+-rw-r--r--  1 dan  staff   90074 May 23 09:07 library.ics
+-rw-r--r--  1 dan  staff    2020 May 22 12:28 sua.ics
+-rw-r--r--  1 dan  staff    1627 May 21 16:41 trptc.ics
+-rw-r--r--  1 dan  staff    2903 May 21 09:04 su.ics
+-rw-r--r--@ 1 dan  staff   70982 May 21 09:03 shepinfo.ics
+-rw-r--r--  1 dan  staff    2619 May 21 09:02 prbrewing.ics
+-rw-r--r--  1 dan  staff    1990 May 17 15:13 scc.ics
+-rw-r--r--  1 dan  staff  105359 May 17 15:12 operahouse.ics
+-rw-r--r--@ 1 dan  staff    4757 May 16 08:08 trw.ics
+-rw-r--r--  1 dan  staff    2497 Apr 20 07:47 fom.ics
+-rw-r--r--  1 dan  staff    2489 Apr 16 08:58 sss.ics
+-rw-r--r--@ 1 dan  staff   35484 Apr 15 08:36 shepherdstown_info.ics
+-rw-r--r--@ 1 dan  staff   26207 Apr 12 20:58 sull.ics
+-rw-r--r--@ 1 dan  staff     679 Apr 12 08:37 4seasons.ics
+Parent script started.
+ 
+ 
+==================================================
+The organization is: fom
+Friends of Music Calendar Event Extractor
+
+Navigating to https://www.friendswv.org/current-season-2025-2026/
+
+Saving 2 events to fom_20260526.ics...
+✓ ICS file created successfully!
+Total events: 2
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: ghost
+Shepherdstown Mystery Walks Calendar Event Extractor
+
+Navigating to https://fareharbor.com/embeds/book/shepherdstownmysterywalks/items/190345/calendar/
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+
+Saving 23 events to ghost_20260526.ics...
+✓ ICS file created successfully!
+Total events: 23
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: greenhill
+Green Hill Farm Schedule Scraper (Selenium)
+
+
+# Setting up Chrome WebDriver...
+Running in headless mode (no browser window)
+Navigating to https://www.ghfarm.org/events-1...
+✓ Page loaded successfully
+
+Extracting events...
+Found 7 potential event elements
+
+✓ Found 7 events
+
+Fetching details from 7 event pages...
+362 Summer Happy Hours begin June 18th 2026!
+362 Gators and Gumbo -Father's Day @greenhillfarm
+362 Summer Sunday Fundays Begin!
+362 REWIND REVIVAL
+362 An Evening with Jamie Kaye
+362 RootsFest | General Admission
+362 Vendors | FARMFEST2026 (1)
+Creating ICS file: greenhill_20260526.ics
+  Total events: 5
+  Output file: greenhill_20260526.ics
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: grow_yoga
+Grow Yoga Calendar Event Extractor
+
+Navigating to https://www.growyoga.us/schedule
+event_address:  Soul Food Farm LLC
+1665 Persimmon Lane, Shepherdstown, West Virginia, 25443
+event_address:  Soul Food Farm LLC
+1665 Persimmon Lane, Shepherdstown, West Virginia, 25443
+event_address:  Soul Food Farm LLC
+1665 Persimmon Lane, Shepherdstown, West Virginia, 25443
+event_address:  Renzo Gracie Martinsburg
+event_address:  Soul Food Farm LLC
+1665 Persimmon Lane, Shepherdstown, West Virginia, 25443
+event_address:  Home Studio
+event_address:  Soul Food Farm LLC
+1665 Persimmon Lane, Shepherdstown, West Virginia, 25443
+event_address:  Home Studio
+event_address:  Soul Food Farm LLC
+1665 Persimmon Lane, Shepherdstown, West Virginia, 25443
+event_address:  Soul Food Farm LLC
+1665 Persimmon Lane, Shepherdstown, West Virginia, 25443
+event_address:  Soul Food Farm LLC
+1665 Persimmon Lane, Shepherdstown, West Virginia, 25443
+event_address:  Soul Food Farm LLC
+1665 Persimmon Lane, Shepherdstown, West Virginia, 25443
+
+Saving 9 events to grow_yoga_20260526.ics...
+✓ ICS file created successfully!
+Total events: 9
+
+Closing browser...
+  Events only in file1: 2
+    DTSTART:20260604T183000Z  SUMMARY:Yurt Yoga: Peak Pose Flow with Melissa
+    DTSTART:20260606T093000Z  SUMMARY:Music, Mantra & Movement Yoga Flow
+RESULT is changed
+Files are different
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: library
+Shepherdstown Public Library Calendar Event Extractor
+
+Navigating to https://www.sheplibrary.org/events/list/
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+
+Saving 144 events to library_20260526.ics...
+✓ ICS file created successfully!
+Total events: 144
+
+Closing browser...
+  Events only in file1: 3
+    DTSTART:20260721T133000Z  SUMMARY:Middle School Math Club
+    DTSTART:20260722T110000Z  SUMMARY:Endangered Species: Suitcase for Survival
+    DTSTART:20260722T120000Z  SUMMARY:Meditation
+  Events only in file2: 2
+    DTSTART:20260526T090000Z  SUMMARY:Social Seniors Leisure Lounge
+    DTSTART:20260528T160000Z  SUMMARY:Crafternoon
+RESULT is changed
+Files are different
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: operahouse
+Opera House Schedule Scraper (Selenium)
+
+
+# Setting up Chrome WebDriver...
+Running in headless mode (no browser window)
+Navigating to https://operahouselive.com/schedule/...
+✓ Page loaded successfully
+
+Extracting events...
+Found 18 potential event elements
+141 MAY 29 – Jamie Turner & Those Revelators w/ Sleepers — Contemporary Blues Rock
+141 MAY 30 – Milk
+141 MAY 31 – Becoming a Man in 127 EASY Steps — Film + Discussion Event
+141 JUN 7 – National Theatre Live: The Audience
+141 JUN 12 – 21 Live Theater: Greater Tuna
+141 JUN 27 – A Love Letter to Handsome John
+141 JUN 28 – John PayCheck and his full Cavalry Band
+141 AUG 30 – National Theatre Live: All Of My Sons
+141 SEP 19 – Trae Sheehan — Home from the Road
+145 SEP 25/26/27 — Manhattan SHORT Film Festival
+141 OCT 17 – Wellvis — Glambilly & Psychedelic Soul
+141 OCT 18 – National Theatre Live: The Playboy Of The Western World
+141 OCT 24 – Bad Influence Band
+141 OCT 30 — Psycho – Hitchcock Architecture of Suspense Film Festival
+141 OCT 31 — North by Northwest – Hitchcock Architecture of Suspense Film Festival
+141 NOV 1 — Vertigo – Hitchcock Architecture of Suspense Film Festival
+141 NOV 14 – Beauty & the B Flats
+141 NOV 15 – National Theatre Live: Les Liaisons Dangereuses
+
+✓ Found 18 events
+
+Fetching details from 18 event pages...
+Creating ICS file: operahouse_20260526.ics
+  Total events: 39
+  Output file: operahouse_20260526.ics
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: prbrewing
+Potomac Ridge Brewing Event Extractor
+
+Navigating to https://webtunes.com/venues/prbrewing
+
+Saving 4 events to prbrewing_20260526.ics...
+✓ ICS file created successfully!
+Total events: 4
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: pvas
+Potomac Valley Audubon Society Calendar Event Extractor
+
+Navigating to https://www.potomacaudubon.org/calendar/
+Navigating to https://www.potomacaudubon.org/calendar/list/page/2/
+Navigating to https://www.potomacaudubon.org/calendar/list/page/3/
+Navigating to https://www.potomacaudubon.org/calendar/list/page/4/
+Navigating to https://www.potomacaudubon.org/calendar/list/page/5/
+Navigating to https://www.potomacaudubon.org/calendar/list/page/6/
+Navigating to https://www.potomacaudubon.org/calendar/list/page/7/
+
+Saving 45 events to pvas_20260526.ics...
+✓ ICS file created successfully!
+Total events: 45
+
+Closing browser...
+  Events only in file1: 2
+    DTSTART:20260530T073000Z  SUMMARY:RESCHEDULED | Bird Walk at Stauffer’s Marsh Nature Preserve
+    DTSTART:20260714T073000Z  SUMMARY:Rolling Ridge Conservancy Bird Walk
+RESULT is changed
+Files are different
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: scc
+Shepherdstown Community Club Calendar Event Extractor
+
+Navigating to https://www.shepherdstowncommunityclub.org/events/
+
+Saving 1 events to scc_20260526.ics...
+✓ ICS file created successfully!
+Total events: 1
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: shepinfo
+Shepherdstown.info Calendar Event Extractor
+
+Navigating to https://shepherdstown.info/events/
+✓ Clicked List button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+✓ Clicked Next Month button
+
+Saving 67 events to shepinfo_20260526.ics...
+✓ ICS file created successfully!
+Total events: 67
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: sss
+Speak Story Series Event Extractor
+
+Navigating to https://www.speakstoryseries.com/
+
+Saving 5 events to sss_20260526.ics...
+✓ ICS file created successfully!
+Total events: 5
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: su
+Shepherdstown University Calendar Event Extractor
+
+Navigating to https://www.shepherd.edu/calendar
+
+Saving 6 events to su_20260526.ics...
+✓ ICS file created successfully!
+Total events: 6
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: sua
+Shepherdstown University Athletics Calendar Event Extractor
+
+Navigating to https://shepherdrams.com/calendar?vtype=list
+
+Saving 4 events to sua_20260526.ics...
+✓ ICS file created successfully!
+Total events: 4
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: sum
+Shepherdstown University School of Music Event Extractor
+
+Navigating to https://calendar.google.com/calendar/u/0/embed?height=600&wkst=1&ctz=America/New_York&bgcolor=%23ffffff&showPrint=0&title=School+of+Music+Events&src=czFzamphYTBsYmdqa2tmODdtYW5icnBhNzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZG1uYzFhamtiYzJkbDk4YjNtYWd0b244MWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=bjNrdmxnMzJzODRjNHVnOHNyczVscjFscThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=OGt0YmZuNDQwMTJrNHVwMTJ0aG80dmRpa2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=aGllcDd1YmdjZ3I4ZDZnbmNuNTdqc3RiZW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=MXQzMmtnZmhyZjkyZmUwZ2RkN3NyOXJ1ZDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=Zm9wMzJkY3FwcWRjMHFmaGZobHQxN291MjBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=YzMwMjdsdHFqY2J1azFwYWs4dGljamdkZW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=c2J2ZDMzaHZiN3ZrZWR1NDE5YXRya2hndWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=c2I5NzFyNWRucWpkdDBuZjZjOGs2MWJkYjRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=N2NvZnU2OGFmN2I0aG8xNjQzZjFhY3FidThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=aWhnaHMycXNtNWQwbjRxM3NrdWZpN2xtZ29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&mode=AGENDA
+skipping
+skipping
+skipping
+
+Saving 16 events to sum_20260526.ics...
+✓ ICS file created successfully!
+Total events: 16
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: sull
+Shepherdstown University Lifelong Learning Calendar Event Extractor
+
+Navigating to https://www.shepherd.edu/brown-bag-lecture-series/
+
+Saving 14 events to sull_20260526.ics...
+✓ ICS file created successfully!
+Total events: 14
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: trptc
+The Roving Peregrine Theatre Event Extractor
+
+Navigating to https://www.rovingperegrinetheatre.org/shows
+
+Saving 3 events to trptc_20260526.ics...
+✓ ICS file created successfully!
+Total events: 3
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+ 
+ 
+==================================================
+The organization is: trw
+today: 2026-05-26 14:58:05.286617 last_import_date: 20260824
+Town Run Watershed Calendar Event Extractor
+
+Navigating to https://townrunwatershed.org/events/
+Looking for Next Month button...
+✓ Clicked Next Month button
+
+Saving 6 events to trw_20260526.ics...
+✓ ICS file created successfully!
+Total events: 6
+
+Closing browser...
+RESULT is not changed
+Files are identical
+ 
+==================================================
+Here are the scraped_files.
+total 904
+-rw-r--r--  1 dan  staff   40014 May 26 14:54 pvas.ics
+-rw-r--r--  1 dan  staff   90294 May 26 14:53 library.ics
+-rw-r--r--  1 dan  staff    4214 May 26 14:50 grow_yoga.ics
+-rw-r--r--  1 dan  staff   15140 May 25 07:09 ghost.ics
+-rw-r--r--  1 dan  staff    4200 May 24 08:25 greenhill.ics
+-rw-r--r--  1 dan  staff    7455 May 23 09:11 sum.ics
+-rw-r--r--  1 dan  staff    2020 May 22 12:28 sua.ics
+-rw-r--r--  1 dan  staff    1627 May 21 16:41 trptc.ics
+-rw-r--r--  1 dan  staff    2903 May 21 09:04 su.ics
+-rw-r--r--@ 1 dan  staff   70982 May 21 09:03 shepinfo.ics
+-rw-r--r--  1 dan  staff    2619 May 21 09:02 prbrewing.ics
+-rw-r--r--  1 dan  staff    1990 May 17 15:13 scc.ics
+-rw-r--r--  1 dan  staff  105359 May 17 15:12 operahouse.ics
+-rw-r--r--@ 1 dan  staff    4757 May 16 08:08 trw.ics
+-rw-r--r--  1 dan  staff    2497 Apr 20 07:47 fom.ics
+-rw-r--r--  1 dan  staff    2489 Apr 16 08:58 sss.ics
+-rw-r--r--@ 1 dan  staff   35484 Apr 15 08:36 shepherdstown_info.ics
+-rw-r--r--@ 1 dan  staff   26207 Apr 12 20:58 sull.ics
+-rw-r--r--@ 1 dan  staff     679 Apr 12 08:37 4seasons.ics

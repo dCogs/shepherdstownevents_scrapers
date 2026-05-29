@@ -35,7 +35,7 @@ import re
 year = "2026"
 # Format the date as a string in YYYYMMDD format
 today = datetime.today()
-last_date = today + timedelta(days=120)
+last_date = today + timedelta(days=180)
 today_formatted = today.strftime("%Y%m%d")
 last_date_formatted = last_date.strftime("%Y%m%d")
 
@@ -239,12 +239,17 @@ def main():
             desc = ''
             all_day = 'false'
             try:
-                event_date = event.find_element(By.CLASS_NAME,"V4sZ3c").find_element(By.CLASS_NAME,"bf2t7b").find_element(By.CLASS_NAME,"H3yh2e").get_attribute("aria-label")
+                event_date = event.find_element(By.CLASS_NAME,"V4sZ3c").\
+                    find_element(By.CLASS_NAME,"bf2t7b").\
+                    find_element(By.CLASS_NAME,"H3yh2e").\
+                    get_attribute("aria-label")
                 # print('event_date:', event_date)
                 event_date = format_date(event_date)
                 # print(311, event.text, event_date)
+                event_date_found = True
             except:
-                pass
+                event_date_found = False
+                # pass
             # print(event_date, last_date_formatted)
 
             if event_date > last_date_formatted: # (today + timedelta(days=90).strftime("%Y%m%d")):
@@ -253,7 +258,6 @@ def main():
             # presentation = event.find_element()
             lines = event.text.split('\n')
             # print('')
-            # for line in lines:
             # for index, line in enumerate(lines):
             #     print('line:', index, line, line.isnumeric())
             if len(lines) < 3:
@@ -261,7 +265,7 @@ def main():
             else:
                 if lines[0].isnumeric(): start_line = 2
                 else: 
-                    start_line = 1
+                    start_line = 0
                 # print('start_line:', start_line)
                 times = lines[start_line]
                 title = lines[start_line + 1]
@@ -270,8 +274,11 @@ def main():
                 except:
                     location = "Shepherd University"
             # Skip certain conditions
-            if "Ram Pep Band" not in title and "Ram Band Camp" not in title and "String Camp" not in title and \
-                "Home Football Game" not in title:
+            title_upper = title.upper()
+            if "RAM PEP BAND" not in title_upper and "RAM BAND CAMP" not in title_upper and \
+                "STRING CAMP" not in title_upper and \
+                "HOME FOOTBALL GAME" not in title_upper and "RB EXHIBITION" not in title_upper and \
+                "SUMMER CLINIC" not in title_upper:
 
                 if times == "All day":
                     all_day = 'true'
@@ -281,6 +288,7 @@ def main():
                     if times == '' and title == '':
                         continue
                     else:
+                        # print('times:', times)
                         start_time, end_time = format_time(times)
                         dtstart = event_date + "T" + start_time + "Z"
                         dtend = event_date + "T" + end_time + "Z"

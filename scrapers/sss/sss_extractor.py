@@ -98,7 +98,13 @@ def format_date(date_str):
     #remove day of week
     # month_day_part = date_str.split(", ")[1]
     date_str = date_str.strip()
-    dow, month, day = date_str.split(" ")
+    # print(101, date_str)
+    if ("Monday" in date_str or "Tuesday" in date_str or "Wednesday" in date_str or \
+        "Thursday" in date_str or "Friday" in date_str or "Saturday" in date_str or "Sunday" in date_str): 
+        dow, month, day = date_str.split(" ")
+    else:
+        month, day = date_str.split(" ")
+    # print(106, month, day)
     match month:
         case "January": month = "01"
         case "February": month = "02"
@@ -144,8 +150,14 @@ def extract_event_info(heading, event_elements):
         'allday': ''
     }
     try:
-        title, dt, tm = heading.split('\n')
+        # print(153, heading)
+        if heading.count('\n') == 2:
+            title, dt, tm = heading.split('\n')
+        if heading.count('\n') == 3:
+            title, dt, tm, dummy = heading.split('\n')
+        # print(154, dt)
         date_YMD = format_date(dt)
+        # print(156, date_YMD)
         time_HMS = format_time(tm)
         dtstart = date_YMD + "T" + time_HMS + "Z"
         # print('dtstart:', dtstart)
@@ -267,6 +279,7 @@ def main():
         for event in events:
             try:
                 heading = event.find_element(By.TAG_NAME, "h1").text
+                # print(heading)
                 if heading.startswith("Pluribus:"): continue
                 event_elements = extract_event_info(heading, event)
                 # continue

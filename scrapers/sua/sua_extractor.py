@@ -203,7 +203,7 @@ def main():
         last_date_value = date_input.get_attribute("placeholder")
 
         weeks_scraped = 0
-        max_weeks_scraped = 5
+        max_weeks_scraped = 20
         while weeks_scraped < max_weeks_scraped:
             weeks_scraped += 1
             day_blocks = driver.find_elements(By.CLASS_NAME, "sidearm-calendar-schedule-day")
