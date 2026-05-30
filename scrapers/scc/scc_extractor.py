@@ -163,7 +163,7 @@ def extract_event_info(event_elements):
 
     def create_st(time_element):
         time_date = time_element.get_attribute("datetime").replace("-","")
-        # print('time_date:', time_date, ' time:', time_element.text)
+        print('time_date:', time_date, ' time:', time_element.text)
         time = format_time(time_element.text)
         dt = time_date + "T" + time + "Z"
         # print('dt:', dt)
@@ -181,15 +181,16 @@ def extract_event_info(event_elements):
         # 16
         # TO MAY 17
 
-        # print('event_dates:', event_dates)
+        print('event_dates:', event_dates)
         # replace all characters less than a "1" with " " so the date formatting doesn't get stuck on esc chars
-        new_event_dates = ''.join([i if ord(i) >48 else ' ' for i in event_dates])
+        new_event_dates = ''.join([i if ord(i) >47 else ' ' for i in event_dates])
+        print(187, new_event_dates)
         start_date, end_date = new_event_dates.split("TO ")
         start_date = format_date(start_date)
         end_date = format_date(end_date)
         dtstart = start_date + "T000000Z"
         dtend = end_date + "T235900Z"
-        # print('start_date:', start_date, ' end_date:', end_date)
+        print('start_date:', start_date, ' end_date:', end_date)
 
     # print('dtstart:', dtstart, ' dtend:', dtend)
 

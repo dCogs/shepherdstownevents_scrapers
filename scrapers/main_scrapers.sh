@@ -6,7 +6,6 @@
 echo "Parent script started."
 
 # Pass each organization to the org_scraper script
-# ./scrape.sh "4seasons"
 ./scrape.sh "library"
 ./scrape.sh "operahouse"
 ./scrape.sh "pvas"

@@ -218,13 +218,18 @@ def extract_event_info(date_element, dt, dd):
     else:
         dtstart = create_dtstart(date_element, dt)
     # href = dd.find_element(By.TAG_NAME, 'a').get_attribute('href')
+    organization = 'Shepherd University'
+    if "CONCERT" in title.upper() or \
+    "RECITAL" in title.upper() or \
+    "CHORALE" in title.upper():
+        organization = "Shepherd University School of Music"
     result['summary'] = title
     result['location'] = location
     result['dtstart'] = dtstart
     result['allday'] = all_day
     result['more_info_url'] = href
     result['category'] = category
-    result['organization'] = 'Shepherd University'
+    result['organization'] = organization
     # print(225, result)
     # print(date_element, dt, title, href)
 
@@ -275,6 +280,7 @@ def create_ics_file(events, filename):
                 category = 'Uncategorized'
             all_day = event['allday']
             url = event.get('more_info_url', '')
+            organization = event['organization']
             # print(274, all_day, dtstart)
             f.write("BEGIN:VEVENT\n")
             f.write(f"UID:{uid}\n")
@@ -290,7 +296,7 @@ def create_ics_file(events, filename):
             f.write(f"LOCATION:{location}\n")
             f.write(f"DESCRIPTION:{description}\n")
             f.write(f"CATEGORIES:{category}\n")
-            f.write(f"ORGANIZATION:Shepherd University\n")           
+            f.write(f"ORGANIZATION:{organization}\n")           
             if url:
                 f.write(f"URL:{url}\n")
             f.write("STATUS:CONFIRMED\n")
