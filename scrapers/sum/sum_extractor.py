@@ -77,6 +77,7 @@ def format_time(time):
         end_time = convert_time(end)
     else:
         end_time = ""
+    # print('start_time:', start_time, 'end_time:', end_time)
     return start_time, end_time
 
 def convert_time(time):
@@ -265,7 +266,10 @@ def main():
             else:
                 if lines[0].isnumeric(): start_line = 2
                 else: 
-                    start_line = 0
+                    if "am" in lines[0] or "pm" in lines[0]:
+                        start_line = 0
+                    else:
+                        start_line = 1
                 # print('start_line:', start_line)
                 times = lines[start_line]
                 title = lines[start_line + 1]
@@ -278,7 +282,7 @@ def main():
             if "RAM PEP BAND" not in title_upper and "RAM BAND CAMP" not in title_upper and \
                 "STRING CAMP" not in title_upper and \
                 "HOME FOOTBALL GAME" not in title_upper and "RB EXHIBITION" not in title_upper and \
-                "SUMMER CLINIC" not in title_upper:
+                "SUMMER CLINIC" not in title_upper and "REHEARSAL" not in title_upper:
 
                 if times == "All day":
                     all_day = 'true'
@@ -288,6 +292,7 @@ def main():
                     if times == '' and title == '':
                         continue
                     else:
+                        # print('title:', title)
                         # print('times:', times)
                         start_time, end_time = format_time(times)
                         dtstart = event_date + "T" + start_time + "Z"

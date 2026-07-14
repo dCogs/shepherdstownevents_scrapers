@@ -55,7 +55,10 @@ def format_time(time, title_line):
             if " at " in time:
                 dt, tm = time.split(" at ")
             else:
-                tm, dt = time.split(",", 1)
+                if " — " in time:
+                    dt, tm = time.split(" — ")
+                else:
+                    tm, dt = time.split(",", 1)
         
         event_date = format_date(dt, title_line)
         tm=tm.replace(" ","").strip().replace("Sunday","").replace("Monday","").replace("Tuesday","").\
@@ -220,6 +223,13 @@ def extract_event_info(event_elements, events_extracted, event_url, event_title 
     location = 'Shepherdstown Opera House, 131 West German Street, Shepherdstown'
     description = ''
     title_line = event_title
+
+    # If the title starts with a number, that number is left over from the date range so remove
+    num, rest_of_it = title_line.split(" ", 1)
+    # print('num:', num, '', 'rest_of_it:', rest_of_it)
+    if num.isnumeric():
+        print('changing title from:', title_line, 'to:', rest_of_it)
+        title_line = rest_of_it
     lines = event_elements.text.split("\n")
     for line in lines:
         if line > '':
@@ -246,10 +256,20 @@ def extract_event_info(event_elements, events_extracted, event_url, event_title 
                             if mt > ' ':
                                 times.append(mt)
                     else:
-                        if "Pay-What-You-Can Performance" in line:
-                            description = description + line + "\n"
+                        if "SHOWINGS" in line.upper():
+                            # Extract all occurrences of time in h:mm am/pm format
+                            dt, time = line.split(" — ")
+                            mult_times = re.findall(r'\d{1,2}:\d{2} [ap]m', line)
+                            print(mult_times)
+                            # mult_times = line.split(",")
+                            for mt in mult_times:
+                                if mt > ' ':
+                                    times.append(dt + " — " + mt)
                         else:
-                            times.append(line)
+                            if "Pay-What-You-Can Performance" in line:
+                                description = description + line + "\n"
+                            else:
+                                times.append(line)
                     continue
             if line == title_line: 
                 continue
@@ -260,8 +280,9 @@ def extract_event_info(event_elements, events_extracted, event_url, event_title 
         organization = 'Town Run Theater Company'
     if "Shepherdstown Film Society" in description:
         organization = 'Shepherdstown Film Society'
+    print(279, title_line)
     for time in times:
-        
+        print(281, time)        
         dtstart, event_date = format_time(time, title_line)
         if dtstart > '' and event_date > '':
             if event_date >= today_formatted:

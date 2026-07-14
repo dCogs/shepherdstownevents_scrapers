@@ -21,7 +21,7 @@ from datetime import date
 import time
 import re
 import category_matcher
-
+# import requests
 
 # Global variables
 year = "2026"
@@ -295,6 +295,12 @@ def main():
         # Navigate to calendar page
         url = "https://www.sheplibrary.org/events/list/"
         print(f"Navigating to {url}")
+
+        # response = requests.get(url)
+        # # Print the text content of the file
+        # print(response.text)
+        # return
+
         driver.get(url)
         
         # Wait for page to load

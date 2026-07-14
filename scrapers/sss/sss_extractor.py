@@ -151,11 +151,26 @@ def extract_event_info(heading, event_elements):
     }
     try:
         # print(153, heading)
+        title = ''
+        dt = ''
+        tm = ''
         if heading.count('\n') == 2:
             title, dt, tm = heading.split('\n')
-        if heading.count('\n') == 3:
-            title, dt, tm, dummy = heading.split('\n')
+        if heading.count('\n') > 2:
+            title, the_rest = heading.split('\n', 1)
+            the_rest_array = the_rest.split('\n')
+            for therest in the_rest_array:
+                if ("Monday" in therest or "Tuesday" in therest or "Wednesday" in therest or \
+                "Thursday" in therest or "Friday" in therest or "Saturday" in therest or "Sunday" in therest): 
+                    dt = therest
+                if "AM" in therest.upper() or "PM" in therest.upper():
+                    tm = therest
+            # title, dt, tm, dummy = heading.split('\n')
         # print(154, dt)
+        if title > '' and dt > '' and tm > '':
+            print('title:', title, "dt:", dt, "tm:", tm)
+        else:
+            return result
         date_YMD = format_date(dt)
         # print(156, date_YMD)
         time_HMS = format_time(tm)
@@ -275,8 +290,9 @@ def main():
         # max_pages = 5
         # while pages_scraped < max_pages:
             # pages_scraped += 1
-        events = driver.find_elements(By.CSS_SELECTOR, ".sqs-html-content")
+        events = driver.find_elements(By.CSS_SELECTOR, ".sqs-row")
         for event in events:
+            # print(event.text)
             try:
                 heading = event.find_element(By.TAG_NAME, "h1").text
                 # print(heading)

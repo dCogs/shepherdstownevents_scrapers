@@ -36,11 +36,13 @@ import category_matcher
 # Format the date as a string in YYYYMMDD format
 today = datetime.today()
 now = datetime.now()
+last_date = today + timedelta(days=180)
 # Extract the year
 year_int = now.year
 year = str(year_int)
 # print("year:", year)
 today_formatted = today.strftime("%Y%m%d")
+last_date_formatted = last_date.strftime("%Y%m%d")
 
 
 def setup_driver(headless=False):
@@ -134,7 +136,7 @@ def extract_event_info(date, event_elements):
         exclude_urls = ['sheplibrary.org', 'foslwv.org', 'speakstoryseries.com', 'shepherd.edu/music', 'shepherdrams.universitytickets.com',
                         'shepherd.edu/sustainable-agriculture', 'townrunwatershed.org', 'friendswv.org', 'fourseasonsbooks.com',
                         'operahouselive.com', 'shepherdstownoperahouse.thundertix.com', 'ShepherdstownMysteryWalks.com',
-                        'shepherdstowncommunityclub.org', 'shepherdstownstreetfest.org', 'stubblefieldinstitute.org'
+                        'shepherdstowncommunityclub.org', 'shepherdstownstreetfest.org', 'stubblefieldinstitute.org', 'appalachianchamber.org'
                         ]
         # Extract More Info section
         # for elem in event_elements:
@@ -349,6 +351,9 @@ def extract_event_info(date, event_elements):
             "Town Council Meeting" in result['summary']:
             result['organization'] = "Town of Shepherdstown"
 
+        if "EASTERN PANHANDLE YOUTH ALLIANCE" in result['summary'].upper():
+            result['organization'] = "Eastern Panhandle Youth Alliance"
+
         # Skip organizations that come in from other scrapers
         if result['organization'] == 'Friends of Shepherdstown Library' or \
         "Blue Ridge Arts & Crafts" in result['summary']:
@@ -408,7 +413,8 @@ def extract_event_info(date, event_elements):
         
         if "Speak Story Series" in result['summary'] or \
         "Shepherdstown Mystery Walks" in result['description'] or \
-        "May Day Celebration" in result['summary']:
+        "May Day Celebration" in result['summary'] or \
+        "Women's Ride Wednesdays" in result['summary']:
             result['dtstart'] = ''
             return result
         
@@ -526,7 +532,7 @@ def main():
         months_scraped = 0
 
         # Extract up to a maximum months. Keep 1 or 2 while testing
-        max_months = 4
+        max_months = 3
         while months_scraped < max_months:
             months_scraped += 1
             elements = driver.find_elements(By.CSS_SELECTOR, ".daycell, .event_container")
@@ -540,6 +546,10 @@ def main():
                     date = format_date(element.text)
                     skip_date = False
                     if date < today_formatted: skip_date = True
+                    if date > last_date_formatted: # (today + timedelta(days=90).strftime("%Y%m%d")):
+                        print('skipping', date)
+                        max_months = months_scraped
+                        break
                 else:
                     if date != None and skip_date == False:
                         event_elements = extract_events_from_list(date, element)

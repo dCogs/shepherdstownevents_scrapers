@@ -192,7 +192,7 @@ def extract_event_info(event_elements, events_extracted, event_url, event_title 
     dtstart = date + "T" + tmstart + "Z"
     dtend = date + "T" + tmend + "Z"
     location = 'Green Hill Farm, 5329 Mondell Rd, Sharpsburg, MD'
-    organization = 'Nearby Events in Sharpsburg'
+    organization = 'Green Hill Farm'
     if date >= today_formatted:
         result = {
             'category': 'Uncategorized',

@@ -82,6 +82,7 @@ def extract_date_times(date_time_string):
 
 def format_time(time):
     # time = time.replace(":", "")
+    print('format_time:', time)
     time=time.replace(" ","").strip()
     am_pm = "PM"
     if "AM" in time: am_pm = "AM"
@@ -98,7 +99,11 @@ def format_date(date_str):
     #remove day of week
     # month_day_part = date_str.split(", ")[1]
     date_str = date_str.strip()
-    dow, month, day = date_str.split(" ")
+    if date_str == "": 
+        return ""
+    print('date_str:', date_str)
+    dow, month_day, year = date_str.split(", ")
+    month, day = month_day.split(" ")
     match month:
         case "January": month = "01"
         case "February": month = "02"
@@ -112,6 +117,18 @@ def format_date(date_str):
         case "October": month = "10"
         case "November": month = "11"
         case "December": month = "12"
+        case "Jan": month = "01"
+        case "Feb": month = "02"
+        case "Mar": month = "03"
+        case "Apr": month = "04"
+        case "May": month = "05"
+        case "Jun": month = "06"
+        case "Jul": month = "07"
+        case "Aug": month = "08"
+        case "Sep": month = "09"
+        case "Oct": month = "10"
+        case "Nov": month = "11"
+        case "Dec": month = "12"
     day = re.sub(r'(\d+)(st|nd|rd|th)', r'\1', day)
     if len(day) == 1: day = "0" + day
     # print('month:', month, ' day:', day)
@@ -122,7 +139,7 @@ def extract_event_info(event_elements):
     Extract Category, More Info, Description, Location, Contact, Phone, and Email
     from event text string
     """
-    # print('event_elements:', event_elements.text)
+    print('event_elements:', event_elements.text)
     # print(126, heading)
     # for char in heading:
     #     print('char:', char, ' code:', ord(char))
@@ -144,18 +161,54 @@ def extract_event_info(event_elements):
         'allday': ''
     }
     try:
-        h1_element = event_elements.find_element(By.TAG_NAME, "h1")
-        anchor_element = h1_element.find_element(By.TAG_NAME, "a")
-        title = h1_element.text
-        category = []
-        category = category_matcher.categorize_by_keywords(title)
-        href = anchor_element.get_attribute("href")
-        # print(title, href)
-        event_times = event_elements.find_elements(By.CLASS_NAME, "event-time-localized")
-        for event_time in event_times:
-            dt = event_time.get_attribute("datetime")
-            dtstart = dt.replace("-","") + "T" + format_time(event_time.text) + "Z"
-            # print('dt:', dt, ' event_time:', event_time.text, ' dtstart:', dtstart)
+        date1 = ''
+        date2 = ''
+        time1 = ''
+        time2 = ''
+        children_elements = event_elements.find_elements(By.XPATH, ".//*")
+        for element in children_elements:
+            element_class = element.get_attribute("class")
+            element_text = element.text
+            print('class:', element_class, 'text:', element_text)
+            if "eventlist-title-link" in element_class:
+                href = element.get_attribute("href")
+            else:
+                if "eventlist-title" in element_class:
+                    title = element_text
+                    category = []
+                    category = category_matcher.categorize_by_keywords(title)
+            if "event-date" in element_class:
+                if date1 == '': date1 = format_date(element_text)
+                else: date2 = format_date(element_text)
+            if "event-time-localized" in element_class:
+                element_text = element_text.replace(" AM","AM").replace(" PM","PM")
+                am_pm = element_text.count("AM") + element_text.count("PM")
+                print(element_text, am_pm)
+                if am_pm > 1:
+                    t1, t2 = element_text.split(" ")
+                    time1 = format_time(t1)
+                    time2 = format_time(t2)
+                else:
+                    if time1 == '': time1 = format_time(element_text)
+                    else: 
+                        if time2 == '': time2 = format_time(element_text)
+
+        print('title:', title, 'href:', href, 'date1:', date1, 'time1:', time1, 'date2:', date2, 'time2:', time2)
+        # event_times = event_elements.find_elements(By.CLASS_NAME, "event-time-localized")
+        # event_times = event_elements.find_elements(By.CLASS_NAME, "eventlist-meta-date")
+        # print(156, event_times.text)
+        # for event_time in event_times:
+        #     if "  " in event_time:
+        #         print('event_time:', event_time)
+        #     dt = event_time.get_attribute("datetime")
+        #     dtstart = dt.replace("-","") + "T" + format_time(event_time.text) + "Z"
+        #     # print('dt:', dt, ' event_time:', event_time.text, ' dtstart:', dtstart)
+        if date2 == '':
+            dtstart = date1 + "T" + time1 + "Z"
+            dtend = date1 + "T" + time2 + "Z"
+        else:
+            dtstart = date1 + "T" + time1 + "Z"
+            dtend = date2 + "T" + time2 + "Z"
         location = "The Black Box Arts Center - 113 South Princess Street, Shepherdstown"
         organization = "The Roving Peregrine Theatre Company"
         result['category'] = category
@@ -164,6 +217,7 @@ def extract_event_info(event_elements):
         result['organization'] = organization
         result['location'] = location
         result['dtstart'] = dtstart
+        result['dtend'] = dtend
         return result
         # title_link = event_elements.find_element(By.CLASS_NAME, "eventlist-title-link")
     except:
@@ -287,6 +341,7 @@ def main():
             try:
                 event_elements = extract_event_info(event)
                 # continue
+                # break
             except Exception as e:
                 print(f"\nError: {e}")
                 continue
