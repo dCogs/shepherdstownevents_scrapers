@@ -37,6 +37,8 @@ year = "2026"
 # Format the date as a string in YYYYMMDD format
 today = datetime.today()
 today_formatted = today.strftime("%Y%m%d")
+last_date = today + timedelta(days=100)
+last_date_formatted = last_date.strftime("%Y%m%d")
 
 
 def setup_driver(headless=False):
@@ -203,7 +205,7 @@ def main():
         last_date_value = date_input.get_attribute("placeholder")
 
         weeks_scraped = 0
-        max_weeks_scraped = 20
+        max_weeks_scraped = 16
         while weeks_scraped < max_weeks_scraped:
             weeks_scraped += 1
             day_blocks = driver.find_elements(By.CLASS_NAME, "sidearm-calendar-schedule-day")
@@ -262,7 +264,8 @@ def main():
                         if event_time == "POSTPONED":
                             summary = "POSTPONED - " + summary
 
-                        if event_sport != '' and event_time != '' and event_opponent != '' and event_location != '':
+                        if event_sport != '' and event_time != '' and event_opponent != '' and event_location != '' and \
+                        dtstart <= last_date_formatted:
                             # print('resulting...')
                             result = {
                                 'category': 'Sports',

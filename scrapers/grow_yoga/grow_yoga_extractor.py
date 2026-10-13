@@ -163,6 +163,11 @@ def extract_event_info(event_elements):
         # print(142, 'event_date:', event_date, "event_YMD:", event_YMD)
         event_times = event_elements.find_element(By.CLASS_NAME,"clickable").find_element(By.CLASS_NAME, "event-card-details").\
             find_element(By.TAG_NAME, 'h3').text        
+        # print(166, event_times)
+        if " EDT" in event_times:
+            event_times = event_times[0:event_times.index(" EDT")]
+        if event_times.count(" - ") != 1:
+            return result
         start_time, end_time = event_times.split(" - ")
         if "AM" not in start_time and "PM" not in start_time:
             if "PM" in end_time: start_time = start_time + "PM"

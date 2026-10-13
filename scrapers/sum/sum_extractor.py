@@ -258,9 +258,9 @@ def main():
             # print('event_date:', event_date.get_attribute("aria-label"))
             # presentation = event.find_element()
             lines = event.text.split('\n')
-            # print('')
-            # for index, line in enumerate(lines):
-            #     print('line:', index, line, line.isnumeric())
+            print('')
+            for index, line in enumerate(lines):
+                print('line:', index, line, line.isnumeric())
             if len(lines) < 3:
                 print('skipping')
             else:
@@ -275,14 +275,22 @@ def main():
                 title = lines[start_line + 1]
                 try:
                     location = lines[start_line + 2]
+                    if location.startswith("Calendar:"):
+                        # location = "Shepherd event location could not be determined"
+                        location = "Frank Arts Center 260 University Dr, Shepherdstown, WV 25443"
                 except:
-                    location = "Shepherd University"
+                    if "Salon Series" in title:
+                        location = "Frank Arts Center 260 University Dr, Shepherdstown, WV 25443"
+                    else:
+                        location = "Shepherd University"
+            print('location:', location)           
             # Skip certain conditions
             title_upper = title.upper()
             if "RAM PEP BAND" not in title_upper and "RAM BAND CAMP" not in title_upper and \
                 "STRING CAMP" not in title_upper and \
                 "HOME FOOTBALL GAME" not in title_upper and "RB EXHIBITION" not in title_upper and \
-                "SUMMER CLINIC" not in title_upper and "REHEARSAL" not in title_upper:
+                "SUMMER CLINIC" not in title_upper and "REHEARSAL" not in title_upper and \
+                "RB EXHIBITION" not in title_upper and "RAM BAND TOUR" not in title_upper:
 
                 if times == "All day":
                     all_day = 'true'

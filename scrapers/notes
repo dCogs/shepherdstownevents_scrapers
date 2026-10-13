@@ -23,3 +23,27 @@ pushing changes to github:
  git commit -m "2026-04-26"
  git push
  
+
+"Import Events from ICS" → GenericImport component (src/components/admin/GenericImport.jsx)
+"Shepherdstown Info calendar" → ShepherdstownImport component (src/components/admin/ShepherdstownImport.jsx)
+"Import Events from JSON" → JsonImport component (src/components/admin/JsonImport.jsx)
+"Import Events from Text" → TextImportPanel component (src/components/admin/TextImportPanel.jsx)
+"Import Events from URL" → UrlImportPanel component (src/components/admin/UrlImportPanel.jsx)
+
+
+Shepherdstown Events Access Token created 09/22/2026:
+b44u_51942c4181d4df93ba63117b988395eb9ccd5e443d7cf61b95b888140acf19a8
+
+
+re_V1fhUNQq...
+
+
+
+Resend.com
+API Keys:
+- Shepherdstown Events: re_QEDCHQQK_Q8ywuoeAC1wwCzHdpB1scojM
+  Resend only accepts its own API keys, which start with re_ and are generated at resend.com → API Keys. 
+  Grab one of those, paste it into RESEND_API_KEY on the Secrets page, and "Send now" will deliver.
+- SBR Connect: re_FNSZvzfS_7bTmFKG6s9sEg8SksTVuRuXp
+  Used for announcements so it will send to all residents, not just those with user accounts. The daily/weekly still uses built-in email
+  that sends to only those with a user account.

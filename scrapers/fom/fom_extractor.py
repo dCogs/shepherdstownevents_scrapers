@@ -281,7 +281,7 @@ def main():
         driver = setup_driver(headless=False)  # Set to True to run in background
         
         # Navigate to calendar page
-        url = "https://www.friendswv.org/current-season-2025-2026/"
+        url = "https://www.friendswv.org/2026-2027-season/?mc_cid=40891e0637&mc_eid=51e1c2b4a4"
         print(f"Navigating to {url}")
         driver.get(url)
         

@@ -125,7 +125,11 @@ def format_date(date_str):
     #remove day of week
     # month_day_part = date_str.split(", ")[1]
     # print(90, 'date_str:', date_str)
-    dow, month_day = date_str.split(", ")
+    yr = year
+    if date_str.count(", ") == 2:
+        dow, month_day, yr = date_str.split(", ")
+    else:
+        dow, month_day = date_str.split(", ")
     date_str = date_str.strip()
     month, day = month_day.split(" ")
     match month:
@@ -144,7 +148,7 @@ def format_date(date_str):
     day = re.sub(r'(\d+)(st|nd|rd|th)', r'\1', day)
     if len(day) == 1: day = "0" + day
     # print('month:', month, ' day:', day)
-    return year + month + day
+    return yr + month + day
 
 def click_next_month_button(driver):
     """Click the List button on the calendar page"""

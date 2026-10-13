@@ -356,7 +356,8 @@ def extract_event_info(date, event_elements):
 
         # Skip organizations that come in from other scrapers
         if result['organization'] == 'Friends of Shepherdstown Library' or \
-        "Blue Ridge Arts & Crafts" in result['summary']:
+        "Blue Ridge Arts & Crafts" in result['summary'] or \
+        "Death Café" in result['summary']:
             result['dtstart'] = ''
             return result
         
@@ -371,6 +372,9 @@ def extract_event_info(date, event_elements):
 
         if result['location'] == "Grapes and Grains Gourmet":
             result['location'] = "Grapes and Grains Gourmet, 110 E German St, Shepherdstown"
+
+        if "MARKET" in result['location'].upper() and "PLAZA" in result['location'].upper():
+            result['location'] = "Market Plaza (Pilot), S King St, Shepherdstown"
 
         # Check for TICKET LINK they do for Opera House sometimes
         ticket_link = re.search(r'TICKET LINK\s*\n(.*?)', text)
@@ -412,9 +416,11 @@ def extract_event_info(date, event_elements):
                 return result
         
         if "Speak Story Series" in result['summary'] or \
+        "Jam Session at O'Hurley's" in result['summary'] or \
         "Shepherdstown Mystery Walks" in result['description'] or \
         "May Day Celebration" in result['summary'] or \
-        "Women's Ride Wednesdays" in result['summary']:
+        "Women's Ride Wednesdays" in result['summary'] or \
+        "Shepherdstown Farmers Market" in result['summary']:
             result['dtstart'] = ''
             return result
         

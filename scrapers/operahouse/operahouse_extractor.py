@@ -19,6 +19,8 @@ year = "2026"
 # Format the date as a string in YYYYMMDD format
 today = datetime.today()
 today_formatted = today.strftime("%Y%m%d")
+last_date = today + timedelta(days=100)
+last_date_formatted = last_date.strftime("%Y%m%d")
 
 
 def setup_driver(headless=True):
@@ -41,32 +43,40 @@ def setup_driver(headless=True):
     return driver
 
 def format_time(time, title_line):
-    # print('time:', time)
+    # print('44 ,time:', time)
     try:
         if time.startswith("Sunday") or time.startswith("Monday") or time.startswith("Tuesday") or \
         time.startswith("Wednesday") or time.startswith("Thursday") or time.startswith("Friday") or time.startswith("Saturday") or \
         time.startswith("Sun") or time.startswith("Mon") or time.startswith("Tue") or \
         time.startswith("Wed") or time.startswith("Thu") or time.startswith("Fri") or time.startswith("Sat"):
-            dow, tm = time.split(", ")
+            dow, tm = time.split(", ", 1)
             time = tm
+        # print(52, time)
         if " • " in time:
             tm, dt = time.split(" • ")
         else:
             if " at " in time:
-                dt, tm = time.split(" at ")
+                dt, tm = time.split(" at ", 1)
+                # print(57, dt, tm)
             else:
                 if " — " in time:
                     dt, tm = time.split(" — ")
                 else:
                     tm, dt = time.split(",", 1)
-        
+        # print(62, dt, tm)
+        if " & " in tm:
+            tm = tm[0:tm.index(" & ")].strip()
+            print(67, tm)
         event_date = format_date(dt, title_line)
+        # print(64, event_date)
         tm=tm.replace(" ","").strip().replace("Sunday","").replace("Monday","").replace("Tuesday","").\
             replace("Wednesday","").replace("Thursday","").replace("Friday","").replace("Saturday","").\
             replace("Sun","").replace("Mon","").replace("Tue","").\
             replace("Wed","").replace("Thu","").replace("Fri","").replace("Sat","")
         am_pm = "pm"
         if "am" in time: am_pm = "am"
+        if am_pm not in tm:
+            tm = tm + am_pm
         tm = tm[0:tm.index(am_pm)]
         tm = tm.replace(am_pm, "")
         hh, mm = tm.split(":")
@@ -75,13 +85,15 @@ def format_time(time, title_line):
         else:         
             if len(hh) == 1: hh = "0" + hh
         event_time = hh + mm + "00"
+        # print(79, event_date, event_time)
         return (event_date + "T" + event_time + "Z"), event_date
     except:
         return '', ''
 
 def format_date(date_str, title_line):
     try:
-        # print('date_str:', date_str)
+        global year
+        # print('84 date_str:', date_str, title_line)
         date_str = date_str.strip()
         month_day = date_str
         month_day = month_day.strip()
@@ -102,7 +114,12 @@ def format_date(date_str, title_line):
             case "December" | "Dec": month = "12"
         day = re.sub(r'(\d+)(st|nd|rd|th)', r'\1', day)
         if len(day) == 1: day = "0" + day
-        return year + month + day
+        # print(105, date_str, 'ymd:', year + month + day)
+        local_year = year
+        if local_year + month + day < today_formatted:
+            print(118, 'event in new year')
+            local_year = str(int(local_year) + 1)
+        return local_year + month + day
     except Exception as e:
         print(f"Error in format_date: {date_str} - {e}")
         print(f"title_line:", title_line)
@@ -148,11 +165,11 @@ def scrape_schedule_page(driver):
                         dt, title = title_text.split("APR 16 – 19 ")
                     else:
                         if " – " in title_text:
-                            print(141, title_text)
+                            # print(141, title_text)
                             dt, title = title_text.split(" – ")
                         else:
                             if " — " in title_text:
-                                print(145, title_text)
+                                # print(145, title_text)
                                 dt, title = title_text.split(" — ")
                             else:
                                 title = None
@@ -223,13 +240,14 @@ def extract_event_info(event_elements, events_extracted, event_url, event_title 
     location = 'Shepherdstown Opera House, 131 West German Street, Shepherdstown'
     description = ''
     title_line = event_title
-
-    # If the title starts with a number, that number is left over from the date range so remove
-    num, rest_of_it = title_line.split(" ", 1)
-    # print('num:', num, '', 'rest_of_it:', rest_of_it)
-    if num.isnumeric():
-        print('changing title from:', title_line, 'to:', rest_of_it)
-        title_line = rest_of_it
+    # print(236, title_line)
+    if " " in title_line:
+        # If the title starts with a number, that number is left over from the date range so remove
+        num, rest_of_it = title_line.split(" ", 1)
+        # print('num:', num, '', 'rest_of_it:', rest_of_it)
+        if num.isnumeric():
+            print('changing title from:', title_line, 'to:', rest_of_it)
+            title_line = rest_of_it
     lines = event_elements.text.split("\n")
     for line in lines:
         if line > '':
@@ -282,10 +300,13 @@ def extract_event_info(event_elements, events_extracted, event_url, event_title 
         organization = 'Shepherdstown Film Society'
     print(279, title_line)
     for time in times:
-        print(281, time)        
         dtstart, event_date = format_time(time, title_line)
-        if dtstart > '' and event_date > '':
+        print(281, time, 'dtstart:', dtstart, 'event_date:', event_date)        
+        print(301, dtstart, last_date_formatted, dtstart <= last_date_formatted)
+        if dtstart > '' and event_date > '' and dtstart <= last_date_formatted:
+            print(306)
             if event_date >= today_formatted:
+                print(308)
                 result = {
                     'category': 'Music & Film & Stage',
                     'time': '',
@@ -331,9 +352,11 @@ def create_ics_file(events, filename):
         
         # Write events
         for event in events:
+            print(354)
             if not event.get('dtstart'):
                 continue
             # Generate UID
+            print(358)
             uid = f"{event['dtstart']}-{uuid.uuid5(uuid.NAMESPACE_DNS, event['summary'].strip())}@operahouse"
             # Format dates
             dtstamp = datetime.now().strftime('%Y%m%dT%H%M%SZ')

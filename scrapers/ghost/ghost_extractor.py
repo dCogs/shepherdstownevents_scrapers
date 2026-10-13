@@ -38,9 +38,12 @@ day = "01"
 # Format the date as a string in YYYYMMDD format
 today = datetime.today()
 today_formatted = today.strftime("%Y%m%d")
-description = "Duration 1 hour and 30 minutes\n" + \
-    "Stroll through Shepherdstown with a costumed guide who leads you by candlelight from one haunted and historic location to the next.\n\n" + \
-    "Easy 1 mile Walk. Dog-friendly!"
+description = "Stroll through historic Shepherdstown on a 90‑minute candlelit walk led by a " + \
+    "costumed guide who shares ghost stories, local mystery, and town history from early settlers " + \
+    "through the Civil War and the building of the C&O Canal. The tour blends spooky tales of " + \
+    "lingering residents with scenic views along the Potomac River and the charm of West Virginia’s " + \
+    "oldest town. Enjoy atmospheric storytelling that highlights Hollywood connections, regional " + \
+    "lore, and the unique character of this quaint riverside community."
 
 
 def setup_driver(headless=False):
@@ -158,7 +161,7 @@ def extract_event_info(line, events_extracted):
                 'time': '',
                 'more_info_url': 'https://shepherdstownmysterywalks.com/',
                 'more_info_text': '',
-                'summary': 'Ghost Tour!',
+                'summary': 'Ghost Tour / History Tour',
                 'description': description,
                 'location': 'Welcome Center at the Market House, 100 East German St, Shepherdstown',
                 'location_details': '',
