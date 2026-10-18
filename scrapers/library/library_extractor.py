@@ -240,10 +240,11 @@ def events_from_jsonld(session, pages):
 def write_ics(events, path):
     stamp = utc(dt.datetime.now(dt.timezone.utc))
     lines = ["BEGIN:VCALENDAR", "VERSION:2.0",
-             "PRODID:-//potomacaudubon.org//calendar//EN",
+             "PRODID:-//sheplibrary.org//Events//EN",
              "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
              "X-WR-CALNAME:Shepherdstown Public Library Calendar",
              "X-WR-TIMEZONE:America/New_York"]
+
     seen = set()
     for e in sorted(events, key=lambda e: e["start"]):
         key = (e["name"], e["start"])

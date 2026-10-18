@@ -173,10 +173,11 @@ def main():
 
     events.sort(key=lambda e: e[1])
     lines = ["BEGIN:VCALENDAR", "VERSION:2.0",
-             "PRODID:-//potomacaudubon.org//calendar//EN",
+             "PRODID:-//shepherdstownmysterywalks.com//calendar//EN",
              "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
              "X-WR-CALNAME:Shepherdstown Mystery Walks Calendar",
              "X-WR-TIMEZONE:America/New_York"]
+
     for ev, _ in events:
         lines += ev
     lines.append("END:VCALENDAR")

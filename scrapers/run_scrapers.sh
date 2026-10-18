@@ -27,6 +27,7 @@ echo "Parent script started."
 #./scrape.sh "sull"
 # ./scrape.sh "trptc"
 ./scrape.sh "trw"
+./scrape.sh "livemusic"
 
 # Show the scraped_files directory
 echo "Here are the scraped_files."
