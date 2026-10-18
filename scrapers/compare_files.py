@@ -130,13 +130,13 @@ def main():
         only_in_1 = events1 - events2
         only_in_2 = events2 - events1
         if only_in_1:
-            print(f"  Events only in {file1}: {len(only_in_1)}", file=sys.stderr)
+            print(f"  Events only in new file - {file1}: {len(only_in_1)}", file=sys.stderr)
             for ev in sorted(only_in_1):
                 summary = next((l for l in ev if l.startswith('SUMMARY:')), '')
                 dtstart = next((l for l in ev if l.startswith('DTSTART')), '')
                 print(f"    {dtstart}  {summary}", file=sys.stderr)
         if only_in_2:
-            print(f"  Events only in {file2}: {len(only_in_2)}", file=sys.stderr)
+            print(f"  Events only in old file - {file2}: {len(only_in_2)}", file=sys.stderr)
             for ev in sorted(only_in_2):
                 summary = next((l for l in ev if l.startswith('SUMMARY:')), '')
                 dtstart = next((l for l in ev if l.startswith('DTSTART')), '')

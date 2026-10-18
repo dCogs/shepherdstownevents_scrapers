@@ -1,360 +1,189 @@
 #!/usr/bin/env python3
 """
-Shepherdstown Mystery Walks Calendar Event Extractor with Browser Automation
-This script navigates to the calendar page, clicks the List button,
-and extracts all events to an ICS file.
+Build an .ics calendar from a FareHarbor item's availabilities.
 
-Requirements:
-    pip install selenium
-    
-You also need ChromeDriver installed and in your PATH
+FareHarbor's calendar page is an empty JS shell; the month grid is filled
+from a JSON endpoint that already contains every time slot for the month,
+so no per-date clicking is needed:
+
+  https://fareharbor.com/api/v1/companies/<company>/items/<item>/calendar/<YYYY>/<MM>/
+
+Usage:
+  python3 fareharbor_ics.py                          # this month + next 2
+  python3 fareharbor_ics.py --months 6 -o walks.ics
+  python3 fareharbor_ics.py --start 2026-10 --months 3 --dump raw/
 """
-
-# import sys
-# import os
-# # Get the absolute path of the current script's directory
-# current_dir = os.path.dirname(os.path.abspath(__file__))
-# # Get the path of the parent directory
-# parent_dir = os.path.dirname(current_dir)
-# # Insert the parent directory path into sys.path
-# sys.path.insert(0, parent_dir)
-
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException, NoSuchElementException
-import uuid
+import argparse
+import datetime as dt
+import hashlib
+import json
+import pathlib
+import sys
 from datetime import datetime, timedelta
 from datetime import date
-import time
-import re
-# import category_matcher
 
-# Global variables
-year = "2026"
-global_month = ""
-day = "01"
-# Format the date as a string in YYYYMMDD format
-today = datetime.today()
-today_formatted = today.strftime("%Y%m%d")
-description = "Stroll through historic Shepherdstown on a 90‑minute candlelit walk led by a " + \
-    "costumed guide who shares ghost stories, local mystery, and town history from early settlers " + \
-    "through the Civil War and the building of the C&O Canal. The tour blends spooky tales of " + \
-    "lingering residents with scenic views along the Potomac River and the charm of West Virginia’s " + \
-    "oldest town. Enjoy atmospheric storytelling that highlights Hollywood connections, regional " + \
-    "lore, and the unique character of this quaint riverside community."
+import requests
+
+COMPANY = "shepherdstownmysterywalks"
+ITEM = 190345
+API = "https://fareharbor.com/api/v1/companies/{c}/items/{i}/calendar/{y}/{m:02d}/"
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                  "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36",
+    "Accept": "application/json",
+    "Referer": "https://fareharbor.com/embeds/book/{c}/items/{i}/calendar/",
+}
 
 
-def setup_driver(headless=False):
-    """Setup Chrome WebDriver"""
-    options = webdriver.ChromeOptions()
-    if headless:
-        options.add_argument('--headless')
-    options.add_argument('--no-sandbox')
-    options.add_argument('--disable-dev-shm-usage')
-    options.add_argument('--disable-blink-features=AutomationControlled')
-    options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
-    
-    driver = webdriver.Chrome(options=options)
-    return driver
+def months(start: dt.date, n: int):
+    y, m = start.year, start.month
+    for _ in range(n):
+        yield y, m
+        m += 1
+        if m == 13:
+            y, m = y + 1, 1
 
 
-def format_time(time):
-    # time = time.replace(":", "")
-    time=time.replace(" ","")
-    am_pm = "PM"
-    if "AM" in time: am_pm = "AM"
-    time = time.replace(am_pm, "")
-    hh, mm = time.split(":")
-    if am_pm == "PM" and hh != "12":
-        hh = str(int(hh) + 12)
-    else:         
-        if len(hh) == 1: hh = "0" + hh
-    return (hh + mm + "00")
+def fetch_month(session, company, item, y, m):
+    url = API.format(c=company, i=item, y=y, m=m)
+    r = session.get(url, params={"allow_grouped": "yes", "bookable_only": "no"},
+                    timeout=30)
+    r.raise_for_status()
+    return r.json()
 
-def extract_event_info(line, events_extracted):
-    """
-    Extract Category, More Info, Description, Location, Contact, Phone, and Email
-    from event text string
-    """
-    # result = {
-    #     'category': '',
-    #     'time': '',
-    #     'more_info_url': '',
-    #     'more_info_text': '',
-    #     'summary': '',
-    #     'description': '',
-    #     'location': '',
-    #     'location_details': '',
-    #     'contact_name': '',
-    #     'contact_phone': '',
-    #     'contact_email': '',
-    #     'dtstart': '',
-    #     'dtend': '',
-    #     'allday': ''
-    # }
-    global global_month
-    global day
-    global year
-    global description
-    if line > '':
-        # print(197, line)
-        if line.startswith("Jan"): 
-            global_month = "01"
-            day = "01"
-            # return
-        if line.startswith("Feb"): 
-            global_month = "02"
-            day = "01"
-            # print('global_month:', global_month)
-            # return
-        if line.startswith("Mar"): 
-            global_month = "03"
-            day = "01"
-            # return
-        if line.startswith("Apr"): 
-            global_month = "04"
-            day = "01"
-            # return
-        if line.startswith("May"): 
-            global_month = "05"
-            day = "01"
-            # return
-        if line.startswith("Jun"): 
-            global_month = "06"
-            day = "01"
-            # return
-        if line.startswith("Jul"): 
-            global_month = "07"
-            day = "01"
-            # return
-        if line.startswith("Aug"): 
-            global_month = "08"
-            day = "01"
-            # return
-        if line.startswith("Sep"): 
-            global_month = "09"
-            day = "01"
-            # return
-        if line.startswith("Oct"): 
-            global_month = "10"
-            day = "01"
-            # return
-        if line.startswith("Nov"): 
-            global_month = "11"
-            day = "01"
-            # return
-        if line.startswith("Dec"): 
-            global_month = "12"
-            day = "01"
-            # return
-        # print('249 global_month:', global_month)
 
-        if "Ghost Tour" in line:
-            # print('252 global_month:', global_month)
-            tm, event = line.split(" Ghost Tour")
-            time = format_time(tm)
-            dtstart = year + global_month + day + "T" + time + "Z"
-            result = {
-                'category': 'History',
-                'time': '',
-                'more_info_url': 'https://shepherdstownmysterywalks.com/',
-                'more_info_text': '',
-                'summary': 'Ghost Tour / History Tour',
-                'description': description,
-                'location': 'Welcome Center at the Market House, 100 East German St, Shepherdstown',
-                'location_details': '',
-                'contact_name': 'Janet Hughes',
-                'contact_phone': '(301) 639-0351',
-                'contact_email': 'jhughes@shepherdstownmysterywalks.com',
-                'dtstart': dtstart,
-                'dtend': '',
-                'allday': ''
-            }
-            events_extracted.append(result)
-            # return
-            # continue
-        if line.isnumeric():
-            if len(line) == 1: day = "0" + line
-            else: day = line
-        # print('275 global_month:', global_month)
+def find_availabilities(obj):
+    """Walk the JSON and yield every dict that looks like an availability
+    (has start_at). Robust to FareHarbor reshuffling the nesting
+    (calendar -> weeks -> days -> availabilities)."""
+    if isinstance(obj, dict):
+        if "start_at" in obj and ("pk" in obj or "end_at" in obj):
+            yield obj
+            return
+        for v in obj.values():
+            yield from find_availabilities(v)
+    elif isinstance(obj, list):
+        for v in obj:
+            yield from find_availabilities(v)
 
-def create_ics_file(events, filename):
-    """Create ICS file from events"""
-    with open(filename, 'w', encoding='utf-8') as f:
-        # Write header
-        f.write("BEGIN:VCALENDAR\n")
-        f.write("VERSION:2.0\n")
-        f.write("PRODID:-//potomacaudubon.org//calendar//EN\n")
-        f.write("CALSCALE:GREGORIAN\n")
-        f.write("METHOD:PUBLISH\n")
-        f.write("X-WR-CALNAME:Shepherdstown Mystery Walks Calendar\n")
-        f.write("X-WR-TIMEZONE:America/New_York\n")
-        
-        event_num = 0
-        # Write events
-        for event in events:
-            if not event.get('dtstart'):
-                continue
-            event_num += 1
-            # Generate UID
-            uid = f"{event['dtstart']}-{uuid.uuid5(uuid.NAMESPACE_DNS, event['summary'].strip())}@ghost"
-            
-            # Format dates
-            dtstamp = datetime.now().strftime('%Y%m%dT%H%M%SZ')
-            dtstart = event['dtstart']
-            dtend = event['dtend']
-            
-            # Escape special characters
-            def escape_ics(text):
-                if not text:
-                    return ""
-                return (text.replace('\\', '\\\\')
-                           .replace(',', '\\,')
-                           .replace(';', '\\;')
-                           .replace('\n', '\\n'))
-            
-            summary = escape_ics(event['summary'])
-            # location = escape_ics(event['location'])
-            location = event['location']
-            description = escape_ics(event['description'])
-            # category = ', '.join(event['category'])
-            category = event['category']
-            url = event.get('more_info_url', '')
-            # address = ''
-            # print('dtstart:', dtstart)
-            f.write("BEGIN:VEVENT\n")
-            f.write(f"UID:{uid}\n")
-            f.write(f"DTSTAMP:{dtstamp}\n")
-            f.write(f"DTSTART:{dtstart}\n")
-            f.write(f"DTEND:{dtend}\n")
-            f.write(f"SUMMARY:{summary}\n")
-            f.write(f"LOCATION:{location}\n")
-            # f.write(f"ADDRESS:{address}\n")
-            f.write(f"DESCRIPTION:{description}\n")
-            f.write(f"CATEGORIES:{category}\n")
-            f.write(f"ORGANIZATION:Shepherdstown Mystery Walks\n")
-            if url:
-                f.write(f"URL:{url}\n")
-            f.write("STATUS:CONFIRMED\n")
-            f.write("SOURCE:shepherdstownmysterywalks.com/\n")
-            if event_num % 3 == 0:
-                f.write("IMAGE_URL:shepherdstownmysterywalks.com/wp-content/uploads/2023/04/download-_5_.jpg\n")
-            f.write("SEQUENCE:0\n")
-            f.write("END:VEVENT\n")
-        
-        # Write footer
-        f.write("END:VCALENDAR\n")
+
+def parse_ts(s):
+    # FareHarbor uses e.g. "2026-10-24T19:00:00-0400"
+    for fmt in ("%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M%z"):
+        try:
+            return dt.datetime.strptime(s, fmt)
+        except ValueError:
+            pass
+    return dt.datetime.fromisoformat(s)
+
+
+def ics_escape(s):
+    return (str(s).replace("\\", "\\\\").replace(";", "\\;")
+            .replace(",", "\\,").replace("\n", "\\n"))
+
+
+def utc(d):
+    return d.astimezone(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+
+
+# Fixed fields, matching ghost.ics
+UID_SUFFIX = "85b455c0-974a-5d17-afe0-f60a7c4154af@ghost"
+SUMMARY = "Ghost Tour / History Tour"
+LOCATION = "Welcome Center at the Market House, 100 East German St, Shepherdstown"
+DESCRIPTION = (
+    "Stroll through historic Shepherdstown on a 90\u2011minute candlelit walk led by a "
+    "costumed guide who shares ghost stories, local mystery, and town history from "
+    "early settlers through the Civil War and the building of the C&O Canal. The tour "
+    "blends spooky tales of lingering residents with scenic views along the Potomac "
+    "River and the charm of West Virginia\u2019s oldest town. Enjoy atmospheric "
+    "storytelling that highlights Hollywood connections, regional lore, and the "
+    "unique character of this quaint riverside community."
+)
+SITE = "https://shepherdstownmysterywalks.com/"
+IMAGE_URL = "shepherdstownmysterywalks.com/wp-content/uploads/2023/04/download-_5_.jpg"
+
+
+def to_event(a, dtstamp):
+    start = parse_ts(a["start_at"])
+    end = parse_ts(a["end_at"]) if a.get("end_at") else start + dt.timedelta(minutes=90)
+    return [
+        "BEGIN:VEVENT",
+        f"UID:{utc(start)}-{UID_SUFFIX}",
+        f"DTSTAMP:{dtstamp}",
+        f"DTSTART:{utc(start)}",
+        f"DTEND:",
+        f"SUMMARY:{SUMMARY}",
+        f"LOCATION:{LOCATION}",
+        f"DESCRIPTION:{ics_escape(DESCRIPTION)}",
+        "CATEGORIES:History",
+        "ORGANIZATION:Shepherdstown Mystery Walks",
+        f"URL:{SITE}",
+        "STATUS:CONFIRMED",
+        "SOURCE:shepherdstownmysterywalks.com/",
+        f"IMAGE_URL:{IMAGE_URL}",
+        "SEQUENCE:0",
+        "END:VEVENT",
+    ], start
+
 
 def main():
-    """Main function"""
-    # print("="*70)
-    print("Shepherdstown Mystery Walks Calendar Event Extractor")
-    # # print("="*70)
-    print()
-    
-    driver = None
-    try:
-        # Setup driver
-        # print("Setting up Chrome WebDriver...")
-        driver = setup_driver(headless=False)  # Set to True to run in background
-        
-        # Navigate to calendar page
-        url = "https://fareharbor.com/embeds/book/shepherdstownmysterywalks/items/190345/calendar/"
-        print(f"Navigating to {url}")
-        driver.get(url)
-        
-        # Wait for page to load
-        wait = WebDriverWait(driver, 10)
-        # print("Waiting for page to load...")
-        time.sleep(5)
-        
-        events_extracted = []
-        pages_scraped = 0
-        events = driver.find_elements(By.CLASS_NAME, "month-current")
+    p = argparse.ArgumentParser()
+    p.add_argument("--company", default=COMPANY)
+    p.add_argument("--item", type=int, default=ITEM)
+    p.add_argument("--start", help="YYYY-MM (default: current month)")
+    p.add_argument("--months", type=int, default=3)
+    p.add_argument("-o", "--output", default="shepherdstown_mystery_walks.ics")
+    p.add_argument("--dump", help="directory to save raw month JSON (debugging)")
+    args = p.parse_args()
 
-        # Extract up to a maximum months. Keep 1 or 2 while testing
-        max_pages = 3
-        while pages_scraped < max_pages:
-            # pages_scraped += 1
-            # print("scraping ", pages_scraped)
-            events = driver.find_elements(By.CLASS_NAME, "month-current")
-            for event in events:
-                # print('pages_scraped:', pages_scraped)
-                # print(event.text)
-                event_lines = event.text.strip().split("\n")
-                for line in event_lines:
-                    extract_event_info(line, events_extracted)
-                # if event_elements['dtstart'] > '':
-                #     events_extracted.append(event_elements)
-                # break
-            pages_scraped += 1
+    today = datetime.today()
+    today_formatted = today.strftime("%Y%m%d")
+    output_file = 'ghost_' + today_formatted + '.ics'
 
-            # Click next month button
-            if pages_scraped < max_pages:
-                try:
-                    button = driver.find_element(By.CLASS_NAME, "test-select-next-month-action")
-                    button.click()
-                    wait = WebDriverWait(driver, 10)
-                    # print("Waiting for page to load...")
-                    time.sleep(5)
-                    print("✓ Clicked Next Month button")
-                except Exception as e:
-                    print(f"\nError: {e}")
-                    import traceback
-                    traceback.print_exc()
+    start = (dt.datetime.strptime(args.start, "%Y-%m").date() if args.start
+             else dt.date.today().replace(day=1))
 
-                
-                # url = "https://fareharbor.com/embeds/book/shepherdstownmysterywalks/items/190345/calendar/2026/03/?full-items=yes" + str(pages_scraped) + "/"
-                # print(url)
-                # print(f"Navigating to {url}")
-                # driver.get(url)                
-                # # Wait for page to load
-                # wait = WebDriverWait(driver, 50)
-                # # print("Waiting for page to load...")
-                #     time.sleep(5)
-                 
-                
-                # cont = click_next_month_button(driver)
-                # if not cont:
-                #     max_pages = pages_scraped
-            
-        if not events_extracted:
-            print("\nNo events found. The page structure may have changed.")
-        else:
-            # Save to ICS
-            output_file = 'ghost_' + today_formatted + '.ics'
-            print(f"\nSaving {len(events_extracted)} events to {output_file}...")
-            create_ics_file(events_extracted, output_file)
-            print(f"✓ ICS file created successfully!")
-            
-            # Print summary
-            # print("\n" + "="*70)
-            # # print("EVENTS SUMMARY")
-            # # print("="*70)
-            # for i, event in enumerate(events_extracted[:5], 1):
-            #     print(f"\n{i}. {event['summary']}")
-            #     print(f"   Date: {event['dtstart']}")
-            #     print(f"   Location: {event['location']}")
-            
-            # if len(events_extracted) > 5:
-            #     print(f"\n... and {len(events_extracted) - 5} more events")
-            
-            # print("\n" + "="*70)
-            print(f"Total events: {len(events_extracted)}")
-            # print("="*70)
-        
-    except Exception as e:
-        print(f"\nError: {e}")
-        import traceback
-        traceback.print_exc()
-        
-    finally:
-        if driver:
-            print("\nClosing browser...")
-            driver.quit()
-            # print("Done!")
+    s = requests.Session()
+    s.headers.update({k: v.format(c=args.company, i=args.item)
+                      for k, v in HEADERS.items()})
+
+    dtstamp = utc(dt.datetime.now(dt.timezone.utc))
+    seen, events = set(), []
+    for y, m in months(start, args.months):
+        try:
+            data = fetch_month(s, args.company, args.item, y, m)
+        except requests.HTTPError as e:
+            print(f"{y}-{m:02d}: HTTP {e.response.status_code}", file=sys.stderr)
+            continue
+        if args.dump:
+            d = pathlib.Path(args.dump)
+            d.mkdir(parents=True, exist_ok=True)
+            (d / f"{y}-{m:02d}.json").write_text(json.dumps(data, indent=2))
+        n = 0
+        for a in find_availabilities(data):
+            key = utc(parse_ts(a["start_at"]))  # one event per start time
+            if key in seen:  # calendar weeks overlap month boundaries
+                continue
+            if a.get("is_cancelled") or a.get("status") == "cancelled":
+                continue
+            seen.add(key)
+            events.append(to_event(a, dtstamp))
+            n += 1
+        print(f"{y}-{m:02d}: {n} slots", file=sys.stderr)
+
+    events.sort(key=lambda e: e[1])
+    lines = ["BEGIN:VCALENDAR", "VERSION:2.0",
+             "PRODID:-//potomacaudubon.org//calendar//EN",
+             "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
+             "X-WR-CALNAME:Shepherdstown Mystery Walks Calendar",
+             "X-WR-TIMEZONE:America/New_York"]
+    for ev, _ in events:
+        lines += ev
+    lines.append("END:VCALENDAR")
+    pathlib.Path(output_file).write_text(
+        "\n".join(lines) + "\n", encoding="utf-8")
+    print(f"Wrote {len(events)} events to {output_file}", file=sys.stderr)
+
 
 if __name__ == "__main__":
     main()
