@@ -59,12 +59,12 @@ def extract_date_times(date_time_string):
         all_day = True
         if "-" in date_time_string:
             start_date, end_date = date_time_string.split(" - ")
-            dtstart = format_date(start_date) + "T000000Z"
+            dtstart = format_date(start_date) + "T000000"
             start_description_with_date_time = True
-            # dtend = format_date(end_date) + "T000000Z"
+            # dtend = format_date(end_date) + "T000000"
         else:
             start_date = format_date(date_time_string)
-            dtstart = start_date + "T000000Z"
+            dtstart = start_date + "T000000"
     else:
         date_part, time_part = date_time_string.split(" @ ")
         start_date = format_date(date_part)
@@ -72,11 +72,11 @@ def extract_date_times(date_time_string):
             begin_time, end_time = time_part.split(" - ")
             begin_time_formatted = format_time(begin_time)
             end_time_formatted = format_time(end_time)
-            dtstart = start_date + "T" + begin_time_formatted + "Z"
-            dtend = start_date + "T" + end_time_formatted + "Z"
+            dtstart = start_date + "T" + begin_time_formatted + ""
+            dtend = start_date + "T" + end_time_formatted + ""
         else:
             begin_time_formatted = format_time(time_part)
-            dtstart = start_date + "T" + begin_time_formatted + "Z"
+            dtstart = start_date + "T" + begin_time_formatted + ""
 
     return dtstart, dtend, all_day, start_description_with_date_time
 
@@ -99,7 +99,7 @@ def format_time(time):
     else:         
         if len(hh) == 1: hh = "0" + hh
     event_time = hh + mm + "00"
-    return (event_date + "T" + event_time + "Z"), event_date
+    return (event_date + "T" + event_time + ""), event_date
 
 def format_date(date_str):
     #remove day of week
@@ -226,7 +226,7 @@ def create_ics_file(events, filename):
             uid = f"{event['dtstart']}-{uuid.uuid5(uuid.NAMESPACE_DNS, event['summary'].strip())}@fom"
             
             # Format dates
-            dtstamp = datetime.now().strftime('%Y%m%dT%H%M%SZ')
+            dtstamp = datetime.now().strftime('%Y%m%dT%H%M%S')
             dtstart = event['dtstart']
             dtend = event['dtend']
             
@@ -281,7 +281,7 @@ def main():
         driver = setup_driver(headless=False)  # Set to True to run in background
         
         # Navigate to calendar page
-        url = "https://www.friendswv.org/2026-2027-season/?mc_cid=40891e0637&mc_eid=51e1c2b4a4"
+        url = "https://www.friendswv.org/2026-2027-season"
         print(f"Navigating to {url}")
         driver.get(url)
         

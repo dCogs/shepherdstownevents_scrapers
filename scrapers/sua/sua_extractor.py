@@ -125,7 +125,7 @@ def create_ics_file(events, filename):
             uid = f"{event['dtstart']}-{uuid.uuid5(uuid.NAMESPACE_DNS, event['summary'].strip())}@sua"
             
             # Format dates
-            dtstamp = datetime.now().strftime('%Y%m%dT%H%M%SZ')
+            dtstamp = datetime.now().strftime('%Y%m%dT%H%M%S')
             dtstart = event['dtstart']
             dtend = event['dtend']
             
@@ -256,7 +256,7 @@ def main():
                             event_time = format_time(text_content)
                             if event_time != "POSTPONED":
                                 # print('event_time:', time)
-                                dtstart = curr_date.replace("-","") + "T" + event_time + "Z"
+                                dtstart = curr_date.replace("-","") + "T" + event_time + ""
                         if "location" in text_context: event_location = text_content
                         # print('event_sport:', event_sport, 'event_time:', event_time, 'event_opponent:', event_opponent, 'event_location:', event_location)
 

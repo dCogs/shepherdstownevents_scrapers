@@ -59,12 +59,12 @@ def extract_date_times(date_time_string):
         all_day = True
         if "-" in date_time_string:
             start_date, end_date = date_time_string.split(" - ")
-            dtstart = format_date(start_date) + "T000000Z"
+            dtstart = format_date(start_date) + "T000000"
             start_description_with_date_time = True
-            # dtend = format_date(end_date) + "T000000Z"
+            # dtend = format_date(end_date) + "T000000"
         else:
             start_date = format_date(date_time_string)
-            dtstart = start_date + "T000000Z"
+            dtstart = start_date + "T000000"
     else:
         date_part, time_part = date_time_string.split(" @ ")
         start_date = format_date(date_part)
@@ -72,11 +72,11 @@ def extract_date_times(date_time_string):
             begin_time, end_time = time_part.split(" - ")
             begin_time_formatted = format_time(begin_time)
             end_time_formatted = format_time(end_time)
-            dtstart = start_date + "T" + begin_time_formatted + "Z"
-            dtend = start_date + "T" + end_time_formatted + "Z"
+            dtstart = start_date + "T" + begin_time_formatted + ""
+            dtend = start_date + "T" + end_time_formatted + ""
         else:
             begin_time_formatted = format_time(time_part)
-            dtstart = start_date + "T" + begin_time_formatted + "Z"
+            dtstart = start_date + "T" + begin_time_formatted + ""
 
     return dtstart, dtend, all_day, start_description_with_date_time
 
@@ -201,14 +201,14 @@ def extract_event_info(event_elements):
         #     if "  " in event_time:
         #         print('event_time:', event_time)
         #     dt = event_time.get_attribute("datetime")
-        #     dtstart = dt.replace("-","") + "T" + format_time(event_time.text) + "Z"
+        #     dtstart = dt.replace("-","") + "T" + format_time(event_time.text) + ""
         #     # print('dt:', dt, ' event_time:', event_time.text, ' dtstart:', dtstart)
         if date2 == '':
-            dtstart = date1 + "T" + time1 + "Z"
-            dtend = date1 + "T" + time2 + "Z"
+            dtstart = date1 + "T" + time1 + ""
+            dtend = date1 + "T" + time2 + ""
         else:
-            dtstart = date1 + "T" + time1 + "Z"
-            dtend = date2 + "T" + time2 + "Z"
+            dtstart = date1 + "T" + time1 + ""
+            dtend = date2 + "T" + time2 + ""
         location = "The Black Box Arts Center - 113 South Princess Street, Shepherdstown"
         organization = "The Roving Peregrine Theatre Company"
         result['category'] = category
@@ -244,7 +244,7 @@ def create_ics_file(events, filename):
             uid = f"{event['dtstart']}-{uuid.uuid5(uuid.NAMESPACE_DNS, event['summary'].strip())}@trptc"
             
             # Format dates
-            dtstamp = datetime.now().strftime('%Y%m%dT%H%M%SZ')
+            dtstamp = datetime.now().strftime('%Y%m%dT%H%M%S')
             dtstart = event['dtstart']
             dtend = event['dtend']
             

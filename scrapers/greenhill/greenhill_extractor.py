@@ -189,8 +189,8 @@ def extract_event_info(event_elements, events_extracted, event_url, event_title 
     date, time = date_time.rsplit(", ",1)
     date = format_date(date)
     tmstart, tmend = format_time(time)
-    dtstart = date + "T" + tmstart + "Z"
-    dtend = date + "T" + tmend + "Z"
+    dtstart = date + "T" + tmstart + ""
+    dtend = date + "T" + tmend + ""
     location = 'Green Hill Farm, 5329 Mondell Rd, Sharpsburg, MD'
     organization = 'Green Hill Farm'
     if date >= today_formatted:
@@ -242,7 +242,7 @@ def create_ics_file(events, filename):
             # Generate UID
             uid = f"{event['dtstart']}-{uuid.uuid5(uuid.NAMESPACE_DNS, event['summary'].strip())}@greenhill"
             # Format dates
-            dtstamp = datetime.now().strftime('%Y%m%dT%H%M%SZ')
+            dtstamp = datetime.now().strftime('%Y%m%dT%H%M%S')
             dtstart = event['dtstart']
             dtend = event['dtend']
             # summary = escape_ics(event['title'])

@@ -40,14 +40,15 @@ CATEGORY = "Library"
 
 # ---------- helpers ----------
 def utc(d):
-    return d.astimezone(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    # return d.astimezone(dt.timezone.utc).strftime("%Y%m%dT%H%M%S")
+    return d.strftime("%Y%m%dT%H%M%S")
 
 
 
 def local_z(d):
     """Eastern clock time written with a Z
     (a 7pm event -> T190000Z) and what the importer expects."""
-    return eastern_now(d).strftime("%Y%m%dT%H%M%SZ")
+    return eastern_now(d).strftime("%Y%m%dT%H%M%S")
 
 
 def esc(s):

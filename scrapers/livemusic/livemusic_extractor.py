@@ -88,7 +88,8 @@ def infer_year(month, day, today):
 
 def local_z(d):
     # Eastern wall-clock with Z -- same convention as the other feeds
-    return d.astimezone(EASTERN).strftime("%Y%m%dT%H%M%S")
+    # return d.astimezone(EASTERN).strftime("%Y%m%dT%H%M%S")
+    return d.strftime("%Y%m%dT%H%M%S")
 
 
 def esc(s):
@@ -190,7 +191,8 @@ def write_ics(events, path):
         if key in seen or \
         "O’Hurley" in e['name'] or "O’Hurley" in e['venue'] or \
         "Shepherdstown Opera House" in e['venue'] or \
-        "Shepherd Univ" in e['venue']:
+        "Shepherd Univ" in e['venue'] or \
+        "S King St" in e['venue']:
             continue
         seen.add(key)
         h = hashlib.sha1(f"{e['name']}|{e['venue']}".encode()).hexdigest()[:16]

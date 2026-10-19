@@ -79,7 +79,8 @@ def infer_year(month, day, today):
 
 def local_z(d):
     # Eastern wall-clock with Z -- same convention as the other feeds
-    return d.astimezone(EASTERN).strftime("%Y%m%dT%H%M%SZ")
+    # return d.astimezone(EASTERN).strftime("%Y%m%dT%H%M%SZ")
+    return d.strftime("%Y%m%dT%H%M%S")
 
 
 def esc(s):

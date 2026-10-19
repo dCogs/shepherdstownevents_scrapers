@@ -74,7 +74,7 @@ def extract_date_times(date_time_string):
         case "Dec": month = "12"
     yyyy_mm_dd = year + month + dom
     time = format_time(time)    
-    dtstart = yyyy_mm_dd + "T" + time + "Z"
+    dtstart = yyyy_mm_dd + "T" + time + ""
     all_day = False
     return dtstart
 
@@ -193,7 +193,7 @@ def create_ics_file(events, filename):
             uid = f"{event['dtstart']}-{uuid.uuid5(uuid.NAMESPACE_DNS, event['summary'].strip())}@prbrewing"
             
             # Format dates
-            dtstamp = datetime.now().strftime('%Y%m%dT%H%M%SZ')
+            dtstamp = datetime.now().strftime('%Y%m%dT%H%M%S')
             dtstart = event['dtstart']
             dtend = event['dtend']
             

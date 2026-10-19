@@ -83,7 +83,8 @@ def ics_escape(s):
 
 
 def utc(d):
-    return d.astimezone(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    # return d.astimezone(dt.timezone.utc).strftime("%Y%m%dT%H%M%S")
+    return d.strftime("%Y%m%dT%H%M%S")
 
 
 # Fixed fields, matching ghost.ics

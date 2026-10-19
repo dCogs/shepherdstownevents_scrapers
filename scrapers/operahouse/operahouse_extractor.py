@@ -86,7 +86,7 @@ def format_time(time, title_line):
             if len(hh) == 1: hh = "0" + hh
         event_time = hh + mm + "00"
         # print(79, event_date, event_time)
-        return (event_date + "T" + event_time + "Z"), event_date
+        return (event_date + "T" + event_time + ""), event_date
     except:
         return '', ''
 
@@ -359,7 +359,7 @@ def create_ics_file(events, filename):
             print(358)
             uid = f"{event['dtstart']}-{uuid.uuid5(uuid.NAMESPACE_DNS, event['summary'].strip())}@operahouse"
             # Format dates
-            dtstamp = datetime.now().strftime('%Y%m%dT%H%M%SZ')
+            dtstamp = datetime.now().strftime('%Y%m%dT%H%M%S')
             dtstart = event['dtstart']
             dtend = event['dtend']
             # summary = escape_ics(event['title'])

@@ -66,15 +66,15 @@ def extract_date_times(date_time_string):
         if "-" in date_time_string:
             start_date, end_date = date_time_string.split(" - ")
             if format_date(start_date) <= last_import_date:
-                dtstart = format_date(start_date) + "T000000Z"
+                dtstart = format_date(start_date) + "T000000"
                 start_description_with_date_time = True
-                # dtend = format_date(end_date) + "T000000Z"
+                # dtend = format_date(end_date) + "T000000"
             else:
                 after_last_import_date = True
         else:
             start_date = format_date(date_time_string)
             if start_date <= last_import_date:
-                dtstart = start_date + "T000000Z"
+                dtstart = start_date + "T000000"
             else:
                 after_last_import_date = True
     else:
@@ -85,11 +85,11 @@ def extract_date_times(date_time_string):
                 begin_time, end_time = time_part.split(" - ")
                 begin_time_formatted = format_time(begin_time)
                 end_time_formatted = format_time(end_time)
-                dtstart = start_date + "T" + begin_time_formatted + "Z"
-                dtend = start_date + "T" + end_time_formatted + "Z"
+                dtstart = start_date + "T" + begin_time_formatted + ""
+                dtend = start_date + "T" + end_time_formatted + ""
             else:
                 begin_time_formatted = format_time(time_part)
-                dtstart = start_date + "T" + begin_time_formatted + "Z"
+                dtstart = start_date + "T" + begin_time_formatted + ""
         else:
             after_last_import_date = True
 
@@ -245,7 +245,7 @@ def create_ics_file(events, filename):
             uid = f"{event['dtstart']}-{uuid.uuid5(uuid.NAMESPACE_DNS, event['summary'].strip())}@trw"
             
             # Format dates
-            dtstamp = datetime.now().strftime('%Y%m%dT%H%M%SZ')
+            dtstamp = datetime.now().strftime('%Y%m%dT%H%M%S')
             dtstart = event['dtstart']
             dtend = event['dtend']
             

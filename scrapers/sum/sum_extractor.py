@@ -128,7 +128,7 @@ def format_date(date_str):
 #     # print('date_element:', date_element, 'dd:', dd)
 #     date = format_date(date_element)
 #     tm =format_time(dd)
-#     return date + "T" + tm + "Z"
+#     return date + "T" + tm + ""
 
 def create_ics_file(events, filename):
     """Create ICS file from events"""
@@ -151,7 +151,7 @@ def create_ics_file(events, filename):
             uid = f"{event['dtstart']}-{uuid.uuid5(uuid.NAMESPACE_DNS, event['summary'].strip())}@sum"
             
             # Format dates
-            dtstamp = datetime.now().strftime('%Y%m%dT%H%M%SZ')
+            dtstamp = datetime.now().strftime('%Y%m%dT%H%M%S')
             dtstart = event['dtstart']
             dtend = event['dtend']
             
@@ -294,8 +294,8 @@ def main():
 
                 if times == "All day":
                     all_day = 'true'
-                    dtstart = event_date + "T" + "000000Z"
-                    dtend = event_date + "T" + "235959Z"
+                    dtstart = event_date + "T" + "000000"
+                    dtend = event_date + "T" + "235959"
                 else:
                     if times == '' and title == '':
                         continue
@@ -303,8 +303,8 @@ def main():
                         # print('title:', title)
                         # print('times:', times)
                         start_time, end_time = format_time(times)
-                        dtstart = event_date + "T" + start_time + "Z"
-                        dtend = event_date + "T" + end_time + "Z"
+                        dtstart = event_date + "T" + start_time + ""
+                        dtend = event_date + "T" + end_time + ""
                 # print('times:', times, 'start_time:', start_time, 'dtstart:', dtstart)
                 
                 # # Skip certain conditions

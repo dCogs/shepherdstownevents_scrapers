@@ -221,7 +221,7 @@ def extract_event_info(date, event_elements):
                     hh = str(int(hh) + 12)
                 else:         
                     if len(hh) == 1: hh = "0" + hh
-            return (date + "T" + hh + mm + "00Z")
+            return (date + "T" + hh + mm + "00")
                 
         # Extract time
         time_details_match = re.search(r'Time:\s*([^\n]+)', text, re.IGNORECASE).group(1).strip()
@@ -237,8 +237,8 @@ def extract_event_info(date, event_elements):
             if dtstart == "ALL DAY":
                 # print(text)
                 result['allday'] = 'true'
-                dtstart = date + "T" + "000000Z"
-                dtend = date + "T" + "235959Z"
+                dtstart = date + "T" + "000000"
+                dtend = date + "T" + "235959"
             else:
                 if dtend != '': dtend = format_datetime(date, dtend)
             result['dtstart'] = dtstart
@@ -462,7 +462,7 @@ def create_ics_file(events, filename):
             uid = f"{event['dtstart']}-{uuid.uuid5(uuid.NAMESPACE_DNS, event['summary'].strip())}@shepherdstown.info"
             
             # Format dates
-            dtstamp = datetime.now().strftime('%Y%m%dT%H%M%SZ')
+            dtstamp = datetime.now().strftime('%Y%m%dT%H%M%S')
             dtstart = event['dtstart']
             dtend = event['dtend']
             
