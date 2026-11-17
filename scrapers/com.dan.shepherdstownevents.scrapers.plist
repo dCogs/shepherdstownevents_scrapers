@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.dan.shepherdstownevents.scrapers</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/zsh</string>
+        <string>-l</string>
+        <string>-c</string>
+        <string>/Users/dan/shepherdstownevents/scrapers/run_scrapers.sh</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/dan/shepherdstownevents/scrapers</string>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>6</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <key>StandardOutPath</key>
+    <string>/Users/dan/shepherdstownevents/scrapers/launchd_stdout.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/dan/shepherdstownevents/scrapers/launchd_stderr.log</string>
+
+    <key>RunAtLoad</key>
+    <false/>
+</dict>
+</plist>

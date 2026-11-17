@@ -1,0 +1,6 @@
+scraped_files/
+*/*.ics
+.DS_Store
+../.DS_Store
+notes
+scrapers/notes
